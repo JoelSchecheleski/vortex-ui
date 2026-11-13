@@ -74,6 +74,8 @@ export interface VxGroupRow {
     <div
       class="vx-grid"
       role="grid"
+      [class.vx-grid--column-lines]="showColumnLines()"
+      [class.vx-grid--row-lines]="showRowLines()"
       [attr.aria-rowcount]="totalRows()"
       [attr.aria-colcount]="columns().length"
       [attr.aria-busy]="loading() || remoteLoading() || aiBusy()"
@@ -152,7 +154,12 @@ export interface VxGroupRow {
         </div>
       </div>
 
-      <div class="vx-grid__header" #headerRef role="row">
+      <div
+        class="vx-grid__header"
+        #headerRef
+        role="row"
+        [style.padding-inline-end.px]="scrollbarWidth()"
+      >
         @for (col of columns(); track col.field) {
           <div
             class="vx-grid__header-cell"
@@ -479,6 +486,7 @@ export interface VxGroupRow {
     .vx-grid__header {
       display: flex;
       width: 100%;
+      box-sizing: border-box;
       background: var(--vx-grid-header-bg);
       border-bottom: 1px solid var(--vx-grid-border);
       font-weight: var(--vx-font-weight-semibold);
@@ -495,11 +503,19 @@ export interface VxGroupRow {
       gap: var(--vx-space-1);
       padding: 0 var(--vx-space-3);
       height: 40px;
-      border-right: 1px solid var(--vx-grid-border);
+      border-right: none;
       cursor: pointer;
       box-sizing: border-box;
       overflow: hidden;
       min-width: 0;
+    }
+
+    .vx-grid--column-lines .vx-grid__header-cell {
+      border-right: 1px solid var(--vx-grid-border);
+    }
+
+    .vx-grid--column-lines .vx-grid__header-cell:last-child {
+      border-right: none;
     }
 
     .vx-grid__header-cell:hover {
@@ -540,6 +556,7 @@ export interface VxGroupRow {
       position: relative;
       min-height: 0;
       contain: strict;
+      scrollbar-gutter: stable;
     }
 
     .vx-grid__spacer {
@@ -559,10 +576,14 @@ export interface VxGroupRow {
     .vx-grid__row {
       display: flex;
       width: 100%;
-      border-bottom: 1px solid var(--vx-grid-border);
+      border-bottom: none;
       cursor: pointer;
       box-sizing: border-box;
       background: var(--vx-color-surface);
+    }
+
+    .vx-grid--row-lines .vx-grid__row {
+      border-bottom: 1px solid var(--vx-grid-border);
     }
 
     .vx-grid__row--stripe {
@@ -581,13 +602,21 @@ export interface VxGroupRow {
       padding: 0 var(--vx-space-3);
       display: flex;
       align-items: center;
-      border-right: 1px solid var(--vx-grid-border);
+      border-right: none;
       overflow: hidden;
       text-overflow: ellipsis;
       white-space: nowrap;
       color: var(--vx-color-text);
       box-sizing: border-box;
       min-width: 0;
+    }
+
+    .vx-grid--column-lines .vx-grid__cell {
+      border-right: 1px solid var(--vx-grid-border);
+    }
+
+    .vx-grid--column-lines .vx-grid__cell:last-child {
+      border-right: none;
     }
 
     .vx-grid__footer {
@@ -627,6 +656,13 @@ export class VxDataGridComponent<T = unknown> {
   readonly trackByField = input<string>('id');
   readonly selectable = input(true);
   readonly multiSelect = input(true);
+  /**
+   * Linhas verticais entre colunas (header + cells).
+   * Default `false` — visual Fluent / DevExtreme sem grade vertical.
+   */
+  readonly showColumnLines = input(false);
+  /** Linhas horizontais entre rows. Default `true`. */
+  readonly showRowLines = input(true);
   /** Habilita edição inline (duplo clique). */
   readonly editable = input(false);
   readonly exportEnabled = input(true);
@@ -662,6 +698,8 @@ export class VxDataGridComponent<T = unknown> {
   readonly selected = signal<Set<unknown>>(new Set());
   readonly scrollTop = signal(0);
   readonly viewportHeight = signal(400);
+  /** Compensa a barra de rolagem do body para alinhar header ↔ rows. */
+  readonly scrollbarWidth = signal(0);
 
   readonly windowRows = signal<Array<T | VxGroupRow>>([]);
   readonly startIndex = signal(0);
@@ -837,6 +875,7 @@ export class VxDataGridComponent<T = unknown> {
     const body = this.bodyRef()?.nativeElement;
     if (!body) return;
     const measure = () => {
+      this.syncScrollbarGap(body);
       const h = body.clientHeight || 400;
       if (Math.abs(h - this.lastViewportH) < 2) return;
       this.lastViewportH = h;
@@ -848,9 +887,15 @@ export class VxDataGridComponent<T = unknown> {
     this.resizeObserver.observe(body);
   }
 
+  private syncScrollbarGap(body: HTMLElement): void {
+    const gap = Math.max(0, body.offsetWidth - body.clientWidth);
+    if (gap !== this.scrollbarWidth()) this.scrollbarWidth.set(gap);
+  }
+
   onScroll(event: Event): void {
     const body = event.target as HTMLElement;
     const header = this.headerRef()?.nativeElement;
+    this.syncScrollbarGap(body);
     if (header) header.scrollLeft = body.scrollLeft;
     if (this.scrollRaf) cancelAnimationFrame(this.scrollRaf);
     this.scrollRaf = requestAnimationFrame(() => {
