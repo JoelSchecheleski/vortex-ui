@@ -4,14 +4,11 @@
 
 Repositório: [JoelSchecheleski/vortex-ui](https://github.com/JoelSchecheleski/vortex-ui)
 
-## Install (npm privado)
+## Install
 
 ```bash
-npm login
 npm install @joel_jsp/vortex-ui
 ```
-
-Se o pacote for **restricted**, quem for instalar precisa ter acesso à organização/usuário npm.
 
 ## Uso
 

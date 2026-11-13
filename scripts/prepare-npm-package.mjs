@@ -25,7 +25,7 @@ pkg.repository = {
 pkg.homepage = 'https://github.com/JoelSchecheleski/vortex-ui#readme';
 pkg.bugs = { url: 'https://github.com/JoelSchecheleski/vortex-ui/issues' };
 pkg.publishConfig = {
-  access: process.env.NPM_ACCESS || 'restricted',
+  access: process.env.NPM_ACCESS || 'public',
   registry: 'https://registry.npmjs.org/',
 };
 
