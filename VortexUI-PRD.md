@@ -770,7 +770,7 @@ Suportar **milhões de linhas** com performance excelente (scroll fluido, baixo 
 
 | Fase | Entrega | Status |
 |------|---------|--------|
-| **7** | **npm publish** + exemplos reais + visual regression CI (Fluent + LDS) + secondary entries estáveis | ⏸ **Adiada** (YOLO sem publish) · CI visual ainda pendente |
+| **7** | **npm publish** + GitHub + CI visual | 🔄 Pacote `@joel_jsp/vortex-ui@0.1.0` preparado · repo GitHub · publish aguarda OTP 2FA npm · CI visual pendente |
 | **8** | Scheduler/Gantt **rich** + Chat | 🔄 **M0/M1 parcial** — Chat M0 ✅ · Scheduler **mês** ✅ · recurrence/resources/drag ainda pendente |
 | **9** | Charts **expand** (funnel, polar, sankey, treemap, gauges, bullet) | 🔄 **M0** ✅ na Gallery · aprofundar séries/interação |
 | **10** | **PivotGrid** + Field Chooser + engine de agregação | 🔄 **M0** ✅ (soma tabular + chooser) · engine 1M pendente |
