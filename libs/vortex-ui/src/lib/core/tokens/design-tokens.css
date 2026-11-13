@@ -1,0 +1,71 @@
+/**
+ * VortexUI Design Tokens
+ * CSS Custom Properties — single source of truth for theming
+ */
+
+:root {
+  /* ===== Spacing scale (4px base) ===== */
+  --vx-space-0: 0;
+  --vx-space-1: 0.25rem;   /* 4px */
+  --vx-space-2: 0.5rem;    /* 8px */
+  --vx-space-3: 0.75rem;   /* 12px */
+  --vx-space-4: 1rem;      /* 16px */
+  --vx-space-5: 1.25rem;   /* 20px */
+  --vx-space-6: 1.5rem;    /* 24px */
+  --vx-space-8: 2rem;      /* 32px */
+  --vx-space-10: 2.5rem;   /* 40px */
+  --vx-space-12: 3rem;     /* 48px */
+  --vx-space-16: 4rem;     /* 64px */
+
+  /* ===== Border radius ===== */
+  --vx-radius-sm: 0.25rem;
+  --vx-radius-md: 0.375rem;
+  --vx-radius-lg: 0.5rem;
+  --vx-radius-xl: 0.75rem;
+  --vx-radius-2xl: 1rem;
+  --vx-radius-full: 9999px;
+
+  /* ===== Typography ===== */
+  --vx-font-sans: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  --vx-font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+
+  --vx-font-size-xs: 0.75rem;
+  --vx-font-size-sm: 0.875rem;
+  --vx-font-size-md: 1rem;
+  --vx-font-size-lg: 1.125rem;
+  --vx-font-size-xl: 1.25rem;
+  --vx-font-size-2xl: 1.5rem;
+  --vx-font-size-3xl: 1.875rem;
+
+  --vx-font-weight-normal: 400;
+  --vx-font-weight-medium: 500;
+  --vx-font-weight-semibold: 600;
+  --vx-font-weight-bold: 700;
+
+  --vx-line-height-tight: 1.25;
+  --vx-line-height-normal: 1.5;
+  --vx-line-height-relaxed: 1.625;
+
+  /* ===== Shadows ===== */
+  --vx-shadow-sm: 0 1px 2px 0 rgb(0 0 0 / 0.05);
+  --vx-shadow-md: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+  --vx-shadow-lg: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+  --vx-shadow-xl: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
+
+  /* ===== Z-index scale ===== */
+  --vx-z-dropdown: 1000;
+  --vx-z-sticky: 1100;
+  --vx-z-overlay: 1200;
+  --vx-z-modal: 1300;
+  --vx-z-popover: 1400;
+  --vx-z-toast: 1500;
+  --vx-z-tooltip: 1600;
+
+  /* ===== Transitions ===== */
+  --vx-transition-fast: 150ms cubic-bezier(0.4, 0, 0.2, 1);
+  --vx-transition-normal: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  --vx-transition-slow: 350ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  /* ===== Focus ring ===== */
+  --vx-focus-ring: 0 0 0 3px color-mix(in srgb, var(--vx-color-primary) 40%, transparent);
+}

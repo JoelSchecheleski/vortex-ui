@@ -1,0 +1,31 @@
+{
+  "name": "vortex-ui",
+  "version": "0.1.0",
+  "description": "VortexUI — Angular 22+ component suite (Signals, zoneless, AI opt-in, Fluent + LDS themes)",
+  "license": "MIT",
+  "author": "Joel Schecheleski",
+  "homepage": "https://github.com/JoelSchecheleski/vortex-ui#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JoelSchecheleski/vortex-ui.git"
+  },
+  "bugs": {
+    "url": "https://github.com/JoelSchecheleski/vortex-ui/issues"
+  },
+  "keywords": [
+    "angular",
+    "components",
+    "datagrid",
+    "signals",
+    "vortex-ui",
+    "ui-kit"
+  ],
+  "peerDependencies": {
+    "@angular/common": "^22.0.0",
+    "@angular/core": "^22.0.0",
+    "@angular/forms": "^22.0.0"
+  },
+  "sideEffects": [
+    "*.css"
+  ]
+}

@@ -1,0 +1,78 @@
+/**
+ * VortexUI — LDS Theme (tema #2)
+ * Fonte: design/Guidelines-LDS.md (LDS GF Theme / Figma Make)
+ */
+
+[data-vx-theme="lds"] {
+  --vx-font-sans: Poppins, system-ui, sans-serif;
+
+  --vx-color-bg: #f2f2f2;
+  --vx-color-bg-elevated: #ffffff;
+  --vx-color-bg-subtle: #f2f2f2;
+  --vx-color-bg-muted: #f2f2f2;
+  --vx-color-bg-hover: #e6e6e6;
+  --vx-color-bg-active: #dee9d3;
+
+  --vx-color-surface: #ffffff;
+  --vx-color-surface-hover: #f2f2f2;
+
+  --vx-color-text: #4a4a4a;
+  --vx-color-text-secondary: #6e6e6e;
+  --vx-color-text-muted: #6e6e6e;
+  --vx-color-text-inverse: #ffffff;
+  --vx-color-text-disabled: #919191;
+
+  --vx-color-border: #e6e6e6;
+  --vx-color-border-strong: #919191;
+  --vx-color-border-focus: #005c3a;
+
+  --vx-color-primary: #005c3a;
+  --vx-color-primary-hover: #004a2e;
+  --vx-color-primary-active: #003418;
+  --vx-color-primary-subtle: #d1f5dc;
+  --vx-color-primary-text: #ffffff;
+  --vx-color-primary-ink: #003418;
+
+  --vx-color-secondary: #bad49d;
+  --vx-color-secondary-hover: #a8c48a;
+  --vx-color-secondary-subtle: #dee9d3;
+  --vx-color-secondary-fg: #212c16;
+
+  --vx-color-success: #005c3a;
+  --vx-color-success-subtle: #d1f5dc;
+  --vx-color-warning: #797775;
+  --vx-color-warning-subtle: #fff4ce;
+  --vx-color-danger: #d92020;
+  --vx-color-danger-subtle: #ffe4e4;
+  --vx-color-danger-ink: #720d0d;
+  --vx-color-info: #0b4260;
+  --vx-color-info-subtle: #d8effd;
+  --vx-color-info-border: #c0e6fc;
+
+  --vx-color-badge-fg: #003827;
+  --vx-color-badge-bg: #d1f5dc;
+  --vx-color-badge-secondary-fg: #212c16;
+  --vx-color-badge-secondary-bg: #dee9d3;
+  --vx-color-badge-danger-fg: #720d0d;
+  --vx-color-badge-danger-bg: #ffe4e4;
+
+  --vx-button-outline-border: #005c3a;
+  --vx-button-outline-color: #003418;
+  --vx-button-ghost-color: #003418;
+
+  --vx-radius-sm: 0.375rem;
+  --vx-radius-md: 0.5rem;
+  --vx-radius-lg: 0.5rem;
+  --vx-radius-xl: 1rem;
+
+  --vx-shadow-sm: 0 1px 2px 0 rgb(0 0 0 / 0.05);
+  --vx-shadow-md: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+  --vx-shadow-lg: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+  --vx-shadow-xl: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
+
+  --vx-grid-header-bg: #ffffff;
+  --vx-grid-row-hover: #f2f2f2;
+  --vx-grid-row-selected: #d1f5dc;
+  --vx-grid-border: #e6e6e6;
+  --vx-grid-stripe: #fafafa;
+}

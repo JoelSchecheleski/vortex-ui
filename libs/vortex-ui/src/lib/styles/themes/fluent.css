@@ -1,0 +1,5 @@
+/**
+ * @deprecated Prefer `fluent-blue-light.css`.
+ * Mantido para imports legados — reexporta Fluent Blue Light.
+ */
+@import './fluent-blue-light.css';

@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 96" role="img" aria-label="VortexUI">
+  <defs>
+    <linearGradient id="vx-orbit" x1="12" y1="12" x2="84" y2="84" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#3B9EFF"/>
+      <stop offset="1" stop-color="#00D4E0"/>
+    </linearGradient>
+  </defs>
+
+  <g transform="translate(8 8)">
+    <path fill="none" stroke="url(#vx-orbit)" stroke-width="7" stroke-linecap="round" d="M66 18c9.2 8.4 11.4 22.2 4.8 33"/>
+    <path fill="none" stroke="#3B9EFF" stroke-width="7" stroke-linecap="round" d="M63.5 58c-9 10-23.6 13-35.5 6"/>
+    <path fill="none" stroke="#3B9EFF" stroke-width="7" stroke-linecap="round" d="M20.5 56C10.8 47.2 8.4 33 15.4 22"/>
+    <path fill="none" stroke="#3B9EFF" stroke-width="7" stroke-linecap="round" d="M22.8 16c9.2-9.8 24.2-12.4 35.8-4.8"/>
+    <path fill="none" stroke="#00D4E0" stroke-width="5.2" stroke-linecap="round" d="M55.5 27c5 4.8 6 12.4 2 18.4"/>
+    <path fill="none" stroke="#3B9EFF" stroke-width="5.2" stroke-linecap="round" d="M54 50c-5 5.8-13.4 7.4-20.2 3.2"/>
+    <path fill="none" stroke="#3B9EFF" stroke-width="5.2" stroke-linecap="round" d="M29.2 48.5c-5.6-5-6.8-13.2-2.4-19.4"/>
+    <path fill="none" stroke="#3B9EFF" stroke-width="5.2" stroke-linecap="round" d="M30.8 25.5c5.2-5.6 14-6.8 20.6-2.6"/>
+    <circle cx="40" cy="40" r="6.8" fill="#3B9EFF"/>
+    <circle cx="40" cy="40" r="2.8" fill="#1f1f1f"/>
+  </g>
+
+  <text
+    x="108"
+    y="58"
+    fill="#FFFFFF"
+    font-family="Segoe UI, system-ui, -apple-system, sans-serif"
+    font-size="42"
+    font-weight="700"
+    letter-spacing="-0.5"
+  >VortexUI</text>
+</svg>

@@ -1,0 +1,77 @@
+/**
+ * VortexUI — Fluent SaaS Light
+ * Tokens derivados de design/themes/dx-themebuilder/vx.fluent.SaaSLight.css
+ * (DevExpress ThemeBuilder 26.1.6) → namespace --vx-*
+ */
+
+[data-vx-theme="fluent-saas-light"] {
+  --vx-font-sans: "Segoe UI", system-ui, -apple-system, BlinkMacSystemFont, Roboto, "Helvetica Neue", Arial, sans-serif;
+
+  --vx-color-bg: #fafbff;
+  --vx-color-bg-elevated: #ffffff;
+  --vx-color-bg-subtle: #f3f5fb;
+  --vx-color-bg-muted: #eef1f8;
+  --vx-color-bg-hover: #f3f5fb;
+  --vx-color-bg-active: #e8ecf6;
+
+  --vx-color-surface: #ffffff;
+  --vx-color-surface-hover: #f3f5fb;
+
+  --vx-color-text: #21293b;
+  --vx-color-text-secondary: #425176;
+  --vx-color-text-muted: #909ec0;
+  --vx-color-text-inverse: #ffffff;
+  --vx-color-text-disabled: #a8b2c9;
+
+  --vx-color-border: #e5e8f0;
+  --vx-color-border-strong: #c8d0e0;
+  --vx-color-border-focus: #5486ff;
+
+  --vx-color-primary: #5486ff;
+  --vx-color-primary-hover: #3d72f5;
+  --vx-color-primary-active: #2f63e8;
+  --vx-color-primary-subtle: #e8efff;
+  --vx-color-primary-text: #ffffff;
+  --vx-color-primary-ink: #2a4fb8;
+
+  --vx-color-secondary: #425176;
+  --vx-color-secondary-hover: #34405e;
+  --vx-color-secondary-subtle: #f3f5fb;
+  --vx-color-secondary-fg: #21293b;
+
+  --vx-color-success: #19914b;
+  --vx-color-success-subtle: #dcf5e7;
+  --vx-color-warning: #fde300;
+  --vx-color-warning-subtle: #fff8b8;
+  --vx-color-danger: #dc2828;
+  --vx-color-danger-subtle: #fde8e8;
+  --vx-color-danger-ink: #a01c1c;
+  --vx-color-info: #5486ff;
+  --vx-color-info-subtle: #e8efff;
+  --vx-color-info-border: #c5d4ff;
+
+  --vx-color-badge-fg: #2a4fb8;
+  --vx-color-badge-bg: #e8efff;
+  --vx-color-badge-secondary-fg: #21293b;
+  --vx-color-badge-secondary-bg: #f3f5fb;
+  --vx-color-badge-danger-fg: #a01c1c;
+  --vx-color-badge-danger-bg: #fde8e8;
+
+  --vx-button-outline-border: #c8d0e0;
+  --vx-button-outline-color: #21293b;
+  --vx-button-ghost-color: #21293b;
+
+  --vx-radius-sm: 0.125rem;
+  --vx-radius-md: 0.25rem;
+  --vx-radius-lg: 0.375rem;
+  --vx-radius-xl: 0.5rem;
+
+  --vx-grid-header-bg: #f3f5fb;
+  --vx-grid-row-hover: #f3f5fb;
+  --vx-grid-row-selected: #e8efff;
+  --vx-grid-border: #e5e8f0;
+  --vx-grid-stripe: #f5f5f5;
+
+  --vx-shadow-color: #3d4a6c;
+  --vx-component-height: 32px;
+}

@@ -1,0 +1,22 @@
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "outDir": "../../dist/out-tsc",
+    "declaration": true,
+    "declarationMap": true,
+    "inlineSources": true,
+    "types": [],
+    "target": "ES2022",
+    "useDefineForClassFields": false
+  },
+  "include": [
+    "src/**/*.ts",
+    "ai/src/**/*.ts"
+  ],
+  "exclude": [
+    "src/**/*.spec.ts",
+    "ai/src/**/*.spec.ts",
+    "**/*.stories.ts",
+    "**/*.stories.js"
+  ]
+}

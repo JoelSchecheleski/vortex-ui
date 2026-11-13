@@ -1,0 +1,95 @@
+{
+  "name": "vortex-ui",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "libs/vortex-ui/src",
+  "prefix": "vx",
+  "projectType": "library",
+  "tags": [
+    "type:ui",
+    "scope:shared"
+  ],
+  "targets": {
+    "build": {
+      "executor": "@nx/angular:ng-packagr-lite",
+      "outputs": [
+        "{workspaceRoot}/dist/{projectRoot}"
+      ],
+      "options": {
+        "project": "libs/vortex-ui/ng-package.json"
+      }
+    },
+    "test": {
+      "executor": "@nx/vitest:test",
+      "outputs": [
+        "{workspaceRoot}/coverage/{projectRoot}"
+      ]
+    },
+    "lint": {
+      "executor": "nx:run-commands",
+      "options": {
+        "command": "npx tsc -p libs/vortex-ui/tsconfig.lib.json --noEmit"
+      }
+    },
+    "storybook": {
+      "executor": "@storybook/angular:start-storybook",
+      "continuous": true,
+      "readyWhen": {
+        "port": "{env.SBCONFIG_PORT ?? options.port ?? 9009}",
+        "host": "{env.SBCONFIG_HOSTNAME ?? options.host ?? localhost}"
+      },
+      "options": {
+        "port": 4400,
+        "configDir": "libs/vortex-ui/.storybook",
+        "browserTarget": "vortex-ui:build-storybook",
+        "compodoc": false,
+        "styles": [
+          "libs/vortex-ui/.storybook/styles.css"
+        ]
+      },
+      "configurations": {
+        "ci": {
+          "quiet": true
+        }
+      }
+    },
+    "build-storybook": {
+      "executor": "@storybook/angular:build-storybook",
+      "outputs": [
+        "{options.outputDir}"
+      ],
+      "options": {
+        "outputDir": "dist/storybook/vortex-ui",
+        "configDir": "libs/vortex-ui/.storybook",
+        "browserTarget": "vortex-ui:build-storybook",
+        "compodoc": false,
+        "styles": [
+          "libs/vortex-ui/.storybook/styles.css"
+        ]
+      },
+      "configurations": {
+        "ci": {
+          "quiet": true
+        }
+      }
+    },
+    "static-storybook": {
+      "executor": "@nx/web:file-server",
+      "dependsOn": [
+        "build-storybook"
+      ],
+      "readyWhen": {
+        "signal": true
+      },
+      "options": {
+        "buildTarget": "vortex-ui:build-storybook",
+        "staticFilePath": "dist/storybook/vortex-ui",
+        "spa": true
+      },
+      "configurations": {
+        "ci": {
+          "buildTarget": "vortex-ui:build-storybook:ci"
+        }
+      }
+    }
+  }
+}

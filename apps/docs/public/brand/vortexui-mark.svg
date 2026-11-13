@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="VortexUI">
+  <defs>
+    <linearGradient id="vx-orbit" x1="8" y1="8" x2="56" y2="56" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0F6CBD"/>
+      <stop offset="1" stop-color="#00B7C3"/>
+    </linearGradient>
+  </defs>
+  <!-- Outer orbit -->
+  <path
+    fill="none"
+    stroke="url(#vx-orbit)"
+    stroke-width="5.5"
+    stroke-linecap="round"
+    d="M48.5 18.2c6.8 6.2 8.4 16.4 3.6 24.4"
+  />
+  <path
+    fill="none"
+    stroke="#0F6CBD"
+    stroke-width="5.5"
+    stroke-linecap="round"
+    d="M46.8 47.8c-6.6 7.4-17.4 9.6-26.2 4.4"
+  />
+  <path
+    fill="none"
+    stroke="#0F6CBD"
+    stroke-width="5.5"
+    stroke-linecap="round"
+    d="M15.4 46.2C8.2 39.8 6.4 29.2 11.6 21"
+  />
+  <path
+    fill="none"
+    stroke="#0F6CBD"
+    stroke-width="5.5"
+    stroke-linecap="round"
+    d="M17.2 16.6c6.8-7.2 17.8-9.2 26.4-3.6"
+  />
+  <!-- Mid orbit -->
+  <path
+    fill="none"
+    stroke="#00B7C3"
+    stroke-width="4.2"
+    stroke-linecap="round"
+    d="M41.2 24.2c3.8 3.6 4.6 9.4 1.6 14"
+  />
+  <path
+    fill="none"
+    stroke="#0F6CBD"
+    stroke-width="4.2"
+    stroke-linecap="round"
+    d="M40 41.4c-3.8 4.4-10.2 5.6-15.4 2.4"
+  />
+  <path
+    fill="none"
+    stroke="#0F6CBD"
+    stroke-width="4.2"
+    stroke-linecap="round"
+    d="M21.6 40.2c-4.2-3.8-5.2-10-1.8-14.8"
+  />
+  <path
+    fill="none"
+    stroke="#0F6CBD"
+    stroke-width="4.2"
+    stroke-linecap="round"
+    d="M22.8 22.6c4-4.2 10.6-5.2 15.6-2"
+  />
+  <!-- Core -->
+  <circle cx="32" cy="32" r="5.2" fill="#0F6CBD"/>
+  <circle cx="32" cy="32" r="2.2" fill="#fff"/>
+</svg>

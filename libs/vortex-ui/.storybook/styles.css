@@ -1,0 +1,18 @@
+@import '@fontsource/poppins/400.css';
+@import '@fontsource/poppins/500.css';
+@import '@fontsource/poppins/700.css';
+@import '../src/lib/core/tokens/design-tokens.css';
+@import '../src/lib/styles/themes/fluent-blue-light.css';
+@import '../src/lib/styles/themes/fluent-blue-dark.css';
+@import '../src/lib/styles/themes/fluent-saas-light.css';
+@import '../src/lib/styles/themes/fluent-saas-dark.css';
+@import '../src/lib/styles/themes/lds.css';
+
+html,
+body {
+  margin: 0;
+  min-height: 100%;
+  background: var(--vx-color-bg, #fafafa);
+  color: var(--vx-color-text, #242424);
+  font-family: var(--vx-font-sans, system-ui, sans-serif);
+}

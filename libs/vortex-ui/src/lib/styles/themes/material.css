@@ -1,0 +1,55 @@
+/**
+ * VortexUI — Material Theme (inspired by Angular Material / Material Design 3)
+ */
+
+[data-vx-theme="material"] {
+  --vx-color-bg: #fef7ff;
+  --vx-color-bg-elevated: #ffffff;
+  --vx-color-bg-subtle: #f3edf7;
+  --vx-color-bg-muted: #e8def8;
+  --vx-color-bg-hover: #e8def8;
+  --vx-color-bg-active: #d0bcff;
+
+  --vx-color-surface: #ffffff;
+  --vx-color-surface-hover: #f3edf7;
+
+  --vx-color-text: #1d1b20;
+  --vx-color-text-secondary: #49454f;
+  --vx-color-text-muted: #79747e;
+  --vx-color-text-inverse: #ffffff;
+  --vx-color-text-disabled: #cac4d0;
+
+  --vx-color-border: #cac4d0;
+  --vx-color-border-strong: #79747e;
+  --vx-color-border-focus: #6750a4;
+
+  --vx-color-primary: #6750a4;
+  --vx-color-primary-hover: #5a4491;
+  --vx-color-primary-active: #4f378b;
+  --vx-color-primary-subtle: #eaddff;
+  --vx-color-primary-text: #ffffff;
+
+  --vx-color-secondary: #625b71;
+  --vx-color-secondary-hover: #4a4458;
+  --vx-color-secondary-subtle: #e8def8;
+
+  --vx-color-success: #386a20;
+  --vx-color-success-subtle: #c6efb0;
+  --vx-color-warning: #7d5700;
+  --vx-color-warning-subtle: #ffdea6;
+  --vx-color-danger: #ba1a1a;
+  --vx-color-danger-subtle: #ffdad6;
+  --vx-color-info: #00639b;
+  --vx-color-info-subtle: #c2e7ff;
+
+  --vx-radius-sm: 0.5rem;
+  --vx-radius-md: 0.75rem;
+  --vx-radius-lg: 1rem;
+  --vx-radius-xl: 1.25rem;
+
+  --vx-grid-header-bg: #f3edf7;
+  --vx-grid-row-hover: #e8def8;
+  --vx-grid-row-selected: #eaddff;
+  --vx-grid-border: #cac4d0;
+  --vx-grid-stripe: #faf8fc;
+}

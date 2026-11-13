@@ -1,0 +1,50 @@
+/**
+ * VortexUI — Dark Theme
+ */
+
+[data-vx-theme="dark"] {
+  --vx-color-bg: #0f172a;
+  --vx-color-bg-elevated: #1e293b;
+  --vx-color-bg-subtle: #1e293b;
+  --vx-color-bg-muted: #334155;
+  --vx-color-bg-hover: #334155;
+  --vx-color-bg-active: #475569;
+
+  --vx-color-surface: #1e293b;
+  --vx-color-surface-hover: #334155;
+
+  --vx-color-text: #f1f5f9;
+  --vx-color-text-secondary: #cbd5e1;
+  --vx-color-text-muted: #94a3b8;
+  --vx-color-text-inverse: #0f172a;
+  --vx-color-text-disabled: #64748b;
+
+  --vx-color-border: #334155;
+  --vx-color-border-strong: #475569;
+  --vx-color-border-focus: #60a5fa;
+
+  --vx-color-primary: #3b82f6;
+  --vx-color-primary-hover: #60a5fa;
+  --vx-color-primary-active: #2563eb;
+  --vx-color-primary-subtle: #1e3a5f;
+  --vx-color-primary-text: #ffffff;
+
+  --vx-color-secondary: #94a3b8;
+  --vx-color-secondary-hover: #cbd5e1;
+  --vx-color-secondary-subtle: #334155;
+
+  --vx-color-success: #22c55e;
+  --vx-color-success-subtle: #14532d;
+  --vx-color-warning: #f59e0b;
+  --vx-color-warning-subtle: #78350f;
+  --vx-color-danger: #ef4444;
+  --vx-color-danger-subtle: #7f1d1d;
+  --vx-color-info: #38bdf8;
+  --vx-color-info-subtle: #0c4a6e;
+
+  --vx-grid-header-bg: #1e293b;
+  --vx-grid-row-hover: #334155;
+  --vx-grid-row-selected: #1e3a5f;
+  --vx-grid-border: #334155;
+  --vx-grid-stripe: #1a2332;
+}

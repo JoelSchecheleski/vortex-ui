@@ -1,0 +1,64 @@
+{
+  "name": "docs",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "projectType": "application",
+  "prefix": "app",
+  "sourceRoot": "apps/docs/src",
+  "tags": ["type:app", "scope:docs"],
+  "targets": {
+    "build": {
+      "executor": "@angular-devkit/build-angular:application",
+      "outputs": ["{options.outputPath}"],
+      "options": {
+        "outputPath": "dist/apps/docs",
+        "browser": "apps/docs/src/main.ts",
+        "index": "apps/docs/src/index.html",
+        "tsConfig": "apps/docs/tsconfig.app.json",
+        "styles": ["apps/docs/src/styles.css"],
+        "assets": [
+          {
+            "glob": "**/*",
+            "input": "apps/docs/public",
+            "output": "."
+          }
+        ]
+      },
+      "configurations": {
+        "production": {
+          "budgets": [
+            {
+              "type": "initial",
+              "maximumWarning": "1mb",
+              "maximumError": "2mb"
+            }
+          ],
+          "outputHashing": "all"
+        },
+        "development": {
+          "optimization": false,
+          "extractLicenses": false,
+          "sourceMap": true
+        }
+      },
+      "defaultConfiguration": "production"
+    },
+    "serve": {
+      "executor": "@angular-devkit/build-angular:dev-server",
+      "configurations": {
+        "production": {
+          "buildTarget": "docs:build:production"
+        },
+        "development": {
+          "buildTarget": "docs:build:development"
+        }
+      },
+      "defaultConfiguration": "development"
+    },
+    "lint": {
+      "executor": "nx:run-commands",
+      "options": {
+        "command": "npx tsc -p apps/docs/tsconfig.app.json --noEmit"
+      }
+    }
+  }
+}

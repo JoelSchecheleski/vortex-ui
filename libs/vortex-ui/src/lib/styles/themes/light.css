@@ -1,0 +1,60 @@
+/**
+ * VortexUI — Light Theme (default)
+ * Material-inspired clean light palette
+ */
+
+[data-vx-theme="light"],
+:root {
+  /* Backgrounds */
+  --vx-color-bg: #ffffff;
+  --vx-color-bg-elevated: #ffffff;
+  --vx-color-bg-subtle: #f8fafc;
+  --vx-color-bg-muted: #f1f5f9;
+  --vx-color-bg-hover: #f1f5f9;
+  --vx-color-bg-active: #e2e8f0;
+
+  /* Surfaces / Cards */
+  --vx-color-surface: #ffffff;
+  --vx-color-surface-hover: #f8fafc;
+
+  /* Text */
+  --vx-color-text: #0f172a;
+  --vx-color-text-secondary: #475569;
+  --vx-color-text-muted: #64748b;
+  --vx-color-text-inverse: #ffffff;
+  --vx-color-text-disabled: #94a3b8;
+
+  /* Borders */
+  --vx-color-border: #e2e8f0;
+  --vx-color-border-strong: #cbd5e1;
+  --vx-color-border-focus: #3b82f6;
+
+  /* Primary */
+  --vx-color-primary: #2563eb;
+  --vx-color-primary-hover: #1d4ed8;
+  --vx-color-primary-active: #1e40af;
+  --vx-color-primary-subtle: #eff6ff;
+  --vx-color-primary-text: #ffffff;
+
+  /* Secondary / Neutral */
+  --vx-color-secondary: #64748b;
+  --vx-color-secondary-hover: #475569;
+  --vx-color-secondary-subtle: #f1f5f9;
+
+  /* Success / Warning / Danger / Info */
+  --vx-color-success: #16a34a;
+  --vx-color-success-subtle: #f0fdf4;
+  --vx-color-warning: #d97706;
+  --vx-color-warning-subtle: #fffbeb;
+  --vx-color-danger: #dc2626;
+  --vx-color-danger-subtle: #fef2f2;
+  --vx-color-info: #0ea5e9;
+  --vx-color-info-subtle: #f0f9ff;
+
+  /* DataGrid specific */
+  --vx-grid-header-bg: #f8fafc;
+  --vx-grid-row-hover: #f1f5f9;
+  --vx-grid-row-selected: #eff6ff;
+  --vx-grid-border: #e2e8f0;
+  --vx-grid-stripe: #fafbfc;
+}

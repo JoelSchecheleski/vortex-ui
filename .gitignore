@@ -1,0 +1,17 @@
+node_modules
+dist
+tmp
+.angular
+coverage
+.nx/cache
+.nx/workspace-data
+*.log
+.DS_Store
+.idea
+.vscode/*
+!.vscode/extensions.json
+storybook-static
+*.tsbuildinfo
+.env
+.env.*
+!.env.example

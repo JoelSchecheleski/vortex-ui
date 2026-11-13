@@ -1,0 +1,52 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "rootDir": ".",
+    "sourceMap": true,
+    "declaration": false,
+    "moduleResolution": "bundler",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "importHelpers": true,
+    "target": "ES2022",
+    "module": "ESNext",
+    "lib": [
+      "ES2022",
+      "dom"
+    ],
+    "skipLibCheck": true,
+    "skipDefaultLibCheck": true,
+    "baseUrl": ".",
+    "paths": {
+      "@vortex-ui/ai": [
+        "libs/vortex-ui/ai/src/index.ts"
+      ],
+      "@vortex-ui/core": [
+        "libs/vortex-ui/src/lib/core/index.ts"
+      ],
+      "@vortex-ui/components": [
+        "libs/vortex-ui/src/lib/components/index.ts"
+      ],
+      "@vortex-ui/*": [
+        "libs/vortex-ui/src/lib/*"
+      ],
+      "vortex-ui": [
+        "libs/vortex-ui/src/index.ts"
+      ],
+      "vortex-ui/ai": [
+        "libs/vortex-ui/ai/src/index.ts"
+      ]
+    },
+    "ignoreDeprecations": "6.0",
+    "strict": true,
+    "noImplicitOverride": true,
+    "noPropertyAccessFromIndexSignature": true,
+    "noImplicitReturns": true,
+    "noFallthroughCasesInSwitch": true,
+    "forceConsistentCasingInFileNames": true
+  },
+  "exclude": [
+    "node_modules",
+    "tmp"
+  ]
+}

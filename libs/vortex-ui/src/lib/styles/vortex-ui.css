@@ -1,0 +1,20 @@
+/**
+ * VortexUI — estilos públicos (tokens + temas oficiais)
+ * Importe uma vez no app host (ex.: apps/docs).
+ */
+
+@import '../core/tokens/design-tokens.css';
+@import './themes/fluent-blue-light.css';
+@import './themes/fluent-blue-dark.css';
+@import './themes/fluent-saas-light.css';
+@import './themes/fluent-saas-dark.css';
+@import './themes/lds.css';
+
+html,
+body {
+  margin: 0;
+  min-height: 100%;
+  background: var(--vx-color-bg, #fafafa);
+  color: var(--vx-color-text, #242424);
+  font-family: var(--vx-font-sans, system-ui, sans-serif);
+}
