@@ -1,0 +1,101 @@
+{/* Data Management — Storybook path & PRD status convention */}
+
+import { Meta } from '@storybook/addon-docs/blocks';
+
+<Meta title="Data Management/_Docs/Storybook-PRD-Tracking" />
+
+# Storybook & PRD tracking convention
+
+Every DevExtreme gallery parity demo (`001`–`145`) gets one predictable Storybook home and a visible status in the research PRD.
+
+## Storybook path
+
+Use this **Storybook `title`** tree for gallery parity cases:
+
+```text
+Data Management/{Widget}/{NNN}-{Slug}
+```
+
+| Segment | Rule | Examples |
+|---------|------|----------|
+| `Data Management` | Fixed root for the parity catalog | — |
+| `{Widget}` | PascalCase **widget id** from the research PRD / DX gallery (`DataGrid`, `FilterBuilder`, …) — **not** the kebab-case folder under `src/lib/components/` | `DataGrid`, `FilterBuilder`, `TreeList` |
+| `{NNN}` | Zero-padded demo sequence from the research PRD | `001`, `143` |
+| `{Slug}` | DX demo slug (PascalCase, no spaces) — copy from `PRD-DATA-MANAGEMENT.md` / `raw/NNN-*.json` | `Overview`, `WithList`, `Customization` |
+
+Examples:
+
+- `Data Management/FilterBuilder/143-WithDataGrid`
+- `Data Management/FilterBuilder/144-WithList`
+- `Data Management/FilterBuilder/145-Customization`
+- `Data Management/DataGrid/001-Overview`
+
+### Reserved non-demo namespaces
+
+| Prefix | Purpose |
+|--------|---------|
+| `Data Management/_Docs/…` | Convention and guidance MDX (this page) |
+| `Data Management/_Foundation/…` | Shared helpers that are not a gallery `NNN` (e.g. `DataSource-Array`) |
+
+Existing stories under `Data/*`, `Components/*`, etc. stay as-is. The `Data Management/…` tree is **additive**.
+
+## File placement
+
+- Prefer one CSF file per parity demo, co-located with the widget:  
+  `libs/vortex-ui/src/lib/components/{kebab-widget}/{NNN}-{slug}.stories.ts`  
+  Example: `…/filter-builder/143-with-data-grid.stories.ts` with `title: 'Data Management/FilterBuilder/143-WithDataGrid'`.
+- Convention MDX lives under `libs/vortex-ui/src/lib/docs/data-management/`.
+- Do not invent slugs — copy `NNN` + Slug from the research PRD.
+
+## `autodocs` tags
+
+Parity CSF stories must include `tags: ['autodocs']` and set `component` on `Meta` to the widget under test so Autodocs can list public Signals (`input` / `model` / `output`). Composition-only stories still set `tags: ['autodocs']` and document the composed Signals surface in the docs description.
+
+Present parity demos on **Fluent Blue Light** by default (Storybook theme toolbar); LDS is available for theme checks.
+
+## Docs description — cite the parity image
+
+```ts
+import type { Meta, StoryObj } from '@storybook/angular';
+import { VxFilterBuilderComponent } from './filter-builder.component';
+
+const meta: Meta<VxFilterBuilderComponent> = {
+  title: 'Data Management/FilterBuilder/143-WithDataGrid',
+  component: VxFilterBuilderComponent,
+  tags: ['autodocs'],
+  parameters: {
+    docs: {
+      description: {
+        component:
+          'Parity demo 143. Visual AC (internal only): docs/research/devextreme-data-management/images/143-FilterBuilder-WithDataGrid.png',
+      },
+    },
+  },
+};
+export default meta;
+```
+
+## PRD status update rule
+
+When a parity story lands, update the matching demo in  
+`docs/research/devextreme-data-management/PRD-DATA-MANAGEMENT.md`:
+
+1. Tick the Storybook acceptance checkbox when an equivalent Storybook case exists.
+2. Raise **Status Vortex** if the implementation maturity increased. Typical first landing with Signals docs + Fluent story → at least `M1`. Leave at `TODO` only if the story is a stub with no usable API demo.
+
+| Status | Meaning |
+|--------|---------|
+| `TODO` | Not started |
+| `M0` | API + minimal demo |
+| `M1` | Usable in an internal app (basic a11y, tokens, docs) |
+| `M2` | Gallery-demo feature set (main UX parity) |
+| `M3` | Enterprise (perf, SSR, i18n, state store, AI, visual regression) |
+
+Do **not** treat `catalog.json` or `IMAGE-MANIFEST.json` as status stores.
+
+## Internal images — never ship in npm
+
+Files under `docs/research/devextreme-data-management/images/` are **internal visual acceptance criteria** only.
+
+- Cite the path in docs descriptions; do **not** import PNGs into Storybook static assets, the Gallery app, or the published package.
+- Publish path is `dist/libs/vortex-ui` via `prepare:npm` / ng-packagr — research screenshots must never be copied there. Spot-check: no `images/NNN-*.png` under `dist/libs/vortex-ui` after prepare.
