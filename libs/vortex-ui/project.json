@@ -18,12 +18,6 @@
         "project": "libs/vortex-ui/ng-package.json"
       }
     },
-    "test": {
-      "executor": "@nx/vitest:test",
-      "outputs": [
-        "{workspaceRoot}/coverage/{projectRoot}"
-      ]
-    },
     "lint": {
       "executor": "nx:run-commands",
       "options": {
