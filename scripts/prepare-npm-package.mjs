@@ -47,4 +47,13 @@ if (existsSync(rootLicense)) {
   copyFileSync(rootLicense, join(dist, 'LICENSE'));
 }
 
+const fluentFullReadme = join(
+  process.cwd(),
+  'libs/vortex-ui/icons/fluent-full/README.md',
+);
+const fluentFullDist = join(dist, 'icons/fluent-full/README.md');
+if (existsSync(fluentFullReadme)) {
+  copyFileSync(fluentFullReadme, fluentFullDist);
+}
+
 console.log(`Prepared ${pkg.name}@${pkg.version} (access=${pkg.publishConfig.access})`);

@@ -1,4 +1,5 @@
 export * from './button/button.component';
+export * from './icon/icon.component';
 export * from './card/card.component';
 export * from './text-box/text-box.component';
 export * from './checkbox/checkbox.component';

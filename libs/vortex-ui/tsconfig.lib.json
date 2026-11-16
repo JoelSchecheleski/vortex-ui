@@ -11,11 +11,13 @@
   },
   "include": [
     "src/**/*.ts",
-    "ai/src/**/*.ts"
+    "ai/src/**/*.ts",
+    "icons/fluent-full/src/**/*.ts"
   ],
   "exclude": [
     "src/**/*.spec.ts",
     "ai/src/**/*.spec.ts",
+    "icons/fluent-full/src/**/*.spec.ts",
     "**/*.stories.ts",
     "**/*.stories.js"
   ]

@@ -85,15 +85,21 @@ class DataSourceArrayDemoComponent {
         this.status.set('empty');
         return;
       }
+      // Narrow remaining discriminant (`ready` only — error mode throws).
       this.totalCount.set(result.totalCount);
       this.keysPreview.set(result.keys.map(String).join(', '));
       this.lines.set(result.lines);
       this.status.set('ready');
-    } catch (err) {
+    } catch (err: unknown) {
       if (seq !== this.runSeq) return;
-      this.errorMessage.set(
-        err instanceof Error ? err.message : 'Unknown load error'
-      );
+      const message =
+        typeof err === 'object' &&
+        err !== null &&
+        'message' in err &&
+        typeof (err as { message: unknown }).message === 'string'
+          ? (err as { message: string }).message
+          : 'Unknown load error';
+      this.errorMessage.set(message);
       this.status.set('error');
     }
   }
@@ -135,6 +141,7 @@ export const Loading: Story = {
   args: { mode: 'loading', delayMs: 2500 },
 };
 
-export const Error: Story = {
+/** Named LoadError — avoid shadowing the global `Error` constructor in this module. */
+export const LoadError: Story = {
   args: { mode: 'error', delayMs: 400 },
 };

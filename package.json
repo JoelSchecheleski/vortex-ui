@@ -12,7 +12,8 @@
     "storybook": "nx storybook vortex-ui",
     "build:storybook": "nx build-storybook vortex-ui",
     "prepare:npm": "nx build vortex-ui && node scripts/prepare-npm-package.mjs",
-    "publish:npm": "npm run prepare:npm && npm publish ./dist/libs/vortex-ui"
+    "publish:npm": "npm run prepare:npm && npm publish ./dist/libs/vortex-ui",
+    "icons:fluent-full": "node scripts/generate-fluent-full-icons.mjs"
   },
   "dependencies": {
     "@angular/animations": "^22.2.0",
@@ -31,6 +32,7 @@
     "@angular-devkit/build-angular": "^22.2.0",
     "@angular/cli": "^22.2.0",
     "@angular/compiler-cli": "^22.2.0",
+    "@fluentui/svg-icons": "^1.1.346",
     "@nx/angular": "24.0.6",
     "@nx/eslint": "^24.0.6",
     "@nx/js": "24.0.6",

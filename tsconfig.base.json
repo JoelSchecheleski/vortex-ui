@@ -21,6 +21,9 @@
       "@vortex-ui/ai": [
         "libs/vortex-ui/ai/src/index.ts"
       ],
+      "@vortex-ui/icons/fluent-full": [
+        "libs/vortex-ui/icons/fluent-full/src/index.ts"
+      ],
       "@vortex-ui/core": [
         "libs/vortex-ui/src/lib/core/index.ts"
       ],
@@ -35,6 +38,9 @@
       ],
       "vortex-ui/ai": [
         "libs/vortex-ui/ai/src/index.ts"
+      ],
+      "vortex-ui/icons/fluent-full": [
+        "libs/vortex-ui/icons/fluent-full/src/index.ts"
       ]
     },
     "ignoreDeprecations": "6.0",
