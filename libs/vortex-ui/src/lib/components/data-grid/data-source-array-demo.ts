@@ -16,7 +16,6 @@ export interface DataSourceArrayDemoRow {
 export type DataSourceArrayDemoState =
   | { status: 'loading' }
   | { status: 'empty'; totalCount: 0 }
-  | { status: 'error'; message: string }
   | {
       status: 'ready';
       totalCount: number;

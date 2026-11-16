@@ -4,6 +4,7 @@ const config: StorybookConfig = {
   stories: [
     '../src/**/*.@(mdx|stories.@(js|jsx|ts|tsx))',
     '../ai/**/*.@(mdx|stories.@(js|jsx|ts|tsx))',
+    '../icons/**/*.@(mdx|stories.@(js|jsx|ts|tsx))',
   ],
   addons: ['@storybook/addon-docs', '@storybook/addon-a11y'],
   framework: {

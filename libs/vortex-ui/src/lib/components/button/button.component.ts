@@ -3,34 +3,82 @@ import {
   ChangeDetectionStrategy,
   input,
   computed,
-  HostBinding,
 } from '@angular/core';
+import { VxIconComponent } from '../icon/icon.component';
+import type { VxIconSet } from '../../icons/icon.types';
 
 export type ButtonVariant = 'primary' | 'secondary' | 'outline' | 'ghost' | 'danger';
 export type ButtonSize = 'sm' | 'md' | 'lg';
+export type ButtonIconPosition = 'start' | 'end';
+
+const ICON_SIZE_BY_BUTTON: Record<ButtonSize, 16 | 20 | 24> = {
+  sm: 16,
+  md: 20,
+  lg: 24,
+};
 
 @Component({
   selector: 'vx-button',
   standalone: true,
+  imports: [VxIconComponent],
   changeDetection: ChangeDetectionStrategy.OnPush,
+  host: {
+    '[class.vx-button-host]': 'true',
+    '[class.vx-button-host--icon]': 'iconOnly()',
+    '[class.vx-button-host--block]': 'block()',
+  },
   template: `
     <button
       [type]="type()"
       [disabled]="disabled() || loading()"
       [attr.aria-busy]="loading()"
+      [attr.aria-label]="ariaLabel() || null"
+      [attr.title]="title() || null"
       [class]="buttonClasses()"
     >
       @if (loading()) {
         <span class="vx-button__spinner" aria-hidden="true"></span>
       }
       <span class="vx-button__content" [class.vx-button__content--hidden]="loading()">
-        <ng-content />
+        @if (icon() && iconPosition() === 'start') {
+          <vx-icon
+            class="vx-button__icon"
+            [name]="icon()!"
+            [set]="iconSet()"
+            [size]="resolvedIconSize()"
+          />
+        }
+        @if (!iconOnly()) {
+          <span class="vx-button__label"><ng-content /></span>
+        } @else if (!icon()) {
+          <ng-content />
+        }
+        @if (icon() && iconPosition() === 'end') {
+          <vx-icon
+            class="vx-button__icon"
+            [name]="icon()!"
+            [set]="iconSet()"
+            [size]="resolvedIconSize()"
+          />
+        }
       </span>
     </button>
   `,
   styles: `
     :host {
-      display: inline-block;
+      display: inline-flex;
+      vertical-align: middle;
+      max-width: 100%;
+      box-sizing: border-box;
+    }
+
+    :host(.vx-button-host--icon) {
+      flex-shrink: 0;
+    }
+
+    :host(.vx-button-host--block) {
+      display: flex;
+      width: 100%;
     }
 
     .vx-button {
@@ -38,6 +86,8 @@ export type ButtonSize = 'sm' | 'md' | 'lg';
       align-items: center;
       justify-content: center;
       gap: var(--vx-space-2);
+      max-width: 100%;
+      box-sizing: border-box;
       font-family: var(--vx-font-sans);
       font-weight: var(--vx-font-weight-medium);
       border-radius: var(--vx-radius-md);
@@ -47,6 +97,10 @@ export type ButtonSize = 'sm' | 'md' | 'lg';
       position: relative;
       white-space: nowrap;
       user-select: none;
+    }
+
+    :host(.vx-button-host--block) .vx-button {
+      width: 100%;
     }
 
     .vx-button:focus-visible {
@@ -75,6 +129,43 @@ export type ButtonSize = 'sm' | 'md' | 'lg';
       height: 3rem;
       padding: 0 var(--vx-space-6);
       font-size: var(--vx-font-size-md);
+    }
+
+    /* Icon-only: square hit area matching size height */
+    .vx-button--icon.vx-button--sm {
+      width: 2rem;
+      min-width: 2rem;
+      padding: 0;
+    }
+    .vx-button--icon.vx-button--md {
+      width: 2.5rem;
+      min-width: 2.5rem;
+      padding: 0;
+    }
+    .vx-button--icon.vx-button--lg {
+      width: 3rem;
+      min-width: 3rem;
+      padding: 0;
+    }
+
+    .vx-button__content {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: var(--vx-space-2);
+      line-height: 1;
+    }
+
+    .vx-button__label:empty {
+      display: none;
+    }
+
+    .vx-button__icon {
+      flex-shrink: 0;
+    }
+
+    .vx-button__content--hidden {
+      visibility: hidden;
     }
 
     /* Variants */
@@ -133,10 +224,6 @@ export type ButtonSize = 'sm' | 'md' | 'lg';
       position: absolute;
     }
 
-    .vx-button__content--hidden {
-      visibility: hidden;
-    }
-
     @keyframes vx-spin {
       to { transform: rotate(360deg); }
     }
@@ -147,13 +234,26 @@ export class VxButtonComponent {
   readonly size = input<ButtonSize>('md');
   readonly disabled = input(false);
   readonly loading = input(false);
+  readonly iconOnly = input(false);
+  readonly block = input(false);
+  readonly icon = input<string | undefined>(undefined);
+  readonly iconPosition = input<ButtonIconPosition>('start');
+  readonly iconSet = input<VxIconSet>('fluent');
   readonly type = input<'button' | 'submit' | 'reset'>('button');
+  /** Forwarded to the native button for a11y (host attrs alone do not reach the focusable control). */
+  readonly ariaLabel = input<string | undefined>(undefined, { alias: 'aria-label' });
+  readonly title = input<string | undefined>(undefined);
+
+  readonly resolvedIconSize = computed(() => ICON_SIZE_BY_BUTTON[this.size()]);
 
   readonly buttonClasses = computed(() => {
     return [
       'vx-button',
       `vx-button--${this.variant()}`,
       `vx-button--${this.size()}`,
-    ].join(' ');
+      this.iconOnly() ? 'vx-button--icon' : '',
+    ]
+      .filter(Boolean)
+      .join(' ');
   });
 }

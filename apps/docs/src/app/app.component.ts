@@ -284,16 +284,16 @@ import {
               </button>
             }
           </div>
-          <button
+          <vx-button
             type="button"
-            class="gallery__icon-btn"
-            [class.gallery__icon-btn--active]="codeOpen()"
+            size="sm"
+            icon="code"
+            [iconOnly]="true"
+            [variant]="codeOpen() ? 'primary' : 'outline'"
             (click)="codeOpen.set(!codeOpen())"
             aria-label="Código"
             title="Mostrar/ocultar código"
-          >
-            {{ '{' }}{{ '}' }}
-          </button>
+          />
         </header>
 
         <div class="gallery__workspace" [class.gallery__workspace--code-hidden]="!codeOpen()">
@@ -810,6 +810,7 @@ import {
       .gallery__toolbar {
         display: flex;
         align-items: center;
+        flex-wrap: wrap;
         gap: 0.75rem;
         padding: 0.65rem 1rem;
         border-bottom: 1px solid var(--vx-color-border);
@@ -839,7 +840,9 @@ import {
         flex-wrap: wrap;
         justify-content: flex-end;
         gap: 0.35rem;
-        max-width: min(42rem, 100%);
+        flex: 1 1 auto;
+        min-width: 0;
+        max-width: 100%;
       }
 
       .gallery__theme-btn {
@@ -860,8 +863,7 @@ import {
         padding: 0.35rem 0.65rem;
       }
 
-      .gallery__theme-btn--active,
-      .gallery__icon-btn--active {
+      .gallery__theme-btn--active {
         background: var(--vx-color-primary);
         border-color: var(--vx-color-primary);
         color: var(--vx-color-primary-text);

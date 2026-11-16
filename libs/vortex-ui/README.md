@@ -21,7 +21,8 @@ DataGrid de alta performance, File Manager, Charts, Scheduler, AI opt-in e temas
 | **DataGrid** | Virtualização, remote DataSource (1M+ rows), sort/filter/group/edit/export |
 | **AI opt-in** | Assistant + AI Columns via entry separado `@joel_jsp/vortex-ui/ai` |
 | **Temas** | Design tokens `--vx-*` · Fluent Blue/SaaS (Light/Dark) · LDS |
-| **Tree-shakeable** | Importe só o que usa; CSS e AI não entram no bundle se não forem referenciados |
+| **Tree-shakeable** | Importe só o que usa; CSS, AI e catálogo Fluent full não entram se não forem referenciados |
+| **Ícones Fluent** | Pack curado no core + catálogo completo opt-in (`icons/fluent-full`, ~2.9k) |
 
 Inspirado na superfície de produto DevExtreme — **implementação própria**, MIT.
 
@@ -103,6 +104,82 @@ export class DemoPage {
 
 ---
 
+## Ícones
+
+VortexUI usa [Fluent UI System Icons](https://github.com/microsoft/fluentui-system-icons) (**MIT**, Microsoft).  
+**Não** redistribuímos fontes/SVGs proprietários DevExtreme (NFR10).
+
+Há **dois níveis** — o core é leve; o catálogo completo é opt-in:
+
+| Nível | Import | Qtde | Onde ver |
+|-------|--------|------|----------|
+| **Core (curado)** | `vortex-ui` | ~17 | Storybook → `Components/Icon` → *Core pack* |
+| **Full (opt-in)** | `vortex-ui/icons/fluent-full` | ~2.9k | Storybook → `Icons/Fluent Full` · [README do entry](./icons/fluent-full/README.md) |
+
+```html
+<vx-icon name="code" />
+<vx-icon name="add" size="24" variant="filled" />
+
+<vx-button icon="save">Salvar</vx-button>
+<vx-button icon="code" [iconOnly]="true" aria-label="Código" />
+```
+
+Core curado: `add`, `close`, `search`, `code`, `chevron-down|up|left|right`, `filter`, `download`, `edit`, `delete`, `more`, `check`, `warning`, `info`, `save`.
+
+### Precisa de mais ícones?
+
+Sim — ative o catálogo completo (não entra no bundle até importar):
+
+```ts
+import { ApplicationConfig } from '@angular/core';
+import {
+  provideFluentFullIcons,
+  FLUENT_FULL_ICON_NAMES,
+} from '@joel_jsp/vortex-ui/icons/fluent-full';
+
+export const appConfig: ApplicationConfig = {
+  providers: [provideFluentFullIcons()],
+};
+
+// consultar / filtrar nomes: FLUENT_FULL_ICON_NAMES
+```
+
+Documentação detalhada do entry: [`icons/fluent-full/README.md`](./icons/fluent-full/README.md).  
+Referência visual upstream: [icons_regular.md](https://github.com/microsoft/fluentui-system-icons/blob/main/icons_regular.md).  
+Nomes em kebab-case Fluent (`arrow-download`, `dismiss`, `checkmark`…).
+
+Regenerar (dev): `npm run icons:fluent-full`
+
+### Extender / Material (opcional)
+
+Material Design Icons são **Apache 2.0** — registre no app sem embutir no core:
+
+```ts
+import { ApplicationConfig } from '@angular/core';
+import { provideVxIcons } from '@joel_jsp/vortex-ui';
+
+export const appConfig: ApplicationConfig = {
+  providers: [
+    provideVxIcons({
+      material: {
+        // name -> { regular: { 20: '<svg fill="currentColor" ...>...</svg>' } }
+        home: { regular: { 20: '<!-- SVG markup -->' } },
+      },
+      fluent: {
+        // overrides / ícones Fluent extras
+      },
+    }),
+  ],
+};
+```
+
+```html
+<vx-icon name="home" set="material" />
+<vx-button icon="home" iconSet="material">Início</vx-button>
+```
+
+---
+
 ## Temas
 
 Aplique via `data-vx-theme` (feito automaticamente pelo `VortexThemeService`):
@@ -174,7 +251,7 @@ readonly ai = new VortexMockAIIntegration();
 `vx-form` · `vx-text-box` · `vx-text-area` · `vx-number-box` · `vx-select-box` · `vx-date-box` · `vx-date-range-box` · `vx-checkbox` · `vx-switch` · `vx-radio-group` · `vx-slider` · `vx-range-slider` · `vx-color-box` · `vx-tag-box` · `vx-autocomplete` · `vx-lookup` · `vx-calendar` · `vx-field-set` · validation summary
 
 ### Buttons & actions
-`vx-button` · `vx-button-group` · `vx-drop-down-button` · `vx-fab`
+`vx-button` · `vx-icon` · `vx-button-group` · `vx-drop-down-button` · `vx-fab`
 
 ### Navigation & layout
 `vx-tabs` · `vx-accordion` · `vx-drawer` · `vx-menu` · `vx-tree-view` · `vx-splitter` · `vx-stepper` · `vx-toolbar` · `vx-box` · `vx-multi-view` · `vx-pagination` · `vx-gallery` · `vx-tile-view` · `vx-scroll-view`
