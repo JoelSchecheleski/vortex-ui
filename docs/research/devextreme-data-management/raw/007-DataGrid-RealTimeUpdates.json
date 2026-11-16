@@ -1,0 +1,43 @@
+{
+  "seq": 7,
+  "widgetId": "data-grid",
+  "widgetEn": "Data Grid",
+  "widgetPt": "Grade de dados",
+  "widget": "DataGrid",
+  "sectionId": "data-binding",
+  "sectionEn": "Data Binding",
+  "sectionPt": "Vinculação de dados",
+  "slug": "RealTimeUpdates",
+  "titleEn": "Real-Time Updates",
+  "titlePt": "Atualizações em tempo real",
+  "ai": false,
+  "url": "https://js.devexpress.com/Angular/Demos/WidgetsGallery/Demo/DataGrid/RealTimeUpdates/FluentBlueLight/",
+  "imageFile": "images/007-DataGrid-RealTimeUpdates.png",
+  "rawFile": "raw/007-DataGrid-RealTimeUpdates.json",
+  "scrapedAt": "2026-11-16T12:49:38.813Z",
+  "pageTitle": "Real-Time Updates - Angular Data Grid | Angular Example",
+  "h1": "Angular Data Grid - Real-Time Updates",
+  "descriptionEn": "The DataGrid component is optimized for real-time updates. You should bind it to a DataSource that contains a store and use the push(changes) method to update the store's data. The rows with changed data are rerendered (see the DataGrid's repaintChangesOnly property). The DataSource object also provides properties that control its behavior when it receives a push. For example, reshapeOnPush is set to true in this demo to allow summaries to be recalculated.",
+  "docLinks": [],
+  "apiLinks": [
+    {
+      "text": "DataSource",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/Data_Layer/DataSource/"
+    },
+    {
+      "text": "push(changes)",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/Data_Layer/ArrayStore/Methods/#pushchanges"
+    },
+    {
+      "text": "repaintChangesOnly",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxDataGrid/Configuration/#repaintChangesOnly"
+    },
+    {
+      "text": "reshapeOnPush",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/Data_Layer/DataSource/Configuration/#reshapeOnPush"
+    }
+  ],
+  "relatedLinks": [],
+  "screenshotOk": true,
+  "error": null
+}

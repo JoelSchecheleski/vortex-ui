@@ -1,0 +1,31 @@
+{
+  "seq": 89,
+  "widgetId": "tree-list",
+  "widgetEn": "Tree List",
+  "widgetPt": "Lista de árvores",
+  "widget": "TreeList",
+  "sectionId": "filtering",
+  "sectionEn": "Filtering",
+  "sectionPt": "Filtragem",
+  "slug": "FilterModes",
+  "titleEn": "Filter Modes",
+  "titlePt": "Modos de filtro",
+  "ai": false,
+  "url": "https://js.devexpress.com/Angular/Demos/WidgetsGallery/Demo/TreeList/FilterModes/FluentBlueLight/",
+  "imageFile": "images/089-TreeList-FilterModes.png",
+  "rawFile": "raw/089-TreeList-FilterModes.json",
+  "scrapedAt": "2026-11-16T12:55:58.628Z",
+  "pageTitle": "Filter Modes - Angular Tree List | Angular Example",
+  "h1": "Angular Tree List - Filter Modes",
+  "descriptionEn": "Filter and search results depend on the filterMode property. The TreeList supports the following modes: \"matchOnly\" The results include only rows that meet the filter condition. \"withAncestors\" The results include rows that meet the filter condition and their ancestors. \"fullBranch\" The results include rows that meet the filter condition and their ancestors and descendants.",
+  "docLinks": [],
+  "apiLinks": [
+    {
+      "text": "filterMode",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxTreeList/Configuration/#filterMode"
+    }
+  ],
+  "relatedLinks": [],
+  "screenshotOk": true,
+  "error": null
+}

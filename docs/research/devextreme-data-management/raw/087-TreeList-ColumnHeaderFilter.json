@@ -1,0 +1,59 @@
+{
+  "seq": 87,
+  "widgetId": "tree-list",
+  "widgetEn": "Tree List",
+  "widgetPt": "Lista de árvores",
+  "widget": "TreeList",
+  "sectionId": "filtering",
+  "sectionEn": "Filtering",
+  "sectionPt": "Filtragem",
+  "slug": "ColumnHeaderFilter",
+  "titleEn": "Column Header Filter",
+  "titlePt": "Filtro de cabeçalho de coluna",
+  "ai": false,
+  "url": "https://js.devexpress.com/Angular/Demos/WidgetsGallery/Demo/TreeList/ColumnHeaderFilter/FluentBlueLight/",
+  "imageFile": "images/087-TreeList-ColumnHeaderFilter.png",
+  "rawFile": "raw/087-TreeList-ColumnHeaderFilter.json",
+  "scrapedAt": "2026-11-16T12:55:51.047Z",
+  "pageTitle": "Column Header Filter - Angular Tree List | Angular Example",
+  "h1": "Angular Tree List - Column Header Filter",
+  "descriptionEn": "A header filter allows users to select values from a predefined set and filter rows by these values. The values are listed in a pop-up menu. To open this menu, users can click header filter icons in column headers.",
+  "docLinks": [],
+  "apiLinks": [
+    {
+      "text": "visible",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxTreeList/Configuration/headerFilter/#visible"
+    },
+    {
+      "text": "allowHeaderFiltering",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxTreeList/Configuration/columns/#allowHeaderFiltering"
+    },
+    {
+      "text": "enabled",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxTreeList/Configuration/headerFilter/search/#enabled"
+    },
+    {
+      "text": "headerFilter",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxTreeList/Configuration/headerFilter/"
+    },
+    {
+      "text": "headerFilter",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxTreeList/Configuration/columns/headerFilter/"
+    },
+    {
+      "text": "mode",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxTreeList/Configuration/columns/headerFilter/search/#mode"
+    },
+    {
+      "text": "groupInterval",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxTreeList/Configuration/columns/headerFilter/#groupInterval"
+    },
+    {
+      "text": "dataSource",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxTreeList/Configuration/columns/headerFilter/#dataSource"
+    }
+  ],
+  "relatedLinks": [],
+  "screenshotOk": true,
+  "error": null
+}

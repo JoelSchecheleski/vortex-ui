@@ -1,0 +1,63 @@
+{
+  "seq": 88,
+  "widgetId": "tree-list",
+  "widgetEn": "Tree List",
+  "widgetPt": "Lista de árvores",
+  "widget": "TreeList",
+  "sectionId": "filtering",
+  "sectionEn": "Filtering",
+  "sectionPt": "Filtragem",
+  "slug": "FilterPanel",
+  "titleEn": "Filter Panel",
+  "titlePt": "Painel de filtro",
+  "ai": false,
+  "url": "https://js.devexpress.com/Angular/Demos/WidgetsGallery/Demo/TreeList/FilterPanel/FluentBlueLight/",
+  "imageFile": "images/088-TreeList-FilterPanel.png",
+  "rawFile": "raw/088-TreeList-FilterPanel.json",
+  "scrapedAt": "2026-11-16T12:55:54.899Z",
+  "pageTitle": "Filter Panel - Angular Tree List | Angular Example",
+  "h1": "Angular Tree List - Filter Panel",
+  "descriptionEn": "The filterPanel displays the combined filter in the bottom of the TreeList. This filter is stored in the filterValue property and consists of conditions that a user applied in the following UI elements: filter row, header filter, filterBuilder. Users can deselect the checkbox in the filter panel to temporarily deactivate the current filter. To display the filter panel, set the filterPanel.visible property to true. A click on the combined filter calls the integrated filter builder. You can configure it in the filterBuilder object.",
+  "docLinks": [],
+  "apiLinks": [
+    {
+      "text": "filterPanel",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxTreeList/Configuration/filterPanel/"
+    },
+    {
+      "text": "filterValue",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxTreeList/Configuration/#filterValue"
+    },
+    {
+      "text": "filter row",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxTreeList/Configuration/filterRow/"
+    },
+    {
+      "text": "header filter",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxTreeList/Configuration/headerFilter/"
+    },
+    {
+      "text": "filterBuilder",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxTreeList/Configuration/#filterBuilder"
+    },
+    {
+      "text": "visible",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxTreeList/Configuration/filterPanel/#visible"
+    },
+    {
+      "text": "filterBuilder",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxTreeList/Configuration/#filterBuilder"
+    },
+    {
+      "text": "Popup",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxPopup/"
+    },
+    {
+      "text": "filterBuilderPopup",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxTreeList/Configuration/#filterBuilderPopup"
+    }
+  ],
+  "relatedLinks": [],
+  "screenshotOk": true,
+  "error": null
+}

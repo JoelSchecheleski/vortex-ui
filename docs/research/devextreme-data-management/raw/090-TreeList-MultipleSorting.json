@@ -1,0 +1,43 @@
+{
+  "seq": 90,
+  "widgetId": "tree-list",
+  "widgetEn": "Tree List",
+  "widgetPt": "Lista de árvores",
+  "widget": "TreeList",
+  "sectionId": "sorting",
+  "sectionEn": "Sorting",
+  "sectionPt": "Classificação",
+  "slug": "MultipleSorting",
+  "titleEn": "Sorting",
+  "titlePt": "Classificação",
+  "ai": false,
+  "url": "https://js.devexpress.com/Angular/Demos/WidgetsGallery/Demo/TreeList/MultipleSorting/FluentBlueLight/",
+  "imageFile": "images/090-TreeList-MultipleSorting.png",
+  "rawFile": "raw/090-TreeList-MultipleSorting.json",
+  "scrapedAt": "2026-11-16T12:56:02.348Z",
+  "pageTitle": "Multiple Sorting - Angular Tree List | Angular Example",
+  "h1": "Angular Tree List - Multiple Sorting",
+  "descriptionEn": "The TreeList component can sort values by a single or multiple columns. Use the sorting.mode property to specify the sort mode. Single sort mode A user can click the column header to sort by this column and click it again to change the sort order. An arrow icon in the column's header indicates the sort order. Multiple sort mode A user can hold the Shift key and click column headers in the order the user wants to apply sorting. A number in the column's header indicates the sort index. To cancel a column's sort settings, a user should hold the Ctrl key and click the column header.",
+  "docLinks": [],
+  "apiLinks": [
+    {
+      "text": "mode",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxTreeList/Configuration/sorting/#mode"
+    },
+    {
+      "text": "allowSorting",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxTreeList/Configuration/columns/#allowSorting"
+    },
+    {
+      "text": "sortOrder",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxTreeList/Configuration/columns/#sortOrder"
+    },
+    {
+      "text": "sortIndex",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxTreeList/Configuration/columns/#sortIndex"
+    }
+  ],
+  "relatedLinks": [],
+  "screenshotOk": true,
+  "error": null
+}

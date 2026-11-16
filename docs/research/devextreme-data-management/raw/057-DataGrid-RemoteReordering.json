@@ -1,0 +1,56 @@
+{
+  "seq": 57,
+  "widgetId": "data-grid",
+  "widgetEn": "Data Grid",
+  "widgetPt": "Grade de dados",
+  "widget": "DataGrid",
+  "sectionId": "dnd",
+  "sectionEn": "Drag & Drop",
+  "sectionPt": "Arrastar e soltar",
+  "slug": "RemoteReordering",
+  "titleEn": "Remote Reordering",
+  "titlePt": "Reordenação remota",
+  "ai": false,
+  "url": "https://js.devexpress.com/Angular/Demos/WidgetsGallery/Demo/DataGrid/RemoteReordering/FluentBlueLight/",
+  "imageFile": "images/057-DataGrid-RemoteReordering.png",
+  "rawFile": "raw/057-DataGrid-RemoteReordering.json",
+  "scrapedAt": "2026-11-16T12:53:54.703Z",
+  "pageTitle": "Remote Reordering - Angular Data Grid | Angular Example",
+  "h1": "Angular Data Grid - Remote Reordering",
+  "descriptionEn": "This demo shows how to use drag and drop to reorder records stored on the server. This functionality requires that records' order indexes are in an individual data field (OrderIndex in this demo) and sorted against that field. Row drag and drop is configured in the rowDragging object. Set allowReordering to true to enable this feature. To specify the highlight mode of the row's drop position, use the dropFeedbackMode property. In this demo, it is set to \"push\": rows move up or down with animation to create space for the new position of the row.",
+  "docLinks": [],
+  "apiLinks": [
+    {
+      "text": "rowDragging",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxDataGrid/Configuration/rowDragging/"
+    },
+    {
+      "text": "allowReordering",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxDataGrid/Configuration/rowDragging/#allowReordering"
+    },
+    {
+      "text": "dropFeedbackMode",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxDataGrid/Configuration/rowDragging/#dropFeedbackMode"
+    },
+    {
+      "text": "onReorder",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxDataGrid/Configuration/rowDragging/#onReorder"
+    },
+    {
+      "text": "update",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/Data_Layer/CustomStore/Configuration/#update"
+    }
+  ],
+  "relatedLinks": [
+    {
+      "text": "ASP.NET Core",
+      "href": "https://demos.devexpress.com/ASPNetCore/Demo/DataGrid/RemoteReordering/"
+    },
+    {
+      "text": "ASP.NET MVC 5",
+      "href": "https://demos.devexpress.com/ASPNetMvc/Demo/DataGrid/RemoteReordering/"
+    }
+  ],
+  "screenshotOk": true,
+  "error": null
+}

@@ -1,0 +1,51 @@
+{
+  "seq": 20,
+  "widgetId": "data-grid",
+  "widgetEn": "Data Grid",
+  "widgetPt": "Grade de dados",
+  "widget": "DataGrid",
+  "sectionId": "editing",
+  "sectionEn": "Editing",
+  "sectionPt": "Edição",
+  "slug": "DataValidation",
+  "titleEn": "Data Validation",
+  "titlePt": "Validação de dados",
+  "ai": false,
+  "url": "https://js.devexpress.com/Angular/Demos/WidgetsGallery/Demo/DataGrid/DataValidation/FluentBlueLight/",
+  "imageFile": "images/020-DataGrid-DataValidation.png",
+  "rawFile": "raw/020-DataGrid-DataValidation.json",
+  "scrapedAt": "2026-11-16T12:50:28.004Z",
+  "pageTitle": "Data Validation - Angular Data Grid | Angular Example",
+  "h1": "Angular Data Grid - Data Validation",
+  "descriptionEn": "The DataGrid allows you to validate user input. You can apply pre-defined validation rules or custom rules to individual columns.",
+  "docLinks": [],
+  "apiLinks": [
+    {
+      "text": "validation rules",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxDataGrid/Configuration/columns/#validationRules"
+    },
+    {
+      "text": "required",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxValidator/Validation_Rules/RequiredRule/"
+    },
+    {
+      "text": "pattern",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxValidator/Validation_Rules/PatternRule/"
+    },
+    {
+      "text": "email",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxValidator/Validation_Rules/EmailRule/"
+    },
+    {
+      "text": "async",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxValidator/Validation_Rules/AsyncRule/"
+    },
+    {
+      "text": "Validation Rules",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxDataGrid/Configuration/columns/#validationRules"
+    }
+  ],
+  "relatedLinks": [],
+  "screenshotOk": true,
+  "error": null
+}

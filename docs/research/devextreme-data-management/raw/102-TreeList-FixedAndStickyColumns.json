@@ -1,0 +1,47 @@
+{
+  "seq": 102,
+  "widgetId": "tree-list",
+  "widgetEn": "Tree List",
+  "widgetPt": "Lista de árvores",
+  "widget": "TreeList",
+  "sectionId": "columns",
+  "sectionEn": "Columns",
+  "sectionPt": "Colunas",
+  "slug": "FixedAndStickyColumns",
+  "titleEn": "Fixed and Sticky Columns",
+  "titlePt": "Colunas fixas e adesivas",
+  "ai": false,
+  "url": "https://js.devexpress.com/Angular/Demos/WidgetsGallery/Demo/TreeList/FixedAndStickyColumns/FluentBlueLight/",
+  "imageFile": "images/102-TreeList-FixedAndStickyColumns.png",
+  "rawFile": "raw/102-TreeList-FixedAndStickyColumns.json",
+  "scrapedAt": "2026-11-16T12:57:54.091Z",
+  "pageTitle": "Fixed and Sticky Columns - Angular Tree List | Angular Example",
+  "h1": "Angular Tree List - Fixed and Sticky Columns",
+  "descriptionEn": "A horizontal scrollbar appears when the total width of all grid columns exceeds the DevExtreme TreeList's overall width. To maintain column visibility when scrolling horizontally, set the columnFixing.enabled property to true.",
+  "docLinks": [],
+  "apiLinks": [
+    {
+      "text": "enabled",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxTreeList/Configuration/columnFixing/#enabled"
+    },
+    {
+      "text": "fixed",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxTreeList/Configuration/columns/#fixed"
+    },
+    {
+      "text": "fixedPosition",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxTreeList/Configuration/columns/#fixedPosition"
+    },
+    {
+      "text": "columns[]",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxTreeList/Configuration/columns/"
+    },
+    {
+      "text": "allowFixing",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxTreeList/Configuration/columns/#allowFixing"
+    }
+  ],
+  "relatedLinks": [],
+  "screenshotOk": true,
+  "error": null
+}

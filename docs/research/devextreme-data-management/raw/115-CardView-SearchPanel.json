@@ -1,0 +1,55 @@
+{
+  "seq": 115,
+  "widgetId": "card-view",
+  "widgetEn": "Card View",
+  "widgetPt": "Visualização do cartão",
+  "widget": "CardView",
+  "sectionId": "filtering",
+  "sectionEn": "Filtering",
+  "sectionPt": "Filtragem",
+  "slug": "SearchPanel",
+  "titleEn": "Search Panel",
+  "titlePt": "Painel de pesquisa",
+  "ai": false,
+  "url": "https://js.devexpress.com/Angular/Demos/WidgetsGallery/Demo/CardView/SearchPanel/FluentBlueLight/",
+  "imageFile": "images/115-CardView-SearchPanel.png",
+  "rawFile": "raw/115-CardView-SearchPanel.json",
+  "scrapedAt": "2026-11-16T12:58:41.288Z",
+  "pageTitle": "Search Panel - Angular Card View | Angular Example",
+  "h1": "Angular Card View - Search Panel",
+  "descriptionEn": "To enable user data search, activate the searchPanel by setting its visible property to true. CardView searches through all fields, whether visible or hidden. To limit search operations within visible fields, enable the searchPanel.searchVisibleColumnsOnly property. To omit specific fields, set the field’s allowSearch property to false.",
+  "docLinks": [],
+  "apiLinks": [
+    {
+      "text": "searchPanel",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxCardView/Configuration/searchPanel/"
+    },
+    {
+      "text": "visible",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxCardView/Configuration/searchPanel/#visible"
+    },
+    {
+      "text": "visible",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxCardView/Configuration/columns/#visible"
+    },
+    {
+      "text": "searchVisibleColumnsOnly",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxCardView/Configuration/searchPanel/#searchVisibleColumnsOnly"
+    },
+    {
+      "text": "allowSearch",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxCardView/Configuration/columns/#allowSearch"
+    },
+    {
+      "text": "text",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxCardView/Configuration/searchPanel/#text"
+    },
+    {
+      "text": "searchByText(text)",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxCardView/Methods/#searchByTexttext"
+    }
+  ],
+  "relatedLinks": [],
+  "screenshotOk": true,
+  "error": null
+}

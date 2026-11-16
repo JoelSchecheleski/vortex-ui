@@ -1,0 +1,43 @@
+{
+  "seq": 79,
+  "widgetId": "data-grid",
+  "widgetEn": "Data Grid",
+  "widgetPt": "Grade de dados",
+  "widget": "DataGrid",
+  "sectionId": "rtl",
+  "sectionEn": "Right-To-Left Support",
+  "sectionPt": "Suporte da direita para a esquerda",
+  "slug": "RightToLeftSupport",
+  "titleEn": "Right-To-Left Support",
+  "titlePt": "Suporte da direita para a esquerda",
+  "ai": false,
+  "url": "https://js.devexpress.com/Angular/Demos/WidgetsGallery/Demo/DataGrid/RightToLeftSupport/FluentBlueLight/",
+  "imageFile": "images/079-DataGrid-RightToLeftSupport.png",
+  "rawFile": "raw/079-DataGrid-RightToLeftSupport.json",
+  "scrapedAt": "2026-11-16T12:55:20.737Z",
+  "pageTitle": "Right-To-Left Support - Angular Data Grid | Angular Example",
+  "h1": "Angular Data Grid - Right-To-Left Support",
+  "descriptionEn": "DevExtreme supports right-to-left layouts. To change a layout to RTL, set the DataGrid's rtlEnabled property to true. You can also set rtlEnabled to true in the project's globalConfig to apply RTL to all DevExtreme components in your application. In this demo, you can use the drop-down menu to switch between the different layouts. Note that this demo updates the dataField and caption properties to display translated content when you change the rtlEnabled value.",
+  "docLinks": [],
+  "apiLinks": [
+    {
+      "text": "rtlEnabled",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxDataGrid/Configuration/#rtlEnabled"
+    },
+    {
+      "text": "globalConfig",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/Common/Object_Structures/globalConfig/"
+    },
+    {
+      "text": "dataField",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxDataGrid/Configuration/columns/#dataField"
+    },
+    {
+      "text": "caption",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxDataGrid/Configuration/columns/#caption"
+    }
+  ],
+  "relatedLinks": [],
+  "screenshotOk": true,
+  "error": null
+}

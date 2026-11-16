@@ -1,0 +1,68 @@
+{
+  "seq": 83,
+  "widgetId": "tree-list",
+  "widgetEn": "Tree List",
+  "widgetPt": "Lista de árvores",
+  "widget": "TreeList",
+  "sectionId": "data-binding",
+  "sectionEn": "Data Binding",
+  "sectionPt": "Vinculação de dados",
+  "slug": "LoadDataOnDemand",
+  "titleEn": "Load Data on Demand",
+  "titlePt": "Carregar dados sob demanda",
+  "ai": false,
+  "url": "https://js.devexpress.com/Angular/Demos/WidgetsGallery/Demo/TreeList/LoadDataOnDemand/FluentBlueLight/",
+  "imageFile": "images/083-TreeList-LoadDataOnDemand.png",
+  "rawFile": "raw/083-TreeList-LoadDataOnDemand.json",
+  "scrapedAt": "2026-11-16T12:55:36.238Z",
+  "pageTitle": "Load Data on Demand - Angular Tree List | Angular Example",
+  "h1": "Angular Tree List - Load Data on Demand",
+  "descriptionEn": "The TreeList can load a remote dataset dynamically as a user expands nodes. The dataset must have a plain structure.",
+  "docLinks": [],
+  "apiLinks": [
+    {
+      "text": "plain structure",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxTreeList/Configuration/#dataStructure"
+    },
+    {
+      "text": "load",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/Data_Layer/CustomStore/Configuration/#load"
+    },
+    {
+      "text": "dataSource",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxTreeList/Configuration/#dataSource"
+    },
+    {
+      "text": "filtering",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxTreeList/Configuration/remoteOperations/#filtering"
+    },
+    {
+      "text": "hasItemsExpr",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxTreeList/Configuration/#hasItemsExpr"
+    }
+  ],
+  "relatedLinks": [
+    {
+      "text": "ASP.NET Core",
+      "href": "https://demos.devexpress.com/ASPNetCore/Demo/TreeList/LoadDataOnDemand/"
+    },
+    {
+      "text": "ASP.NET MVC",
+      "href": "https://demos.devexpress.com/ASPNetMvc/Demo/TreeList/LoadDataOnDemand"
+    },
+    {
+      "text": "Custom Data Source",
+      "href": "https://js.devexpress.com/Demos/WidgetsGallery/Demo/DataGrid/CustomDataSource/jQuery/Light/"
+    },
+    {
+      "text": "DevExtreme.AspNet.Data",
+      "href": "https://github.com/DevExpress/DevExtreme.AspNet.Data#devextreme-aspnet-data"
+    },
+    {
+      "text": "Web API Service",
+      "href": "https://js.devexpress.com/Demos/WidgetsGallery/Demo/TreeList/WebAPIService/"
+    }
+  ],
+  "screenshotOk": true,
+  "error": null
+}

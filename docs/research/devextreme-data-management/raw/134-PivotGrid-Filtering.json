@@ -1,0 +1,55 @@
+{
+  "seq": 134,
+  "widgetId": "pivot-grid",
+  "widgetEn": "Pivot Grid",
+  "widgetPt": "Grade Pivô",
+  "widget": "PivotGrid",
+  "sectionId": "filtering",
+  "sectionEn": "Filtering",
+  "sectionPt": "Filtragem",
+  "slug": "Filtering",
+  "titleEn": "Filtering",
+  "titlePt": "Filtragem",
+  "ai": false,
+  "url": "https://js.devexpress.com/Angular/Demos/WidgetsGallery/Demo/PivotGrid/Filtering/FluentBlueLight/",
+  "imageFile": "images/134-PivotGrid-Filtering.png",
+  "rawFile": "raw/134-PivotGrid-Filtering.json",
+  "scrapedAt": "2026-11-16T12:59:51.402Z",
+  "pageTitle": "Filtering - Angular Pivot Grid | Angular Example",
+  "h1": "Angular Pivot Grid - Filtering",
+  "descriptionEn": "A header filter allows a user to filter field values by including or excluding them from the applied filter. Click a header filter icon in the field chooser or on the field panel to open a popup menu that displays all unique field values. To display header filter icons, enable the allowFiltering property.",
+  "docLinks": [],
+  "apiLinks": [
+    {
+      "text": "allowFiltering",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxPivotGrid/Configuration/#allowFiltering"
+    },
+    {
+      "text": "headerFilter",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxPivotGrid/Configuration/headerFilter/"
+    },
+    {
+      "text": "headerFilter",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/Data_Layer/PivotGridDataSource/Configuration/fields/headerFilter/"
+    },
+    {
+      "text": "search",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxPivotGrid/Configuration/headerFilter/search/"
+    },
+    {
+      "text": "showRelevantValues",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxPivotGrid/Configuration/headerFilter/#showRelevantValues"
+    },
+    {
+      "text": "width",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxPivotGrid/Configuration/headerFilter/#width"
+    },
+    {
+      "text": "height",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxPivotGrid/Configuration/headerFilter/#height"
+    }
+  ],
+  "relatedLinks": [],
+  "screenshotOk": true,
+  "error": null
+}

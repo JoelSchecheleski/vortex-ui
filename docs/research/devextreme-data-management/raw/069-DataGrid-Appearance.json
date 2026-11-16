@@ -1,0 +1,43 @@
+{
+  "seq": 69,
+  "widgetId": "data-grid",
+  "widgetEn": "Data Grid",
+  "widgetPt": "Grade de dados",
+  "widget": "DataGrid",
+  "sectionId": "appearance",
+  "sectionEn": "Appearance",
+  "sectionPt": "Aparência",
+  "slug": "Appearance",
+  "titleEn": "Appearance",
+  "titlePt": "Aparência",
+  "ai": false,
+  "url": "https://js.devexpress.com/Angular/Demos/WidgetsGallery/Demo/DataGrid/Appearance/FluentBlueLight/",
+  "imageFile": "images/069-DataGrid-Appearance.png",
+  "rawFile": "raw/069-DataGrid-Appearance.json",
+  "scrapedAt": "2026-11-16T12:54:43.424Z",
+  "pageTitle": "Appearance - Angular Data Grid | Angular Example",
+  "h1": "Angular Data Grid - Appearance",
+  "descriptionEn": "This example demonstrates the following properties: showBorders Specifies whether the outer borders of the DataGrid are visible. showColumnLines Specifies whether vertical lines that separate columns are visible. showRowLines Specifies whether horizontal lines that separate rows are visible. rowAlternationEnabled Specifies whether rows should be in alternate colors. To toggle these properties, select the corresponding checkbox under the DataGrid.",
+  "docLinks": [],
+  "apiLinks": [
+    {
+      "text": "showBorders",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxDataGrid/Configuration/#showBorders"
+    },
+    {
+      "text": "showColumnLines",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxDataGrid/Configuration/#showColumnLines"
+    },
+    {
+      "text": "showRowLines",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxDataGrid/Configuration/#showRowLines"
+    },
+    {
+      "text": "rowAlternationEnabled",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxDataGrid/Configuration/#rowAlternationEnabled"
+    }
+  ],
+  "relatedLinks": [],
+  "screenshotOk": true,
+  "error": null
+}

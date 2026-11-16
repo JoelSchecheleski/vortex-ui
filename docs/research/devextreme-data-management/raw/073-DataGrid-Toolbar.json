@@ -1,0 +1,60 @@
+{
+  "seq": 73,
+  "widgetId": "data-grid",
+  "widgetEn": "Data Grid",
+  "widgetPt": "Grade de dados",
+  "widget": "DataGrid",
+  "sectionId": "customization",
+  "sectionEn": "Customization",
+  "sectionPt": "Personalização",
+  "slug": "Toolbar",
+  "titleEn": "Toolbar",
+  "titlePt": "Barra de ferramentas",
+  "ai": false,
+  "url": "https://js.devexpress.com/Angular/Demos/WidgetsGallery/Demo/DataGrid/Toolbar/FluentBlueLight/",
+  "imageFile": "images/073-DataGrid-Toolbar.png",
+  "rawFile": "raw/073-DataGrid-Toolbar.json",
+  "scrapedAt": "2026-11-16T12:54:58.292Z",
+  "pageTitle": "Toolbar - Angular Data Grid | Angular Example",
+  "h1": "Angular Data Grid - Toolbar",
+  "descriptionEn": "The DataGrid includes an integrated toolbar that displays predefined and custom controls. To add or remove toolbar items, declare the toolbar.items[] array. If toolbar.items[] is specified, DataGrid does not display controls missing from the array. Ensure this array includes controls for all enabled features.",
+  "docLinks": [],
+  "apiLinks": [
+    {
+      "text": "toolbar",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxDataGrid/Configuration/toolbar/"
+    },
+    {
+      "text": "items[]",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxDataGrid/Configuration/toolbar/items/"
+    },
+    {
+      "text": "name",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxDataGrid/Configuration/toolbar/items/#name"
+    },
+    {
+      "text": "properties",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxDataGrid/Configuration/toolbar/items/"
+    },
+    {
+      "text": "columnChooser",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columnChooser/"
+    },
+    {
+      "text": "template",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxDataGrid/Configuration/toolbar/items/#template"
+    }
+  ],
+  "relatedLinks": [
+    {
+      "text": "Button",
+      "href": "https://js.devexpress.com/Demos/WidgetsGallery/Demo/Button/PredefinedTypes/"
+    },
+    {
+      "text": "SelectBox",
+      "href": "https://js.devexpress.com/Demos/WidgetsGallery/Demo/SelectBox/Overview/"
+    }
+  ],
+  "screenshotOk": true,
+  "error": null
+}

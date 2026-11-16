@@ -1,0 +1,72 @@
+{
+  "seq": 126,
+  "widgetId": "pivot-grid",
+  "widgetEn": "Pivot Grid",
+  "widgetPt": "Grade Pivô",
+  "widget": "PivotGrid",
+  "sectionId": "data-binding",
+  "sectionEn": "Data Binding",
+  "sectionPt": "Vinculação de dados",
+  "slug": "OLAPDataSource",
+  "titleEn": "OLAP Data Source",
+  "titlePt": "Fonte de dados OLAP",
+  "ai": false,
+  "url": "https://js.devexpress.com/Angular/Demos/WidgetsGallery/Demo/PivotGrid/OLAPDataSource/FluentBlueLight/",
+  "imageFile": "images/126-PivotGrid-OLAPDataSource.png",
+  "rawFile": "raw/126-PivotGrid-OLAPDataSource.json",
+  "scrapedAt": "2026-11-16T12:59:22.121Z",
+  "pageTitle": "OLAP Data Source - Angular Pivot Grid | Angular Example",
+  "h1": "Angular Pivot Grid - OLAP Data Source",
+  "descriptionEn": "The PivotGrid component supports OLAP services (Microsoft SQL Server Analysis Services). This demo shows how to use a remote OLAP cube as the PivotGrid's data source.",
+  "docLinks": [],
+  "apiLinks": [
+    {
+      "text": "XmlaStore",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/Data_Layer/XmlaStore/"
+    },
+    {
+      "text": "url",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/Data_Layer/XmlaStore/Configuration/#url"
+    },
+    {
+      "text": "catalog",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/Data_Layer/XmlaStore/Configuration/#catalog"
+    },
+    {
+      "text": "cube",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/Data_Layer/XmlaStore/Configuration/#cube"
+    },
+    {
+      "text": "store",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/Data_Layer/PivotGridDataSource/Configuration/store/"
+    },
+    {
+      "text": "PivotGridDataSource",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/Data_Layer/PivotGridDataSource/"
+    },
+    {
+      "text": "dataSource",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxPivotGrid/Configuration/#dataSource"
+    },
+    {
+      "text": "fields[]",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/Data_Layer/PivotGridDataSource/Configuration/fields/"
+    },
+    {
+      "text": "dataField",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/Data_Layer/PivotGridDataSource/Configuration/fields/#dataField"
+    },
+    {
+      "text": "area",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/Data_Layer/PivotGridDataSource/Configuration/fields/#area"
+    }
+  ],
+  "relatedLinks": [
+    {
+      "text": "field chooser",
+      "href": "https://js.devexpress.com/Demos/WidgetsGallery/Demo/PivotGrid/IntegratedFieldChooser/"
+    }
+  ],
+  "screenshotOk": true,
+  "error": null
+}

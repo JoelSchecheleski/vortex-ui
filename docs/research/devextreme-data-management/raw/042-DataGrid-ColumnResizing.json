@@ -1,0 +1,59 @@
+{
+  "seq": 42,
+  "widgetId": "data-grid",
+  "widgetEn": "Data Grid",
+  "widgetPt": "Grade de dados",
+  "widget": "DataGrid",
+  "sectionId": "columns",
+  "sectionEn": "Columns",
+  "sectionPt": "Colunas",
+  "slug": "ColumnResizing",
+  "titleEn": "Column Resizing",
+  "titlePt": "Redimensionamento de colunas",
+  "ai": false,
+  "url": "https://js.devexpress.com/Angular/Demos/WidgetsGallery/Demo/DataGrid/ColumnResizing/FluentBlueLight/",
+  "imageFile": "images/042-DataGrid-ColumnResizing.png",
+  "rawFile": "raw/042-DataGrid-ColumnResizing.json",
+  "scrapedAt": "2026-11-16T12:51:52.614Z",
+  "pageTitle": "Column Resizing - Angular Data Grid | Angular Example",
+  "h1": "Angular Data Grid - Column Resizing",
+  "descriptionEn": "The DataGrid sets the same width for all columns, but you can change column widths as described below.",
+  "docLinks": [],
+  "apiLinks": [
+    {
+      "text": "columnWidth",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxDataGrid/Configuration/#columnWidth"
+    },
+    {
+      "text": "width",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxDataGrid/Configuration/columns/#width"
+    },
+    {
+      "text": "columnMinWidth",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxDataGrid/Configuration/#columnMinWidth"
+    },
+    {
+      "text": "minWidth",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxDataGrid/Configuration/columns/#minWidth"
+    },
+    {
+      "text": "columnAutoWidth",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxDataGrid/Configuration/#columnAutoWidth"
+    },
+    {
+      "text": "allowColumnResizing",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxDataGrid/Configuration/#allowColumnResizing"
+    },
+    {
+      "text": "columnResizingMode",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxDataGrid/Configuration/#columnResizingMode"
+    },
+    {
+      "text": "allowResizing",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxDataGrid/Configuration/columns/#allowResizing"
+    }
+  ],
+  "relatedLinks": [],
+  "screenshotOk": true,
+  "error": null
+}

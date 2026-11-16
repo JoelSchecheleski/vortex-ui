@@ -1,0 +1,52 @@
+{
+  "seq": 67,
+  "widgetId": "data-grid",
+  "widgetEn": "Data Grid",
+  "widgetPt": "Grade de dados",
+  "widget": "DataGrid",
+  "sectionId": "export-excel",
+  "sectionEn": "Export to Excel",
+  "sectionPt": "Exportar para o Excel",
+  "slug": "ExcelJSExportMultipleGrids",
+  "titleEn": "Multiple Grids Export",
+  "titlePt": "Exportação de múltiplas grades",
+  "ai": false,
+  "url": "https://js.devexpress.com/Angular/Demos/WidgetsGallery/Demo/DataGrid/ExcelJSExportMultipleGrids/FluentBlueLight/",
+  "imageFile": "images/067-DataGrid-ExcelJSExportMultipleGrids.png",
+  "rawFile": "raw/067-DataGrid-ExcelJSExportMultipleGrids.json",
+  "scrapedAt": "2026-11-16T12:54:35.457Z",
+  "pageTitle": "Multiple Grids Export - Angular Data Grid | Angular Example",
+  "h1": "Angular Data Grid - Multiple Grids Export",
+  "descriptionEn": "The exportDataGrid() method allows users to export multiple grids to one Excel document. Grids are exported consequently in a chain of Promises. In this demo, this functionality is used to export two DataGrids into separate worksheets in the same workbook. Starting position of each exported grid is set using the topLeftCell property. Use the customizeCell method to customize the exported worksheets.",
+  "docLinks": [],
+  "apiLinks": [
+    {
+      "text": "exportDataGrid()",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/Common/Utils/excelExporter/#exportDataGridoptions"
+    },
+    {
+      "text": "topLeftCell",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/Common/Object_Structures/ExportDataGridProps/topLeftCell/"
+    },
+    {
+      "text": "customizeCell",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/Common/Object_Structures/ExportDataGridProps/#customizeCell"
+    }
+  ],
+  "relatedLinks": [
+    {
+      "text": "chain of Promises",
+      "href": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise/then"
+    },
+    {
+      "text": "worksheets",
+      "href": "https://github.com/DevExpress/devextreme-exceljs-fork#add-a-worksheet"
+    },
+    {
+      "text": "workbook",
+      "href": "https://github.com/DevExpress/devextreme-exceljs-fork#create-a-workbook"
+    }
+  ],
+  "screenshotOk": true,
+  "error": null
+}

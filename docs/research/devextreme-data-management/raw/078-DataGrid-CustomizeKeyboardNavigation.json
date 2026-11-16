@@ -1,0 +1,39 @@
+{
+  "seq": 78,
+  "widgetId": "data-grid",
+  "widgetEn": "Data Grid",
+  "widgetPt": "Grade de dados",
+  "widget": "DataGrid",
+  "sectionId": "keyboard",
+  "sectionEn": "Keyboard Navigation",
+  "sectionPt": "Navegação por teclado",
+  "slug": "CustomizeKeyboardNavigation",
+  "titleEn": "Customize Keyboard Navigation",
+  "titlePt": "Personalizar a navegação do teclado",
+  "ai": false,
+  "url": "https://js.devexpress.com/Angular/Demos/WidgetsGallery/Demo/DataGrid/CustomizeKeyboardNavigation/FluentBlueLight/",
+  "imageFile": "images/078-DataGrid-CustomizeKeyboardNavigation.png",
+  "rawFile": "raw/078-DataGrid-CustomizeKeyboardNavigation.json",
+  "scrapedAt": "2026-11-16T12:55:17.071Z",
+  "pageTitle": "Customize Keyboard Navigation - Angular Data Grid | Angular Example",
+  "h1": "Angular Data Grid - Customize Keyboard Navigation",
+  "descriptionEn": "The following properties customize keyboard navigation: enterKeyAction Specifies the DataGrid's actions when a user presses Enter key: \"moveFocus\" - moves focus in the enterKeyDirection \"startEdit\" (default) - switches the cell to the editing state enterKeyDirection Specifies the direction in which to move focus when a user presses Enter: \"row\" \"column\" \"none\" (default) editOnKeyPress Specifies whether to start entering a new cell value on a key press. In this demo, you can use the controls under the DataGrid to change any of these properties.",
+  "docLinks": [],
+  "apiLinks": [
+    {
+      "text": "enterKeyAction",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxDataGrid/Configuration/keyboardNavigation/#enterKeyAction"
+    },
+    {
+      "text": "enterKeyDirection",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxDataGrid/Configuration/keyboardNavigation/#enterKeyDirection"
+    },
+    {
+      "text": "editOnKeyPress",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxDataGrid/Configuration/keyboardNavigation/#editOnKeyPress"
+    }
+  ],
+  "relatedLinks": [],
+  "screenshotOk": true,
+  "error": null
+}

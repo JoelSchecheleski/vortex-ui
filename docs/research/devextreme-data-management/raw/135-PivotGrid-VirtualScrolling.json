@@ -1,0 +1,31 @@
+{
+  "seq": 135,
+  "widgetId": "pivot-grid",
+  "widgetEn": "Pivot Grid",
+  "widgetPt": "Grade Pivô",
+  "widget": "PivotGrid",
+  "sectionId": "scrolling",
+  "sectionEn": "Scrolling",
+  "sectionPt": "Rolagem",
+  "slug": "VirtualScrolling",
+  "titleEn": "Virtual Scrolling",
+  "titlePt": "Rolagem virtual",
+  "ai": false,
+  "url": "https://js.devexpress.com/Angular/Demos/WidgetsGallery/Demo/PivotGrid/VirtualScrolling/FluentBlueLight/",
+  "imageFile": "images/135-PivotGrid-VirtualScrolling.png",
+  "rawFile": "raw/135-PivotGrid-VirtualScrolling.json",
+  "scrapedAt": "2026-11-16T12:59:55.000Z",
+  "pageTitle": "Virtual Scrolling - Angular Pivot Grid | Angular Example",
+  "h1": "Angular Pivot Grid - Virtual Scrolling",
+  "descriptionEn": "If the PivotGrid is bound to a large dataset, you can enable the virtual scrolling mode to optimize data load time and reduce resource consumption. In this mode, the PivotGrid loads only the cells that are in the viewport. When cells leave the viewport, the PivotGrid removes them from the DOM. To enable this mode, set the scrolling.mode to \"virtual\". In this demo, the PivotGrid stores approximately 4000 values locally. To see virtual scrolling in action, scroll the PivotGrid horizontally.",
+  "docLinks": [],
+  "apiLinks": [
+    {
+      "text": "mode",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxPivotGrid/Configuration/scrolling/#mode"
+    }
+  ],
+  "relatedLinks": [],
+  "screenshotOk": true,
+  "error": null
+}

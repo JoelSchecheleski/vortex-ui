@@ -1,0 +1,31 @@
+{
+  "seq": 108,
+  "widgetId": "tree-list",
+  "widgetEn": "Tree List",
+  "widgetPt": "Lista de árvores",
+  "widget": "TreeList",
+  "sectionId": "keyboard",
+  "sectionEn": "Keyboard Navigation",
+  "sectionPt": "Navegação por teclado",
+  "slug": "KeyboardNavigation",
+  "titleEn": "Keyboard Navigation",
+  "titlePt": "Navegação por teclado",
+  "ai": false,
+  "url": "https://js.devexpress.com/Angular/Demos/WidgetsGallery/Demo/TreeList/KeyboardNavigation/FluentBlueLight/",
+  "imageFile": "images/108-TreeList-KeyboardNavigation.png",
+  "rawFile": "raw/108-TreeList-KeyboardNavigation.json",
+  "scrapedAt": "2026-11-16T12:58:15.735Z",
+  "pageTitle": "Keyboard Navigation - Angular Tree List | Angular Example",
+  "h1": "Angular Tree List - Keyboard Navigation",
+  "descriptionEn": "To see all available keyboard shortcuts, refer to the TreeList accessibility documentation: Keyboard Navigation.",
+  "docLinks": [
+    {
+      "text": "Keyboard Navigation",
+      "href": "https://js.devexpress.com/Angular/Documentation/Guide/UI_Components/TreeList/Accessibility/#Keyboard_Navigation"
+    }
+  ],
+  "apiLinks": [],
+  "relatedLinks": [],
+  "screenshotOk": true,
+  "error": null
+}

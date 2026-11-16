@@ -1,0 +1,101 @@
+{
+  "seq": 47,
+  "widgetId": "data-grid",
+  "widgetEn": "Data Grid",
+  "widgetPt": "Grade de dados",
+  "widget": "DataGrid",
+  "sectionId": "ai-assistant",
+  "sectionEn": "AI Assistant",
+  "sectionPt": "Assistente de IA",
+  "slug": "AIAssistant",
+  "titleEn": "AI Assistant",
+  "titlePt": "Assistente de IA",
+  "ai": true,
+  "url": "https://js.devexpress.com/Angular/Demos/WidgetsGallery/Demo/DataGrid/AIAssistant/FluentBlueLight/",
+  "imageFile": "images/047-DataGrid-AIAssistant.png",
+  "rawFile": "raw/047-DataGrid-AIAssistant.json",
+  "scrapedAt": "2026-11-16T12:52:11.285Z",
+  "pageTitle": "AI Assistant - Angular Data Grid | Angular Example",
+  "h1": "Angular Data Grid - AI Assistant",
+  "descriptionEn": "The AI Assistant for the DevExtreme DataGrid allows you to interact with the component using natural language. You can use/configure the following DataGrid features via AI Assistant Chat prompts: Filtering and Searching Sorting Grouping Paging Focused Row Selection Summaries Column Fixing, Resizing, and Reordering This AI Assistant feature is also available in the DevExtreme TreeList component.",
+  "docLinks": [
+    {
+      "text": "DataGrid",
+      "href": "https://js.devexpress.com/Angular/Documentation/Guide/UI_Components/DataGrid/Overview/"
+    },
+    {
+      "text": "Filtering and Searching",
+      "href": "https://js.devexpress.com/Angular/Documentation/Guide/UI_Components/DataGrid/Filtering_and_Searching/"
+    },
+    {
+      "text": "Sorting",
+      "href": "https://js.devexpress.com/Angular/Documentation/Guide/UI_Components/DataGrid/Sorting/"
+    },
+    {
+      "text": "Grouping",
+      "href": "https://js.devexpress.com/Angular/Documentation/Guide/UI_Components/DataGrid/Grouping/"
+    },
+    {
+      "text": "Paging",
+      "href": "https://js.devexpress.com/Angular/Documentation/Guide/UI_Components/DataGrid/Paging/"
+    },
+    {
+      "text": "Focused Row",
+      "href": "https://js.devexpress.com/Angular/Documentation/Guide/UI_Components/DataGrid/Focused_Row/"
+    },
+    {
+      "text": "Selection",
+      "href": "https://js.devexpress.com/Angular/Documentation/Guide/UI_Components/DataGrid/Selection/"
+    },
+    {
+      "text": "Summaries",
+      "href": "https://js.devexpress.com/Angular/Documentation/Guide/UI_Components/DataGrid/Summaries/Predefined_Aggregate_Functions/"
+    },
+    {
+      "text": "Column Fixing",
+      "href": "https://js.devexpress.com/Angular/Documentation/Guide/UI_Components/DataGrid/Columns/Column_Fixing/"
+    },
+    {
+      "text": "Resizing",
+      "href": "https://js.devexpress.com/Angular/Documentation/Guide/UI_Components/DataGrid/Columns/Column_Sizing/"
+    },
+    {
+      "text": "Reordering",
+      "href": "https://js.devexpress.com/Angular/Documentation/Guide/UI_Components/DataGrid/Columns/Column_Reordering/"
+    }
+  ],
+  "apiLinks": [
+    {
+      "text": "TreeList",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxTreeList/Configuration/#aiAssistant"
+    },
+    {
+      "text": "aiIntegration",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxDataGrid/Configuration/#aiIntegration"
+    },
+    {
+      "text": "aiIntegration",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxDataGrid/Configuration/aiAssistant/#aiIntegration"
+    },
+    {
+      "text": "enabled",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxDataGrid/Configuration/aiAssistant/#enabled"
+    },
+    {
+      "text": "speech-to-text input",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxChat/Configuration/#speechToTextEnabled"
+    },
+    {
+      "text": "suggestions",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxChat/Configuration/#suggestions"
+    }
+  ],
+  "relatedLinks": [
+    {
+      "text": "DevExtreme Chat - Prompt Suggestions",
+      "href": "https://js.devexpress.com/Demos/WidgetsGallery/Demo/Chat/PromptSuggestions/"
+    }
+  ],
+  "screenshotOk": true,
+  "error": null
+}

@@ -1,0 +1,31 @@
+{
+  "seq": 122,
+  "widgetId": "card-view",
+  "widgetEn": "Card View",
+  "widgetPt": "Visualização do cartão",
+  "widget": "CardView",
+  "sectionId": "customization",
+  "sectionEn": "Customization",
+  "sectionPt": "Personalização",
+  "slug": "CardTemplate",
+  "titleEn": "Card Template",
+  "titlePt": "Modelo de cartão",
+  "ai": false,
+  "url": "https://js.devexpress.com/Angular/Demos/WidgetsGallery/Demo/CardView/CardTemplate/FluentBlueLight/",
+  "imageFile": "images/122-CardView-CardTemplate.png",
+  "rawFile": "raw/122-CardView-CardTemplate.json",
+  "scrapedAt": "2026-11-16T12:59:07.156Z",
+  "pageTitle": "Card Template - Angular Card View | Angular Example",
+  "h1": "Angular Card View - Card Template",
+  "descriptionEn": "Card templates allow you to display custom card content. This demo uses a cardTemplate to display car images, car info, and a custom button within cards.",
+  "docLinks": [],
+  "apiLinks": [
+    {
+      "text": "cardTemplate",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxCardView/Configuration/#cardTemplate"
+    }
+  ],
+  "relatedLinks": [],
+  "screenshotOk": true,
+  "error": null
+}

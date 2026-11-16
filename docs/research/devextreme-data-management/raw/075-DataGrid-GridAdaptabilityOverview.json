@@ -1,0 +1,31 @@
+{
+  "seq": 75,
+  "widgetId": "data-grid",
+  "widgetEn": "Data Grid",
+  "widgetPt": "Grade de dados",
+  "widget": "DataGrid",
+  "sectionId": "adaptability",
+  "sectionEn": "Adaptability",
+  "sectionPt": "Adaptabilidade",
+  "slug": "GridAdaptabilityOverview",
+  "titleEn": "Overview",
+  "titlePt": "Visão geral",
+  "ai": false,
+  "url": "https://js.devexpress.com/Angular/Demos/WidgetsGallery/Demo/DataGrid/GridAdaptabilityOverview/FluentBlueLight/",
+  "imageFile": "images/075-DataGrid-GridAdaptabilityOverview.png",
+  "rawFile": "raw/075-DataGrid-GridAdaptabilityOverview.json",
+  "scrapedAt": "2026-11-16T12:55:05.881Z",
+  "pageTitle": "Angular Data Grid - Overview | Angular Example",
+  "h1": "Angular Data Grid - Overview",
+  "descriptionEn": "DataGrid automatically adapts its layout to screens with different sizes. In this demo, you can switch between horizontal and vertical screen orientations. If columns do not fit the selected orientation, the DataGrid hides them one by one, starting with the rightmost column. Information from the hidden columns is still available in adaptive detail rows. To enable this feature, set the columnHidingEnabled property to true.",
+  "docLinks": [],
+  "apiLinks": [
+    {
+      "text": "columnHidingEnabled",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxDataGrid/Configuration/#columnHidingEnabled"
+    }
+  ],
+  "relatedLinks": [],
+  "screenshotOk": true,
+  "error": null
+}

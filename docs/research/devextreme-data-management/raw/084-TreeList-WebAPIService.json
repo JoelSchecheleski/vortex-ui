@@ -1,0 +1,80 @@
+{
+  "seq": 84,
+  "widgetId": "tree-list",
+  "widgetEn": "Tree List",
+  "widgetPt": "Lista de árvores",
+  "widget": "TreeList",
+  "sectionId": "data-binding",
+  "sectionEn": "Data Binding",
+  "sectionPt": "Vinculação de dados",
+  "slug": "WebAPIService",
+  "titleEn": "Web API Service",
+  "titlePt": "Serviço de API Web",
+  "ai": false,
+  "url": "https://js.devexpress.com/Angular/Demos/WidgetsGallery/Demo/TreeList/WebAPIService/FluentBlueLight/",
+  "imageFile": "images/084-TreeList-WebAPIService.png",
+  "rawFile": "raw/084-TreeList-WebAPIService.json",
+  "scrapedAt": "2026-11-16T12:55:39.909Z",
+  "pageTitle": "Web API Service - Angular Tree List | Angular Example",
+  "h1": "Angular Tree List - Web API Service",
+  "descriptionEn": "To access a Web API service from the client, use the createStore method from the DevExtreme.AspNet.Data extension. This extension also allows you to process data for DevExtreme components on the server. The server-side implementation is available under the TreeListTasksController.cs tab in the ASP.NET MVC and ASP.NET Core versions of this demo. To notify the TreeList that data is processed on the server, set the remoteOperations property to true.",
+  "docLinks": [],
+  "apiLinks": [
+    {
+      "text": "remoteOperations",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxTreeList/Configuration/remoteOperations/"
+    }
+  ],
+  "relatedLinks": [
+    {
+      "text": "createStore",
+      "href": "https://github.com/DevExpress/DevExtreme.AspNet.Data/blob/master/docs/client-side-with-jquery.md#api-reference"
+    },
+    {
+      "text": "DevExtreme.AspNet.Data",
+      "href": "https://github.com/DevExpress/DevExtreme.AspNet.Data#devextreme-aspnet-data"
+    },
+    {
+      "text": "on the server",
+      "href": "https://github.com/DevExpress/DevExtreme.AspNet.Data/blob/master/docs/server-side-configuration.md"
+    },
+    {
+      "text": "ASP.NET MVC",
+      "href": "https://demos.devexpress.com/ASPNetMvc/Demo/TreeList/WebAPIService"
+    },
+    {
+      "text": "ASP.NET Core",
+      "href": "https://demos.devexpress.com/ASPNetCore/Demo/TreeList/WebAPIService/"
+    },
+    {
+      "text": "Web API Service",
+      "href": "https://docs.devexpress.com/eXpressAppFramework/403394/backend-web-api-service?utm_source=js.devexpress.com&utm_medium=referral&utm_campaign=xaf&utm_content=data-layer-odatastore"
+    },
+    {
+      "text": "free copy today",
+      "href": "https://www.devexpress.com/security-api-free?utm_source=js.devexpress.com&utm_medium=referral&utm_campaign=xaf&utm_content=data-layer-odatastore"
+    },
+    {
+      "text": "DevExpress Download Manager",
+      "href": "https://www.devexpress.com/ClientCenter/DownloadManager/?utm_source=js.devexpress.com&utm_medium=referral&utm_campaign=xaf&utm_content=data-layer-odatastore"
+    },
+    {
+      "text": "Read Tutorial",
+      "href": "https://docs.devexpress.com/eXpressAppFramework/404449/backend-web-api-service/get-started-with-web-api-service"
+    },
+    {
+      "text": "JavaScript (DevExtreme)",
+      "href": "https://go.devexpress.com/XAF_Security_NonXAF_DevExtreme_OData.aspx"
+    },
+    {
+      "text": "JavaScript (Svelte)",
+      "href": "https://github.com/oliversturm/demo-dx-webapi-js/tree/stage-6"
+    },
+    {
+      "text": "Watch Videos",
+      "href": "https://www.youtube.com/watch?v=T7y4gwc1n4w&list=PL8h4jt35t1wiM1IOux04-8DiofuMEB33G"
+    }
+  ],
+  "screenshotOk": true,
+  "error": null
+}

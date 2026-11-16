@@ -1,0 +1,39 @@
+{
+  "seq": 48,
+  "widgetId": "data-grid",
+  "widgetEn": "Data Grid",
+  "widgetPt": "Grade de dados",
+  "widget": "DataGrid",
+  "sectionId": "master-detail",
+  "sectionEn": "Master Detail",
+  "sectionPt": "Detalhe mestre",
+  "slug": "MasterDetailView",
+  "titleEn": "Master-Detail View",
+  "titlePt": "Vista mestre-detalhe",
+  "ai": false,
+  "url": "https://js.devexpress.com/Angular/Demos/WidgetsGallery/Demo/DataGrid/MasterDetailView/FluentBlueLight/",
+  "imageFile": "images/048-DataGrid-MasterDetailView.png",
+  "rawFile": "raw/048-DataGrid-MasterDetailView.json",
+  "scrapedAt": "2026-11-16T12:52:15.097Z",
+  "pageTitle": "Master-Detail View - Angular Data Grid | Angular Example",
+  "h1": "Angular Data Grid - Master-Detail View",
+  "descriptionEn": "The Master-Detail View allows users to expand a row ('master') and display the related content ('details') in the expanded section. To configure this feature, set the the masterDetail object's enabled property to true and use a template to specify detail section content. In this demo, the detail section displays another DataGrid.",
+  "docLinks": [],
+  "apiLinks": [
+    {
+      "text": "masterDetail",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxDataGrid/Configuration/masterDetail/"
+    },
+    {
+      "text": "enabled",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxDataGrid/Configuration/masterDetail/#enabled"
+    },
+    {
+      "text": "template",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxDataGrid/Configuration/masterDetail/#template"
+    }
+  ],
+  "relatedLinks": [],
+  "screenshotOk": true,
+  "error": null
+}

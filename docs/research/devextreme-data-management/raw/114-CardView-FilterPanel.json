@@ -1,0 +1,63 @@
+{
+  "seq": 114,
+  "widgetId": "card-view",
+  "widgetEn": "Card View",
+  "widgetPt": "Visualização do cartão",
+  "widget": "CardView",
+  "sectionId": "filtering",
+  "sectionEn": "Filtering",
+  "sectionPt": "Filtragem",
+  "slug": "FilterPanel",
+  "titleEn": "Filter Panel",
+  "titlePt": "Painel de filtro",
+  "ai": false,
+  "url": "https://js.devexpress.com/Angular/Demos/WidgetsGallery/Demo/CardView/FilterPanel/FluentBlueLight/",
+  "imageFile": "images/114-CardView-FilterPanel.png",
+  "rawFile": "raw/114-CardView-FilterPanel.json",
+  "scrapedAt": "2026-11-16T12:58:37.731Z",
+  "pageTitle": "Filter Panel - Angular Card View | Angular Example",
+  "h1": "Angular Card View - Filter Panel",
+  "descriptionEn": "The filter panel UI element displays combined filter information on-screen. This filter is stored in the filterValue property and includes filters applied in other UI elements (header filter, filterBuilder).",
+  "docLinks": [],
+  "apiLinks": [
+    {
+      "text": "filter panel",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxCardView/Configuration/filterPanel/"
+    },
+    {
+      "text": "filterValue",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxCardView/Configuration/#filterValue"
+    },
+    {
+      "text": "header filter",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxCardView/Configuration/headerFilter/"
+    },
+    {
+      "text": "filterBuilder",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxCardView/Configuration/#filterBuilder"
+    },
+    {
+      "text": "visible",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxCardView/Configuration/filterPanel/#visible"
+    },
+    {
+      "text": "filterBuilder",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxCardView/Configuration/#filterBuilder"
+    },
+    {
+      "text": "custom filter operations",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxFilterBuilder/Configuration/customOperations"
+    },
+    {
+      "text": "Popup",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxPopup/"
+    },
+    {
+      "text": "filterBuilderPopup",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxCardView/Configuration/#filterBuilderPopup"
+    }
+  ],
+  "relatedLinks": [],
+  "screenshotOk": true,
+  "error": null
+}

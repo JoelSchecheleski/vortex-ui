@@ -1,0 +1,49 @@
+{
+  "seq": 6,
+  "widgetId": "data-grid",
+  "widgetEn": "Data Grid",
+  "widgetPt": "Grade de dados",
+  "widget": "DataGrid",
+  "sectionId": "data-binding",
+  "sectionEn": "Data Binding",
+  "sectionPt": "Vinculação de dados",
+  "slug": "SignalRService",
+  "titleEn": "SignalR Service",
+  "titlePt": "Serviço SignalR",
+  "ai": false,
+  "url": "https://js.devexpress.com/Angular/Demos/WidgetsGallery/Demo/DataGrid/SignalRService/FluentBlueLight/",
+  "imageFile": "images/006-DataGrid-SignalRService.png",
+  "rawFile": "raw/006-DataGrid-SignalRService.json",
+  "scrapedAt": "2026-11-16T12:49:35.165Z",
+  "pageTitle": "SignalR Service - Angular Data Grid | Angular Example",
+  "h1": "Angular Data Grid - SignalR Service",
+  "descriptionEn": "This example demonstrates real-time data update in a DataGrid bound to a SignalR service. Access to the service is configured in a CustomStore. The CustomStore fetches the remote dataset at launch and keeps its local copy. Whenever the remote dataset changes, the server calls a client-side function that updates the local copy of the dataset (updateStockPrices in this demo). This function uses the store's push(changes) method. For server-side configuration, refer to the ASP.NET MVC version of this demo.",
+  "docLinks": [
+    {
+      "text": "Integration with Push Services",
+      "href": "https://js.devexpress.com/Angular/Documentation/Guide/Data_Binding/Data_Layer/#Data_Modification/Integration_with_Push_Services"
+    }
+  ],
+  "apiLinks": [
+    {
+      "text": "CustomStore",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/Data_Layer/CustomStore/"
+    },
+    {
+      "text": "push(changes)",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/Data_Layer/CustomStore/Methods/#pushchanges"
+    }
+  ],
+  "relatedLinks": [
+    {
+      "text": "SignalR",
+      "href": "https://docs.microsoft.com/en-us/aspnet/core/signalr/introduction"
+    },
+    {
+      "text": "ASP.NET MVC version of this demo",
+      "href": "https://demos.devexpress.com/ASPNetMvc/Demo/DataGrid/SignalRService"
+    }
+  ],
+  "screenshotOk": true,
+  "error": null
+}

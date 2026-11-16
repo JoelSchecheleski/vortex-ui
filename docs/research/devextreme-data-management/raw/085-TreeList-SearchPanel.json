@@ -1,0 +1,55 @@
+{
+  "seq": 85,
+  "widgetId": "tree-list",
+  "widgetEn": "Tree List",
+  "widgetPt": "Lista de árvores",
+  "widget": "TreeList",
+  "sectionId": "filtering",
+  "sectionEn": "Filtering",
+  "sectionPt": "Filtragem",
+  "slug": "SearchPanel",
+  "titleEn": "Search Panel",
+  "titlePt": "Painel de pesquisa",
+  "ai": false,
+  "url": "https://js.devexpress.com/Angular/Demos/WidgetsGallery/Demo/TreeList/SearchPanel/FluentBlueLight/",
+  "imageFile": "images/085-TreeList-SearchPanel.png",
+  "rawFile": "raw/085-TreeList-SearchPanel.json",
+  "scrapedAt": "2026-11-16T12:55:43.703Z",
+  "pageTitle": "Search Panel - Angular Tree List | Angular Example",
+  "h1": "Angular Tree List - Search Panel",
+  "descriptionEn": "If you want users to search data, display the searchPanel. Set its visible property to true. The TreeList searches in all columns, regardless of whether they are visible or hidden. To exclude hidden columns from search, enable the searchPanel.searchVisibleColumnsOnly property. You can also exclude any specific column. To do this, set its allowSearch property to false.",
+  "docLinks": [],
+  "apiLinks": [
+    {
+      "text": "searchPanel",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxTreeList/Configuration/searchPanel/"
+    },
+    {
+      "text": "visible",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxTreeList/Configuration/searchPanel/#visible"
+    },
+    {
+      "text": "visible",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxTreeList/Configuration/columns/#visible"
+    },
+    {
+      "text": "searchVisibleColumnsOnly",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxTreeList/Configuration/searchPanel/#searchVisibleColumnsOnly"
+    },
+    {
+      "text": "allowSearch",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxTreeList/Configuration/columns/#allowSearch"
+    },
+    {
+      "text": "text",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxTreeList/Configuration/searchPanel/#text"
+    },
+    {
+      "text": "searchByText(text)",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxTreeList/Methods/#searchByTexttext"
+    }
+  ],
+  "relatedLinks": [],
+  "screenshotOk": true,
+  "error": null
+}

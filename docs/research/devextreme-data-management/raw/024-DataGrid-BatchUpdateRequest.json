@@ -1,0 +1,43 @@
+{
+  "seq": 24,
+  "widgetId": "data-grid",
+  "widgetEn": "Data Grid",
+  "widgetPt": "Grade de dados",
+  "widget": "DataGrid",
+  "sectionId": "editing",
+  "sectionEn": "Editing",
+  "sectionPt": "Edição",
+  "slug": "BatchUpdateRequest",
+  "titleEn": "Batch Update Request",
+  "titlePt": "Solicitação de atualização em lote",
+  "ai": false,
+  "url": "https://js.devexpress.com/Angular/Demos/WidgetsGallery/Demo/DataGrid/BatchUpdateRequest/FluentBlueLight/",
+  "imageFile": "images/024-DataGrid-BatchUpdateRequest.png",
+  "rawFile": "raw/024-DataGrid-BatchUpdateRequest.json",
+  "scrapedAt": "2026-11-16T12:50:42.882Z",
+  "pageTitle": "Batch Update Request - Angular Data Grid | Angular Example",
+  "h1": "Angular Data Grid - Batch Update Request",
+  "descriptionEn": "With the DevExtreme DataGrid, users can modify multiple records and submit all changes simultaneously (when editing.mode is set to \"batch\"). Batch editing allows you to optimize your app, address performance related issues, and deliver the best possible user experience across a variety of usage scenarios.",
+  "docLinks": [],
+  "apiLinks": [
+    {
+      "text": "mode",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxDataGrid/Configuration/editing/#mode"
+    },
+    {
+      "text": "onSaving",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxDataGrid/Configuration/#onSaving"
+    },
+    {
+      "text": "refresh(changesOnly)",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxDataGrid/Methods/#refreshchangesOnly"
+    },
+    {
+      "text": "cancelEditData()",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxDataGrid/Methods/#cancelEditData"
+    }
+  ],
+  "relatedLinks": [],
+  "screenshotOk": true,
+  "error": null
+}

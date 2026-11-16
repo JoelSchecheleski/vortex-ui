@@ -1,0 +1,44 @@
+{
+  "seq": 112,
+  "widgetId": "card-view",
+  "widgetEn": "Card View",
+  "widgetPt": "Visualização do cartão",
+  "widget": "CardView",
+  "sectionId": "data-binding",
+  "sectionEn": "Data Binding",
+  "sectionPt": "Vinculação de dados",
+  "slug": "WebAPIService",
+  "titleEn": "Web API Service",
+  "titlePt": "Serviço de API Web",
+  "ai": false,
+  "url": "https://js.devexpress.com/Angular/Demos/WidgetsGallery/Demo/CardView/WebAPIService/FluentBlueLight/",
+  "imageFile": "images/112-CardView-WebAPIService.png",
+  "rawFile": "raw/112-CardView-WebAPIService.json",
+  "scrapedAt": "2026-11-16T12:58:30.373Z",
+  "pageTitle": "Web API Service - Angular Card View | Angular Example",
+  "h1": "Angular Card View - Web API Service",
+  "descriptionEn": "To access a Web API service from the client, use the createStore method which is part of the DevExtreme.AspNet.Data extension. This extension also allows you to process data for DevExtreme components on the server. To notify our CardView that data is processed on the server, set the remoteOperations property to true.",
+  "docLinks": [],
+  "apiLinks": [
+    {
+      "text": "remoteOperations",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxDataGrid/Configuration/remoteOperations/"
+    }
+  ],
+  "relatedLinks": [
+    {
+      "text": "createStore",
+      "href": "https://github.com/DevExpress/DevExtreme.AspNet.Data/blob/master/docs/client-side-with-jquery.md#api-reference"
+    },
+    {
+      "text": "DevExtreme.AspNet.Data",
+      "href": "https://github.com/DevExpress/DevExtreme.AspNet.Data#devextreme-aspnet-data"
+    },
+    {
+      "text": "on the server",
+      "href": "https://github.com/DevExpress/DevExtreme.AspNet.Data/blob/master/docs/server-side-configuration.md"
+    }
+  ],
+  "screenshotOk": true,
+  "error": null
+}

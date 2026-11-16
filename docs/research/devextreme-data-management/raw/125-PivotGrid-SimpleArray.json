@@ -1,0 +1,61 @@
+{
+  "seq": 125,
+  "widgetId": "pivot-grid",
+  "widgetEn": "Pivot Grid",
+  "widgetPt": "Grade Pivô",
+  "widget": "PivotGrid",
+  "sectionId": "data-binding",
+  "sectionEn": "Data Binding",
+  "sectionPt": "Vinculação de dados",
+  "slug": "SimpleArray",
+  "titleEn": "Simple Array",
+  "titlePt": "Matriz simples",
+  "ai": false,
+  "url": "https://js.devexpress.com/Angular/Demos/WidgetsGallery/Demo/PivotGrid/SimpleArray/FluentBlueLight/",
+  "imageFile": "images/125-PivotGrid-SimpleArray.png",
+  "rawFile": "raw/125-PivotGrid-SimpleArray.json",
+  "scrapedAt": "2026-11-16T12:59:18.513Z",
+  "pageTitle": "Simple Array - Angular Pivot Grid | Angular Example",
+  "h1": "Angular Pivot Grid - Simple Array",
+  "descriptionEn": "The PivotGrid component can display data from an array of objects. Use the dataSource property to bind the PivotGrid to data. This property accepts a PivotGridDataSource instance or its configuration object. Assign your array to the store property of PivotGridDataSource. To display data in the PivotGrid, assign an array to the fields[] property. Each object in this array configures a single pivot grid field. Assign a field name to the dataField property to populate the pivot grid field with data.",
+  "docLinks": [
+    {
+      "text": "Fields and Areas",
+      "href": "https://js.devexpress.com/Angular/Documentation/Guide/UI_Components/PivotGrid/Fields_and_Areas/"
+    }
+  ],
+  "apiLinks": [
+    {
+      "text": "dataSource",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxPivotGrid/Configuration/#dataSource"
+    },
+    {
+      "text": "PivotGridDataSource",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/Data_Layer/PivotGridDataSource/"
+    },
+    {
+      "text": "store",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/Data_Layer/PivotGridDataSource/Configuration/store/"
+    },
+    {
+      "text": "fields[]",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/Data_Layer/PivotGridDataSource/Configuration/fields/"
+    },
+    {
+      "text": "dataField",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/Data_Layer/PivotGridDataSource/Configuration/fields/#dataField"
+    },
+    {
+      "text": "area",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/Data_Layer/PivotGridDataSource/Configuration/fields/#area"
+    }
+  ],
+  "relatedLinks": [
+    {
+      "text": "field chooser",
+      "href": "https://js.devexpress.com/Demos/WidgetsGallery/Demo/PivotGrid/IntegratedFieldChooser/"
+    }
+  ],
+  "screenshotOk": true,
+  "error": null
+}

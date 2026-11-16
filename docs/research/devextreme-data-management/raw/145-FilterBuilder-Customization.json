@@ -1,0 +1,39 @@
+{
+  "seq": 145,
+  "widgetId": "filter-builder",
+  "widgetEn": "Filter Builder",
+  "widgetPt": "Construtor de filtros",
+  "widget": "FilterBuilder",
+  "sectionId": "demos",
+  "sectionEn": "Demos",
+  "sectionPt": "Demos",
+  "slug": "Customization",
+  "titleEn": "Customization",
+  "titlePt": "Personalização",
+  "ai": false,
+  "url": "https://js.devexpress.com/Angular/Demos/WidgetsGallery/Demo/FilterBuilder/Customization/FluentBlueLight/",
+  "imageFile": "images/145-FilterBuilder-Customization.png",
+  "rawFile": "raw/145-FilterBuilder-Customization.json",
+  "scrapedAt": "2026-11-16T13:00:31.975Z",
+  "pageTitle": "Customization - Angular Filter Builder | Angular Example",
+  "h1": "Angular Filter Builder - Customization",
+  "descriptionEn": "In this demo, a custom filter operation, \"anyof\", is implemented. The calculateFilterExpression function converts it into DataSource-compatible operations. The compatible and incompatible filter expressions are displayed under the FilterBuilder. The set of available group operations is limited to \"and\" and \"or\" using the groupOperations array, and the groups’ maximum nesting level is limited to one using the maxGroupLevel.",
+  "docLinks": [],
+  "apiLinks": [
+    {
+      "text": "calculateFilterExpression",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxFilterBuilder/Configuration/customOperations/#calculateFilterExpression"
+    },
+    {
+      "text": "groupOperations",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxFilterBuilder/Configuration/#groupOperations"
+    },
+    {
+      "text": "maxGroupLevel",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxFilterBuilder/Configuration/#maxGroupLevel"
+    }
+  ],
+  "relatedLinks": [],
+  "screenshotOk": true,
+  "error": null
+}

@@ -1,0 +1,71 @@
+{
+  "seq": 10,
+  "widgetId": "data-grid",
+  "widgetEn": "Data Grid",
+  "widgetPt": "Grade de dados",
+  "widget": "DataGrid",
+  "sectionId": "filtering",
+  "sectionEn": "Filtering",
+  "sectionPt": "Filtragem",
+  "slug": "FilterPanel",
+  "titleEn": "Filter Panel",
+  "titlePt": "Painel de filtro",
+  "ai": false,
+  "url": "https://js.devexpress.com/Angular/Demos/WidgetsGallery/Demo/DataGrid/FilterPanel/FluentBlueLight/",
+  "imageFile": "images/010-DataGrid-FilterPanel.png",
+  "rawFile": "raw/010-DataGrid-FilterPanel.json",
+  "scrapedAt": "2026-11-16T12:49:50.375Z",
+  "pageTitle": "Filter Panel - Angular Data Grid | Angular Example",
+  "h1": "Angular Data Grid - Filter Panel",
+  "descriptionEn": "The Filter panel is a UI element that displays the combined filter. This filter is stored in the filterValue property and consists of filters that users apply in other UI elements (filter row, header filter, filterBuilder). To display the filter panel, set the filterPanel.visible property to true. A click on the combined filter calls the integrated filter builder. You can configure it in the filterBuilder object. In this demo, this object is used to add the weekends custom filter operation.",
+  "docLinks": [],
+  "apiLinks": [
+    {
+      "text": "Filter panel",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxDataGrid/Configuration/filterPanel/"
+    },
+    {
+      "text": "filterValue",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxDataGrid/Configuration/#filterValue"
+    },
+    {
+      "text": "filter row",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxDataGrid/Configuration/filterRow/"
+    },
+    {
+      "text": "header filter",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxDataGrid/Configuration/headerFilter/"
+    },
+    {
+      "text": "filterBuilder",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxDataGrid/Configuration/#filterBuilder"
+    },
+    {
+      "text": "visible",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxDataGrid/Configuration/filterPanel/#visible"
+    },
+    {
+      "text": "filterBuilder",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxDataGrid/Configuration/#filterBuilder"
+    },
+    {
+      "text": "custom filter operation",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxFilterBuilder/Configuration/customOperations"
+    },
+    {
+      "text": "Popup",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxPopup/"
+    },
+    {
+      "text": "filterBuilderPopup",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxDataGrid/Configuration/#filterBuilderPopup"
+    },
+    {
+      "text": "position",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxPopup/Configuration/#position"
+    }
+  ],
+  "relatedLinks": [],
+  "screenshotOk": true,
+  "error": null
+}

@@ -1,0 +1,43 @@
+{
+  "seq": 40,
+  "widgetId": "data-grid",
+  "widgetEn": "Data Grid",
+  "widgetPt": "Grade de dados",
+  "widget": "DataGrid",
+  "sectionId": "columns",
+  "sectionEn": "Columns",
+  "sectionPt": "Colunas",
+  "slug": "MultiRowHeadersBands",
+  "titleEn": "Multi-Level Headers (Bands)",
+  "titlePt": "Cabeçalhos (bandas) de vários níveis",
+  "ai": false,
+  "url": "https://js.devexpress.com/Angular/Demos/WidgetsGallery/Demo/DataGrid/MultiRowHeadersBands/FluentBlueLight/",
+  "imageFile": "images/040-DataGrid-MultiRowHeadersBands.png",
+  "rawFile": "raw/040-DataGrid-MultiRowHeadersBands.json",
+  "scrapedAt": "2026-11-16T12:51:45.055Z",
+  "pageTitle": "Multi-Level Headers (Bands) - Angular Data Grid | Angular Example",
+  "h1": "Angular Data Grid - Multi-Level Headers (Bands)",
+  "descriptionEn": "Our DataGrid component allows you to group multiple columns under one header (band). This demo shows an example: the \"Nominal GDP\" and \"Population\" bands have banded columns. You can drag one of the bands across the grid to reorder all its banded columns simultaneously. You can also move the band to the column chooser and hide the banded columns. Banded columns remain interactive.",
+  "docLinks": [],
+  "apiLinks": [
+    {
+      "text": "columns",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxDataGrid/Configuration/columns/"
+    },
+    {
+      "text": "customizeColumns",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxDataGrid/Configuration/#customizeColumns"
+    },
+    {
+      "text": "ownerBand",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxDataGrid/Configuration/columns/#ownerBand"
+    },
+    {
+      "text": "isBand",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxDataGrid/Configuration/columns/#isBand"
+    }
+  ],
+  "relatedLinks": [],
+  "screenshotOk": true,
+  "error": null
+}

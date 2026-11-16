@@ -1,0 +1,52 @@
+{
+  "seq": 138,
+  "widgetId": "pivot-grid",
+  "widgetEn": "Pivot Grid",
+  "widgetPt": "Grade Pivô",
+  "widget": "PivotGrid",
+  "sectionId": "export-excel",
+  "sectionEn": "Export to Excel",
+  "sectionPt": "Exportar para o Excel",
+  "slug": "ExcelJSCellCustomization",
+  "titleEn": "Cell Customization",
+  "titlePt": "Personalização de células",
+  "ai": false,
+  "url": "https://js.devexpress.com/Angular/Demos/WidgetsGallery/Demo/PivotGrid/ExcelJSCellCustomization/FluentBlueLight/",
+  "imageFile": "images/138-PivotGrid-ExcelJSCellCustomization.png",
+  "rawFile": "raw/138-PivotGrid-ExcelJSCellCustomization.json",
+  "scrapedAt": "2026-11-16T13:00:06.077Z",
+  "pageTitle": "Cell Customization - Angular Pivot Grid | Angular Example",
+  "h1": "Angular Pivot Grid - Cell Customization",
+  "descriptionEn": "Our PivotGrid allows you to control and manage the data export process. You can use the PivotGrid's customizeCell callback to modify cell data and associated formatting prior to export operations (from the PivotGrid to an Excel file). Our PivotGrid gives you access and allows you to change the following attributes: Font properties Cell background Cell values Border properties Formatting properties The customizeCell function also allows you to identify cell area types.",
+  "docLinks": [],
+  "apiLinks": [
+    {
+      "text": "customizeCell",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/Common/Object_Structures/ExcelExportPivotGridProps/#customizeCell"
+    }
+  ],
+  "relatedLinks": [
+    {
+      "text": "Font",
+      "href": "https://github.com/DevExpress/devextreme-exceljs-fork#fonts"
+    },
+    {
+      "text": "Cell background",
+      "href": "https://github.com/DevExpress/devextreme-exceljs-fork#fills"
+    },
+    {
+      "text": "Cell values",
+      "href": "https://github.com/DevExpress/devextreme-exceljs-fork#hyperlink-value"
+    },
+    {
+      "text": "Border",
+      "href": "https://github.com/DevExpress/devextreme-exceljs-fork#borders"
+    },
+    {
+      "text": "Formatting",
+      "href": "https://github.com/DevExpress/devextreme-exceljs-fork#number-formats"
+    }
+  ],
+  "screenshotOk": true,
+  "error": null
+}

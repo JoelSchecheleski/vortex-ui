@@ -1,0 +1,47 @@
+{
+  "seq": 133,
+  "widgetId": "pivot-grid",
+  "widgetEn": "Pivot Grid",
+  "widgetPt": "Grade Pivô",
+  "widget": "PivotGrid",
+  "sectionId": "drill-down",
+  "sectionEn": "Drill Down",
+  "sectionPt": "Detalhes",
+  "slug": "DrillDown",
+  "titleEn": "Drill Down",
+  "titlePt": "Detalhes (Drill Down)",
+  "ai": false,
+  "url": "https://js.devexpress.com/Angular/Demos/WidgetsGallery/Demo/PivotGrid/DrillDown/FluentBlueLight/",
+  "imageFile": "images/133-PivotGrid-DrillDown.png",
+  "rawFile": "raw/133-PivotGrid-DrillDown.json",
+  "scrapedAt": "2026-11-16T12:59:47.611Z",
+  "pageTitle": "Drill Down - Angular Pivot Grid | Angular Example",
+  "h1": "Angular Pivot Grid - Drill Down",
+  "descriptionEn": "PivotGrid supports the drill-down operation that allows you to retrieve individual facts (records) used to calculate a specific summary value. Call the createDrillDownDataSource(options) method to get a DataSource instance that contains a list of facts for a summary value. This demo displays a list of facts within a DataGrid in a Popup window. To open the window, click a pivot grid cell. We use the onCellClick event handler to retrieve the cell's data and pass it as an argument to the createDrillDownDataSource(options) method.",
+  "docLinks": [],
+  "apiLinks": [
+    {
+      "text": "createDrillDownDataSource(options)",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/Data_Layer/PivotGridDataSource/Methods/#createDrillDownDataSourceoptions"
+    },
+    {
+      "text": "DataSource",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/Data_Layer/DataSource/"
+    },
+    {
+      "text": "DataGrid",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxDataGrid"
+    },
+    {
+      "text": "Popup",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxPopup/"
+    },
+    {
+      "text": "onCellClick",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxPivotGrid/Configuration/#onCellClick"
+    }
+  ],
+  "relatedLinks": [],
+  "screenshotOk": true,
+  "error": null
+}

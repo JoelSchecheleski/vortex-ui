@@ -1,0 +1,872 @@
+[
+  {
+    "widget": "DataGrid",
+    "demo": "AIColumns",
+    "path": "/Angular/Demos/WidgetsGallery/Demo/DataGrid/AIColumns/FluentBlueLight/",
+    "theme": "FluentBlueLight"
+  },
+  {
+    "widget": "DataGrid",
+    "demo": "AIAssistant",
+    "path": "/Angular/Demos/WidgetsGallery/Demo/DataGrid/AIAssistant/FluentBlueLight/",
+    "theme": "FluentBlueLight"
+  },
+  {
+    "widget": "DataGrid",
+    "demo": "SemanticSearch",
+    "path": "/Angular/Demos/WidgetsGallery/Demo/DataGrid/SemanticSearch/FluentBlueLight/",
+    "theme": "FluentBlueLight"
+  },
+  {
+    "widget": "DataGrid",
+    "demo": "Overview",
+    "path": "/Angular/Demos/WidgetsGallery/Demo/DataGrid/Overview/FluentBlueLight/",
+    "theme": "FluentBlueLight"
+  },
+  {
+    "widget": "DataGrid",
+    "demo": "SimpleArray",
+    "path": "/Angular/Demos/WidgetsGallery/Demo/DataGrid/SimpleArray/FluentBlueLight/",
+    "theme": "FluentBlueLight"
+  },
+  {
+    "widget": "DataGrid",
+    "demo": "AjaxRequest",
+    "path": "/Angular/Demos/WidgetsGallery/Demo/DataGrid/AjaxRequest/FluentBlueLight/",
+    "theme": "FluentBlueLight"
+  },
+  {
+    "widget": "DataGrid",
+    "demo": "CustomDataSource",
+    "path": "/Angular/Demos/WidgetsGallery/Demo/DataGrid/CustomDataSource/FluentBlueLight/",
+    "theme": "FluentBlueLight"
+  },
+  {
+    "widget": "DataGrid",
+    "demo": "WebAPIService",
+    "path": "/Angular/Demos/WidgetsGallery/Demo/DataGrid/WebAPIService/FluentBlueLight/",
+    "theme": "FluentBlueLight"
+  },
+  {
+    "widget": "DataGrid",
+    "demo": "SignalRService",
+    "path": "/Angular/Demos/WidgetsGallery/Demo/DataGrid/SignalRService/FluentBlueLight/",
+    "theme": "FluentBlueLight"
+  },
+  {
+    "widget": "DataGrid",
+    "demo": "RealTimeUpdates",
+    "path": "/Angular/Demos/WidgetsGallery/Demo/DataGrid/RealTimeUpdates/FluentBlueLight/",
+    "theme": "FluentBlueLight"
+  },
+  {
+    "widget": "DataGrid",
+    "demo": "Filtering",
+    "path": "/Angular/Demos/WidgetsGallery/Demo/DataGrid/Filtering/FluentBlueLight/",
+    "theme": "FluentBlueLight"
+  },
+  {
+    "widget": "DataGrid",
+    "demo": "FilteringAPI",
+    "path": "/Angular/Demos/WidgetsGallery/Demo/DataGrid/FilteringAPI/FluentBlueLight/",
+    "theme": "FluentBlueLight"
+  },
+  {
+    "widget": "DataGrid",
+    "demo": "FilterPanel",
+    "path": "/Angular/Demos/WidgetsGallery/Demo/DataGrid/FilterPanel/FluentBlueLight/",
+    "theme": "FluentBlueLight"
+  },
+  {
+    "widget": "DataGrid",
+    "demo": "ColumnHeaderFilter",
+    "path": "/Angular/Demos/WidgetsGallery/Demo/DataGrid/ColumnHeaderFilter/FluentBlueLight/",
+    "theme": "FluentBlueLight"
+  },
+  {
+    "widget": "DataGrid",
+    "demo": "MultipleSorting",
+    "path": "/Angular/Demos/WidgetsGallery/Demo/DataGrid/MultipleSorting/FluentBlueLight/",
+    "theme": "FluentBlueLight"
+  },
+  {
+    "widget": "DataGrid",
+    "demo": "RowEditing",
+    "path": "/Angular/Demos/WidgetsGallery/Demo/DataGrid/RowEditing/FluentBlueLight/",
+    "theme": "FluentBlueLight"
+  },
+  {
+    "widget": "DataGrid",
+    "demo": "CellEditing",
+    "path": "/Angular/Demos/WidgetsGallery/Demo/DataGrid/CellEditing/FluentBlueLight/",
+    "theme": "FluentBlueLight"
+  },
+  {
+    "widget": "DataGrid",
+    "demo": "BatchEditing",
+    "path": "/Angular/Demos/WidgetsGallery/Demo/DataGrid/BatchEditing/FluentBlueLight/",
+    "theme": "FluentBlueLight"
+  },
+  {
+    "widget": "DataGrid",
+    "demo": "FormEditing",
+    "path": "/Angular/Demos/WidgetsGallery/Demo/DataGrid/FormEditing/FluentBlueLight/",
+    "theme": "FluentBlueLight"
+  },
+  {
+    "widget": "DataGrid",
+    "demo": "PopupEditing",
+    "path": "/Angular/Demos/WidgetsGallery/Demo/DataGrid/PopupEditing/FluentBlueLight/",
+    "theme": "FluentBlueLight"
+  },
+  {
+    "widget": "DataGrid",
+    "demo": "CustomEditors",
+    "path": "/Angular/Demos/WidgetsGallery/Demo/DataGrid/CustomEditors/FluentBlueLight/",
+    "theme": "FluentBlueLight"
+  },
+  {
+    "widget": "DataGrid",
+    "demo": "DataValidation",
+    "path": "/Angular/Demos/WidgetsGallery/Demo/DataGrid/DataValidation/FluentBlueLight/",
+    "theme": "FluentBlueLight"
+  },
+  {
+    "widget": "DataGrid",
+    "demo": "CascadingLookups",
+    "path": "/Angular/Demos/WidgetsGallery/Demo/DataGrid/CascadingLookups/FluentBlueLight/",
+    "theme": "FluentBlueLight"
+  },
+  {
+    "widget": "DataGrid",
+    "demo": "CollaborativeEditing",
+    "path": "/Angular/Demos/WidgetsGallery/Demo/DataGrid/CollaborativeEditing/FluentBlueLight/",
+    "theme": "FluentBlueLight"
+  },
+  {
+    "widget": "DataGrid",
+    "demo": "RemoteCRUDOperations",
+    "path": "/Angular/Demos/WidgetsGallery/Demo/DataGrid/RemoteCRUDOperations/FluentBlueLight/",
+    "theme": "FluentBlueLight"
+  },
+  {
+    "widget": "DataGrid",
+    "demo": "BatchUpdateRequest",
+    "path": "/Angular/Demos/WidgetsGallery/Demo/DataGrid/BatchUpdateRequest/FluentBlueLight/",
+    "theme": "FluentBlueLight"
+  },
+  {
+    "widget": "DataGrid",
+    "demo": "EditStateManagement",
+    "path": "/Angular/Demos/WidgetsGallery/Demo/DataGrid/EditStateManagement/FluentBlueLight/",
+    "theme": "FluentBlueLight"
+  },
+  {
+    "widget": "DataGrid",
+    "demo": "NewRecordPosition",
+    "path": "/Angular/Demos/WidgetsGallery/Demo/DataGrid/NewRecordPosition/FluentBlueLight/",
+    "theme": "FluentBlueLight"
+  },
+  {
+    "widget": "DataGrid",
+    "demo": "RecordGrouping",
+    "path": "/Angular/Demos/WidgetsGallery/Demo/DataGrid/RecordGrouping/FluentBlueLight/",
+    "theme": "FluentBlueLight"
+  },
+  {
+    "widget": "DataGrid",
+    "demo": "RemoteGrouping",
+    "path": "/Angular/Demos/WidgetsGallery/Demo/DataGrid/RemoteGrouping/FluentBlueLight/",
+    "theme": "FluentBlueLight"
+  },
+  {
+    "widget": "DataGrid",
+    "demo": "RowSelection",
+    "path": "/Angular/Demos/WidgetsGallery/Demo/DataGrid/RowSelection/FluentBlueLight/",
+    "theme": "FluentBlueLight"
+  },
+  {
+    "widget": "DataGrid",
+    "demo": "MultipleRecordSelectionModes",
+    "path": "/Angular/Demos/WidgetsGallery/Demo/DataGrid/MultipleRecordSelectionModes/FluentBlueLight/",
+    "theme": "FluentBlueLight"
+  },
+  {
+    "widget": "DataGrid",
+    "demo": "MultipleRecordSelectionAPI",
+    "path": "/Angular/Demos/WidgetsGallery/Demo/DataGrid/MultipleRecordSelectionAPI/FluentBlueLight/",
+    "theme": "FluentBlueLight"
+  },
+  {
+    "widget": "DataGrid",
+    "demo": "DeferredSelection",
+    "path": "/Angular/Demos/WidgetsGallery/Demo/DataGrid/DeferredSelection/FluentBlueLight/",
+    "theme": "FluentBlueLight"
+  },
+  {
+    "widget": "DataGrid",
+    "demo": "FocusedRow",
+    "path": "/Angular/Demos/WidgetsGallery/Demo/DataGrid/FocusedRow/FluentBlueLight/",
+    "theme": "FluentBlueLight"
+  },
+  {
+    "widget": "DataGrid",
+    "demo": "RecordPaging",
+    "path": "/Angular/Demos/WidgetsGallery/Demo/DataGrid/RecordPaging/FluentBlueLight/",
+    "theme": "FluentBlueLight"
+  },
+  {
+    "widget": "DataGrid",
+    "demo": "VirtualScrolling",
+    "path": "/Angular/Demos/WidgetsGallery/Demo/DataGrid/VirtualScrolling/FluentBlueLight/",
+    "theme": "FluentBlueLight"
+  },
+  {
+    "widget": "DataGrid",
+    "demo": "RemoteVirtualScrolling",
+    "path": "/Angular/Demos/WidgetsGallery/Demo/DataGrid/RemoteVirtualScrolling/FluentBlueLight/",
+    "theme": "FluentBlueLight"
+  },
+  {
+    "widget": "DataGrid",
+    "demo": "HorizontalVirtualScrolling",
+    "path": "/Angular/Demos/WidgetsGallery/Demo/DataGrid/HorizontalVirtualScrolling/FluentBlueLight/",
+    "theme": "FluentBlueLight"
+  },
+  {
+    "widget": "DataGrid",
+    "demo": "InfiniteScrolling",
+    "path": "/Angular/Demos/WidgetsGallery/Demo/DataGrid/InfiniteScrolling/FluentBlueLight/",
+    "theme": "FluentBlueLight"
+  },
+  {
+    "widget": "DataGrid",
+    "demo": "AutoPopulatedColumns",
+    "path": "/Angular/Demos/WidgetsGallery/Demo/DataGrid/AutoPopulatedColumns/FluentBlueLight/",
+    "theme": "FluentBlueLight"
+  },
+  {
+    "widget": "DataGrid",
+    "demo": "MultiRowHeadersBands",
+    "path": "/Angular/Demos/WidgetsGallery/Demo/DataGrid/MultiRowHeadersBands/FluentBlueLight/",
+    "theme": "FluentBlueLight"
+  },
+  {
+    "widget": "DataGrid",
+    "demo": "ColumnReordering",
+    "path": "/Angular/Demos/WidgetsGallery/Demo/DataGrid/ColumnReordering/FluentBlueLight/",
+    "theme": "FluentBlueLight"
+  },
+  {
+    "widget": "DataGrid",
+    "demo": "ColumnResizing",
+    "path": "/Angular/Demos/WidgetsGallery/Demo/DataGrid/ColumnResizing/FluentBlueLight/",
+    "theme": "FluentBlueLight"
+  },
+  {
+    "widget": "DataGrid",
+    "demo": "FixedAndStickyColumns",
+    "path": "/Angular/Demos/WidgetsGallery/Demo/DataGrid/FixedAndStickyColumns/FluentBlueLight/",
+    "theme": "FluentBlueLight"
+  },
+  {
+    "widget": "DataGrid",
+    "demo": "CommandColumnConfiguration",
+    "path": "/Angular/Demos/WidgetsGallery/Demo/DataGrid/CommandColumnConfiguration/FluentBlueLight/",
+    "theme": "FluentBlueLight"
+  },
+  {
+    "widget": "DataGrid",
+    "demo": "ColumnChooser",
+    "path": "/Angular/Demos/WidgetsGallery/Demo/DataGrid/ColumnChooser/FluentBlueLight/",
+    "theme": "FluentBlueLight"
+  },
+  {
+    "widget": "DataGrid",
+    "demo": "MasterDetailView",
+    "path": "/Angular/Demos/WidgetsGallery/Demo/DataGrid/MasterDetailView/FluentBlueLight/",
+    "theme": "FluentBlueLight"
+  },
+  {
+    "widget": "DataGrid",
+    "demo": "MasterDetailAPI",
+    "path": "/Angular/Demos/WidgetsGallery/Demo/DataGrid/MasterDetailAPI/FluentBlueLight/",
+    "theme": "FluentBlueLight"
+  },
+  {
+    "widget": "DataGrid",
+    "demo": "AIPoweredDetailView",
+    "path": "/Angular/Demos/WidgetsGallery/Demo/DataGrid/AIPoweredDetailView/FluentBlueLight/",
+    "theme": "FluentBlueLight"
+  },
+  {
+    "widget": "DataGrid",
+    "demo": "AdvancedMasterDetailView",
+    "path": "/Angular/Demos/WidgetsGallery/Demo/DataGrid/AdvancedMasterDetailView/FluentBlueLight/",
+    "theme": "FluentBlueLight"
+  },
+  {
+    "widget": "DataGrid",
+    "demo": "GridSummaries",
+    "path": "/Angular/Demos/WidgetsGallery/Demo/DataGrid/GridSummaries/FluentBlueLight/",
+    "theme": "FluentBlueLight"
+  },
+  {
+    "widget": "DataGrid",
+    "demo": "GroupSummaries",
+    "path": "/Angular/Demos/WidgetsGallery/Demo/DataGrid/GroupSummaries/FluentBlueLight/",
+    "theme": "FluentBlueLight"
+  },
+  {
+    "widget": "DataGrid",
+    "demo": "CustomSummaries",
+    "path": "/Angular/Demos/WidgetsGallery/Demo/DataGrid/CustomSummaries/FluentBlueLight/",
+    "theme": "FluentBlueLight"
+  },
+  {
+    "widget": "DataGrid",
+    "demo": "RecalculateWhileEditing",
+    "path": "/Angular/Demos/WidgetsGallery/Demo/DataGrid/RecalculateWhileEditing/FluentBlueLight/",
+    "theme": "FluentBlueLight"
+  },
+  {
+    "widget": "DataGrid",
+    "demo": "LocalReordering",
+    "path": "/Angular/Demos/WidgetsGallery/Demo/DataGrid/LocalReordering/FluentBlueLight/",
+    "theme": "FluentBlueLight"
+  },
+  {
+    "widget": "DataGrid",
+    "demo": "RemoteReordering",
+    "path": "/Angular/Demos/WidgetsGallery/Demo/DataGrid/RemoteReordering/FluentBlueLight/",
+    "theme": "FluentBlueLight"
+  },
+  {
+    "widget": "DataGrid",
+    "demo": "DnDBetweenGrids",
+    "path": "/Angular/Demos/WidgetsGallery/Demo/DataGrid/DnDBetweenGrids/FluentBlueLight/",
+    "theme": "FluentBlueLight"
+  },
+  {
+    "widget": "DataGrid",
+    "demo": "PDFOverview",
+    "path": "/Angular/Demos/WidgetsGallery/Demo/DataGrid/PDFOverview/FluentBlueLight/",
+    "theme": "FluentBlueLight"
+  },
+  {
+    "widget": "DataGrid",
+    "demo": "PDFCellCustomization",
+    "path": "/Angular/Demos/WidgetsGallery/Demo/DataGrid/PDFCellCustomization/FluentBlueLight/",
+    "theme": "FluentBlueLight"
+  },
+  {
+    "widget": "DataGrid",
+    "demo": "PDFHeaderAndFooter",
+    "path": "/Angular/Demos/WidgetsGallery/Demo/DataGrid/PDFHeaderAndFooter/FluentBlueLight/",
+    "theme": "FluentBlueLight"
+  },
+  {
+    "widget": "DataGrid",
+    "demo": "PDFExportMultipleGrids",
+    "path": "/Angular/Demos/WidgetsGallery/Demo/DataGrid/PDFExportMultipleGrids/FluentBlueLight/",
+    "theme": "FluentBlueLight"
+  },
+  {
+    "widget": "DataGrid",
+    "demo": "PDFExportImages",
+    "path": "/Angular/Demos/WidgetsGallery/Demo/DataGrid/PDFExportImages/FluentBlueLight/",
+    "theme": "FluentBlueLight"
+  },
+  {
+    "widget": "DataGrid",
+    "demo": "ExcelJSOverview",
+    "path": "/Angular/Demos/WidgetsGallery/Demo/DataGrid/ExcelJSOverview/FluentBlueLight/",
+    "theme": "FluentBlueLight"
+  },
+  {
+    "widget": "DataGrid",
+    "demo": "ExcelJSCellCustomization",
+    "path": "/Angular/Demos/WidgetsGallery/Demo/DataGrid/ExcelJSCellCustomization/FluentBlueLight/",
+    "theme": "FluentBlueLight"
+  },
+  {
+    "widget": "DataGrid",
+    "demo": "ExcelJSHeaderAndFooter",
+    "path": "/Angular/Demos/WidgetsGallery/Demo/DataGrid/ExcelJSHeaderAndFooter/FluentBlueLight/",
+    "theme": "FluentBlueLight"
+  },
+  {
+    "widget": "DataGrid",
+    "demo": "ExcelJSExportMultipleGrids",
+    "path": "/Angular/Demos/WidgetsGallery/Demo/DataGrid/ExcelJSExportMultipleGrids/FluentBlueLight/",
+    "theme": "FluentBlueLight"
+  },
+  {
+    "widget": "DataGrid",
+    "demo": "ExcelJSExportImages",
+    "path": "/Angular/Demos/WidgetsGallery/Demo/DataGrid/ExcelJSExportImages/FluentBlueLight/",
+    "theme": "FluentBlueLight"
+  },
+  {
+    "widget": "DataGrid",
+    "demo": "Appearance",
+    "path": "/Angular/Demos/WidgetsGallery/Demo/DataGrid/Appearance/FluentBlueLight/",
+    "theme": "FluentBlueLight"
+  },
+  {
+    "widget": "DataGrid",
+    "demo": "Column",
+    "path": "/Angular/Demos/WidgetsGallery/Demo/DataGrid/Column/FluentBlueLight/",
+    "theme": "FluentBlueLight"
+  },
+  {
+    "widget": "DataGrid",
+    "demo": "Row",
+    "path": "/Angular/Demos/WidgetsGallery/Demo/DataGrid/Row/FluentBlueLight/",
+    "theme": "FluentBlueLight"
+  },
+  {
+    "widget": "DataGrid",
+    "demo": "Cell",
+    "path": "/Angular/Demos/WidgetsGallery/Demo/DataGrid/Cell/FluentBlueLight/",
+    "theme": "FluentBlueLight"
+  },
+  {
+    "widget": "DataGrid",
+    "demo": "Toolbar",
+    "path": "/Angular/Demos/WidgetsGallery/Demo/DataGrid/Toolbar/FluentBlueLight/",
+    "theme": "FluentBlueLight"
+  },
+  {
+    "widget": "DataGrid",
+    "demo": "StatePersistence",
+    "path": "/Angular/Demos/WidgetsGallery/Demo/DataGrid/StatePersistence/FluentBlueLight/",
+    "theme": "FluentBlueLight"
+  },
+  {
+    "widget": "DataGrid",
+    "demo": "GridAdaptabilityOverview",
+    "path": "/Angular/Demos/WidgetsGallery/Demo/DataGrid/GridAdaptabilityOverview/FluentBlueLight/",
+    "theme": "FluentBlueLight"
+  },
+  {
+    "widget": "DataGrid",
+    "demo": "ColumnsHidingPriority",
+    "path": "/Angular/Demos/WidgetsGallery/Demo/DataGrid/ColumnsHidingPriority/FluentBlueLight/",
+    "theme": "FluentBlueLight"
+  },
+  {
+    "widget": "DataGrid",
+    "demo": "KeyboardNavigation",
+    "path": "/Angular/Demos/WidgetsGallery/Demo/DataGrid/KeyboardNavigation/FluentBlueLight/",
+    "theme": "FluentBlueLight"
+  },
+  {
+    "widget": "DataGrid",
+    "demo": "CustomizeKeyboardNavigation",
+    "path": "/Angular/Demos/WidgetsGallery/Demo/DataGrid/CustomizeKeyboardNavigation/FluentBlueLight/",
+    "theme": "FluentBlueLight"
+  },
+  {
+    "widget": "DataGrid",
+    "demo": "RightToLeftSupport",
+    "path": "/Angular/Demos/WidgetsGallery/Demo/DataGrid/RightToLeftSupport/FluentBlueLight/",
+    "theme": "FluentBlueLight"
+  },
+  {
+    "widget": "TreeList",
+    "demo": "AIColumns",
+    "path": "/Angular/Demos/WidgetsGallery/Demo/TreeList/AIColumns/FluentBlueLight/",
+    "theme": "FluentBlueLight"
+  },
+  {
+    "widget": "TreeList",
+    "demo": "Overview",
+    "path": "/Angular/Demos/WidgetsGallery/Demo/TreeList/Overview/FluentBlueLight/",
+    "theme": "FluentBlueLight"
+  },
+  {
+    "widget": "TreeList",
+    "demo": "SimpleArrayPlainStructure",
+    "path": "/Angular/Demos/WidgetsGallery/Demo/TreeList/SimpleArrayPlainStructure/FluentBlueLight/",
+    "theme": "FluentBlueLight"
+  },
+  {
+    "widget": "TreeList",
+    "demo": "SimpleArrayHierarchicalStructure",
+    "path": "/Angular/Demos/WidgetsGallery/Demo/TreeList/SimpleArrayHierarchicalStructure/FluentBlueLight/",
+    "theme": "FluentBlueLight"
+  },
+  {
+    "widget": "TreeList",
+    "demo": "LoadDataOnDemand",
+    "path": "/Angular/Demos/WidgetsGallery/Demo/TreeList/LoadDataOnDemand/FluentBlueLight/",
+    "theme": "FluentBlueLight"
+  },
+  {
+    "widget": "TreeList",
+    "demo": "WebAPIService",
+    "path": "/Angular/Demos/WidgetsGallery/Demo/TreeList/WebAPIService/FluentBlueLight/",
+    "theme": "FluentBlueLight"
+  },
+  {
+    "widget": "TreeList",
+    "demo": "SearchPanel",
+    "path": "/Angular/Demos/WidgetsGallery/Demo/TreeList/SearchPanel/FluentBlueLight/",
+    "theme": "FluentBlueLight"
+  },
+  {
+    "widget": "TreeList",
+    "demo": "FilterRow",
+    "path": "/Angular/Demos/WidgetsGallery/Demo/TreeList/FilterRow/FluentBlueLight/",
+    "theme": "FluentBlueLight"
+  },
+  {
+    "widget": "TreeList",
+    "demo": "ColumnHeaderFilter",
+    "path": "/Angular/Demos/WidgetsGallery/Demo/TreeList/ColumnHeaderFilter/FluentBlueLight/",
+    "theme": "FluentBlueLight"
+  },
+  {
+    "widget": "TreeList",
+    "demo": "FilterPanel",
+    "path": "/Angular/Demos/WidgetsGallery/Demo/TreeList/FilterPanel/FluentBlueLight/",
+    "theme": "FluentBlueLight"
+  },
+  {
+    "widget": "TreeList",
+    "demo": "FilterModes",
+    "path": "/Angular/Demos/WidgetsGallery/Demo/TreeList/FilterModes/FluentBlueLight/",
+    "theme": "FluentBlueLight"
+  },
+  {
+    "widget": "TreeList",
+    "demo": "MultipleSorting",
+    "path": "/Angular/Demos/WidgetsGallery/Demo/TreeList/MultipleSorting/FluentBlueLight/",
+    "theme": "FluentBlueLight"
+  },
+  {
+    "widget": "TreeList",
+    "demo": "RowEditing",
+    "path": "/Angular/Demos/WidgetsGallery/Demo/TreeList/RowEditing/FluentBlueLight/",
+    "theme": "FluentBlueLight"
+  },
+  {
+    "widget": "TreeList",
+    "demo": "CellEditing",
+    "path": "/Angular/Demos/WidgetsGallery/Demo/TreeList/CellEditing/FluentBlueLight/",
+    "theme": "FluentBlueLight"
+  },
+  {
+    "widget": "TreeList",
+    "demo": "BatchEditing",
+    "path": "/Angular/Demos/WidgetsGallery/Demo/TreeList/BatchEditing/FluentBlueLight/",
+    "theme": "FluentBlueLight"
+  },
+  {
+    "widget": "TreeList",
+    "demo": "FormEditing",
+    "path": "/Angular/Demos/WidgetsGallery/Demo/TreeList/FormEditing/FluentBlueLight/",
+    "theme": "FluentBlueLight"
+  },
+  {
+    "widget": "TreeList",
+    "demo": "PopupEditing",
+    "path": "/Angular/Demos/WidgetsGallery/Demo/TreeList/PopupEditing/FluentBlueLight/",
+    "theme": "FluentBlueLight"
+  },
+  {
+    "widget": "TreeList",
+    "demo": "SingleRowSelection",
+    "path": "/Angular/Demos/WidgetsGallery/Demo/TreeList/SingleRowSelection/FluentBlueLight/",
+    "theme": "FluentBlueLight"
+  },
+  {
+    "widget": "TreeList",
+    "demo": "MultipleRowSelection",
+    "path": "/Angular/Demos/WidgetsGallery/Demo/TreeList/MultipleRowSelection/FluentBlueLight/",
+    "theme": "FluentBlueLight"
+  },
+  {
+    "widget": "TreeList",
+    "demo": "FocusedRow",
+    "path": "/Angular/Demos/WidgetsGallery/Demo/TreeList/FocusedRow/FluentBlueLight/",
+    "theme": "FluentBlueLight"
+  },
+  {
+    "widget": "TreeList",
+    "demo": "Paging",
+    "path": "/Angular/Demos/WidgetsGallery/Demo/TreeList/Paging/FluentBlueLight/",
+    "theme": "FluentBlueLight"
+  },
+  {
+    "widget": "TreeList",
+    "demo": "Reordering",
+    "path": "/Angular/Demos/WidgetsGallery/Demo/TreeList/Reordering/FluentBlueLight/",
+    "theme": "FluentBlueLight"
+  },
+  {
+    "widget": "TreeList",
+    "demo": "Resizing",
+    "path": "/Angular/Demos/WidgetsGallery/Demo/TreeList/Resizing/FluentBlueLight/",
+    "theme": "FluentBlueLight"
+  },
+  {
+    "widget": "TreeList",
+    "demo": "FixedAndStickyColumns",
+    "path": "/Angular/Demos/WidgetsGallery/Demo/TreeList/FixedAndStickyColumns/FluentBlueLight/",
+    "theme": "FluentBlueLight"
+  },
+  {
+    "widget": "TreeList",
+    "demo": "ColumnChooser",
+    "path": "/Angular/Demos/WidgetsGallery/Demo/TreeList/ColumnChooser/FluentBlueLight/",
+    "theme": "FluentBlueLight"
+  },
+  {
+    "widget": "TreeList",
+    "demo": "LocalReordering",
+    "path": "/Angular/Demos/WidgetsGallery/Demo/TreeList/LocalReordering/FluentBlueLight/",
+    "theme": "FluentBlueLight"
+  },
+  {
+    "widget": "TreeList",
+    "demo": "StatePersistence",
+    "path": "/Angular/Demos/WidgetsGallery/Demo/TreeList/StatePersistence/FluentBlueLight/",
+    "theme": "FluentBlueLight"
+  },
+  {
+    "widget": "TreeList",
+    "demo": "Adaptability",
+    "path": "/Angular/Demos/WidgetsGallery/Demo/TreeList/Adaptability/FluentBlueLight/",
+    "theme": "FluentBlueLight"
+  },
+  {
+    "widget": "TreeList",
+    "demo": "KeyboardNavigation",
+    "path": "/Angular/Demos/WidgetsGallery/Demo/TreeList/KeyboardNavigation/FluentBlueLight/",
+    "theme": "FluentBlueLight"
+  },
+  {
+    "widget": "TreeList",
+    "demo": "CustomizeKeyboardNavigation",
+    "path": "/Angular/Demos/WidgetsGallery/Demo/TreeList/CustomizeKeyboardNavigation/FluentBlueLight/",
+    "theme": "FluentBlueLight"
+  },
+  {
+    "widget": "CardView",
+    "demo": "Overview",
+    "path": "/Angular/Demos/WidgetsGallery/Demo/CardView/Overview/FluentBlueLight/",
+    "theme": "FluentBlueLight"
+  },
+  {
+    "widget": "CardView",
+    "demo": "SimpleArray",
+    "path": "/Angular/Demos/WidgetsGallery/Demo/CardView/SimpleArray/FluentBlueLight/",
+    "theme": "FluentBlueLight"
+  },
+  {
+    "widget": "CardView",
+    "demo": "WebAPIService",
+    "path": "/Angular/Demos/WidgetsGallery/Demo/CardView/WebAPIService/FluentBlueLight/",
+    "theme": "FluentBlueLight"
+  },
+  {
+    "widget": "CardView",
+    "demo": "ColumnHeaderFilter",
+    "path": "/Angular/Demos/WidgetsGallery/Demo/CardView/ColumnHeaderFilter/FluentBlueLight/",
+    "theme": "FluentBlueLight"
+  },
+  {
+    "widget": "CardView",
+    "demo": "FilterPanel",
+    "path": "/Angular/Demos/WidgetsGallery/Demo/CardView/FilterPanel/FluentBlueLight/",
+    "theme": "FluentBlueLight"
+  },
+  {
+    "widget": "CardView",
+    "demo": "SearchPanel",
+    "path": "/Angular/Demos/WidgetsGallery/Demo/CardView/SearchPanel/FluentBlueLight/",
+    "theme": "FluentBlueLight"
+  },
+  {
+    "widget": "CardView",
+    "demo": "Sorting",
+    "path": "/Angular/Demos/WidgetsGallery/Demo/CardView/Sorting/FluentBlueLight/",
+    "theme": "FluentBlueLight"
+  },
+  {
+    "widget": "CardView",
+    "demo": "PopupEditing",
+    "path": "/Angular/Demos/WidgetsGallery/Demo/CardView/PopupEditing/FluentBlueLight/",
+    "theme": "FluentBlueLight"
+  },
+  {
+    "widget": "CardView",
+    "demo": "DataValidation",
+    "path": "/Angular/Demos/WidgetsGallery/Demo/CardView/DataValidation/FluentBlueLight/",
+    "theme": "FluentBlueLight"
+  },
+  {
+    "widget": "CardView",
+    "demo": "Selection",
+    "path": "/Angular/Demos/WidgetsGallery/Demo/CardView/Selection/FluentBlueLight/",
+    "theme": "FluentBlueLight"
+  },
+  {
+    "widget": "CardView",
+    "demo": "ColumnReordering",
+    "path": "/Angular/Demos/WidgetsGallery/Demo/CardView/ColumnReordering/FluentBlueLight/",
+    "theme": "FluentBlueLight"
+  },
+  {
+    "widget": "CardView",
+    "demo": "ColumnChooser",
+    "path": "/Angular/Demos/WidgetsGallery/Demo/CardView/ColumnChooser/FluentBlueLight/",
+    "theme": "FluentBlueLight"
+  },
+  {
+    "widget": "CardView",
+    "demo": "CardTemplate",
+    "path": "/Angular/Demos/WidgetsGallery/Demo/CardView/CardTemplate/FluentBlueLight/",
+    "theme": "FluentBlueLight"
+  },
+  {
+    "widget": "CardView",
+    "demo": "FieldTemplate",
+    "path": "/Angular/Demos/WidgetsGallery/Demo/CardView/FieldTemplate/FluentBlueLight/",
+    "theme": "FluentBlueLight"
+  },
+  {
+    "widget": "PivotGrid",
+    "demo": "Overview",
+    "path": "/Angular/Demos/WidgetsGallery/Demo/PivotGrid/Overview/FluentBlueLight/",
+    "theme": "FluentBlueLight"
+  },
+  {
+    "widget": "PivotGrid",
+    "demo": "SimpleArray",
+    "path": "/Angular/Demos/WidgetsGallery/Demo/PivotGrid/SimpleArray/FluentBlueLight/",
+    "theme": "FluentBlueLight"
+  },
+  {
+    "widget": "PivotGrid",
+    "demo": "OLAPDataSource",
+    "path": "/Angular/Demos/WidgetsGallery/Demo/PivotGrid/OLAPDataSource/FluentBlueLight/",
+    "theme": "FluentBlueLight"
+  },
+  {
+    "widget": "PivotGrid",
+    "demo": "WebAPIService",
+    "path": "/Angular/Demos/WidgetsGallery/Demo/PivotGrid/WebAPIService/FluentBlueLight/",
+    "theme": "FluentBlueLight"
+  },
+  {
+    "widget": "PivotGrid",
+    "demo": "IntegratedFieldChooser",
+    "path": "/Angular/Demos/WidgetsGallery/Demo/PivotGrid/IntegratedFieldChooser/FluentBlueLight/",
+    "theme": "FluentBlueLight"
+  },
+  {
+    "widget": "PivotGrid",
+    "demo": "StandaloneFieldChooser",
+    "path": "/Angular/Demos/WidgetsGallery/Demo/PivotGrid/StandaloneFieldChooser/FluentBlueLight/",
+    "theme": "FluentBlueLight"
+  },
+  {
+    "widget": "PivotGrid",
+    "demo": "FieldPanel",
+    "path": "/Angular/Demos/WidgetsGallery/Demo/PivotGrid/FieldPanel/FluentBlueLight/",
+    "theme": "FluentBlueLight"
+  },
+  {
+    "widget": "PivotGrid",
+    "demo": "RunningTotals",
+    "path": "/Angular/Demos/WidgetsGallery/Demo/PivotGrid/RunningTotals/FluentBlueLight/",
+    "theme": "FluentBlueLight"
+  },
+  {
+    "widget": "PivotGrid",
+    "demo": "SummaryDisplayModes",
+    "path": "/Angular/Demos/WidgetsGallery/Demo/PivotGrid/SummaryDisplayModes/FluentBlueLight/",
+    "theme": "FluentBlueLight"
+  },
+  {
+    "widget": "PivotGrid",
+    "demo": "DrillDown",
+    "path": "/Angular/Demos/WidgetsGallery/Demo/PivotGrid/DrillDown/FluentBlueLight/",
+    "theme": "FluentBlueLight"
+  },
+  {
+    "widget": "PivotGrid",
+    "demo": "Filtering",
+    "path": "/Angular/Demos/WidgetsGallery/Demo/PivotGrid/Filtering/FluentBlueLight/",
+    "theme": "FluentBlueLight"
+  },
+  {
+    "widget": "PivotGrid",
+    "demo": "VirtualScrolling",
+    "path": "/Angular/Demos/WidgetsGallery/Demo/PivotGrid/VirtualScrolling/FluentBlueLight/",
+    "theme": "FluentBlueLight"
+  },
+  {
+    "widget": "PivotGrid",
+    "demo": "RemoteVirtualScrolling",
+    "path": "/Angular/Demos/WidgetsGallery/Demo/PivotGrid/RemoteVirtualScrolling/FluentBlueLight/",
+    "theme": "FluentBlueLight"
+  },
+  {
+    "widget": "PivotGrid",
+    "demo": "ExcelJSOverview",
+    "path": "/Angular/Demos/WidgetsGallery/Demo/PivotGrid/ExcelJSOverview/FluentBlueLight/",
+    "theme": "FluentBlueLight"
+  },
+  {
+    "widget": "PivotGrid",
+    "demo": "ExcelJSCellCustomization",
+    "path": "/Angular/Demos/WidgetsGallery/Demo/PivotGrid/ExcelJSCellCustomization/FluentBlueLight/",
+    "theme": "FluentBlueLight"
+  },
+  {
+    "widget": "PivotGrid",
+    "demo": "ExcelJsHeaderAndFooter",
+    "path": "/Angular/Demos/WidgetsGallery/Demo/PivotGrid/ExcelJsHeaderAndFooter/FluentBlueLight/",
+    "theme": "FluentBlueLight"
+  },
+  {
+    "widget": "PivotGrid",
+    "demo": "ChartIntegration",
+    "path": "/Angular/Demos/WidgetsGallery/Demo/PivotGrid/ChartIntegration/FluentBlueLight/",
+    "theme": "FluentBlueLight"
+  },
+  {
+    "widget": "PivotGrid",
+    "demo": "Customization",
+    "path": "/Angular/Demos/WidgetsGallery/Demo/PivotGrid/Customization/FluentBlueLight/",
+    "theme": "FluentBlueLight"
+  },
+  {
+    "widget": "PivotGrid",
+    "demo": "StatePersistence",
+    "path": "/Angular/Demos/WidgetsGallery/Demo/PivotGrid/StatePersistence/FluentBlueLight/",
+    "theme": "FluentBlueLight"
+  },
+  {
+    "widget": "FilterBuilder",
+    "demo": "WithDataGrid",
+    "path": "/Angular/Demos/WidgetsGallery/Demo/FilterBuilder/WithDataGrid/FluentBlueLight/",
+    "theme": "FluentBlueLight"
+  },
+  {
+    "widget": "FilterBuilder",
+    "demo": "WithList",
+    "path": "/Angular/Demos/WidgetsGallery/Demo/FilterBuilder/WithList/FluentBlueLight/",
+    "theme": "FluentBlueLight"
+  },
+  {
+    "widget": "FilterBuilder",
+    "demo": "Customization",
+    "path": "/Angular/Demos/WidgetsGallery/Demo/FilterBuilder/Customization/FluentBlueLight/",
+    "theme": "FluentBlueLight"
+  }
+]

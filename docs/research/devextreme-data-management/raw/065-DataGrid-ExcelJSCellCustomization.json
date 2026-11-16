@@ -1,0 +1,60 @@
+{
+  "seq": 65,
+  "widgetId": "data-grid",
+  "widgetEn": "Data Grid",
+  "widgetPt": "Grade de dados",
+  "widget": "DataGrid",
+  "sectionId": "export-excel",
+  "sectionEn": "Export to Excel",
+  "sectionPt": "Exportar para o Excel",
+  "slug": "ExcelJSCellCustomization",
+  "titleEn": "Cell Customization",
+  "titlePt": "Personalização de células",
+  "ai": false,
+  "url": "https://js.devexpress.com/Angular/Demos/WidgetsGallery/Demo/DataGrid/ExcelJSCellCustomization/FluentBlueLight/",
+  "imageFile": "images/065-DataGrid-ExcelJSCellCustomization.png",
+  "rawFile": "raw/065-DataGrid-ExcelJSCellCustomization.json",
+  "scrapedAt": "2026-11-16T12:54:27.590Z",
+  "pageTitle": "Cell Customization - Angular Data Grid | Angular Example",
+  "h1": "Angular Data Grid - Cell Customization",
+  "descriptionEn": "The customizeCell function allows you to modify cell data and value formatting in exported worksheets. You can access and change the following attributes: Font properties Cell background Cell values Text alignment Formatting properties The customizeCell function also allows you to identify row types. For example, this demo changes the background color and font weight for cells with the \"group\" rowType.",
+  "docLinks": [],
+  "apiLinks": [
+    {
+      "text": "customizeCell",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/Common/Object_Structures/ExportDataGridProps/#customizeCell"
+    },
+    {
+      "text": "customizeCell",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/Common/Object_Structures/ExportDataGridProps/#customizeCell"
+    },
+    {
+      "text": "rowType",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxDataGrid/Row/#rowType"
+    }
+  ],
+  "relatedLinks": [
+    {
+      "text": "Font",
+      "href": "https://github.com/DevExpress/devextreme-exceljs-fork#fonts"
+    },
+    {
+      "text": "Cell background",
+      "href": "https://github.com/DevExpress/devextreme-exceljs-fork#fills"
+    },
+    {
+      "text": "Cell values",
+      "href": "https://github.com/DevExpress/devextreme-exceljs-fork#hyperlink-value"
+    },
+    {
+      "text": "alignment",
+      "href": "https://github.com/DevExpress/devextreme-exceljs-fork#alignment"
+    },
+    {
+      "text": "Formatting",
+      "href": "https://github.com/DevExpress/devextreme-exceljs-fork#number-formats"
+    }
+  ],
+  "screenshotOk": true,
+  "error": null
+}

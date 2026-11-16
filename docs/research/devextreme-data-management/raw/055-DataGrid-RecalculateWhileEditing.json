@@ -1,0 +1,31 @@
+{
+  "seq": 55,
+  "widgetId": "data-grid",
+  "widgetEn": "Data Grid",
+  "widgetPt": "Grade de dados",
+  "widget": "DataGrid",
+  "sectionId": "summaries",
+  "sectionEn": "Data Summaries",
+  "sectionPt": "Resumos de dados",
+  "slug": "RecalculateWhileEditing",
+  "titleEn": "Recalculate While Editing",
+  "titlePt": "Recalcular durante a edição",
+  "ai": false,
+  "url": "https://js.devexpress.com/Angular/Demos/WidgetsGallery/Demo/DataGrid/RecalculateWhileEditing/FluentBlueLight/",
+  "imageFile": "images/055-DataGrid-RecalculateWhileEditing.png",
+  "rawFile": "raw/055-DataGrid-RecalculateWhileEditing.json",
+  "scrapedAt": "2026-11-16T12:53:47.300Z",
+  "pageTitle": "Recalculate While Editing - Angular Data Grid | Angular Example",
+  "h1": "Angular Data Grid - Recalculate While Editing",
+  "descriptionEn": "In this demo, the DataGrid recalculates summaries when you edit data. To enable this feature, the recalculateWhileEditing property is set to true. You can add, delete, or update rows to change the summaries.",
+  "docLinks": [],
+  "apiLinks": [
+    {
+      "text": "recalculateWhileEditing",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxDataGrid/Configuration/summary/#recalculateWhileEditing"
+    }
+  ],
+  "relatedLinks": [],
+  "screenshotOk": true,
+  "error": null
+}

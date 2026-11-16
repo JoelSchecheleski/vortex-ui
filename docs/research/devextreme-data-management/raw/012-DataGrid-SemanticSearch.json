@@ -1,0 +1,45 @@
+{
+  "seq": 12,
+  "widgetId": "data-grid",
+  "widgetEn": "Data Grid",
+  "widgetPt": "Grade de dados",
+  "widget": "DataGrid",
+  "sectionId": "filtering",
+  "sectionEn": "Filtering",
+  "sectionPt": "Filtragem",
+  "slug": "SemanticSearch",
+  "titleEn": "Semantic Search",
+  "titlePt": "Busca Semântica",
+  "ai": true,
+  "url": "https://js.devexpress.com/Angular/Demos/WidgetsGallery/Demo/DataGrid/SemanticSearch/FluentBlueLight/",
+  "imageFile": "images/012-DataGrid-SemanticSearch.png",
+  "rawFile": "raw/012-DataGrid-SemanticSearch.json",
+  "scrapedAt": "2026-11-16T12:49:58.190Z",
+  "pageTitle": "Semantic Search - Angular Data Grid | Angular Example",
+  "h1": "Angular Data Grid - Semantic Search",
+  "descriptionEn": "This demo incorporates server-side semantic search into the DevExtreme DataGrid. Semantic search finds results based on meaning rather than exact wording, understanding the context and intent behind a question or phrase. This allows your DevExtreme-powered app to deliver more relevant answers by connecting related concepts, even if exact words differ. To review benefits of this feature, search for dictionary entries and their descriptions and use synonyms or generic descriptions instead of exact search strings (such as \"clothing\" instead of a specific product name). You can fine-tune search results: use the Similarity Factor editor to change the search precision.",
+  "docLinks": [
+    {
+      "text": "DevExtreme DataGrid",
+      "href": "https://js.devexpress.com/Angular/Documentation/Guide/UI_Components/DataGrid/Overview/"
+    }
+  ],
+  "apiLinks": [
+    {
+      "text": "search panel",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxDataGrid/Configuration/searchPanel/"
+    },
+    {
+      "text": "toolbar",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxDataGrid/Configuration/toolbar/"
+    }
+  ],
+  "relatedLinks": [
+    {
+      "text": "AzureOpenAI embeddings",
+      "href": "https://learn.microsoft.com/en-us/azure/foundry/openai/how-to/embeddings?tabs=csharp"
+    }
+  ],
+  "screenshotOk": true,
+  "error": null
+}

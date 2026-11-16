@@ -1,0 +1,52 @@
+{
+  "seq": 66,
+  "widgetId": "data-grid",
+  "widgetEn": "Data Grid",
+  "widgetPt": "Grade de dados",
+  "widget": "DataGrid",
+  "sectionId": "export-excel",
+  "sectionEn": "Export to Excel",
+  "sectionPt": "Exportar para o Excel",
+  "slug": "ExcelJSHeaderAndFooter",
+  "titleEn": "Header and Footer",
+  "titlePt": "Cabeçalho e rodapé",
+  "ai": false,
+  "url": "https://js.devexpress.com/Angular/Demos/WidgetsGallery/Demo/DataGrid/ExcelJSHeaderAndFooter/FluentBlueLight/",
+  "imageFile": "images/066-DataGrid-ExcelJSHeaderAndFooter.png",
+  "rawFile": "raw/066-DataGrid-ExcelJSHeaderAndFooter.json",
+  "scrapedAt": "2026-11-16T12:54:31.654Z",
+  "pageTitle": "Header and Footer - Angular Data Grid | Angular Example",
+  "h1": "Angular Data Grid - Header and Footer",
+  "descriptionEn": "DevExtreme ExcelJS library allows you to customize worksheets outside the exported cell area. This demo uses this functionality to add a header (a title before exported data) and a footer (a note after exported data). Review the onExporting handler to see the data export code. The functions that create header and footer sections utilize the following customization features: Merged cells Cell values formatting Font properties Text alignment",
+  "docLinks": [],
+  "apiLinks": [
+    {
+      "text": "onExporting",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxDataGrid/Configuration/#onExporting"
+    }
+  ],
+  "relatedLinks": [
+    {
+      "text": "DevExtreme ExcelJS",
+      "href": "https://github.com/DevExpress/devextreme-exceljs-fork"
+    },
+    {
+      "text": "Merged cells",
+      "href": "https://github.com/DevExpress/devextreme-exceljs-fork#merged-cells"
+    },
+    {
+      "text": "Cell values",
+      "href": "https://github.com/DevExpress/devextreme-exceljs-fork#value-types"
+    },
+    {
+      "text": "Font properties",
+      "href": "https://github.com/DevExpress/devextreme-exceljs-fork#fonts"
+    },
+    {
+      "text": "alignment",
+      "href": "https://github.com/DevExpress/devextreme-exceljs-fork#alignment"
+    }
+  ],
+  "screenshotOk": true,
+  "error": null
+}

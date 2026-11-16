@@ -1,0 +1,80 @@
+{
+  "seq": 9,
+  "widgetId": "data-grid",
+  "widgetEn": "Data Grid",
+  "widgetPt": "Grade de dados",
+  "widget": "DataGrid",
+  "sectionId": "filtering",
+  "sectionEn": "Filtering",
+  "sectionPt": "Filtragem",
+  "slug": "FilteringAPI",
+  "titleEn": "Filtering API",
+  "titlePt": "API de filtragem",
+  "ai": false,
+  "url": "https://js.devexpress.com/Angular/Demos/WidgetsGallery/Demo/DataGrid/FilteringAPI/FluentBlueLight/",
+  "imageFile": "images/009-DataGrid-FilteringAPI.png",
+  "rawFile": "raw/009-DataGrid-FilteringAPI.json",
+  "scrapedAt": "2026-11-16T12:49:46.576Z",
+  "pageTitle": "Filtering API - Angular Data Grid | Angular Example",
+  "h1": "Angular Data Grid - Filtering API",
+  "descriptionEn": "The DataGrid includes the following API you can use to filter data.",
+  "docLinks": [
+    {
+      "text": "getters",
+      "href": "https://js.devexpress.com/Angular/Documentation/Guide/Data_Binding/Data_Layer/#Getters_And_Setters"
+    }
+  ],
+  "apiLinks": [
+    {
+      "text": "filter()",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxDataGrid/Methods/#filter"
+    },
+    {
+      "text": "filter(filterExpr)",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxDataGrid/Methods/#filterfilterExpr"
+    },
+    {
+      "text": "dataSource",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxDataGrid/Configuration/#dataSource"
+    },
+    {
+      "text": "filterValue",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxDataGrid/Configuration/#filterValue"
+    },
+    {
+      "text": "filter row",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxDataGrid/Configuration/filterRow/"
+    },
+    {
+      "text": "header filter",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxDataGrid/Configuration/headerFilter/"
+    },
+    {
+      "text": "filter builder",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxDataGrid/Configuration/#filterBuilder"
+    },
+    {
+      "text": "getCombinedFilter()",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxDataGrid/Methods/#getCombinedFilter"
+    },
+    {
+      "text": "getCombinedFilter(returnDataField)",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxDataGrid/Methods/#getCombinedFilterreturnDataField"
+    },
+    {
+      "text": "clearFilter()",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxDataGrid/Methods/#clearFilter"
+    },
+    {
+      "text": "clearFilter(filterName)",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxDataGrid/Methods/#clearFilterfilterName"
+    },
+    {
+      "text": "SelectBox",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxSelectBox/"
+    }
+  ],
+  "relatedLinks": [],
+  "screenshotOk": true,
+  "error": null
+}

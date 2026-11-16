@@ -1,0 +1,63 @@
+{
+  "seq": 18,
+  "widgetId": "data-grid",
+  "widgetEn": "Data Grid",
+  "widgetPt": "Grade de dados",
+  "widget": "DataGrid",
+  "sectionId": "editing",
+  "sectionEn": "Editing",
+  "sectionPt": "Edição",
+  "slug": "PopupEditing",
+  "titleEn": "Popup Editing",
+  "titlePt": "Edição Popup",
+  "ai": false,
+  "url": "https://js.devexpress.com/Angular/Demos/WidgetsGallery/Demo/DataGrid/PopupEditing/FluentBlueLight/",
+  "imageFile": "images/018-DataGrid-PopupEditing.png",
+  "rawFile": "raw/018-DataGrid-PopupEditing.json",
+  "scrapedAt": "2026-11-16T12:50:20.515Z",
+  "pageTitle": "Popup Editing - Angular Data Grid | Angular Example",
+  "h1": "Angular Data Grid - Popup Editing",
+  "descriptionEn": "DataGrid can display a popup edit form. The form can include any fields from the bound data source, regardless of whether the corresponding column is visible in the grid (see the Notes and Address columns). To enable this behavior in your application, do the following: Set editing.mode to \"popup\". Set the editing object's allowUpdating, allowAdding, and allowDeleting properties to true.",
+  "docLinks": [],
+  "apiLinks": [
+    {
+      "text": "mode",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxDataGrid/Configuration/editing/#mode"
+    },
+    {
+      "text": "editing",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxDataGrid/Configuration/editing/"
+    },
+    {
+      "text": "allowUpdating",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxDataGrid/Configuration/editing/#allowUpdating"
+    },
+    {
+      "text": "allowAdding",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxDataGrid/Configuration/editing/#allowAdding"
+    },
+    {
+      "text": "allowDeleting",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxDataGrid/Configuration/editing/#allowDeleting"
+    },
+    {
+      "text": "Form",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxForm/"
+    },
+    {
+      "text": "Popup",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxPopup/"
+    },
+    {
+      "text": "form",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxDataGrid/Configuration/editing/#form"
+    },
+    {
+      "text": "popup",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxDataGrid/Configuration/editing/#popup"
+    }
+  ],
+  "relatedLinks": [],
+  "screenshotOk": true,
+  "error": null
+}

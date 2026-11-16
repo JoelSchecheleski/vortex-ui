@@ -1,0 +1,65 @@
+{
+  "seq": 34,
+  "widgetId": "data-grid",
+  "widgetEn": "Data Grid",
+  "widgetPt": "Grade de dados",
+  "widget": "DataGrid",
+  "sectionId": "paging",
+  "sectionEn": "Paging",
+  "sectionPt": "Chamada",
+  "slug": "RecordPaging",
+  "titleEn": "Paging",
+  "titlePt": "Chamada (paginação)",
+  "ai": false,
+  "url": "https://js.devexpress.com/Angular/Demos/WidgetsGallery/Demo/DataGrid/RecordPaging/FluentBlueLight/",
+  "imageFile": "images/034-DataGrid-RecordPaging.png",
+  "rawFile": "raw/034-DataGrid-RecordPaging.json",
+  "scrapedAt": "2026-11-16T12:51:21.791Z",
+  "pageTitle": "Paging - Angular Data Grid | Angular Example",
+  "h1": "Angular Data Grid - Paging",
+  "descriptionEn": "The DevExtreme DataGrid ships with comprehensive data paging support and can load rows in chunks to improve performance when displaying large data sets. This demo allows you to navigate between pages using the DataGrid’s integrated pager. You can use the controls below the DataGrid to change pager display mode and toggle visibility of individual pager elements. Note: navigation buttons are always visible in compact mode.",
+  "docLinks": [
+    {
+      "text": "Pagination",
+      "href": "https://js.devexpress.com/Angular/Documentation/Guide/UI_Components/Pagination/Overview/"
+    }
+  ],
+  "apiLinks": [
+    {
+      "text": "pager",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxDataGrid/Configuration/pager/"
+    },
+    {
+      "text": "showPageSizeSelector",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxDataGrid/Configuration/pager/#showPageSizeSelector"
+    },
+    {
+      "text": "allowed page sizes",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxDataGrid/Configuration/pager/#allowedPageSizes"
+    },
+    {
+      "text": "page size",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxDataGrid/Configuration/paging/#pageSize"
+    },
+    {
+      "text": "showInfo",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxDataGrid/Configuration/pager/#showInfo"
+    },
+    {
+      "text": "information text",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxDataGrid/Configuration/pager/#infoText"
+    },
+    {
+      "text": "display modes",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxDataGrid/Configuration/pager/#displayMode"
+    }
+  ],
+  "relatedLinks": [
+    {
+      "text": "DevExtreme DataGrid - Display a Pager Above the Grid",
+      "href": "https://github.com/DevExpress-Examples/devextreme-datagrid-pager-on-top"
+    }
+  ],
+  "screenshotOk": true,
+  "error": null
+}

@@ -1,0 +1,35 @@
+{
+  "seq": 136,
+  "widgetId": "pivot-grid",
+  "widgetEn": "Pivot Grid",
+  "widgetPt": "Grade Pivô",
+  "widget": "PivotGrid",
+  "sectionId": "scrolling",
+  "sectionEn": "Scrolling",
+  "sectionPt": "Rolagem",
+  "slug": "RemoteVirtualScrolling",
+  "titleEn": "Remote Virtual Scrolling",
+  "titlePt": "Rolagem virtual remota",
+  "ai": false,
+  "url": "https://js.devexpress.com/Angular/Demos/WidgetsGallery/Demo/PivotGrid/RemoteVirtualScrolling/FluentBlueLight/",
+  "imageFile": "images/136-PivotGrid-RemoteVirtualScrolling.png",
+  "rawFile": "raw/136-PivotGrid-RemoteVirtualScrolling.json",
+  "scrapedAt": "2026-11-16T12:59:58.607Z",
+  "pageTitle": "Remote Virtual Scrolling - Angular Pivot Grid | Angular Example",
+  "h1": "Angular Pivot Grid - Remote Virtual Scrolling",
+  "descriptionEn": "Remote virtual scrolling allows the PivotGrid to load data pages from the server when they enter the viewport. To enable remote virtual scrolling, set the component's scrolling.mode property to \"virtual\" and the PivotGridDataSource's paginate property to true. Refer to the paginate description for more information about paging specifics.",
+  "docLinks": [],
+  "apiLinks": [
+    {
+      "text": "mode",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxPivotGrid/Configuration/scrolling/#mode"
+    },
+    {
+      "text": "paginate",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/Data_Layer/PivotGridDataSource/Configuration/#paginate"
+    }
+  ],
+  "relatedLinks": [],
+  "screenshotOk": true,
+  "error": null
+}

@@ -1,0 +1,51 @@
+{
+  "seq": 52,
+  "widgetId": "data-grid",
+  "widgetEn": "Data Grid",
+  "widgetPt": "Grade de dados",
+  "widget": "DataGrid",
+  "sectionId": "summaries",
+  "sectionEn": "Data Summaries",
+  "sectionPt": "Resumos de dados",
+  "slug": "GridSummaries",
+  "titleEn": "Total Summaries",
+  "titlePt": "Resumos totais",
+  "ai": false,
+  "url": "https://js.devexpress.com/Angular/Demos/WidgetsGallery/Demo/DataGrid/GridSummaries/FluentBlueLight/",
+  "imageFile": "images/052-DataGrid-GridSummaries.png",
+  "rawFile": "raw/052-DataGrid-GridSummaries.json",
+  "scrapedAt": "2026-11-16T12:53:36.209Z",
+  "pageTitle": "Total Summaries - Angular Data Grid | Angular Example",
+  "h1": "Angular Data Grid - Total Summaries",
+  "descriptionEn": "To display total summaries, populate the summary.totalItems array with configuration objects. Each object should specify a column that supplies data for summary calculation and a summaryType—an aggregate function that should be applied to this data.",
+  "docLinks": [],
+  "apiLinks": [
+    {
+      "text": "summary",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxDataGrid/Configuration/summary/"
+    },
+    {
+      "text": "totalItems",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxDataGrid/Configuration/summary/totalItems/"
+    },
+    {
+      "text": "column",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxDataGrid/Configuration/summary/totalItems/#column"
+    },
+    {
+      "text": "summaryType",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxDataGrid/Configuration/summary/totalItems/#summaryType"
+    },
+    {
+      "text": "customizeText",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxDataGrid/Configuration/summary/totalItems/#customizeText"
+    },
+    {
+      "text": "valueFormat",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxDataGrid/Configuration/summary/totalItems/#valueFormat"
+    }
+  ],
+  "relatedLinks": [],
+  "screenshotOk": true,
+  "error": null
+}

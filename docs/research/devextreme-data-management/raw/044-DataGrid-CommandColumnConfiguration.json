@@ -1,0 +1,68 @@
+{
+  "seq": 44,
+  "widgetId": "data-grid",
+  "widgetEn": "Data Grid",
+  "widgetPt": "Grade de dados",
+  "widget": "DataGrid",
+  "sectionId": "columns",
+  "sectionEn": "Columns",
+  "sectionPt": "Colunas",
+  "slug": "CommandColumnConfiguration",
+  "titleEn": "Command Column Configuration",
+  "titlePt": "Configuração da coluna de comando",
+  "ai": false,
+  "url": "https://js.devexpress.com/Angular/Demos/WidgetsGallery/Demo/DataGrid/CommandColumnConfiguration/FluentBlueLight/",
+  "imageFile": "images/044-DataGrid-CommandColumnConfiguration.png",
+  "rawFile": "raw/044-DataGrid-CommandColumnConfiguration.json",
+  "scrapedAt": "2026-11-16T12:51:59.999Z",
+  "pageTitle": "Command Column Configuration - Angular Data Grid | Angular Example",
+  "h1": "Angular Data Grid - Command Column Configuration",
+  "descriptionEn": "The DataGrid supports multiple predefined types of command columns. Each column type supports one type of action (edit, select, drag, etc.). This demo shows how to customize the Edit Command Column. This column type contains predefined edit buttons and optional custom buttons.",
+  "docLinks": [
+    {
+      "text": "command columns",
+      "href": "https://js.devexpress.com/Angular/Documentation/Guide/UI_Components/DataGrid/Columns/Column_Types/Command_Columns/"
+    }
+  ],
+  "apiLinks": [
+    {
+      "text": "edit mode",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxDataGrid/Configuration/editing/#mode"
+    },
+    {
+      "text": "allowUpdating",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxDataGrid/Configuration/editing/#allowUpdating"
+    },
+    {
+      "text": "allowDeleting",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxDataGrid/Configuration/editing/#allowDeleting"
+    },
+    {
+      "text": "useIcons",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxDataGrid/Configuration/editing/#useIcons"
+    },
+    {
+      "text": "columns",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxDataGrid/Configuration/columns/"
+    },
+    {
+      "text": "type",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxDataGrid/Configuration/columns/#type"
+    },
+    {
+      "text": "buttons",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxDataGrid/Configuration/columns/buttons/"
+    },
+    {
+      "text": "name",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxDataGrid/Configuration/columns/buttons/#name"
+    },
+    {
+      "text": "other button properties",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxDataGrid/Configuration/columns/buttons/"
+    }
+  ],
+  "relatedLinks": [],
+  "screenshotOk": true,
+  "error": null
+}

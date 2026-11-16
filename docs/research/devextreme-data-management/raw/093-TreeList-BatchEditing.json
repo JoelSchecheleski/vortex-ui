@@ -1,0 +1,56 @@
+{
+  "seq": 93,
+  "widgetId": "tree-list",
+  "widgetEn": "Tree List",
+  "widgetPt": "Lista de árvores",
+  "widget": "TreeList",
+  "sectionId": "editing",
+  "sectionEn": "Editing",
+  "sectionPt": "Edição",
+  "slug": "BatchEditing",
+  "titleEn": "Batch Editing",
+  "titlePt": "Edição em lote",
+  "ai": false,
+  "url": "https://js.devexpress.com/Angular/Demos/WidgetsGallery/Demo/TreeList/BatchEditing/FluentBlueLight/",
+  "imageFile": "images/093-TreeList-BatchEditing.png",
+  "rawFile": "raw/093-TreeList-BatchEditing.json",
+  "scrapedAt": "2026-11-16T12:56:13.790Z",
+  "pageTitle": "Batch Editing - Angular Tree List | Angular Example",
+  "h1": "Angular Tree List - Batch Editing",
+  "descriptionEn": "You can use batch edit mode to defer saving multiple cell changes. Changes are stored in a buffer and can be discarded before a user clicks the Save button.",
+  "docLinks": [],
+  "apiLinks": [
+    {
+      "text": "mode",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxTreeList/Configuration/editing/#mode"
+    },
+    {
+      "text": "editing",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxTreeList/Configuration/editing/#mode"
+    },
+    {
+      "text": "allowUpdating",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxTreeList/Configuration/editing/#allowUpdating"
+    },
+    {
+      "text": "allowAdding",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxTreeList/Configuration/editing/#allowAdding"
+    },
+    {
+      "text": "allowDeleting",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxTreeList/Configuration/editing/#allowDeleting"
+    },
+    {
+      "text": "onInitNewRow",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxTreeList/Configuration/#onInitNewRow"
+    }
+  ],
+  "relatedLinks": [
+    {
+      "text": "DataGrid: Batch Update Request",
+      "href": "https://js.devexpress.com/Demos/WidgetsGallery/Demo/DataGrid/BatchUpdateRequest/"
+    }
+  ],
+  "screenshotOk": true,
+  "error": null
+}

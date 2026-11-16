@@ -1,0 +1,68 @@
+{
+  "seq": 25,
+  "widgetId": "data-grid",
+  "widgetEn": "Data Grid",
+  "widgetPt": "Grade de dados",
+  "widget": "DataGrid",
+  "sectionId": "editing",
+  "sectionEn": "Editing",
+  "sectionPt": "Edição",
+  "slug": "EditStateManagement",
+  "titleEn": "Edit State Management",
+  "titlePt": "Editar gerenciamento de estado",
+  "ai": false,
+  "url": "https://js.devexpress.com/Angular/Demos/WidgetsGallery/Demo/DataGrid/EditStateManagement/FluentBlueLight/",
+  "imageFile": "images/025-DataGrid-EditStateManagement.png",
+  "rawFile": "raw/025-DataGrid-EditStateManagement.json",
+  "scrapedAt": "2026-11-16T12:50:46.825Z",
+  "pageTitle": "Edit State Management - Angular Data Grid | Angular Example",
+  "h1": "Angular Data Grid - Edit State Management",
+  "descriptionEn": "Our DataGrid component manages its edit state automatically. If your use case requires full control over the editing process, you can use the API members below to manage state manually. In this demo, we manage state with a help of the RxJS library.",
+  "docLinks": [],
+  "apiLinks": [
+    {
+      "text": "editRowKey",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxDataGrid/Configuration/editing/#editRowKey"
+    },
+    {
+      "text": "editColumnName",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxDataGrid/Configuration/editing/#editColumnName"
+    },
+    {
+      "text": "changes",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxDataGrid/Configuration/editing/#changes"
+    },
+    {
+      "text": "DevExpress.data.applyChanges(data, changes, options)",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/Data_Layer/Utils/#applyChangesdata_changes_options"
+    },
+    {
+      "text": "onSaving",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxDataGrid/Configuration/#onSaving"
+    },
+    {
+      "text": "onSaved",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxDataGrid/Configuration/#onSaved"
+    },
+    {
+      "text": "onEditCanceling",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxDataGrid/Configuration/#onEditCanceling"
+    },
+    {
+      "text": "onEditCanceled",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxDataGrid/Configuration/#onEditCanceled"
+    },
+    {
+      "text": "edit modes",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxDataGrid/Configuration/editing/#mode"
+    }
+  ],
+  "relatedLinks": [
+    {
+      "text": "RxJS",
+      "href": "https://angular.io/guide/rx-library"
+    }
+  ],
+  "screenshotOk": true,
+  "error": null
+}

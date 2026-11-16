@@ -1,0 +1,63 @@
+{
+  "seq": 104,
+  "widgetId": "tree-list",
+  "widgetEn": "Tree List",
+  "widgetPt": "Lista de árvores",
+  "widget": "TreeList",
+  "sectionId": "columns",
+  "sectionEn": "Columns",
+  "sectionPt": "Colunas",
+  "slug": "AIColumns",
+  "titleEn": "AI Columns",
+  "titlePt": "Colunas de IA",
+  "ai": true,
+  "url": "https://js.devexpress.com/Angular/Demos/WidgetsGallery/Demo/TreeList/AIColumns/FluentBlueLight/",
+  "imageFile": "images/104-TreeList-AIColumns.png",
+  "rawFile": "raw/104-TreeList-AIColumns.json",
+  "scrapedAt": "2026-11-16T12:58:01.314Z",
+  "pageTitle": "AI Columns - Angular Tree List | Angular Example",
+  "h1": "Angular Tree List - AI Columns",
+  "descriptionEn": "DevExtreme TreeList allows you to add multiple AI columns to the TreeList. These columns auto generate meaningful cell values based on component data and a custom prompt, transforming DevExtreme TreeList into an AI-powered data analysis tool. In this demo, an AI column is fixed to the right side of the component.",
+  "docLinks": [],
+  "apiLinks": [
+    {
+      "text": "aiIntegration",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxTreeList/Configuration/#aiIntegration"
+    },
+    {
+      "text": "aiIntegration",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxTreeList/Configuration/columns/ai/#aiIntegration"
+    },
+    {
+      "text": "type",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxTreeList/Configuration/columns/#type"
+    },
+    {
+      "text": "name",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxTreeList/Configuration/columns/#name"
+    },
+    {
+      "text": "mode",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxTreeList/Configuration/columns/ai/#mode"
+    },
+    {
+      "text": "prompt",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxTreeList/Configuration/columns/ai/#prompt"
+    },
+    {
+      "text": "no data text",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxTreeList/Configuration/columns/ai/#noDataText"
+    },
+    {
+      "text": "data",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxTreeList/Types/AIColumnRequestCreatingEvent/#data"
+    },
+    {
+      "text": "onAIColumnRequestCreating",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxTreeList/Configuration/#onAIColumnRequestCreating"
+    }
+  ],
+  "relatedLinks": [],
+  "screenshotOk": true,
+  "error": null
+}

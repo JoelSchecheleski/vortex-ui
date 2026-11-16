@@ -1,0 +1,44 @@
+{
+  "seq": 97,
+  "widgetId": "tree-list",
+  "widgetEn": "Tree List",
+  "widgetPt": "Lista de árvores",
+  "widget": "TreeList",
+  "sectionId": "selection",
+  "sectionEn": "Selection",
+  "sectionPt": "Seleção",
+  "slug": "MultipleRowSelection",
+  "titleEn": "Multiple Row Selection",
+  "titlePt": "Seleção de múltiplas linhas",
+  "ai": false,
+  "url": "https://js.devexpress.com/Angular/Demos/WidgetsGallery/Demo/TreeList/MultipleRowSelection/FluentBlueLight/",
+  "imageFile": "images/097-TreeList-MultipleRowSelection.png",
+  "rawFile": "raw/097-TreeList-MultipleRowSelection.json",
+  "scrapedAt": "2026-11-16T12:56:28.744Z",
+  "pageTitle": "Multiple Row Selection - Angular Tree List | Angular Example",
+  "h1": "Angular Tree List - Multiple Row Selection",
+  "descriptionEn": "This demo enables multiple selection mode. This mode allows users to press keyboard shortcuts or click checkboxes to select multiple rows. The checkbox in the leftmost column header selects all rows. You can set the allowSelectAll property to false to disable the checkbox. Multiple selection mode is non-recursive (when a row is selected, nested rows remain unselected). If users should select rows recursively, set the selection.recursive property to true. In this demo, you can use the checkbox under the TreeList component to toggle this property.",
+  "docLinks": [
+    {
+      "text": "Selection API",
+      "href": "https://js.devexpress.com/Angular/Documentation/Guide/UI_Components/TreeList/Selection/#API"
+    }
+  ],
+  "apiLinks": [
+    {
+      "text": "mode",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxTreeList/Configuration/selection/#mode"
+    },
+    {
+      "text": "allowSelectAll",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxTreeList/Configuration/selection/#allowSelectAll"
+    },
+    {
+      "text": "recursive",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxTreeList/Configuration/selection/#recursive"
+    }
+  ],
+  "relatedLinks": [],
+  "screenshotOk": true,
+  "error": null
+}

@@ -1,0 +1,35 @@
+{
+  "seq": 70,
+  "widgetId": "data-grid",
+  "widgetEn": "Data Grid",
+  "widgetPt": "Grade de dados",
+  "widget": "DataGrid",
+  "sectionId": "customization",
+  "sectionEn": "Customization",
+  "sectionPt": "Personalização",
+  "slug": "Column",
+  "titleEn": "Column",
+  "titlePt": "Coluna",
+  "ai": false,
+  "url": "https://js.devexpress.com/Angular/Demos/WidgetsGallery/Demo/DataGrid/Column/FluentBlueLight/",
+  "imageFile": "images/070-DataGrid-Column.png",
+  "rawFile": "raw/070-DataGrid-Column.json",
+  "scrapedAt": "2026-11-16T12:54:47.071Z",
+  "pageTitle": "Column - Angular Data Grid | Angular Example",
+  "h1": "Angular Data Grid - Column",
+  "descriptionEn": "Column templates allow you to display custom content in column cells. Use the cellTemplate property (cellRender in React) to configure these templates. In this demo, a custom column template is configured to display employee photos in the Picture column.",
+  "docLinks": [],
+  "apiLinks": [
+    {
+      "text": "cellTemplate",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxDataGrid/Configuration/columns/#cellTemplate"
+    },
+    {
+      "text": "cellRender",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxDataGrid/Configuration/columns/#cellRender"
+    }
+  ],
+  "relatedLinks": [],
+  "screenshotOk": true,
+  "error": null
+}

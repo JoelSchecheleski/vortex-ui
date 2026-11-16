@@ -1,0 +1,75 @@
+{
+  "seq": 53,
+  "widgetId": "data-grid",
+  "widgetEn": "Data Grid",
+  "widgetPt": "Grade de dados",
+  "widget": "DataGrid",
+  "sectionId": "summaries",
+  "sectionEn": "Data Summaries",
+  "sectionPt": "Resumos de dados",
+  "slug": "GroupSummaries",
+  "titleEn": "Group Summaries",
+  "titlePt": "Resumos de grupo",
+  "ai": false,
+  "url": "https://js.devexpress.com/Angular/Demos/WidgetsGallery/Demo/DataGrid/GroupSummaries/FluentBlueLight/",
+  "imageFile": "images/053-DataGrid-GroupSummaries.png",
+  "rawFile": "raw/053-DataGrid-GroupSummaries.json",
+  "scrapedAt": "2026-11-16T12:53:39.937Z",
+  "pageTitle": "Group Summaries - Angular Data Grid | Angular Example",
+  "h1": "Angular Data Grid - Group Summaries",
+  "descriptionEn": "To configure group summaries, populate the summary.groupItems array with summary configuration objects. Each object should specify a column that supplies data for summary calculation and a summaryType—an aggregate function that should be applied to this data.",
+  "docLinks": [],
+  "apiLinks": [
+    {
+      "text": "summary",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxDataGrid/Configuration/summary/"
+    },
+    {
+      "text": "groupItems",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxDataGrid/Configuration/summary/groupItems/"
+    },
+    {
+      "text": "column",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxDataGrid/Configuration/summary/totalItems/#column"
+    },
+    {
+      "text": "summaryType",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxDataGrid/Configuration/summary/totalItems/#summaryType"
+    },
+    {
+      "text": "alignByColumn",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxDataGrid/Configuration/summary/groupItems/#alignByColumn"
+    },
+    {
+      "text": "showInColumn",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxDataGrid/Configuration/summary/groupItems/#showInColumn"
+    },
+    {
+      "text": "showInGroupFooter",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxDataGrid/Configuration/summary/groupItems/#showInGroupFooter"
+    },
+    {
+      "text": "showInColumn",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxDataGrid/Configuration/summary/groupItems/#showInColumn"
+    },
+    {
+      "text": "valueFormat",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxDataGrid/Configuration/summary/groupItems/#valueFormat"
+    },
+    {
+      "text": "displayFormat",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxDataGrid/Configuration/summary/groupItems/#displayFormat"
+    },
+    {
+      "text": "sortByGroupSummaryInfo",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxDataGrid/Configuration/sortByGroupSummaryInfo/"
+    },
+    {
+      "text": "summaryItem",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxDataGrid/Configuration/sortByGroupSummaryInfo/#summaryItem"
+    }
+  ],
+  "relatedLinks": [],
+  "screenshotOk": true,
+  "error": null
+}

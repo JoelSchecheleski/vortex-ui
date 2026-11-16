@@ -1,0 +1,47 @@
+{
+  "seq": 81,
+  "widgetId": "tree-list",
+  "widgetEn": "Tree List",
+  "widgetPt": "Lista de árvores",
+  "widget": "TreeList",
+  "sectionId": "data-binding",
+  "sectionEn": "Data Binding",
+  "sectionPt": "Vinculação de dados",
+  "slug": "SimpleArrayPlainStructure",
+  "titleEn": "Simple Array: Plain Structure",
+  "titlePt": "Matriz simples: estrutura simples",
+  "ai": false,
+  "url": "https://js.devexpress.com/Angular/Demos/WidgetsGallery/Demo/TreeList/SimpleArrayPlainStructure/FluentBlueLight/",
+  "imageFile": "images/081-TreeList-SimpleArrayPlainStructure.png",
+  "rawFile": "raw/081-TreeList-SimpleArrayPlainStructure.json",
+  "scrapedAt": "2026-11-16T12:55:28.904Z",
+  "pageTitle": "Simple Array: Plain Structure - Angular Tree List | Angular Example",
+  "h1": "Angular Tree List - Simple Array: Plain Structure",
+  "descriptionEn": "To bind the TreeList to an array that contains plain-structured data objects, do the following: Assign the array to the dataSource property. Specify the data fields that contain node keys in the keyExpr property and parent node keys in the parentIdExpr property. Specify the root node's key in the rootValue property if it is not 0. If each data item has a Boolean field that specifies whether this data item nests other items, assign the field's name to the hasItemsExpr property. The TreeList uses this information to render the expand button. This is required only if the UI component is bound to a remote data source.",
+  "docLinks": [],
+  "apiLinks": [
+    {
+      "text": "dataSource",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxTreeList/Configuration/#dataSource"
+    },
+    {
+      "text": "keyExpr",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxTreeList/Configuration/#keyExpr"
+    },
+    {
+      "text": "parentIdExpr",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxTreeList/Configuration/#parentIdExpr"
+    },
+    {
+      "text": "rootValue",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxTreeList/Configuration/#rootValue"
+    },
+    {
+      "text": "hasItemsExpr",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxTreeList/Configuration/#hasItemsExpr"
+    }
+  ],
+  "relatedLinks": [],
+  "screenshotOk": true,
+  "error": null
+}

@@ -1,0 +1,39 @@
+{
+  "seq": 131,
+  "widgetId": "pivot-grid",
+  "widgetEn": "Pivot Grid",
+  "widgetPt": "Grade Pivô",
+  "widget": "PivotGrid",
+  "sectionId": "summaries",
+  "sectionEn": "Data Summaries",
+  "sectionPt": "Resumos de dados",
+  "slug": "RunningTotals",
+  "titleEn": "Running Totals",
+  "titlePt": "Totais acumulados",
+  "ai": false,
+  "url": "https://js.devexpress.com/Angular/Demos/WidgetsGallery/Demo/PivotGrid/RunningTotals/FluentBlueLight/",
+  "imageFile": "images/131-PivotGrid-RunningTotals.png",
+  "rawFile": "raw/131-PivotGrid-RunningTotals.json",
+  "scrapedAt": "2026-11-16T12:59:40.121Z",
+  "pageTitle": "Running Totals - Angular Pivot Grid | Angular Example",
+  "h1": "Angular Pivot Grid - Running Totals",
+  "descriptionEn": "The PivotGrid can calculate running totals by rows or columns. Assign \"row\" or \"column\" to a field's runningTotal property to specify how running totals are calculated. This property is available only for data fields. Running totals are calculated from scratch for each group within a row or column. You can assign true to the allowCrossGroupCalculation property to calculate running totals across all groups.",
+  "docLinks": [],
+  "apiLinks": [
+    {
+      "text": "runningTotal",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/Data_Layer/PivotGridDataSource/Configuration/fields/#runningTotal"
+    },
+    {
+      "text": "group",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/Data_Layer/PivotGridDataSource/Configuration/fields/#groupName"
+    },
+    {
+      "text": "allowCrossGroupCalculation",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/Data_Layer/PivotGridDataSource/Configuration/fields/#allowCrossGroupCalculation"
+    }
+  ],
+  "relatedLinks": [],
+  "screenshotOk": true,
+  "error": null
+}

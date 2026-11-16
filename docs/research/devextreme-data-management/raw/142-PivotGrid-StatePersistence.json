@@ -1,0 +1,60 @@
+{
+  "seq": 142,
+  "widgetId": "pivot-grid",
+  "widgetEn": "Pivot Grid",
+  "widgetPt": "Grade Pivô",
+  "widget": "PivotGrid",
+  "sectionId": "state",
+  "sectionEn": "State Persistence",
+  "sectionPt": "Persistência do Estado",
+  "slug": "StatePersistence",
+  "titleEn": "State Persistence",
+  "titlePt": "Persistência do Estado",
+  "ai": false,
+  "url": "https://js.devexpress.com/Angular/Demos/WidgetsGallery/Demo/PivotGrid/StatePersistence/FluentBlueLight/",
+  "imageFile": "images/142-PivotGrid-StatePersistence.png",
+  "rawFile": "raw/142-PivotGrid-StatePersistence.json",
+  "scrapedAt": "2026-11-16T13:00:21.025Z",
+  "pageTitle": "State Persistence - Angular Pivot Grid | Angular Example",
+  "h1": "Angular Pivot Grid - State Persistence",
+  "descriptionEn": "The PivotGrid can persist its state. If a user sorts and filters data, modifies summary display modes, expands headers, or makes other changes, the component saves these modifications and restores them when a user reloads the page. Refer to the stateStoring article for a full list of modifications that can be saved.",
+  "docLinks": [],
+  "apiLinks": [
+    {
+      "text": "stateStoring",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxPivotGrid/Configuration/stateStoring/"
+    },
+    {
+      "text": "enabled",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxPivotGrid/Configuration/stateStoring/#enabled"
+    },
+    {
+      "text": "storageKey",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxPivotGrid/Configuration/stateStoring/#storageKey"
+    },
+    {
+      "text": "type",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxPivotGrid/Configuration/stateStoring/#type"
+    },
+    {
+      "text": "customSave",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxPivotGrid/Configuration/stateStoring/#customSave"
+    },
+    {
+      "text": "customLoad",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxPivotGrid/Configuration/stateStoring/#customLoad"
+    }
+  ],
+  "relatedLinks": [
+    {
+      "text": "localStorage",
+      "href": "https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage"
+    },
+    {
+      "text": "sessionStorage",
+      "href": "https://developer.mozilla.org/en-US/docs/Web/API/Window/sessionStorage"
+    }
+  ],
+  "screenshotOk": true,
+  "error": null
+}

@@ -1,0 +1,39 @@
+{
+  "seq": 109,
+  "widgetId": "tree-list",
+  "widgetEn": "Tree List",
+  "widgetPt": "Lista de árvores",
+  "widget": "TreeList",
+  "sectionId": "keyboard",
+  "sectionEn": "Keyboard Navigation",
+  "sectionPt": "Navegação por teclado",
+  "slug": "CustomizeKeyboardNavigation",
+  "titleEn": "Customize Keyboard Navigation",
+  "titlePt": "Personalizar a navegação do teclado",
+  "ai": false,
+  "url": "https://js.devexpress.com/Angular/Demos/WidgetsGallery/Demo/TreeList/CustomizeKeyboardNavigation/FluentBlueLight/",
+  "imageFile": "images/109-TreeList-CustomizeKeyboardNavigation.png",
+  "rawFile": "raw/109-TreeList-CustomizeKeyboardNavigation.json",
+  "scrapedAt": "2026-11-16T12:58:19.346Z",
+  "pageTitle": "Customize Keyboard Navigation - Angular Tree List | Angular Example",
+  "h1": "Angular Tree List - Customize Keyboard Navigation",
+  "descriptionEn": "The following properties customize keyboard navigation: enterKeyAction Specifies the TreeList's actions when a user presses Enter key: \"moveFocus\" - moves focus in the enterKeyDirection \"startEdit\" (default) - switches the cell to the editing state enterKeyDirection Specifies the direction in which to move focus when a user presses Enter: \"row\" \"column\" \"none\" (default) editOnKeyPress Specifies whether to start entering a new cell value on a key press. In this demo, you can use the controls under the TreeList to change any of these properties.",
+  "docLinks": [],
+  "apiLinks": [
+    {
+      "text": "enterKeyAction",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxTreeList/Configuration/keyboardNavigation/#enterKeyAction"
+    },
+    {
+      "text": "enterKeyDirection",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxTreeList/Configuration/keyboardNavigation/#enterKeyDirection"
+    },
+    {
+      "text": "editOnKeyPress",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxTreeList/Configuration/keyboardNavigation/#editOnKeyPress"
+    }
+  ],
+  "relatedLinks": [],
+  "screenshotOk": true,
+  "error": null
+}

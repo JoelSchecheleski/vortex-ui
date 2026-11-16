@@ -1,0 +1,48 @@
+{
+  "seq": 30,
+  "widgetId": "data-grid",
+  "widgetEn": "Data Grid",
+  "widgetPt": "Grade de dados",
+  "widget": "DataGrid",
+  "sectionId": "selection",
+  "sectionEn": "Selection",
+  "sectionPt": "Seleção",
+  "slug": "MultipleRecordSelectionModes",
+  "titleEn": "Multiple Record Selection",
+  "titlePt": "Seleção de múltiplos registros",
+  "ai": false,
+  "url": "https://js.devexpress.com/Angular/Demos/WidgetsGallery/Demo/DataGrid/MultipleRecordSelectionModes/FluentBlueLight/",
+  "imageFile": "images/030-DataGrid-MultipleRecordSelectionModes.png",
+  "rawFile": "raw/030-DataGrid-MultipleRecordSelectionModes.json",
+  "scrapedAt": "2026-11-16T12:51:06.494Z",
+  "pageTitle": "Multiple Record Selection - Angular Data Grid | Angular Example",
+  "h1": "Angular Data Grid - Multiple Record Selection",
+  "descriptionEn": "This demo sets selection.mode to \"multiple\". This allows users to select multiple rows using checkboxes or keyboard shortcuts. To configure when the checkboxes appear, set the showCheckBoxesMode property. The checkbox in the header selects all rows or current page rows, depending on the selectAllMode value. If you want to disable this checkbox, set allowSelectAll to false. In this demo, you can use the drop-down menus under the grid to change the showCheckBoxesMode and selectAllMode values.",
+  "docLinks": [
+    {
+      "text": "Keyboard Navigation",
+      "href": "https://js.devexpress.com/Angular/Documentation/Guide/UI_Components/DataGrid/Accessibility/#Keyboard_Navigation"
+    }
+  ],
+  "apiLinks": [
+    {
+      "text": "mode",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxDataGrid/Configuration/selection/#mode"
+    },
+    {
+      "text": "showCheckBoxesMode",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxDataGrid/Configuration/selection/#showCheckBoxesMode"
+    },
+    {
+      "text": "selectAllMode",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxDataGrid/Configuration/selection/#selectAllMode"
+    },
+    {
+      "text": "allowSelectAll",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxDataGrid/Configuration/selection/#allowSelectAll"
+    }
+  ],
+  "relatedLinks": [],
+  "screenshotOk": true,
+  "error": null
+}

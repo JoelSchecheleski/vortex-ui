@@ -1,0 +1,40 @@
+{
+  "seq": 63,
+  "widgetId": "data-grid",
+  "widgetEn": "Data Grid",
+  "widgetPt": "Grade de dados",
+  "widget": "DataGrid",
+  "sectionId": "export-pdf",
+  "sectionEn": "Export to PDF",
+  "sectionPt": "Exportar para PDF",
+  "slug": "PDFExportImages",
+  "titleEn": "Image Export",
+  "titlePt": "Exportar imagem",
+  "ai": false,
+  "url": "https://js.devexpress.com/Angular/Demos/WidgetsGallery/Demo/DataGrid/PDFExportImages/FluentBlueLight/",
+  "imageFile": "images/063-DataGrid-PDFExportImages.png",
+  "rawFile": "raw/063-DataGrid-PDFExportImages.json",
+  "scrapedAt": "2026-11-16T12:54:17.469Z",
+  "pageTitle": "Image Export - Angular Data Grid | Angular Example",
+  "h1": "Angular Data Grid - Image Export",
+  "descriptionEn": "This demo shows how to configure the DataGrid to export data with images to a PDF document. Use the customDrawCell function to redraw the content of the cell. Inside this function, implement the jsPDF.addImage() method that specifies image data. Specify the onRowExporting function to change the height of the rows to fit the images.",
+  "docLinks": [],
+  "apiLinks": [
+    {
+      "text": "customDrawCell",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/Common/Object_Structures/PdfExportDataGridProps/#customDrawCell"
+    },
+    {
+      "text": "onRowExporting",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/Common/Object_Structures/PdfExportDataGridProps/#onRowExporting"
+    }
+  ],
+  "relatedLinks": [
+    {
+      "text": "addImage()",
+      "href": "https://raw.githack.com/parallax/jsPDF/master/docs/module-addImage.html#~addImage"
+    }
+  ],
+  "screenshotOk": true,
+  "error": null
+}

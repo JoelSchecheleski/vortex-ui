@@ -1,0 +1,55 @@
+{
+  "seq": 27,
+  "widgetId": "data-grid",
+  "widgetEn": "Data Grid",
+  "widgetPt": "Grade de dados",
+  "widget": "DataGrid",
+  "sectionId": "grouping",
+  "sectionEn": "Grouping",
+  "sectionPt": "Agrupamento",
+  "slug": "RecordGrouping",
+  "titleEn": "Record Grouping",
+  "titlePt": "Agrupamento de Registros",
+  "ai": false,
+  "url": "https://js.devexpress.com/Angular/Demos/WidgetsGallery/Demo/DataGrid/RecordGrouping/FluentBlueLight/",
+  "imageFile": "images/027-DataGrid-RecordGrouping.png",
+  "rawFile": "raw/027-DataGrid-RecordGrouping.json",
+  "scrapedAt": "2026-11-16T12:50:55.243Z",
+  "pageTitle": "Record Grouping - Angular Data Grid | Angular Example",
+  "h1": "Angular Data Grid - Record Grouping",
+  "descriptionEn": "To group data by columns, users can utilize the group panel. Enable the groupPanel.visible property to display the group panel area.",
+  "docLinks": [],
+  "apiLinks": [
+    {
+      "text": "groupPanel",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxDataGrid/Configuration/groupPanel/"
+    },
+    {
+      "text": "visible",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxDataGrid/Configuration/groupPanel/#visible"
+    },
+    {
+      "text": "showWhenGrouped",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxDataGrid/Configuration/columns/#showWhenGrouped"
+    },
+    {
+      "text": "allowColumnReordering",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxDataGrid/Configuration/#allowColumnReordering"
+    },
+    {
+      "text": "groupIndex",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxDataGrid/Configuration/columns/#groupIndex"
+    },
+    {
+      "text": "grouping",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxDataGrid/Configuration/grouping/"
+    },
+    {
+      "text": "autoExpandAll",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxDataGrid/Configuration/grouping/#autoExpandAll"
+    }
+  ],
+  "relatedLinks": [],
+  "screenshotOk": true,
+  "error": null
+}

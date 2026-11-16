@@ -1,0 +1,77 @@
+{
+  "seq": 4,
+  "widgetId": "data-grid",
+  "widgetEn": "Data Grid",
+  "widgetPt": "Grade de dados",
+  "widget": "DataGrid",
+  "sectionId": "data-binding",
+  "sectionEn": "Data Binding",
+  "sectionPt": "Vinculação de dados",
+  "slug": "CustomDataSource",
+  "titleEn": "Custom Data Source",
+  "titlePt": "Fonte de dados personalizada",
+  "ai": false,
+  "url": "https://js.devexpress.com/Angular/Demos/WidgetsGallery/Demo/DataGrid/CustomDataSource/FluentBlueLight/",
+  "imageFile": "images/004-DataGrid-CustomDataSource.png",
+  "rawFile": "raw/004-DataGrid-CustomDataSource.json",
+  "scrapedAt": "2026-11-16T12:49:27.778Z",
+  "pageTitle": "Custom Data Source - Angular Data Grid | Angular Example",
+  "h1": "Angular Data Grid - Custom Data Source",
+  "descriptionEn": "DevExtreme provides the CustomStore component to load and edit data from a custom data source. In this demo, the CustomStore fetches data from a custom remote server and displays it in the DataGrid.",
+  "docLinks": [
+    {
+      "text": "Server-Side Data Processing",
+      "href": "https://js.devexpress.com/Angular/Documentation/Guide/Data_Binding/Specify_a_Data_Source/Custom_Data_Sources/#Load_Data/Server-Side_Data_Processing"
+    },
+    {
+      "text": "Client-Side Data Processing",
+      "href": "https://js.devexpress.com/Angular/Documentation/Guide/Data_Binding/Specify_a_Data_Source/Custom_Data_Sources/#Load_Data/Client-Side_Data_Processing"
+    }
+  ],
+  "apiLinks": [
+    {
+      "text": "CustomStore",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/Data_Layer/CustomStore/"
+    },
+    {
+      "text": "data processing settings",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/Data_Layer/CustomStore/LoadOptions/"
+    },
+    {
+      "text": "remoteOperations",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxDataGrid/Configuration/remoteOperations/"
+    }
+  ],
+  "relatedLinks": [
+    {
+      "text": "Web API Service",
+      "href": "https://docs.devexpress.com/eXpressAppFramework/403394/backend-web-api-service?utm_source=js.devexpress.com&utm_medium=referral&utm_campaign=xaf&utm_content=data-layer-odatastore"
+    },
+    {
+      "text": "free copy today",
+      "href": "https://www.devexpress.com/security-api-free?utm_source=js.devexpress.com&utm_medium=referral&utm_campaign=xaf&utm_content=data-layer-odatastore"
+    },
+    {
+      "text": "DevExpress Download Manager",
+      "href": "https://www.devexpress.com/ClientCenter/DownloadManager/?utm_source=js.devexpress.com&utm_medium=referral&utm_campaign=xaf&utm_content=data-layer-odatastore"
+    },
+    {
+      "text": "Read Tutorial",
+      "href": "https://docs.devexpress.com/eXpressAppFramework/404449/backend-web-api-service/get-started-with-web-api-service"
+    },
+    {
+      "text": "JavaScript (DevExtreme)",
+      "href": "https://go.devexpress.com/XAF_Security_NonXAF_DevExtreme_OData.aspx"
+    },
+    {
+      "text": "JavaScript (Svelte)",
+      "href": "https://github.com/oliversturm/demo-dx-webapi-js/tree/stage-6"
+    },
+    {
+      "text": "Watch Videos",
+      "href": "https://www.youtube.com/watch?v=T7y4gwc1n4w&list=PL8h4jt35t1wiM1IOux04-8DiofuMEB33G"
+    }
+  ],
+  "screenshotOk": true,
+  "error": null
+}

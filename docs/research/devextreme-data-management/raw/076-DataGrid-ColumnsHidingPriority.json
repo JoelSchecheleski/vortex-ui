@@ -1,0 +1,31 @@
+{
+  "seq": 76,
+  "widgetId": "data-grid",
+  "widgetEn": "Data Grid",
+  "widgetPt": "Grade de dados",
+  "widget": "DataGrid",
+  "sectionId": "adaptability",
+  "sectionEn": "Adaptability",
+  "sectionPt": "Adaptabilidade",
+  "slug": "ColumnsHidingPriority",
+  "titleEn": "Columns Hiding Priority",
+  "titlePt": "Colunas Ocultando Prioridade",
+  "ai": false,
+  "url": "https://js.devexpress.com/Angular/Demos/WidgetsGallery/Demo/DataGrid/ColumnsHidingPriority/FluentBlueLight/",
+  "imageFile": "images/076-DataGrid-ColumnsHidingPriority.png",
+  "rawFile": "raw/076-DataGrid-ColumnsHidingPriority.json",
+  "scrapedAt": "2026-11-16T12:55:09.578Z",
+  "pageTitle": "Columns Hiding Priority - Angular Data Grid | Angular Example",
+  "h1": "Angular Data Grid - Columns Hiding Priority",
+  "descriptionEn": "When the DataGrid adapts its layout to smaller screens, it hides columns based on the hidingPriority. Columns with lower values are hidden first. In this demo, the CustomerStoreCity column is hidden in vertical and horizontal orientation modes because its hidingPriority is 0. The CustomerStoreState and OrderDate columns have a priority of 1 and 2. The DataGrid hides these columns after the CustomerStoreCity column, only when the screen orientation is vertical.",
+  "docLinks": [],
+  "apiLinks": [
+    {
+      "text": "hidingPriority",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxDataGrid/Configuration/columns/#hidingPriority"
+    }
+  ],
+  "relatedLinks": [],
+  "screenshotOk": true,
+  "error": null
+}

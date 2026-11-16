@@ -1,0 +1,91 @@
+{
+  "seq": 14,
+  "widgetId": "data-grid",
+  "widgetEn": "Data Grid",
+  "widgetPt": "Grade de dados",
+  "widget": "DataGrid",
+  "sectionId": "editing",
+  "sectionEn": "Editing",
+  "sectionPt": "Edição",
+  "slug": "RowEditing",
+  "titleEn": "Row Editing",
+  "titlePt": "Edição de linhas",
+  "ai": false,
+  "url": "https://js.devexpress.com/Angular/Demos/WidgetsGallery/Demo/DataGrid/RowEditing/FluentBlueLight/",
+  "imageFile": "images/014-DataGrid-RowEditing.png",
+  "rawFile": "raw/014-DataGrid-RowEditing.json",
+  "scrapedAt": "2026-11-16T12:50:05.812Z",
+  "pageTitle": "Row Editing - Angular Data Grid | Angular Example",
+  "h1": "Angular Data Grid - Row Editing",
+  "descriptionEn": "The DataGrid allows users to edit data in multiple modes. This demo shows the \"row\" edit mode. To start editing any row, click \"Edit\" in it. Only one row can be in the edit state at a time. To enable row edit mode, set the mode property to \"row\" and assign true to the editing object's allowUpdating, allowAdding, and allowDeleting properties.",
+  "docLinks": [],
+  "apiLinks": [
+    {
+      "text": "mode",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxDataGrid/Configuration/editing/#mode"
+    },
+    {
+      "text": "allowUpdating",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxDataGrid/Configuration/editing/#allowUpdating"
+    },
+    {
+      "text": "allowAdding",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxDataGrid/Configuration/editing/#allowAdding"
+    },
+    {
+      "text": "allowDeleting",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxDataGrid/Configuration/editing/#allowDeleting"
+    },
+    {
+      "text": "onEditingStart",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxDataGrid/Configuration/#onEditingStart"
+    },
+    {
+      "text": "onInitNewRow",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxDataGrid/Configuration/#onInitNewRow"
+    },
+    {
+      "text": "onRowInserting",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxDataGrid/Configuration/#onRowInserting"
+    },
+    {
+      "text": "onRowInserted",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxDataGrid/Configuration/#onRowInserted"
+    },
+    {
+      "text": "onRowUpdating",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxDataGrid/Configuration/#onRowUpdating"
+    },
+    {
+      "text": "onRowUpdated",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxDataGrid/Configuration/#onRowUpdated"
+    },
+    {
+      "text": "onRowRemoving",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxDataGrid/Configuration/#onRowRemoving"
+    },
+    {
+      "text": "onRowRemoved",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxDataGrid/Configuration/#onRowRemoved"
+    },
+    {
+      "text": "onSaving",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxDataGrid/Configuration/#onSaving"
+    },
+    {
+      "text": "onSaved",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxDataGrid/Configuration/#onSaved"
+    },
+    {
+      "text": "onEditCanceling",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxDataGrid/Configuration/#onEditCanceling"
+    },
+    {
+      "text": "onEditCanceled",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxDataGrid/Configuration/#onEditCanceled"
+    }
+  ],
+  "relatedLinks": [],
+  "screenshotOk": true,
+  "error": null
+}

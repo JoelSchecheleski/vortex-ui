@@ -1,0 +1,80 @@
+{
+  "seq": 54,
+  "widgetId": "data-grid",
+  "widgetEn": "Data Grid",
+  "widgetPt": "Grade de dados",
+  "widget": "DataGrid",
+  "sectionId": "summaries",
+  "sectionEn": "Data Summaries",
+  "sectionPt": "Resumos de dados",
+  "slug": "CustomSummaries",
+  "titleEn": "Custom Summaries",
+  "titlePt": "Resumos personalizados",
+  "ai": false,
+  "url": "https://js.devexpress.com/Angular/Demos/WidgetsGallery/Demo/DataGrid/CustomSummaries/FluentBlueLight/",
+  "imageFile": "images/054-DataGrid-CustomSummaries.png",
+  "rawFile": "raw/054-DataGrid-CustomSummaries.json",
+  "scrapedAt": "2026-11-16T12:53:43.651Z",
+  "pageTitle": "Custom Summaries - Angular Data Grid | Angular Example",
+  "h1": "Angular Data Grid - Custom Summaries",
+  "descriptionEn": "The DataGrid can calculate custom summaries on the client or server side. In this demo, we have implemented client-side logic. The instructions below explain how to do this in your code.",
+  "docLinks": [
+    {
+      "text": "Server-Side Data Aggregation",
+      "href": "https://js.devexpress.com/Angular/Documentation/Guide/UI_Components/DataGrid/Summaries/Custom_Aggregate_Function/#Server-Side_Data_Aggregation"
+    }
+  ],
+  "apiLinks": [
+    {
+      "text": "summary",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxDataGrid/Configuration/remoteOperations/#summary"
+    },
+    {
+      "text": "groupPaging",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxDataGrid/Configuration/remoteOperations/#groupPaging"
+    },
+    {
+      "text": "remoteOperations",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxDataGrid/Configuration/remoteOperations/"
+    },
+    {
+      "text": "summary",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxDataGrid/Configuration/summary/"
+    },
+    {
+      "text": "groupItems",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxDataGrid/Configuration/summary/groupItems/"
+    },
+    {
+      "text": "summary",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxDataGrid/Configuration/summary/"
+    },
+    {
+      "text": "totalItems",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxDataGrid/Configuration/summary/totalItems/"
+    },
+    {
+      "text": "summaryType",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxDataGrid/Configuration/summary/totalItems/#summaryType"
+    },
+    {
+      "text": "name",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxDataGrid/Configuration/summary/totalItems/#name"
+    },
+    {
+      "text": "calculateCustomSummary",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxDataGrid/Configuration/summary/#calculateCustomSummary"
+    },
+    {
+      "text": "refresh()",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxDataGrid/Methods/#refresh"
+    },
+    {
+      "text": "onSelectionChanged",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxDataGrid/Configuration/#onSelectionChanged"
+    }
+  ],
+  "relatedLinks": [],
+  "screenshotOk": true,
+  "error": null
+}

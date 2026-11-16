@@ -1,0 +1,88 @@
+{
+  "seq": 94,
+  "widgetId": "tree-list",
+  "widgetEn": "Tree List",
+  "widgetPt": "Lista de árvores",
+  "widget": "TreeList",
+  "sectionId": "editing",
+  "sectionEn": "Editing",
+  "sectionPt": "Edição",
+  "slug": "FormEditing",
+  "titleEn": "Form Editing",
+  "titlePt": "Edição de formulários",
+  "ai": false,
+  "url": "https://js.devexpress.com/Angular/Demos/WidgetsGallery/Demo/TreeList/FormEditing/FluentBlueLight/",
+  "imageFile": "images/094-TreeList-FormEditing.png",
+  "rawFile": "raw/094-TreeList-FormEditing.json",
+  "scrapedAt": "2026-11-16T12:56:17.521Z",
+  "pageTitle": "Form Editing - Angular Tree List | Angular Example",
+  "h1": "Angular Tree List - Form Editing",
+  "descriptionEn": "The TreeList can use the Form component to arrange cell editors when users modify a row. The Form allows users to edit values from visible and hidden columns. To enable form edit mode, configure the following properties: Set editing.mode to \"form\" Assign true to the editing object's allowAdding, allowUpdating, and allowDeleting properties.",
+  "docLinks": [
+    {
+      "text": "Editing Events",
+      "href": "https://js.devexpress.com/Angular/Documentation/Guide/UI_Components/TreeList/Editing/#Events"
+    }
+  ],
+  "apiLinks": [
+    {
+      "text": "Form",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxForm/"
+    },
+    {
+      "text": "visible and hidden",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxTreeList/Configuration/columns/#visible"
+    },
+    {
+      "text": "mode",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxTreeList/Configuration/editing/#mode"
+    },
+    {
+      "text": "editing",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxTreeList/Configuration/editing/"
+    },
+    {
+      "text": "allowAdding",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxTreeList/Configuration/editing/#allowAdding"
+    },
+    {
+      "text": "allowUpdating",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxTreeList/Configuration/editing/#allowUpdating"
+    },
+    {
+      "text": "allowDeleting",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxTreeList/Configuration/editing/#allowDeleting"
+    },
+    {
+      "text": "dataType",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxTreeList/Configuration/columns/#dataType"
+    },
+    {
+      "text": "formItem",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxTreeList/Configuration/columns/#formItem"
+    },
+    {
+      "text": "SimpleItem",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxForm/Item_Types/SimpleItem/"
+    },
+    {
+      "text": "configuration section",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxForm/"
+    },
+    {
+      "text": "form",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxTreeList/Configuration/editing/#form"
+    },
+    {
+      "text": "onInitNewRow",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxTreeList/Configuration/#onInitNewRow"
+    },
+    {
+      "text": "onEditorPreparing",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxTreeList/Configuration/#onEditorPreparing"
+    }
+  ],
+  "relatedLinks": [],
+  "screenshotOk": true,
+  "error": null
+}

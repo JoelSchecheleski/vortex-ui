@@ -1,0 +1,43 @@
+{
+  "seq": 61,
+  "widgetId": "data-grid",
+  "widgetEn": "Data Grid",
+  "widgetPt": "Grade de dados",
+  "widget": "DataGrid",
+  "sectionId": "export-pdf",
+  "sectionEn": "Export to PDF",
+  "sectionPt": "Exportar para PDF",
+  "slug": "PDFHeaderAndFooter",
+  "titleEn": "Header and Footer",
+  "titlePt": "Cabeçalho e rodapé",
+  "ai": false,
+  "url": "https://js.devexpress.com/Angular/Demos/WidgetsGallery/Demo/DataGrid/PDFHeaderAndFooter/FluentBlueLight/",
+  "imageFile": "images/061-DataGrid-PDFHeaderAndFooter.png",
+  "rawFile": "raw/061-DataGrid-PDFHeaderAndFooter.json",
+  "scrapedAt": "2026-11-16T12:54:09.868Z",
+  "pageTitle": "Header and Footer - Angular Data Grid | Angular Example",
+  "h1": "Angular Data Grid - Header and Footer",
+  "descriptionEn": "The DataGrid allows you to customize a header and a footer in the exported PDF file.",
+  "docLinks": [],
+  "apiLinks": [
+    {
+      "text": "exportDataGrid(options)",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/Common/Utils/pdfExporter/#exportDataGridoptions"
+    },
+    {
+      "text": "topLeft",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/Common/Object_Structures/PdfExportDataGridProps/topLeft/"
+    },
+    {
+      "text": "customDrawCell",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/Common/Object_Structures/PdfExportDataGridProps/#customDrawCell"
+    },
+    {
+      "text": "exportDataGrid(options)",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/Common/Utils/pdfExporter/#exportDataGridoptions"
+    }
+  ],
+  "relatedLinks": [],
+  "screenshotOk": true,
+  "error": null
+}

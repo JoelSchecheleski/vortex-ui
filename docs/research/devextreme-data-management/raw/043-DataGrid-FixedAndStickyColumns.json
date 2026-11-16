@@ -1,0 +1,43 @@
+{
+  "seq": 43,
+  "widgetId": "data-grid",
+  "widgetEn": "Data Grid",
+  "widgetPt": "Grade de dados",
+  "widget": "DataGrid",
+  "sectionId": "columns",
+  "sectionEn": "Columns",
+  "sectionPt": "Colunas",
+  "slug": "FixedAndStickyColumns",
+  "titleEn": "Fixed and Sticky Columns",
+  "titlePt": "Colunas fixas e adesivas",
+  "ai": false,
+  "url": "https://js.devexpress.com/Angular/Demos/WidgetsGallery/Demo/DataGrid/FixedAndStickyColumns/FluentBlueLight/",
+  "imageFile": "images/043-DataGrid-FixedAndStickyColumns.png",
+  "rawFile": "raw/043-DataGrid-FixedAndStickyColumns.json",
+  "scrapedAt": "2026-11-16T12:51:56.382Z",
+  "pageTitle": "Fixed and Sticky Columns - Angular Data Grid | Angular Example",
+  "h1": "Angular Data Grid - Fixed and Sticky Columns",
+  "descriptionEn": "A horizontal scrollbar appears when the total width of all grid columns exceeds the DevExtreme DataGrid’s overall width. To maintain column visibility when scrolling horizontally, set the columnFixing.enabled property to true. To fix a column programmatically, set its fixed property to true and specify the desired fixedPosition: 'left' (default if fixed: true) The column is fixed to the leftmost edge of the grid. 'right' The column is fixed to the rightmost edge of the grid. 'sticky' The column \"sticks\" to the left or rightmost edge when it reaches either side of the grid. To fix (or unfix) a column, right-click a column header and select the desired operation using the DataGrid’s built-in context menu. To prevent users from fixing/unfixing a column, set its allowFixing property to false.",
+  "docLinks": [],
+  "apiLinks": [
+    {
+      "text": "enabled",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxDataGrid/Configuration/columnFixing/#enabled"
+    },
+    {
+      "text": "fixed",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxDataGrid/Configuration/columns/#fixed"
+    },
+    {
+      "text": "fixedPosition",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxDataGrid/Configuration/columns/#fixedPosition"
+    },
+    {
+      "text": "allowFixing",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxDataGrid/Configuration/columns/#allowFixing"
+    }
+  ],
+  "relatedLinks": [],
+  "screenshotOk": true,
+  "error": null
+}

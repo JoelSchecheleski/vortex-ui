@@ -1,0 +1,55 @@
+{
+  "seq": 41,
+  "widgetId": "data-grid",
+  "widgetEn": "Data Grid",
+  "widgetPt": "Grade de dados",
+  "widget": "DataGrid",
+  "sectionId": "columns",
+  "sectionEn": "Columns",
+  "sectionPt": "Colunas",
+  "slug": "ColumnReordering",
+  "titleEn": "Column Reordering",
+  "titlePt": "Reordenação de colunas",
+  "ai": false,
+  "url": "https://js.devexpress.com/Angular/Demos/WidgetsGallery/Demo/DataGrid/ColumnReordering/FluentBlueLight/",
+  "imageFile": "images/041-DataGrid-ColumnReordering.png",
+  "rawFile": "raw/041-DataGrid-ColumnReordering.json",
+  "scrapedAt": "2026-11-16T12:51:48.895Z",
+  "pageTitle": "Column Reordering - Angular Data Grid | Angular Example",
+  "h1": "Angular Data Grid - Column Reordering",
+  "descriptionEn": "DevExtreme DataGrid columns use the same display order as fields in the component's dataSource. You can specify a different display order with the columns[] array. To reorder a column at runtime, change the columns[].visibleIndex property.",
+  "docLinks": [],
+  "apiLinks": [
+    {
+      "text": "dataSource",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxDataGrid/Configuration/#dataSource"
+    },
+    {
+      "text": "columns[]",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxDataGrid/Configuration/columns/"
+    },
+    {
+      "text": "visibleIndex",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxDataGrid/Configuration/columns/#visibleIndex"
+    },
+    {
+      "text": "allowColumnReordering",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxDataGrid/Configuration/#allowColumnReordering"
+    },
+    {
+      "text": "allowReordering",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxDataGrid/Configuration/columns/#allowReordering"
+    },
+    {
+      "text": "fixed",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxDataGrid/Configuration/columns/#fixed"
+    },
+    {
+      "text": "position",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxDataGrid/Configuration/columns/#fixedPosition"
+    }
+  ],
+  "relatedLinks": [],
+  "screenshotOk": true,
+  "error": null
+}
