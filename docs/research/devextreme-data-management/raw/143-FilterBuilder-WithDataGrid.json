@@ -1,0 +1,31 @@
+{
+  "seq": 143,
+  "widgetId": "filter-builder",
+  "widgetEn": "Filter Builder",
+  "widgetPt": "Construtor de filtros",
+  "widget": "FilterBuilder",
+  "sectionId": "demos",
+  "sectionEn": "Demos",
+  "sectionPt": "Demos",
+  "slug": "WithDataGrid",
+  "titleEn": "With Data Grid",
+  "titlePt": "Com grade de dados",
+  "ai": false,
+  "url": "https://js.devexpress.com/Angular/Demos/WidgetsGallery/Demo/FilterBuilder/WithDataGrid/FluentBlueLight/",
+  "imageFile": "images/143-FilterBuilder-WithDataGrid.png",
+  "rawFile": "raw/143-FilterBuilder-WithDataGrid.json",
+  "scrapedAt": "2026-11-16T13:00:24.645Z",
+  "pageTitle": "With Data Grid - Angular Filter Builder | Angular Example",
+  "h1": "Angular Filter Builder - With Data Grid",
+  "descriptionEn": "This demo shows how to use a standalone FilterBuilder to filter data in the DataGrid component. The DataGrid also has an integrated filter builder that can be invoked using the filter panel (see the Filter Panel demo).",
+  "docLinks": [],
+  "apiLinks": [],
+  "relatedLinks": [
+    {
+      "text": "Filter Panel",
+      "href": "https://js.devexpress.com/Demos/WidgetsGallery/Demo/DataGrid/FilterPanel/jQuery/Light/"
+    }
+  ],
+  "screenshotOk": true,
+  "error": null
+}

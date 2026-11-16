@@ -1,0 +1,52 @@
+{
+  "seq": 132,
+  "widgetId": "pivot-grid",
+  "widgetEn": "Pivot Grid",
+  "widgetPt": "Grade Pivô",
+  "widget": "PivotGrid",
+  "sectionId": "summaries",
+  "sectionEn": "Data Summaries",
+  "sectionPt": "Resumos de dados",
+  "slug": "SummaryDisplayModes",
+  "titleEn": "Summary Display Modes",
+  "titlePt": "Modos de exibição resumidos",
+  "ai": false,
+  "url": "https://js.devexpress.com/Angular/Demos/WidgetsGallery/Demo/PivotGrid/SummaryDisplayModes/FluentBlueLight/",
+  "imageFile": "images/132-PivotGrid-SummaryDisplayModes.png",
+  "rawFile": "raw/132-PivotGrid-SummaryDisplayModes.json",
+  "scrapedAt": "2026-11-16T12:59:43.871Z",
+  "pageTitle": "Summary Display Modes - Angular Pivot Grid | Angular Example",
+  "h1": "Angular Pivot Grid - Summary Display Modes",
+  "descriptionEn": "Summary display modes are post-processing functions that allow you to perform additional calculations on each summary value and take into account neighboring summary values. You can use summary display modes to present pivot data from different angles.",
+  "docLinks": [],
+  "apiLinks": [
+    {
+      "text": "summaryDisplayMode",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/Data_Layer/PivotGridDataSource/Configuration/fields/#summaryDisplayMode"
+    },
+    {
+      "text": "calculateSummaryValue",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/Data_Layer/PivotGridDataSource/Configuration/fields/#calculateSummaryValue"
+    },
+    {
+      "text": "onContextMenuPreparing",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxPivotGrid/Configuration/#onContextMenuPreparing"
+    },
+    {
+      "text": "caption",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/Data_Layer/PivotGridDataSource/Configuration/fields/#caption"
+    },
+    {
+      "text": "format",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/Data_Layer/PivotGridDataSource/Configuration/fields/#format"
+    }
+  ],
+  "relatedLinks": [
+    {
+      "text": "field panel",
+      "href": "https://js.devexpress.com/Demos/WidgetsGallery/Demo/PivotGrid/FieldPanel"
+    }
+  ],
+  "screenshotOk": true,
+  "error": null
+}

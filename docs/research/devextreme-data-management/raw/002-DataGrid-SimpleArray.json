@@ -1,0 +1,44 @@
+{
+  "seq": 2,
+  "widgetId": "data-grid",
+  "widgetEn": "Data Grid",
+  "widgetPt": "Grade de dados",
+  "widget": "DataGrid",
+  "sectionId": "data-binding",
+  "sectionEn": "Data Binding",
+  "sectionPt": "Vinculação de dados",
+  "slug": "SimpleArray",
+  "titleEn": "Simple Array",
+  "titlePt": "Matriz simples",
+  "ai": false,
+  "url": "https://js.devexpress.com/Angular/Demos/WidgetsGallery/Demo/DataGrid/SimpleArray/FluentBlueLight/",
+  "imageFile": "images/002-DataGrid-SimpleArray.png",
+  "rawFile": "raw/002-DataGrid-SimpleArray.json",
+  "scrapedAt": "2026-11-16T12:49:20.398Z",
+  "pageTitle": "Simple Array - Angular Data Grid | Angular Example",
+  "h1": "Angular Data Grid - Simple Array",
+  "descriptionEn": "You can use the DataGrid component to display and edit data from an array of objects. Use the dataSource and keyExpr properties to specify the bound array and its key field. For more information, refer to the following help topic: Local Array. Use the columns property to specify a list of data fields you want to display within the DataGrid as columns. If the columns property is not specified, the component creates columns for all data fields available in objects from the bound array.",
+  "docLinks": [
+    {
+      "text": "Local Array",
+      "href": "https://js.devexpress.com/Angular/Documentation/Guide/Data_Binding/Specify_a_Data_Source/Local_Array/"
+    }
+  ],
+  "apiLinks": [
+    {
+      "text": "dataSource",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxDataGrid/Configuration/#dataSource"
+    },
+    {
+      "text": "keyExpr",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxDataGrid/Configuration/#keyExpr"
+    },
+    {
+      "text": "columns",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxDataGrid/Configuration/columns/"
+    }
+  ],
+  "relatedLinks": [],
+  "screenshotOk": true,
+  "error": null
+}

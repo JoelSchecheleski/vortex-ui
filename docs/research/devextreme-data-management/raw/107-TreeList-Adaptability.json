@@ -1,0 +1,35 @@
+{
+  "seq": 107,
+  "widgetId": "tree-list",
+  "widgetEn": "Tree List",
+  "widgetPt": "Lista de árvores",
+  "widget": "TreeList",
+  "sectionId": "adaptability",
+  "sectionEn": "Adaptability",
+  "sectionPt": "Adaptabilidade",
+  "slug": "Adaptability",
+  "titleEn": "Adaptability",
+  "titlePt": "Adaptabilidade",
+  "ai": false,
+  "url": "https://js.devexpress.com/Angular/Demos/WidgetsGallery/Demo/TreeList/Adaptability/FluentBlueLight/",
+  "imageFile": "images/107-TreeList-Adaptability.png",
+  "rawFile": "raw/107-TreeList-Adaptability.json",
+  "scrapedAt": "2026-11-16T12:58:12.158Z",
+  "pageTitle": "Adaptability - Angular Tree List | Angular Example",
+  "h1": "Angular Tree List - Adaptability",
+  "descriptionEn": "The TreeList automatically adapts its layout to screens with different sizes. In this demo, you can switch between horizontal and vertical screen orientations. If columns do not fit the selected orientation, the TreeList hides them one by one, starting with the rightmost column. Information from the hidden columns is still available in adaptive detail rows. To enable this feature, set the columnHidingEnabled property to true.",
+  "docLinks": [],
+  "apiLinks": [
+    {
+      "text": "columnHidingEnabled",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxTreeList/Configuration/#columnHidingEnabled"
+    },
+    {
+      "text": "hidingPriority",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxTreeList/Configuration/columns/#hidingPriority"
+    }
+  ],
+  "relatedLinks": [],
+  "screenshotOk": true,
+  "error": null
+}

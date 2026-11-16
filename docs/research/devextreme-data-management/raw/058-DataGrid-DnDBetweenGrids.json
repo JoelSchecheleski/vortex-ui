@@ -1,0 +1,72 @@
+{
+  "seq": 58,
+  "widgetId": "data-grid",
+  "widgetEn": "Data Grid",
+  "widgetPt": "Grade de dados",
+  "widget": "DataGrid",
+  "sectionId": "dnd",
+  "sectionEn": "Drag & Drop",
+  "sectionPt": "Arrastar e soltar",
+  "slug": "DnDBetweenGrids",
+  "titleEn": "Drag & Drop Between Two Grids",
+  "titlePt": "Arrastar e soltar entre duas grades",
+  "ai": false,
+  "url": "https://js.devexpress.com/Angular/Demos/WidgetsGallery/Demo/DataGrid/DnDBetweenGrids/FluentBlueLight/",
+  "imageFile": "images/058-DataGrid-DnDBetweenGrids.png",
+  "rawFile": "raw/058-DataGrid-DnDBetweenGrids.json",
+  "scrapedAt": "2026-11-16T12:53:58.304Z",
+  "pageTitle": "Drag & Drop Between Two Grids - Angular Data Grid | Angular Example",
+  "h1": "Angular Data Grid - Drag & Drop Between Two Grids",
+  "descriptionEn": "This functionality requires that data objects have a data field that identifies which grid they belong to. In this demo, this data field is Status.",
+  "docLinks": [],
+  "apiLinks": [
+    {
+      "text": "rowDragging",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxDataGrid/Configuration/rowDragging/"
+    },
+    {
+      "text": "data",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxDataGrid/Configuration/rowDragging/#data"
+    },
+    {
+      "text": "filterValue",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxDataGrid/Configuration/#filterValue"
+    },
+    {
+      "text": "group",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxDataGrid/Configuration/rowDragging/#group"
+    },
+    {
+      "text": "onAdd",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxDataGrid/Configuration/rowDragging/#onAdd"
+    },
+    {
+      "text": "update",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/Data_Layer/CustomStore/Methods/#updatekey_values"
+    },
+    {
+      "text": "push",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/Data_Layer/CustomStore/Methods/#pushchanges"
+    },
+    {
+      "text": "reshapeOnPush",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/Data_Layer/DataSource/Configuration/#reshapeOnPush"
+    },
+    {
+      "text": "dataSource",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxDataGrid/Configuration/#dataSource"
+    }
+  ],
+  "relatedLinks": [
+    {
+      "text": "createStore",
+      "href": "https://github.com/DevExpress/DevExtreme.AspNet.Data/blob/master/docs/client-side-with-jquery.md#api-reference"
+    },
+    {
+      "text": "DevExtreme.AspNet.Data",
+      "href": "https://github.com/DevExpress/DevExtreme.AspNet.Data#devextreme-aspnet-data"
+    }
+  ],
+  "screenshotOk": true,
+  "error": null
+}

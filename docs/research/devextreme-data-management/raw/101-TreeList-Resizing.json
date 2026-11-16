@@ -1,0 +1,59 @@
+{
+  "seq": 101,
+  "widgetId": "tree-list",
+  "widgetEn": "Tree List",
+  "widgetPt": "Lista de árvores",
+  "widget": "TreeList",
+  "sectionId": "columns",
+  "sectionEn": "Columns",
+  "sectionPt": "Colunas",
+  "slug": "Resizing",
+  "titleEn": "Column Resizing",
+  "titlePt": "Redimensionamento de colunas",
+  "ai": false,
+  "url": "https://js.devexpress.com/Angular/Demos/WidgetsGallery/Demo/TreeList/Resizing/FluentBlueLight/",
+  "imageFile": "images/101-TreeList-Resizing.png",
+  "rawFile": "raw/101-TreeList-Resizing.json",
+  "scrapedAt": "2026-11-16T12:57:50.459Z",
+  "pageTitle": "Column Resizing - Angular Tree List | Angular Example",
+  "h1": "Angular Tree List - Column Resizing",
+  "descriptionEn": "The TreeList sets the same width for all columns, but you can change column widths as described below.",
+  "docLinks": [],
+  "apiLinks": [
+    {
+      "text": "columnWidth",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxTreeList/Configuration/#columnWidth"
+    },
+    {
+      "text": "width",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxTreeList/Configuration/columns/#width"
+    },
+    {
+      "text": "columnMinWidth",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxTreeList/Configuration/#columnMinWidth"
+    },
+    {
+      "text": "minWidth",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxTreeList/Configuration/columns/#minWidth"
+    },
+    {
+      "text": "columnAutoWidth",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxTreeList/Configuration/#columnAutoWidth"
+    },
+    {
+      "text": "allowColumnResizing",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxTreeList/Configuration/#allowColumnResizing"
+    },
+    {
+      "text": "columnResizingMode",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxTreeList/Configuration/#columnResizingMode"
+    },
+    {
+      "text": "allowResizing",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxTreeList/Configuration/columns/#allowResizing"
+    }
+  ],
+  "relatedLinks": [],
+  "screenshotOk": true,
+  "error": null
+}

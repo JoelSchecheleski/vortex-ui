@@ -1,0 +1,36 @@
+{
+  "seq": 110,
+  "widgetId": "card-view",
+  "widgetEn": "Card View",
+  "widgetPt": "Visualização do cartão",
+  "widget": "CardView",
+  "sectionId": "overview",
+  "sectionEn": "Overview",
+  "sectionPt": "Visão geral",
+  "slug": "Overview",
+  "titleEn": "Overview",
+  "titlePt": "Visão geral",
+  "ai": false,
+  "url": "https://js.devexpress.com/Angular/Demos/WidgetsGallery/Demo/CardView/Overview/FluentBlueLight/",
+  "imageFile": "images/110-CardView-Overview.png",
+  "rawFile": "raw/110-CardView-Overview.json",
+  "scrapedAt": "2026-11-16T12:58:23.012Z",
+  "pageTitle": "Angular Card View - Overview | Angular Example",
+  "h1": "Angular Card View - Overview",
+  "descriptionEn": "The DevExtreme CardView component allows you to display business data using a 'card' UI metaphor — a visually engaging alternative to traditional grid views. Use it for employee directories, contact lists, product catalogs, or task boards. To get started with the CardView component, refer to the following step-by-step tutorial: Getting Started with CardView. For a complete overview of CardView options, refer to the CardView API Reference.",
+  "docLinks": [
+    {
+      "text": "Getting Started with CardView",
+      "href": "https://js.devexpress.com/Angular/Documentation/Guide/UI_Components/CardView/Getting_Started_with_CardView/"
+    }
+  ],
+  "apiLinks": [
+    {
+      "text": "CardView API Reference",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxCardView/"
+    }
+  ],
+  "relatedLinks": [],
+  "screenshotOk": true,
+  "error": null
+}

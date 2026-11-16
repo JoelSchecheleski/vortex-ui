@@ -1,0 +1,35 @@
+{
+  "seq": 71,
+  "widgetId": "data-grid",
+  "widgetEn": "Data Grid",
+  "widgetPt": "Grade de dados",
+  "widget": "DataGrid",
+  "sectionId": "customization",
+  "sectionEn": "Customization",
+  "sectionPt": "Personalização",
+  "slug": "Row",
+  "titleEn": "Row",
+  "titlePt": "Linha",
+  "ai": false,
+  "url": "https://js.devexpress.com/Angular/Demos/WidgetsGallery/Demo/DataGrid/Row/FluentBlueLight/",
+  "imageFile": "images/071-DataGrid-Row.png",
+  "rawFile": "raw/071-DataGrid-Row.json",
+  "scrapedAt": "2026-11-16T12:54:50.684Z",
+  "pageTitle": "Row - Angular Data Grid | Angular Example",
+  "h1": "Angular Data Grid - Row",
+  "descriptionEn": "Row templates allow you to display custom content in data rows. In this demo, a dataRowTemplate adds employee images and extra information to regular data rows. You should disable or implement certain DataGrid features manually to use row templates. Refer to the dataRowTemplate article for details.",
+  "docLinks": [],
+  "apiLinks": [
+    {
+      "text": "dataRowTemplate",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxDataGrid/Configuration/#dataRowTemplate"
+    },
+    {
+      "text": "dataRowTemplate",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxDataGrid/Configuration/#dataRowTemplate"
+    }
+  ],
+  "relatedLinks": [],
+  "screenshotOk": true,
+  "error": null
+}

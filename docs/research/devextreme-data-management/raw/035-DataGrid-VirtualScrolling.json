@@ -1,0 +1,36 @@
+{
+  "seq": 35,
+  "widgetId": "data-grid",
+  "widgetEn": "Data Grid",
+  "widgetPt": "Grade de dados",
+  "widget": "DataGrid",
+  "sectionId": "scrolling",
+  "sectionEn": "Scrolling",
+  "sectionPt": "Rolagem",
+  "slug": "VirtualScrolling",
+  "titleEn": "Local Virtual Scrolling",
+  "titlePt": "Rolagem virtual local",
+  "ai": false,
+  "url": "https://js.devexpress.com/Angular/Demos/WidgetsGallery/Demo/DataGrid/VirtualScrolling/FluentBlueLight/",
+  "imageFile": "images/035-DataGrid-VirtualScrolling.png",
+  "rawFile": "raw/035-DataGrid-VirtualScrolling.json",
+  "scrapedAt": "2026-11-16T12:51:25.553Z",
+  "pageTitle": "Local Virtual Scrolling - Angular Data Grid | Angular Example",
+  "h1": "Angular Data Grid - Local Virtual Scrolling",
+  "descriptionEn": "To optimize data load times and improve user navigation when binding DataGrid to a large dataset, you can enable virtual scrolling. In this demo, we bind the component to a dataset of 100,000 records. To enable virtual scrolling, set scrolling.mode to \"virtual\".",
+  "docLinks": [],
+  "apiLinks": [
+    {
+      "text": "mode",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxDataGrid/Configuration/scrolling/#mode"
+    }
+  ],
+  "relatedLinks": [
+    {
+      "text": "infinite scrolling",
+      "href": "https://js.devexpress.com/Demos/WidgetsGallery/Demo/DataGrid/InfiniteScrolling/MaterialBlueLight/"
+    }
+  ],
+  "screenshotOk": true,
+  "error": null
+}

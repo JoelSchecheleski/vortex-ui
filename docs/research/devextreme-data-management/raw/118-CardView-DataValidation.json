@@ -1,0 +1,51 @@
+{
+  "seq": 118,
+  "widgetId": "card-view",
+  "widgetEn": "Card View",
+  "widgetPt": "Visualização do cartão",
+  "widget": "CardView",
+  "sectionId": "editing",
+  "sectionEn": "Editing",
+  "sectionPt": "Edição",
+  "slug": "DataValidation",
+  "titleEn": "Data Validation",
+  "titlePt": "Validação de dados",
+  "ai": false,
+  "url": "https://js.devexpress.com/Angular/Demos/WidgetsGallery/Demo/CardView/DataValidation/FluentBlueLight/",
+  "imageFile": "images/118-CardView-DataValidation.png",
+  "rawFile": "raw/118-CardView-DataValidation.json",
+  "scrapedAt": "2026-11-16T12:58:52.253Z",
+  "pageTitle": "Data Validation - Angular Card View | Angular Example",
+  "h1": "Angular Card View - Data Validation",
+  "descriptionEn": "DevExtreme CardView allows you to validate user input as necessary. You can apply pre-defined validation rules or custom rules to individual columns.",
+  "docLinks": [],
+  "apiLinks": [
+    {
+      "text": "validation rules",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxCardView/Configuration/columns/#validationRules"
+    },
+    {
+      "text": "required",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxValidator/Validation_Rules/RequiredRule/"
+    },
+    {
+      "text": "pattern",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxValidator/Validation_Rules/PatternRule/"
+    },
+    {
+      "text": "email",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxValidator/Validation_Rules/EmailRule/"
+    },
+    {
+      "text": "async",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxValidator/Validation_Rules/AsyncRule/"
+    },
+    {
+      "text": "custom",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxValidator/Validation_Rules/CustomRule/"
+    }
+  ],
+  "relatedLinks": [],
+  "screenshotOk": true,
+  "error": null
+}

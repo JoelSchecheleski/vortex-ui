@@ -1,0 +1,43 @@
+{
+  "seq": 13,
+  "widgetId": "data-grid",
+  "widgetEn": "Data Grid",
+  "widgetPt": "Grade de dados",
+  "widget": "DataGrid",
+  "sectionId": "sorting",
+  "sectionEn": "Sorting",
+  "sectionPt": "Classificação",
+  "slug": "MultipleSorting",
+  "titleEn": "Sorting",
+  "titlePt": "Classificação",
+  "ai": false,
+  "url": "https://js.devexpress.com/Angular/Demos/WidgetsGallery/Demo/DataGrid/MultipleSorting/FluentBlueLight/",
+  "imageFile": "images/013-DataGrid-MultipleSorting.png",
+  "rawFile": "raw/013-DataGrid-MultipleSorting.json",
+  "scrapedAt": "2026-11-16T12:50:01.942Z",
+  "pageTitle": "Sorting - Angular Data Grid | Angular Example",
+  "h1": "Angular Data Grid - Sorting",
+  "descriptionEn": "The DataGrid component can sort values by a single or multiple columns. Use the sorting.mode property to specify the sort mode.",
+  "docLinks": [],
+  "apiLinks": [
+    {
+      "text": "mode",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxDataGrid/Configuration/sorting/#mode"
+    },
+    {
+      "text": "allowSorting",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxDataGrid/Configuration/columns/#allowSorting"
+    },
+    {
+      "text": "sortOrder",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxDataGrid/Configuration/columns/#sortOrder"
+    },
+    {
+      "text": "sortIndex",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxDataGrid/Configuration/columns/#sortIndex"
+    }
+  ],
+  "relatedLinks": [],
+  "screenshotOk": true,
+  "error": null
+}

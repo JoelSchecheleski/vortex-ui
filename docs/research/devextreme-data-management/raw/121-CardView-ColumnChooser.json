@@ -1,0 +1,51 @@
+{
+  "seq": 121,
+  "widgetId": "card-view",
+  "widgetEn": "Card View",
+  "widgetPt": "Visualização do cartão",
+  "widget": "CardView",
+  "sectionId": "columns",
+  "sectionEn": "Columns",
+  "sectionPt": "Colunas",
+  "slug": "ColumnChooser",
+  "titleEn": "Column Chooser",
+  "titlePt": "Seletor de colunas",
+  "ai": false,
+  "url": "https://js.devexpress.com/Angular/Demos/WidgetsGallery/Demo/CardView/ColumnChooser/FluentBlueLight/",
+  "imageFile": "images/121-CardView-ColumnChooser.png",
+  "rawFile": "raw/121-CardView-ColumnChooser.json",
+  "scrapedAt": "2026-11-16T12:59:03.229Z",
+  "pageTitle": "Column Chooser - Angular Card View | Angular Example",
+  "h1": "Angular Card View - Column Chooser",
+  "descriptionEn": "To change field visibility at runtime, set the columnChooser.enabled property to true. To ensure specific fields remain visible, set the columns[].allowHiding property to false. In this demo, allowHiding is disabled for \"Full Name\" and \"Phone\" columns. Set columnChooser.mode to specify how users toggle column visibility: \"dragAndDrop\" Users drag & drop fields between the header panel and column chooser. \"select\" Users toggle check boxes for field names.",
+  "docLinks": [],
+  "apiLinks": [
+    {
+      "text": "enabled",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxCardView/Configuration/columnChooser/#enabled"
+    },
+    {
+      "text": "allowHiding",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxCardView/Configuration/columns/#allowHiding"
+    },
+    {
+      "text": "mode",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxCardView/Configuration/columnChooser/#mode"
+    },
+    {
+      "text": "position",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxCardView/Configuration/columnChooser/#position"
+    },
+    {
+      "text": "enabled",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxCardView/Configuration/columnChooser/search/#enabled"
+    },
+    {
+      "text": "visible",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxCardView/Configuration/columns/#visible"
+    }
+  ],
+  "relatedLinks": [],
+  "screenshotOk": true,
+  "error": null
+}

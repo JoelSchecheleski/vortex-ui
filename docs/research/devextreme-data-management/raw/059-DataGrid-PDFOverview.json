@@ -1,0 +1,80 @@
+{
+  "seq": 59,
+  "widgetId": "data-grid",
+  "widgetEn": "Data Grid",
+  "widgetPt": "Grade de dados",
+  "widget": "DataGrid",
+  "sectionId": "export-pdf",
+  "sectionEn": "Export to PDF",
+  "sectionPt": "Exportar para PDF",
+  "slug": "PDFOverview",
+  "titleEn": "Overview",
+  "titlePt": "Visão geral",
+  "ai": false,
+  "url": "https://js.devexpress.com/Angular/Demos/WidgetsGallery/Demo/DataGrid/PDFOverview/FluentBlueLight/",
+  "imageFile": "images/059-DataGrid-PDFOverview.png",
+  "rawFile": "raw/059-DataGrid-PDFOverview.json",
+  "scrapedAt": "2026-11-16T12:54:02.249Z",
+  "pageTitle": "Angular Data Grid - Overview | Angular Example",
+  "h1": "Angular Data Grid - Overview",
+  "descriptionEn": "The DataGrid allows you to export its contents to a PDF document. To enable PDF export operations, import the jsPDF library and set the export.enabled property to true. Call the exportDataGrid(options) method that belongs to the pdfExporter module. Specify at least two required properties: jsPDFDocument Specifies the jsPDF instance. component Specifies the DataGrid's instance. To review implementation details, see the exportDataGrid(options) method call in onExporting handler. You can also set allowExportSelectedData to true to export only selected rows.",
+  "docLinks": [],
+  "apiLinks": [
+    {
+      "text": "DataGrid",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxDataGrid/"
+    },
+    {
+      "text": "enabled",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxDataGrid/Configuration/export/#enabled"
+    },
+    {
+      "text": "exportDataGrid(options)",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/Common/Utils/pdfExporter/#exportDataGridoptions"
+    },
+    {
+      "text": "pdfExporter",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/Common/Utils/pdfExporter/"
+    },
+    {
+      "text": "jsPDFDocument",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/Common/Object_Structures/PdfExportDataGridProps/#jsPDFDocument"
+    },
+    {
+      "text": "component",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/Common/Object_Structures/PdfExportDataGridProps/#component"
+    },
+    {
+      "text": "exportDataGrid(options)",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/Common/Utils/pdfExporter/#exportDataGridoptions"
+    },
+    {
+      "text": "onExporting",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxDataGrid/Configuration/#onExporting"
+    },
+    {
+      "text": "allowExportSelectedData",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxDataGrid/Configuration/export/#allowExportSelectedData"
+    }
+  ],
+  "relatedLinks": [
+    {
+      "text": "jsPDF",
+      "href": "https://github.com/parallax/jsPDF"
+    },
+    {
+      "text": "jsPDF",
+      "href": "https://github.com/parallax/jsPDF"
+    },
+    {
+      "text": "Get Started with DevExpress Reports",
+      "href": "https://docs.devexpress.com/XtraReports/9814/web-reporting"
+    },
+    {
+      "text": "Explore Demos",
+      "href": "https://www.devexpress.com/Support/Demos/#reporting"
+    }
+  ],
+  "screenshotOk": true,
+  "error": null
+}

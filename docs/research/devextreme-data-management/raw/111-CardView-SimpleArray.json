@@ -1,0 +1,39 @@
+{
+  "seq": 111,
+  "widgetId": "card-view",
+  "widgetEn": "Card View",
+  "widgetPt": "Visualização do cartão",
+  "widget": "CardView",
+  "sectionId": "data-binding",
+  "sectionEn": "Data Binding",
+  "sectionPt": "Vinculação de dados",
+  "slug": "SimpleArray",
+  "titleEn": "Simple Array",
+  "titlePt": "Matriz simples",
+  "ai": false,
+  "url": "https://js.devexpress.com/Angular/Demos/WidgetsGallery/Demo/CardView/SimpleArray/FluentBlueLight/",
+  "imageFile": "images/111-CardView-SimpleArray.png",
+  "rawFile": "raw/111-CardView-SimpleArray.json",
+  "scrapedAt": "2026-11-16T12:58:26.808Z",
+  "pageTitle": "Simple Array - Angular Card View | Angular Example",
+  "h1": "Angular Card View - Simple Array",
+  "descriptionEn": "You can use the DevExtreme CardView to display/edit data from an array of objects. Use the dataSource and keyExpr properties to specify the bound array and its associated key field. Use the columns property to specify a list of data fields to display within the CardView as fields. If the columns property is not specified, the component creates columns for all data fields available in objects from the bound array.",
+  "docLinks": [],
+  "apiLinks": [
+    {
+      "text": "dataSource",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxCardView/Configuration/#dataSource"
+    },
+    {
+      "text": "keyExpr",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxCardView/Configuration/#keyExpr"
+    },
+    {
+      "text": "columns",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxCardView/Configuration/columns/"
+    }
+  ],
+  "relatedLinks": [],
+  "screenshotOk": true,
+  "error": null
+}

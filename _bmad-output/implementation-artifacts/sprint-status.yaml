@@ -1,0 +1,102 @@
+# STATUS DEFINITIONS:
+# ==================
+# Epic Status:
+#   - backlog: Epic not yet started
+#   - in-progress: Epic actively being worked on
+#   - done: All stories in epic completed
+
+# Story Status:
+#   - backlog: Story only exists in epic file
+#   - ready-for-dev: Story file created, ready for development
+#   - in-progress: Developer actively working on implementation
+#   - review: Implementation complete, ready for review
+#   - done: Story completed
+
+# Retrospective Status:
+#   - optional: Can be completed but not required
+#   - done: Retrospective has been completed
+
+# Action Item Status:
+#   - open: Committed during a retrospective, not yet addressed
+#   - in-progress: Actively being worked on
+#   - done: Completed
+
+# WORKFLOW NOTES:
+# ===============
+# - Epic transitions to 'in-progress' automatically when its first story starts (via build's sprint sync)
+# - Stories can be worked in parallel if team capacity allows
+# - Developer typically creates the next story after the previous one is 'done' to incorporate learnings
+# - Dev moves story to 'review', then runs code-review (fresh context, different LLM recommended)
+# - Retrospective appends its action items to action_items; the status view surfaces open ones
+generated: 11-16-2026 11:19
+last_updated: 11-16-2026 12:20
+project: VortexUI
+project_key: NOKEY
+tracking_system: file-system
+story_location: d:/JOEL/AI/VortexUI/_bmad-output/implementation-artifacts
+development_status:
+  epic-1: in-progress
+  1-1-storybook-prd-tracking-convention: review
+  1-2-local-array-datasource: backlog
+  1-3-filterbuilder-overview: backlog
+  1-4-filterbuilder-with-datagrid-filter-panel: backlog
+  1-5-filterbuilder-customization: backlog
+  1-6-choose-data-management-component-docs-packaging: backlog
+  epic-1-retrospective: optional
+
+  epic-2: backlog
+  2-1-overview-simple-array-binding: backlog
+  2-2-sorting-paging: backlog
+  2-3-selection-focused-row: backlog
+  2-4-filtering-row-api-panel-header-filter: backlog
+  2-5-editing-modes-row-cell-batch-form-popup: backlog
+  2-6-custom-editors-validation-cascading-lookups-edit-state: backlog
+  2-7-grouping-summaries-local: backlog
+  2-8-column-ux-bands-reorder-resize-fixed-command-chooser: backlog
+  2-9-local-virtual-horizontal-infinite-scrolling: backlog
+  2-10-master-detail-non-ai: backlog
+  2-11-appearance-templates-toolbar-customization: backlog
+  2-12-state-persistence-adaptability: backlog
+  2-13-local-reorder-dnd: backlog
+  2-14-keyboard-navigation-rtl: backlog
+  epic-2-retrospective: optional
+
+  epic-3: backlog
+  3-1-json-custom-remote-datasource-binding: backlog
+  3-2-web-api-remote-operations-pattern: backlog
+  3-3-realtime-push-signalr-style-updates: backlog
+  3-4-remote-crud-batch-update-requests: backlog
+  3-5-remote-grouping-remote-virtual-scrolling: backlog
+  3-6-remote-reorder-drag-between-two-grids: backlog
+  epic-3-retrospective: optional
+
+  epic-4: backlog
+  4-1-treelist-overview-hierarchical-binding: backlog
+  4-2-treelist-filtering-sorting: backlog
+  4-3-treelist-editing: backlog
+  4-4-treelist-selection-paging: backlog
+  4-5-treelist-columns-dnd-state-adapt-keyboard: backlog
+  epic-4-retrospective: optional
+
+  epic-5: backlog
+  5-1-cardview-overview-binding: backlog
+  5-2-cardview-filter-sort-selection: backlog
+  5-3-cardview-editing-columns-fields: backlog
+  5-4-card-templates-customization: backlog
+  epic-5-retrospective: optional
+
+  epic-6: backlog
+  6-1-pivot-overview-binding-field-management: backlog
+  6-2-pivot-summaries-drill-down-filtering-scrolling: backlog
+  6-3-pivot-excel-export-chart-integration-customization-state: backlog
+  epic-6-retrospective: optional
+
+  epic-7: backlog
+  7-1-datagrid-export-to-pdf: backlog
+  7-2-datagrid-export-to-excel: backlog
+  7-3-collaborative-editing: backlog
+  7-4-ai-semantic-search: backlog
+  7-5-ai-columns-datagrid-treelist: backlog
+  7-6-ai-assistant-dialog: backlog
+  7-7-ai-powered-detail-view: backlog
+  epic-7-retrospective: optional

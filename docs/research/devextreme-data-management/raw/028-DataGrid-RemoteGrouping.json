@@ -1,0 +1,44 @@
+{
+  "seq": 28,
+  "widgetId": "data-grid",
+  "widgetEn": "Data Grid",
+  "widgetPt": "Grade de dados",
+  "widget": "DataGrid",
+  "sectionId": "grouping",
+  "sectionEn": "Grouping",
+  "sectionPt": "Agrupamento",
+  "slug": "RemoteGrouping",
+  "titleEn": "Remote Grouping",
+  "titlePt": "Agrupamento remoto",
+  "ai": false,
+  "url": "https://js.devexpress.com/Angular/Demos/WidgetsGallery/Demo/DataGrid/RemoteGrouping/FluentBlueLight/",
+  "imageFile": "images/028-DataGrid-RemoteGrouping.png",
+  "rawFile": "raw/028-DataGrid-RemoteGrouping.json",
+  "scrapedAt": "2026-11-16T12:50:58.867Z",
+  "pageTitle": "Remote Grouping - Angular Data Grid | Angular Example",
+  "h1": "Angular Data Grid - Remote Grouping",
+  "descriptionEn": "Remote (server-side) operations can boost the DataGrid's performance on large datasets. In this demo, the DataGrid works with a million records seamlessly because they are processed on the server. To notify the DataGrid that it works with a pre-processed dataset, set the remoteOperations property to true.",
+  "docLinks": [
+    {
+      "text": "Server-Side Data Processing",
+      "href": "https://js.devexpress.com/Angular/Documentation/Guide/Data_Binding/Specify_a_Data_Source/Custom_Data_Sources/#Load_Data/Server-Side_Data_Processing"
+    }
+  ],
+  "apiLinks": [
+    {
+      "text": "remoteOperations",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxDataGrid/Configuration/remoteOperations/"
+    },
+    {
+      "text": "autoExpandAll",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxDataGrid/Configuration/grouping/#autoExpandAll"
+    },
+    {
+      "text": "mode",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxDataGrid/Configuration/scrolling/#mode"
+    }
+  ],
+  "relatedLinks": [],
+  "screenshotOk": true,
+  "error": null
+}

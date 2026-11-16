@@ -1,0 +1,80 @@
+{
+  "seq": 140,
+  "widgetId": "pivot-grid",
+  "widgetEn": "Pivot Grid",
+  "widgetPt": "Grade Pivô",
+  "widget": "PivotGrid",
+  "sectionId": "chart-integration",
+  "sectionEn": "Chart Integration",
+  "sectionPt": "Integração de gráficos",
+  "slug": "ChartIntegration",
+  "titleEn": "Chart Integration",
+  "titlePt": "Integração de gráficos",
+  "ai": false,
+  "url": "https://js.devexpress.com/Angular/Demos/WidgetsGallery/Demo/PivotGrid/ChartIntegration/FluentBlueLight/",
+  "imageFile": "images/140-PivotGrid-ChartIntegration.png",
+  "rawFile": "raw/140-PivotGrid-ChartIntegration.json",
+  "scrapedAt": "2026-11-16T13:00:13.632Z",
+  "pageTitle": "Chart Integration - Angular Pivot Grid | Angular Example",
+  "h1": "Angular Pivot Grid - Chart Integration",
+  "descriptionEn": "PivotGrid allows you to integrate the Chart component to visualize data. The Chart is synchronized with the PivotGrid and visualizes the currently displayed total summary values. Expand a row or column header in the PivotGrid below to see how it works.",
+  "docLinks": [
+    {
+      "text": "row field",
+      "href": "https://js.devexpress.com/Angular/Documentation/Guide/UI_Components/PivotGrid/Visual_Elements/#Headers"
+    },
+    {
+      "text": "column field",
+      "href": "https://js.devexpress.com/Angular/Documentation/Guide/UI_Components/PivotGrid/Visual_Elements/#Headers"
+    }
+  ],
+  "apiLinks": [
+    {
+      "text": "Chart",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxChart/"
+    },
+    {
+      "text": "bindChart(chart, integrationOptions)",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxPivotGrid/Methods/#bindChartchart_integrationOptions"
+    },
+    {
+      "text": "series",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxChart/Configuration/series/"
+    },
+    {
+      "text": "arguments",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxChart/Configuration/argumentAxis/"
+    },
+    {
+      "text": "value axis",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxChart/Configuration/valueAxis/"
+    },
+    {
+      "text": "value axis",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxChart/Configuration/valueAxis/"
+    },
+    {
+      "text": "pane",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxChart/Configuration/panes/"
+    },
+    {
+      "text": "data fields",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/Data_Layer/PivotGridDataSource/Configuration/fields/"
+    },
+    {
+      "text": "series",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxChart/Configuration/series/"
+    },
+    {
+      "text": "chart arguments",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxChart/Configuration/argumentAxis/"
+    },
+    {
+      "text": "bindChart(chart, integrationOptions)",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxPivotGrid/Methods/#bindChartchart_integrationOptions"
+    }
+  ],
+  "relatedLinks": [],
+  "screenshotOk": true,
+  "error": null
+}

@@ -1,0 +1,43 @@
+{
+  "seq": 82,
+  "widgetId": "tree-list",
+  "widgetEn": "Tree List",
+  "widgetPt": "Lista de árvores",
+  "widget": "TreeList",
+  "sectionId": "data-binding",
+  "sectionEn": "Data Binding",
+  "sectionPt": "Vinculação de dados",
+  "slug": "SimpleArrayHierarchicalStructure",
+  "titleEn": "Simple Array: Hierarchical Structure",
+  "titlePt": "Matriz simples: Estrutura hierárquica",
+  "ai": false,
+  "url": "https://js.devexpress.com/Angular/Demos/WidgetsGallery/Demo/TreeList/SimpleArrayHierarchicalStructure/FluentBlueLight/",
+  "imageFile": "images/082-TreeList-SimpleArrayHierarchicalStructure.png",
+  "rawFile": "raw/082-TreeList-SimpleArrayHierarchicalStructure.json",
+  "scrapedAt": "2026-11-16T12:55:32.570Z",
+  "pageTitle": "Simple Array: Hierarchical Structure - Angular Tree List | Angular Example",
+  "h1": "Angular Tree List - Simple Array: Hierarchical Structure",
+  "descriptionEn": "To bind the TreeList to a hierarchical array, do the following: Assign the array to the dataSource property. Set the dataStructure property to \"tree\". Use the itemsExpr property to specify the data field that contains nested items. If each data item has a Boolean field that specifies whether this data item nests other items, assign the field's name to the hasItemsExpr property. The TreeList uses this information to render the expand button. This is required only if the UI component is bound to a remote data source.",
+  "docLinks": [],
+  "apiLinks": [
+    {
+      "text": "dataSource",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxTreeList/Configuration/#dataSource"
+    },
+    {
+      "text": "dataStructure",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxTreeList/Configuration/#dataStructure"
+    },
+    {
+      "text": "itemsExpr",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxTreeList/Configuration/#itemsExpr"
+    },
+    {
+      "text": "hasItemsExpr",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxTreeList/Configuration/#hasItemsExpr"
+    }
+  ],
+  "relatedLinks": [],
+  "screenshotOk": true,
+  "error": null
+}

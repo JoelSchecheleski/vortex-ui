@@ -1,0 +1,43 @@
+{
+  "seq": 36,
+  "widgetId": "data-grid",
+  "widgetEn": "Data Grid",
+  "widgetPt": "Grade de dados",
+  "widget": "DataGrid",
+  "sectionId": "scrolling",
+  "sectionEn": "Scrolling",
+  "sectionPt": "Rolagem",
+  "slug": "RemoteVirtualScrolling",
+  "titleEn": "Remote Virtual Scrolling",
+  "titlePt": "Rolagem virtual remota",
+  "ai": false,
+  "url": "https://js.devexpress.com/Angular/Demos/WidgetsGallery/Demo/DataGrid/RemoteVirtualScrolling/FluentBlueLight/",
+  "imageFile": "images/036-DataGrid-RemoteVirtualScrolling.png",
+  "rawFile": "raw/036-DataGrid-RemoteVirtualScrolling.json",
+  "scrapedAt": "2026-11-16T12:51:29.243Z",
+  "pageTitle": "Remote Virtual Scrolling - Angular Data Grid | Angular Example",
+  "h1": "Angular Data Grid - Remote Virtual Scrolling",
+  "descriptionEn": "With remote virtual scrolling, pages are loaded from the server when they enter the viewport. To enable this feature, set the scrolling.mode property to \"virtual\" and the remoteOperations property to true. The latter informs the DataGrid that the server handles paging.",
+  "docLinks": [],
+  "apiLinks": [
+    {
+      "text": "mode",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxDataGrid/Configuration/scrolling/#mode"
+    },
+    {
+      "text": "remoteOperations",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxDataGrid/Configuration/remoteOperations/"
+    },
+    {
+      "text": "pageSize",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxDataGrid/Configuration/paging/#pageSize"
+    },
+    {
+      "text": "rowRenderingMode",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxDataGrid/Configuration/scrolling/#rowRenderingMode"
+    }
+  ],
+  "relatedLinks": [],
+  "screenshotOk": true,
+  "error": null
+}

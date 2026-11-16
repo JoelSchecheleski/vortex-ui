@@ -1,0 +1,36 @@
+{
+  "seq": 50,
+  "widgetId": "data-grid",
+  "widgetEn": "Data Grid",
+  "widgetPt": "Grade de dados",
+  "widget": "DataGrid",
+  "sectionId": "master-detail",
+  "sectionEn": "Master Detail",
+  "sectionPt": "Detalhe mestre",
+  "slug": "AIPoweredDetailView",
+  "titleEn": "AI-powered Detail View",
+  "titlePt": "Visão detalhada com inteligência artificial",
+  "ai": true,
+  "url": "https://js.devexpress.com/Angular/Demos/WidgetsGallery/Demo/DataGrid/AIPoweredDetailView/FluentBlueLight/",
+  "imageFile": "images/050-DataGrid-AIPoweredDetailView.png",
+  "rawFile": "raw/050-DataGrid-AIPoweredDetailView.json",
+  "scrapedAt": "2026-11-16T12:52:22.551Z",
+  "pageTitle": "AI-powered Detail View - Angular Data Grid | Angular Example",
+  "h1": "Angular Data Grid - AI-powered Detail View",
+  "descriptionEn": "We expect to add AI-driven data analysis for those using our DataGrid's master-detail view. This new option will allow users to interrogate individual records using natural language. In v25.2, we added an AI column to our DataGrid. This feature helped analyze component data using an AI prompt. While valuable, certain usage scenarios do not require generated data for every row. Instead, users may need on-demand data generation for specific rows. Our new AI detail scenario will offer this capability, which can significantly reduce AI token consumption and enhance data generation performance.",
+  "docLinks": [
+    {
+      "text": "DataGrid",
+      "href": "https://js.devexpress.com/Documentation/Guide/UI_Components/DataGrid/Overview/"
+    }
+  ],
+  "apiLinks": [],
+  "relatedLinks": [
+    {
+      "text": "AI column",
+      "href": "https://www.devexpress.com/subscriptions/new-2025-2.xml#js-grids-ai-columns"
+    }
+  ],
+  "screenshotOk": true,
+  "error": null
+}

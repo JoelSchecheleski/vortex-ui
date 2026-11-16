@@ -1,0 +1,39 @@
+{
+  "seq": 49,
+  "widgetId": "data-grid",
+  "widgetEn": "Data Grid",
+  "widgetPt": "Grade de dados",
+  "widget": "DataGrid",
+  "sectionId": "master-detail",
+  "sectionEn": "Master Detail",
+  "sectionPt": "Detalhe mestre",
+  "slug": "MasterDetailAPI",
+  "titleEn": "Master-Detail API",
+  "titlePt": "API Mestre-Detalhe",
+  "ai": false,
+  "url": "https://js.devexpress.com/Angular/Demos/WidgetsGallery/Demo/DataGrid/MasterDetailAPI/FluentBlueLight/",
+  "imageFile": "images/049-DataGrid-MasterDetailAPI.png",
+  "rawFile": "raw/049-DataGrid-MasterDetailAPI.json",
+  "scrapedAt": "2026-11-16T12:52:18.823Z",
+  "pageTitle": "Master-Detail API - Angular Data Grid | Angular Example",
+  "h1": "Angular Data Grid - Master-Detail API",
+  "descriptionEn": "DataGrid API allows you to implement custom expand/collapse logic for master-detail rows. This example uses the expandRow(key) and collapseAll(groupIndex) methods inside the onSelectionChanged event handler to allow you to expand only one row at a time.",
+  "docLinks": [],
+  "apiLinks": [
+    {
+      "text": "expandRow(key)",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxDataGrid/Methods/#expandRowkey"
+    },
+    {
+      "text": "collapseAll(groupIndex)",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxDataGrid/Methods/#collapseAllgroupIndex"
+    },
+    {
+      "text": "onSelectionChanged",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxDataGrid/Configuration/#onSelectionChanged"
+    }
+  ],
+  "relatedLinks": [],
+  "screenshotOk": true,
+  "error": null
+}

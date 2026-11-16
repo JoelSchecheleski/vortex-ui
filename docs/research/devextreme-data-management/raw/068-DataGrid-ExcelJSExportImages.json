@@ -1,0 +1,44 @@
+{
+  "seq": 68,
+  "widgetId": "data-grid",
+  "widgetEn": "Data Grid",
+  "widgetPt": "Grade de dados",
+  "widget": "DataGrid",
+  "sectionId": "export-excel",
+  "sectionEn": "Export to Excel",
+  "sectionPt": "Exportar para o Excel",
+  "slug": "ExcelJSExportImages",
+  "titleEn": "Image Export",
+  "titlePt": "Exportar imagem",
+  "ai": false,
+  "url": "https://js.devexpress.com/Angular/Demos/WidgetsGallery/Demo/DataGrid/ExcelJSExportImages/FluentBlueLight/",
+  "imageFile": "images/068-DataGrid-ExcelJSExportImages.png",
+  "rawFile": "raw/068-DataGrid-ExcelJSExportImages.json",
+  "scrapedAt": "2026-11-16T12:54:39.267Z",
+  "pageTitle": "Image Export - Angular Data Grid | Angular Example",
+  "h1": "Angular Data Grid - Image Export",
+  "descriptionEn": "This demo shows how you can use DevExtreme ExcelJS API to export images to Excel worksheets. See the customizeCell callback for implementation details. The workbook.addImage() method specifies image data and encoding. tl and br parameters are used to specify image location and span.",
+  "docLinks": [],
+  "apiLinks": [
+    {
+      "text": "customizeCell",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/Common/Object_Structures/ExportDataGridProps/#customizeCell"
+    }
+  ],
+  "relatedLinks": [
+    {
+      "text": "DevExtreme ExcelJS",
+      "href": "https://github.com/DevExpress/devextreme-exceljs-fork"
+    },
+    {
+      "text": "worksheets",
+      "href": "https://github.com/DevExpress/devextreme-exceljs-fork#add-a-worksheet"
+    },
+    {
+      "text": "addImage()",
+      "href": "https://github.com/DevExpress/devextreme-exceljs-fork#add-image-to-workbook"
+    }
+  ],
+  "screenshotOk": true,
+  "error": null
+}

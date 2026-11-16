@@ -1,0 +1,51 @@
+{
+  "seq": 86,
+  "widgetId": "tree-list",
+  "widgetEn": "Tree List",
+  "widgetPt": "Lista de árvores",
+  "widget": "TreeList",
+  "sectionId": "filtering",
+  "sectionEn": "Filtering",
+  "sectionPt": "Filtragem",
+  "slug": "FilterRow",
+  "titleEn": "Filter Row",
+  "titlePt": "Linha de filtro",
+  "ai": false,
+  "url": "https://js.devexpress.com/Angular/Demos/WidgetsGallery/Demo/TreeList/FilterRow/FluentBlueLight/",
+  "imageFile": "images/086-TreeList-FilterRow.png",
+  "rawFile": "raw/086-TreeList-FilterRow.json",
+  "scrapedAt": "2026-11-16T12:55:47.381Z",
+  "pageTitle": "Filter Row - Angular Tree List | Angular Example",
+  "h1": "Angular Tree List - Filter Row",
+  "descriptionEn": "The filter row allows users to enter a value for each column and filter grid data by those values. To display the filter row, set the filterRow.visible property to true. If you need to disable a filter row cell for a specific column, set the column's allowFiltering property to false. Depending on a column's dataType, its filter row cell contains different editors: dataType Editor \"string\", \"number\", \"object\" Text box \"boolean\" Drop-down list \"date\" Date picker \"datetime\" Date and time picker",
+  "docLinks": [],
+  "apiLinks": [
+    {
+      "text": "visible",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxTreeList/Configuration/filterRow/#visible"
+    },
+    {
+      "text": "allowFiltering",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxTreeList/Configuration/columns/#allowFiltering"
+    },
+    {
+      "text": "dataType",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxTreeList/Configuration/columns/#dataType"
+    },
+    {
+      "text": "filterOperations",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxTreeList/Configuration/columns/#filterOperations"
+    },
+    {
+      "text": "selectedFilterOperation",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxTreeList/Configuration/columns/#selectedFilterOperation"
+    },
+    {
+      "text": "filterValue",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxTreeList/Configuration/columns/#filterValue"
+    }
+  ],
+  "relatedLinks": [],
+  "screenshotOk": true,
+  "error": null
+}

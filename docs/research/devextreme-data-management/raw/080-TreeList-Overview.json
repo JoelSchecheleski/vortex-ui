@@ -1,0 +1,31 @@
+{
+  "seq": 80,
+  "widgetId": "tree-list",
+  "widgetEn": "Tree List",
+  "widgetPt": "Lista de árvores",
+  "widget": "TreeList",
+  "sectionId": "overview",
+  "sectionEn": "Overview",
+  "sectionPt": "Visão geral",
+  "slug": "Overview",
+  "titleEn": "Overview",
+  "titlePt": "Visão geral",
+  "ai": false,
+  "url": "https://js.devexpress.com/Angular/Demos/WidgetsGallery/Demo/TreeList/Overview/FluentBlueLight/",
+  "imageFile": "images/080-TreeList-Overview.png",
+  "rawFile": "raw/080-TreeList-Overview.json",
+  "scrapedAt": "2026-11-16T12:55:24.585Z",
+  "pageTitle": "Angular Tree List - Overview | Angular Example",
+  "h1": "Angular Tree List - Overview",
+  "descriptionEn": "DevExtreme Angular Tree List is a client-side control for displaying hierarchical data. You can use it as an Angular component. It is so flexible that you do not need to feed it hierarchical data structures. Even with a collection of linked plain objects, the Tree List can still build a tree hierarchy. It supports native Angular features as well: AOT compilation, declarative configuration, TypeScript compile-time checking, and more. To get started with the DevExtreme TreeList component, refer to the following tutorial for step-by-step instructions: Getting Started with TreeList.",
+  "docLinks": [
+    {
+      "text": "Getting Started with TreeList",
+      "href": "https://js.devexpress.com/Angular/Documentation/Guide/UI_Components/TreeList/Getting_Started_with_TreeList/"
+    }
+  ],
+  "apiLinks": [],
+  "relatedLinks": [],
+  "screenshotOk": true,
+  "error": null
+}

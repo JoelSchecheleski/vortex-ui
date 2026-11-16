@@ -1,0 +1,43 @@
+{
+  "seq": 22,
+  "widgetId": "data-grid",
+  "widgetEn": "Data Grid",
+  "widgetPt": "Grade de dados",
+  "widget": "DataGrid",
+  "sectionId": "editing",
+  "sectionEn": "Editing",
+  "sectionPt": "Edição",
+  "slug": "CollaborativeEditing",
+  "titleEn": "Collaborative Editing",
+  "titlePt": "Edição Colaborativa",
+  "ai": false,
+  "url": "https://js.devexpress.com/Angular/Demos/WidgetsGallery/Demo/DataGrid/CollaborativeEditing/FluentBlueLight/",
+  "imageFile": "images/022-DataGrid-CollaborativeEditing.png",
+  "rawFile": "raw/022-DataGrid-CollaborativeEditing.json",
+  "scrapedAt": "2026-11-16T12:50:35.215Z",
+  "pageTitle": "Collaborative Editing - Angular Data Grid | Angular Example",
+  "h1": "Angular Data Grid - Collaborative Editing",
+  "descriptionEn": "Multiple users can edit the DataGrid's data in real-time. In this demo, changes made in one DataGrid are broadcasted to the other DataGrid via the SignalR service.",
+  "docLinks": [],
+  "apiLinks": [],
+  "relatedLinks": [
+    {
+      "text": "SignalR",
+      "href": "https://dotnet.microsoft.com/en-us/apps/aspnet/signalr"
+    },
+    {
+      "text": "createStore",
+      "href": "https://github.com/DevExpress/DevExtreme.AspNet.Data/blob/master/docs/client-side-with-jquery.md#api-reference"
+    },
+    {
+      "text": "DevExtreme.AspNet.data",
+      "href": "https://github.com/DevExpress/DevExtreme.AspNet.Data"
+    },
+    {
+      "text": "onBeforeSend",
+      "href": "https://github.com/DevExpress/DevExtreme.AspNet.Data/blob/master/docs/client-side-with-jquery.md#api-reference"
+    }
+  ],
+  "screenshotOk": true,
+  "error": null
+}

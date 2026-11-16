@@ -1,0 +1,76 @@
+{
+  "seq": 21,
+  "widgetId": "data-grid",
+  "widgetEn": "Data Grid",
+  "widgetPt": "Grade de dados",
+  "widget": "DataGrid",
+  "sectionId": "editing",
+  "sectionEn": "Editing",
+  "sectionPt": "Edição",
+  "slug": "CascadingLookups",
+  "titleEn": "Cascading Lookups",
+  "titlePt": "Pesquisas em cascata",
+  "ai": false,
+  "url": "https://js.devexpress.com/Angular/Demos/WidgetsGallery/Demo/DataGrid/CascadingLookups/FluentBlueLight/",
+  "imageFile": "images/021-DataGrid-CascadingLookups.png",
+  "rawFile": "raw/021-DataGrid-CascadingLookups.json",
+  "scrapedAt": "2026-11-16T12:50:31.632Z",
+  "pageTitle": "Cascading Lookups - Angular Data Grid | Angular Example",
+  "h1": "Angular Data Grid - Cascading Lookups",
+  "descriptionEn": "You can assign a lookup editor to a column. This editor displays a drop-down list populated with values from the specified data source. Users can filter the drop-down list to quickly locate required values.",
+  "docLinks": [],
+  "apiLinks": [
+    {
+      "text": "lookup",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxDataGrid/Configuration/columns/lookup/"
+    },
+    {
+      "text": "valueExpr",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxDataGrid/Configuration/columns/lookup/#valueExpr"
+    },
+    {
+      "text": "displayExpr",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxDataGrid/Configuration/columns/lookup/#displayExpr"
+    },
+    {
+      "text": "dataSource",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxDataGrid/Configuration/columns/lookup/#dataSource"
+    },
+    {
+      "text": "filter",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/Data_Layer/DataSource/Configuration/#filter"
+    },
+    {
+      "text": "setCellValue",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxDataGrid/Configuration/columns/#setCellValue"
+    },
+    {
+      "text": "onEditorPreparing",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxDataGrid/Configuration/#onEditorPreparing"
+    },
+    {
+      "text": "mode",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxDataGrid/Configuration/editing/#mode"
+    },
+    {
+      "text": "editing",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxDataGrid/Configuration/editing/"
+    },
+    {
+      "text": "allowAdding",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxDataGrid/Configuration/editing/#allowAdding"
+    },
+    {
+      "text": "allowDeleting",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxDataGrid/Configuration/editing/#allowDeleting"
+    }
+  ],
+  "relatedLinks": [
+    {
+      "text": "allowUpdating",
+      "href": "https://js.devexpress.com/Angular/Demos/WidgetsGallery/Demo/DataGrid/CascadingLookups/FluentBlueLight/"
+    }
+  ],
+  "screenshotOk": true,
+  "error": null
+}

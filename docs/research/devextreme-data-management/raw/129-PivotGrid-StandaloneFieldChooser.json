@@ -1,0 +1,76 @@
+{
+  "seq": 129,
+  "widgetId": "pivot-grid",
+  "widgetEn": "Pivot Grid",
+  "widgetPt": "Grade Pivô",
+  "widget": "PivotGrid",
+  "sectionId": "field-management",
+  "sectionEn": "Field Management",
+  "sectionPt": "Gestão de Campo",
+  "slug": "StandaloneFieldChooser",
+  "titleEn": "Standalone Field Chooser",
+  "titlePt": "Seletor de Campo Independente",
+  "ai": false,
+  "url": "https://js.devexpress.com/Angular/Demos/WidgetsGallery/Demo/PivotGrid/StandaloneFieldChooser/FluentBlueLight/",
+  "imageFile": "images/129-PivotGrid-StandaloneFieldChooser.png",
+  "rawFile": "raw/129-PivotGrid-StandaloneFieldChooser.json",
+  "scrapedAt": "2026-11-16T12:59:32.845Z",
+  "pageTitle": "Standalone Field Chooser - Angular Pivot Grid | Angular Example",
+  "h1": "Angular Pivot Grid - Standalone Field Chooser",
+  "descriptionEn": "DevExtreme includes a standalone PivotGridFieldChooser component. Unlike its integrated counterpart, the standalone field chooser can remain visible on the page at all times.",
+  "docLinks": [],
+  "apiLinks": [
+    {
+      "text": "PivotGridFieldChooser",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxPivotGridFieldChooser/"
+    },
+    {
+      "text": "PivotGridDataSource",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/Data_Layer/PivotGridDataSource/"
+    },
+    {
+      "text": "dataSource",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxPivotGridFieldChooser/Configuration/#dataSource"
+    },
+    {
+      "text": "fieldChooser",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxPivotGrid/Configuration/fieldChooser/"
+    },
+    {
+      "text": "enabled",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxPivotGrid/Configuration/fieldChooser/#enabled"
+    },
+    {
+      "text": "applyChangesMode",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxPivotGridFieldChooser/Configuration/#applyChangesMode"
+    },
+    {
+      "text": "applyChanges()",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxPivotGridFieldChooser/Methods/#applyChanges"
+    },
+    {
+      "text": "cancelChanges()",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxPivotGridFieldChooser/Methods/#cancelChanges"
+    },
+    {
+      "text": "state",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxPivotGridFieldChooser/Configuration/#state"
+    },
+    {
+      "text": "layouts",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxPivotGridFieldChooser/Configuration/#layout"
+    }
+  ],
+  "relatedLinks": [
+    {
+      "text": "integrated counterpart",
+      "href": "https://js.devexpress.com/Demos/WidgetsGallery/Demo/PivotGrid/IntegratedFieldChooser/"
+    },
+    {
+      "text": "Integrated Field Chooser",
+      "href": "https://js.devexpress.com/Demos/WidgetsGallery/Demo/PivotGrid/IntegratedFieldChooser/"
+    }
+  ],
+  "screenshotOk": true,
+  "error": null
+}

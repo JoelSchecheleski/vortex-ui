@@ -1,0 +1,72 @@
+{
+  "seq": 64,
+  "widgetId": "data-grid",
+  "widgetEn": "Data Grid",
+  "widgetPt": "Grade de dados",
+  "widget": "DataGrid",
+  "sectionId": "export-excel",
+  "sectionEn": "Export to Excel",
+  "sectionPt": "Exportar para o Excel",
+  "slug": "ExcelJSOverview",
+  "titleEn": "Overview",
+  "titlePt": "Visão geral",
+  "ai": false,
+  "url": "https://js.devexpress.com/Angular/Demos/WidgetsGallery/Demo/DataGrid/ExcelJSOverview/FluentBlueLight/",
+  "imageFile": "images/064-DataGrid-ExcelJSOverview.png",
+  "rawFile": "raw/064-DataGrid-ExcelJSOverview.json",
+  "scrapedAt": "2026-11-16T12:54:21.601Z",
+  "pageTitle": "Angular Data Grid - Overview | Angular Example",
+  "h1": "Angular Data Grid - Overview",
+  "descriptionEn": "To enable export in the DataGrid, reference or import the DevExtreme ExcelJS and FileSaver libraries. Set export.enabled to true. Once the conditions above are met, use the exportDataGrid(options) method to export the DataGrid to an Excel workbook. Review the onExporting handler to see the data export code. DataGrid is exported as is to a single worksheet. You can also set allowExportSelectedData to true to export only selected rows. You can export DataGrid to CSV. Call the exportDataGrid(options) method as shown in the following ticket: Export PivotGrid into CSV file.",
+  "docLinks": [],
+  "apiLinks": [
+    {
+      "text": "enabled",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxDataGrid/Configuration/export/#enabled"
+    },
+    {
+      "text": "exportDataGrid(options)",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/Common/Utils/excelExporter/#exportDataGridoptions"
+    },
+    {
+      "text": "onExporting",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxDataGrid/Configuration/#onExporting"
+    },
+    {
+      "text": "allowExportSelectedData",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxDataGrid/Configuration/export/#allowExportSelectedData"
+    }
+  ],
+  "relatedLinks": [
+    {
+      "text": "DevExtreme ExcelJS",
+      "href": "https://github.com/DevExpress/devextreme-exceljs-fork"
+    },
+    {
+      "text": "FileSaver",
+      "href": "https://github.com/eligrey/FileSaver.js/"
+    },
+    {
+      "text": "workbook",
+      "href": "https://github.com/DevExpress/devextreme-exceljs-fork#create-a-workbook"
+    },
+    {
+      "text": "worksheet",
+      "href": "https://github.com/DevExpress/devextreme-exceljs-fork#add-a-worksheet"
+    },
+    {
+      "text": "Export PivotGrid into CSV file",
+      "href": "https://supportcenter.devexpress.com/ticket/details/t920593/pivotgrid-exceljs-export-to-export-pivotgrid-into-csv-file"
+    },
+    {
+      "text": "Get Started with DevExpress Reports",
+      "href": "https://docs.devexpress.com/XtraReports/9814/web-reporting"
+    },
+    {
+      "text": "Explore Demos",
+      "href": "https://www.devexpress.com/Support/Demos/#reporting"
+    }
+  ],
+  "screenshotOk": true,
+  "error": null
+}

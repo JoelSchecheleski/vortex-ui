@@ -1,0 +1,35 @@
+{
+  "seq": 29,
+  "widgetId": "data-grid",
+  "widgetEn": "Data Grid",
+  "widgetPt": "Grade de dados",
+  "widget": "DataGrid",
+  "sectionId": "selection",
+  "sectionEn": "Selection",
+  "sectionPt": "Seleção",
+  "slug": "RowSelection",
+  "titleEn": "Row Selection",
+  "titlePt": "Seleção de linha",
+  "ai": false,
+  "url": "https://js.devexpress.com/Angular/Demos/WidgetsGallery/Demo/DataGrid/RowSelection/FluentBlueLight/",
+  "imageFile": "images/029-DataGrid-RowSelection.png",
+  "rawFile": "raw/029-DataGrid-RowSelection.json",
+  "scrapedAt": "2026-11-16T12:51:02.816Z",
+  "pageTitle": "Row Selection - Angular Data Grid | Angular Example",
+  "h1": "Angular Data Grid - Row Selection",
+  "descriptionEn": "In this demo, the DataGrid allows users to select only one row at a time. To enable this mode, set the selection.mode property to \"single\". You can click a row to select it, and Ctrl+Click to unselect it. Focus the component's data cells with the arrow keys, Tab, Shift+Tab, Home, and End, and press Space to select a row. Use Ctrl+Space to unselect the selected row. You can access the selected row data from the onSelectionChanged function. In this demo, this function fetches the selected row's information and displays it under the grid.",
+  "docLinks": [],
+  "apiLinks": [
+    {
+      "text": "mode",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxDataGrid/Configuration/selection/#mode"
+    },
+    {
+      "text": "onSelectionChanged",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxDataGrid/Configuration/#onSelectionChanged"
+    }
+  ],
+  "relatedLinks": [],
+  "screenshotOk": true,
+  "error": null
+}

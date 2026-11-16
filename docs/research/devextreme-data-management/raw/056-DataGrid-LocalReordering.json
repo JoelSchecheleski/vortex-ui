@@ -1,0 +1,39 @@
+{
+  "seq": 56,
+  "widgetId": "data-grid",
+  "widgetEn": "Data Grid",
+  "widgetPt": "Grade de dados",
+  "widget": "DataGrid",
+  "sectionId": "dnd",
+  "sectionEn": "Drag & Drop",
+  "sectionPt": "Arrastar e soltar",
+  "slug": "LocalReordering",
+  "titleEn": "Local Reordering",
+  "titlePt": "Reabastecimento local (reordenação local)",
+  "ai": false,
+  "url": "https://js.devexpress.com/Angular/Demos/WidgetsGallery/Demo/DataGrid/LocalReordering/FluentBlueLight/",
+  "imageFile": "images/056-DataGrid-LocalReordering.png",
+  "rawFile": "raw/056-DataGrid-LocalReordering.json",
+  "scrapedAt": "2026-11-16T12:53:51.000Z",
+  "pageTitle": "Local Reordering - Angular Data Grid | Angular Example",
+  "h1": "Angular Data Grid - Local Reordering",
+  "descriptionEn": "The DataGrid allows users to drag and drop rows. Use the icon to the left of the row as the drag handle. To enable this feature, set the allowReordering property to true and change the row index in the onReorder function. Use the rowDragging object to configure the row drag and drop feature.",
+  "docLinks": [],
+  "apiLinks": [
+    {
+      "text": "allowReordering",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxDataGrid/Configuration/rowDragging/#allowReordering"
+    },
+    {
+      "text": "onReorder",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxDataGrid/Configuration/rowDragging/#onReorder"
+    },
+    {
+      "text": "rowDragging",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxDataGrid/Configuration/rowDragging/"
+    }
+  ],
+  "relatedLinks": [],
+  "screenshotOk": true,
+  "error": null
+}

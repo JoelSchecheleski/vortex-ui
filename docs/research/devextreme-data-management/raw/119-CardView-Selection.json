@@ -1,0 +1,47 @@
+{
+  "seq": 119,
+  "widgetId": "card-view",
+  "widgetEn": "Card View",
+  "widgetPt": "Visualização do cartão",
+  "widget": "CardView",
+  "sectionId": "selection",
+  "sectionEn": "Selection",
+  "sectionPt": "Seleção",
+  "slug": "Selection",
+  "titleEn": "Selection",
+  "titlePt": "Seleção",
+  "ai": false,
+  "url": "https://js.devexpress.com/Angular/Demos/WidgetsGallery/Demo/CardView/Selection/FluentBlueLight/",
+  "imageFile": "images/119-CardView-Selection.png",
+  "rawFile": "raw/119-CardView-Selection.json",
+  "scrapedAt": "2026-11-16T12:58:55.868Z",
+  "pageTitle": "Selection - Angular Card View | Angular Example",
+  "h1": "Angular Card View - Selection",
+  "descriptionEn": "DevExtreme CardView supports single select and multiselect modes. Set selection.mode to either \"single\" or \"multiple\" to enable this capability.",
+  "docLinks": [],
+  "apiLinks": [
+    {
+      "text": "selection",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxCardView/Configuration/selection/"
+    },
+    {
+      "text": "mode",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxCardView/Configuration/selection/#mode"
+    },
+    {
+      "text": "allowSelectAll",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxCardView/Configuration/selection/#allowSelectAll"
+    },
+    {
+      "text": "selectAllMode",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxCardView/Configuration/selection/#selectAllMode"
+    },
+    {
+      "text": "showCheckBoxesMode",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxCardView/Configuration/selection/#showCheckBoxesMode"
+    }
+  ],
+  "relatedLinks": [],
+  "screenshotOk": true,
+  "error": null
+}

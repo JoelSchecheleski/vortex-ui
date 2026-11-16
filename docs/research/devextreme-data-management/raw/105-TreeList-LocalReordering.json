@@ -1,0 +1,51 @@
+{
+  "seq": 105,
+  "widgetId": "tree-list",
+  "widgetEn": "Tree List",
+  "widgetPt": "Lista de árvores",
+  "widget": "TreeList",
+  "sectionId": "dnd",
+  "sectionEn": "Drag & Drop",
+  "sectionPt": "Arrastar e soltar",
+  "slug": "LocalReordering",
+  "titleEn": "Drag & Drop",
+  "titlePt": "Arrastar e soltar",
+  "ai": false,
+  "url": "https://js.devexpress.com/Angular/Demos/WidgetsGallery/Demo/TreeList/LocalReordering/FluentBlueLight/",
+  "imageFile": "images/105-TreeList-LocalReordering.png",
+  "rawFile": "raw/105-TreeList-LocalReordering.json",
+  "scrapedAt": "2026-11-16T12:58:04.953Z",
+  "pageTitle": "Node Drag & Drop - Angular Tree List | Angular Example",
+  "h1": "Angular Tree List - Node Drag & Drop",
+  "descriptionEn": "The TreeList allows users to drag and drop nodes. Use the icons in the leftmost column as the drag handles.",
+  "docLinks": [],
+  "apiLinks": [
+    {
+      "text": "rowDragging",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxTreeList/Configuration/rowDragging/"
+    },
+    {
+      "text": "allowReordering",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxTreeList/Configuration/rowDragging/#allowReordering"
+    },
+    {
+      "text": "allowDropInsideItem",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxTreeList/Configuration/rowDragging/#allowDropInsideItem"
+    },
+    {
+      "text": "onReorder",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxTreeList/Configuration/rowDragging/#onReorder"
+    },
+    {
+      "text": "Refresh()",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxTreeList/Methods/#refresh"
+    },
+    {
+      "text": "showDragIcons",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxTreeList/Configuration/rowDragging/#showDragIcons"
+    }
+  ],
+  "relatedLinks": [],
+  "screenshotOk": true,
+  "error": null
+}

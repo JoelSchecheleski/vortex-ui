@@ -1,0 +1,51 @@
+{
+  "seq": 98,
+  "widgetId": "tree-list",
+  "widgetEn": "Tree List",
+  "widgetPt": "Lista de árvores",
+  "widget": "TreeList",
+  "sectionId": "selection",
+  "sectionEn": "Selection",
+  "sectionPt": "Seleção",
+  "slug": "FocusedRow",
+  "titleEn": "Focused Row",
+  "titlePt": "Linha focada",
+  "ai": false,
+  "url": "https://js.devexpress.com/Angular/Demos/WidgetsGallery/Demo/TreeList/FocusedRow/FluentBlueLight/",
+  "imageFile": "images/098-TreeList-FocusedRow.png",
+  "rawFile": "raw/098-TreeList-FocusedRow.json",
+  "scrapedAt": "2026-11-16T12:56:32.718Z",
+  "pageTitle": "Focused Row - Angular Tree List | Angular Example",
+  "h1": "Angular Tree List - Focused Row",
+  "descriptionEn": "The TreeList component can highlight the focused row. To enable this feature, set the focusedRowEnabled property to true. To focus a row programmatically, specify the focusedRowKey property. The TreeList automatically scrolls to the focused row. You can set the autoNavigateToFocusedRow property to false to deactivate this behavior. In the UI, users can click a row to focus it. The focused row is saved in the TreeList's state. You can use the onFocusedRowChanging and onFocusedRowChanged properties to specify a custom function that is executed before or after a row is focused.",
+  "docLinks": [],
+  "apiLinks": [
+    {
+      "text": "focusedRowEnabled",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxTreeList/Configuration/#focusedRowEnabled"
+    },
+    {
+      "text": "focusedRowKey",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxTreeList/Configuration/#focusedRowKey"
+    },
+    {
+      "text": "autoNavigateToFocusedRow",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxTreeList/Configuration/#autoNavigateToFocusedRow"
+    },
+    {
+      "text": "state",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxTreeList/Configuration/stateStoring/"
+    },
+    {
+      "text": "onFocusedRowChanging",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxTreeList/Configuration/#onFocusedRowChanging"
+    },
+    {
+      "text": "onFocusedRowChanged",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxTreeList/Configuration/#onFocusedRowChanged"
+    }
+  ],
+  "relatedLinks": [],
+  "screenshotOk": true,
+  "error": null
+}

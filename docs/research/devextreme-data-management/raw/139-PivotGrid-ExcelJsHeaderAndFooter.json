@@ -1,0 +1,89 @@
+{
+  "seq": 139,
+  "widgetId": "pivot-grid",
+  "widgetEn": "Pivot Grid",
+  "widgetPt": "Grade Pivô",
+  "widget": "PivotGrid",
+  "sectionId": "export-excel",
+  "sectionEn": "Export to Excel",
+  "sectionPt": "Exportar para o Excel",
+  "slug": "ExcelJsHeaderAndFooter",
+  "titleEn": "Header and Footer",
+  "titlePt": "Cabeçalho e rodapé",
+  "ai": false,
+  "url": "https://js.devexpress.com/Angular/Demos/WidgetsGallery/Demo/PivotGrid/ExcelJsHeaderAndFooter/FluentBlueLight/",
+  "imageFile": "images/139-PivotGrid-ExcelJsHeaderAndFooter.png",
+  "rawFile": "raw/139-PivotGrid-ExcelJsHeaderAndFooter.json",
+  "scrapedAt": "2026-11-16T13:00:09.822Z",
+  "pageTitle": "Header and Footer - Angular Pivot Grid | Angular Example",
+  "h1": "Angular Pivot Grid - Header and Footer",
+  "descriptionEn": "The PivotGrid allows you to customize a header and a footer in the exported Excel file. The DevExtreme ExcelJS library allows you to customize worksheets outside of exported cell regions. This, in turns, allows you to add a header (a title before exported data) and a footer (a note after exported data).",
+  "docLinks": [
+    {
+      "text": "field panel",
+      "href": "https://js.devexpress.com/Angular/Documentation/Guide/UI_Components/PivotGrid/Visual_Elements/#Field_Panel"
+    }
+  ],
+  "apiLinks": [
+    {
+      "text": "export",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxPivotGrid/Configuration/export/"
+    },
+    {
+      "text": "enabled",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxPivotGrid/Configuration/export/#enabled"
+    },
+    {
+      "text": "onExporting",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxPivotGrid/Configuration/#onExporting"
+    },
+    {
+      "text": "exportPivotGrid(options)",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/Common/Utils/excelExporter/#exportPivotGridoptions"
+    },
+    {
+      "text": "exportColumnFieldHeaders",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/Common/Object_Structures/ExcelExportPivotGridProps/#exportColumnFieldHeaders"
+    },
+    {
+      "text": "exportDataFieldHeaders",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/Common/Object_Structures/ExcelExportPivotGridProps/#exportDataFieldHeaders"
+    },
+    {
+      "text": "exportFilterFieldHeaders",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/Common/Object_Structures/ExcelExportPivotGridProps/#exportFilterFieldHeaders"
+    },
+    {
+      "text": "exportRowFieldHeaders",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/Common/Object_Structures/ExcelExportPivotGridProps/#exportRowFieldHeaders"
+    },
+    {
+      "text": "exportPivotGrid(options)",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/Common/Utils/excelExporter/#exportPivotGridoptions"
+    }
+  ],
+  "relatedLinks": [
+    {
+      "text": "DevExtreme ExcelJS",
+      "href": "https://github.com/DevExpress/devextreme-exceljs-fork"
+    },
+    {
+      "text": "Merged cells",
+      "href": "https://github.com/DevExpress/devextreme-exceljs-fork#merged-cells"
+    },
+    {
+      "text": "Cell values",
+      "href": "https://github.com/DevExpress/devextreme-exceljs-fork#value-types"
+    },
+    {
+      "text": "Font properties",
+      "href": "https://github.com/DevExpress/devextreme-exceljs-fork#fonts"
+    },
+    {
+      "text": "alignment",
+      "href": "https://github.com/DevExpress/devextreme-exceljs-fork#alignment"
+    }
+  ],
+  "screenshotOk": true,
+  "error": null
+}

@@ -1,0 +1,55 @@
+{
+  "seq": 45,
+  "widgetId": "data-grid",
+  "widgetEn": "Data Grid",
+  "widgetPt": "Grade de dados",
+  "widget": "DataGrid",
+  "sectionId": "columns",
+  "sectionEn": "Columns",
+  "sectionPt": "Colunas",
+  "slug": "ColumnChooser",
+  "titleEn": "Column Chooser",
+  "titlePt": "Seletor de colunas",
+  "ai": false,
+  "url": "https://js.devexpress.com/Angular/Demos/WidgetsGallery/Demo/DataGrid/ColumnChooser/FluentBlueLight/",
+  "imageFile": "images/045-DataGrid-ColumnChooser.png",
+  "rawFile": "raw/045-DataGrid-ColumnChooser.json",
+  "scrapedAt": "2026-11-16T12:52:03.665Z",
+  "pageTitle": "Column Chooser - Angular Data Grid | Angular Example",
+  "h1": "Angular Data Grid - Column Chooser",
+  "descriptionEn": "To change column visibility at runtime, set the columnChooser.enabled property to true. To make certain that a given column(s) always stay visible, set the columns[].allowHiding property to false.",
+  "docLinks": [],
+  "apiLinks": [
+    {
+      "text": "enabled",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxDataGrid/Configuration/columnChooser/#enabled"
+    },
+    {
+      "text": "allowHiding",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxDataGrid/Configuration/columns/#allowHiding"
+    },
+    {
+      "text": "position",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxDataGrid/Configuration/columnChooser/#position"
+    },
+    {
+      "text": "mode",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxDataGrid/Configuration/columnChooser/#mode"
+    },
+    {
+      "text": "recursive",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxDataGrid/Configuration/columnChooser/selection/#recursive"
+    },
+    {
+      "text": "enabled",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxDataGrid/Configuration/columnChooser/search/#enabled"
+    },
+    {
+      "text": "visible",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxDataGrid/Configuration/columns/#visible"
+    }
+  ],
+  "relatedLinks": [],
+  "screenshotOk": true,
+  "error": null
+}

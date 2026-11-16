@@ -1,0 +1,31 @@
+{
+  "seq": 77,
+  "widgetId": "data-grid",
+  "widgetEn": "Data Grid",
+  "widgetPt": "Grade de dados",
+  "widget": "DataGrid",
+  "sectionId": "keyboard",
+  "sectionEn": "Keyboard Navigation",
+  "sectionPt": "Navegação por teclado",
+  "slug": "KeyboardNavigation",
+  "titleEn": "Keyboard Navigation",
+  "titlePt": "Navegação por teclado",
+  "ai": false,
+  "url": "https://js.devexpress.com/Angular/Demos/WidgetsGallery/Demo/DataGrid/KeyboardNavigation/FluentBlueLight/",
+  "imageFile": "images/077-DataGrid-KeyboardNavigation.png",
+  "rawFile": "raw/077-DataGrid-KeyboardNavigation.json",
+  "scrapedAt": "2026-11-16T12:55:13.320Z",
+  "pageTitle": "Keyboard Navigation - Angular Data Grid | Angular Example",
+  "h1": "Angular Data Grid - Keyboard Navigation",
+  "descriptionEn": "To see all available keyboard shortcuts, refer to the DataGrid accessibility documentation: Keyboard Navigation.",
+  "docLinks": [
+    {
+      "text": "Keyboard Navigation",
+      "href": "https://js.devexpress.com/Angular/Documentation/Guide/UI_Components/DataGrid/Accessibility/#Keyboard_Navigation"
+    }
+  ],
+  "apiLinks": [],
+  "relatedLinks": [],
+  "screenshotOk": true,
+  "error": null
+}

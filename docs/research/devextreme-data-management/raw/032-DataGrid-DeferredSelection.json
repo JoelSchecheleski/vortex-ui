@@ -1,0 +1,39 @@
+{
+  "seq": 32,
+  "widgetId": "data-grid",
+  "widgetEn": "Data Grid",
+  "widgetPt": "Grade de dados",
+  "widget": "DataGrid",
+  "sectionId": "selection",
+  "sectionEn": "Selection",
+  "sectionPt": "Seleção",
+  "slug": "DeferredSelection",
+  "titleEn": "Deferred Selection",
+  "titlePt": "Seleção Diferida",
+  "ai": false,
+  "url": "https://js.devexpress.com/Angular/Demos/WidgetsGallery/Demo/DataGrid/DeferredSelection/FluentBlueLight/",
+  "imageFile": "images/032-DataGrid-DeferredSelection.png",
+  "rawFile": "raw/032-DataGrid-DeferredSelection.json",
+  "scrapedAt": "2026-11-16T12:51:14.113Z",
+  "pageTitle": "Deferred Selection - Angular Data Grid | Angular Example",
+  "h1": "Angular Data Grid - Deferred Selection",
+  "descriptionEn": "If you enable deferred row selection, the grid does not request selected rows' data with every selection change. For example, if a user clicks the checkbox in the column header to select all the rows, the grid does not immediately fetch all data from the server. This is helpful in the following cases: You process data on the server and do not want to load the selected rows' data. You do process selected records on the client, but want to reduce the number of requests that are sent.",
+  "docLinks": [],
+  "apiLinks": [
+    {
+      "text": "deferred",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxDataGrid/Configuration/selection/#deferred"
+    },
+    {
+      "text": "selectionFilter",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxDataGrid/Configuration/#selectionFilter"
+    },
+    {
+      "text": "getSelectedRowsData()",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxDataGrid/Methods/#getSelectedRowsData"
+    }
+  ],
+  "relatedLinks": [],
+  "screenshotOk": true,
+  "error": null
+}

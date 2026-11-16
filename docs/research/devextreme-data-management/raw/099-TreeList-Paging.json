@@ -1,0 +1,39 @@
+{
+  "seq": 99,
+  "widgetId": "tree-list",
+  "widgetEn": "Tree List",
+  "widgetPt": "Lista de árvores",
+  "widget": "TreeList",
+  "sectionId": "paging",
+  "sectionEn": "Paging",
+  "sectionPt": "Chamada",
+  "slug": "Paging",
+  "titleEn": "Paging",
+  "titlePt": "Chamada (paginação)",
+  "ai": false,
+  "url": "https://js.devexpress.com/Angular/Demos/WidgetsGallery/Demo/TreeList/Paging/FluentBlueLight/",
+  "imageFile": "images/099-TreeList-Paging.png",
+  "rawFile": "raw/099-TreeList-Paging.json",
+  "scrapedAt": "2026-11-16T12:56:36.501Z",
+  "pageTitle": "Column Reordering - Angular Tree List | Angular Example",
+  "h1": "Angular Tree List - Column Reordering",
+  "descriptionEn": "DevExtreme DataGrid columns use the same display order as fields in the component's dataSource. You can specify a different display order with the columns[] array. To reorder a column at runtime, change the columns[].visibleIndex property.",
+  "docLinks": [],
+  "apiLinks": [
+    {
+      "text": "dataSource",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxTreeList/Configuration/#dataSource"
+    },
+    {
+      "text": "columns[]",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxTreeList/Configuration/columns/"
+    },
+    {
+      "text": "visibleIndex",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxTreeList/Configuration/columns/#visibleIndex"
+    }
+  ],
+  "relatedLinks": [],
+  "screenshotOk": true,
+  "error": null
+}

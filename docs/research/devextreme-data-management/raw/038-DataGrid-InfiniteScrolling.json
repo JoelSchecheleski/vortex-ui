@@ -1,0 +1,31 @@
+{
+  "seq": 38,
+  "widgetId": "data-grid",
+  "widgetEn": "Data Grid",
+  "widgetPt": "Grade de dados",
+  "widget": "DataGrid",
+  "sectionId": "scrolling",
+  "sectionEn": "Scrolling",
+  "sectionPt": "Rolagem",
+  "slug": "InfiniteScrolling",
+  "titleEn": "Infinite Scrolling",
+  "titlePt": "Rolagem infinita",
+  "ai": false,
+  "url": "https://js.devexpress.com/Angular/Demos/WidgetsGallery/Demo/DataGrid/InfiniteScrolling/FluentBlueLight/",
+  "imageFile": "images/038-DataGrid-InfiniteScrolling.png",
+  "rawFile": "raw/038-DataGrid-InfiniteScrolling.json",
+  "scrapedAt": "2026-11-16T12:51:36.939Z",
+  "pageTitle": "Infinite Scrolling - Angular Data Grid | Angular Example",
+  "h1": "Angular Data Grid - Infinite Scrolling",
+  "descriptionEn": "To optimize data load times and improve user navigation when binding DataGrid to a large dataset, you can enable infinite scrolling. In this demo, we bind the component to a dataset of 100,000 records. To enable infinite scrolling, set scrolling.mode to \"infinite\".",
+  "docLinks": [],
+  "apiLinks": [
+    {
+      "text": "mode",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxDataGrid/Configuration/scrolling/#mode"
+    }
+  ],
+  "relatedLinks": [],
+  "screenshotOk": true,
+  "error": null
+}

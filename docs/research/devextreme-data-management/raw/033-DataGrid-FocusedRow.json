@@ -1,0 +1,51 @@
+{
+  "seq": 33,
+  "widgetId": "data-grid",
+  "widgetEn": "Data Grid",
+  "widgetPt": "Grade de dados",
+  "widget": "DataGrid",
+  "sectionId": "selection",
+  "sectionEn": "Selection",
+  "sectionPt": "Seleção",
+  "slug": "FocusedRow",
+  "titleEn": "Focused Row",
+  "titlePt": "Linha focada",
+  "ai": false,
+  "url": "https://js.devexpress.com/Angular/Demos/WidgetsGallery/Demo/DataGrid/FocusedRow/FluentBlueLight/",
+  "imageFile": "images/033-DataGrid-FocusedRow.png",
+  "rawFile": "raw/033-DataGrid-FocusedRow.json",
+  "scrapedAt": "2026-11-16T12:51:17.775Z",
+  "pageTitle": "Focused Row - Angular Data Grid | Angular Example",
+  "h1": "Angular Data Grid - Focused Row",
+  "descriptionEn": "The DataGrid component can highlight the focused row. To enable this feature, set the focusedRowEnabled property to true. To focus a row programmatically, specify the focusedRowKey property. The DataGrid automatically scrolls to the focused row if the autoNavigateToFocusedRow property is enabled. In the UI, users can click a row to focus it. The focused row is saved in the DataGrid's state. You can use the onFocusedRowChanging or onFocusedRowChanged property to specify a custom function that is executed before or after a row is focused.",
+  "docLinks": [],
+  "apiLinks": [
+    {
+      "text": "focusedRowEnabled",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxDataGrid/Configuration/#focusedRowEnabled"
+    },
+    {
+      "text": "focusedRowKey",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxDataGrid/Configuration/#focusedRowKey"
+    },
+    {
+      "text": "autoNavigateToFocusedRow",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxDataGrid/Configuration/#autoNavigateToFocusedRow"
+    },
+    {
+      "text": "state",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxDataGrid/Configuration/stateStoring/"
+    },
+    {
+      "text": "onFocusedRowChanging",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxDataGrid/Configuration/#onFocusedRowChanging"
+    },
+    {
+      "text": "onFocusedRowChanged",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxDataGrid/Configuration/#onFocusedRowChanged"
+    }
+  ],
+  "relatedLinks": [],
+  "screenshotOk": true,
+  "error": null
+}

@@ -1,0 +1,51 @@
+{
+  "seq": 103,
+  "widgetId": "tree-list",
+  "widgetEn": "Tree List",
+  "widgetPt": "Lista de árvores",
+  "widget": "TreeList",
+  "sectionId": "columns",
+  "sectionEn": "Columns",
+  "sectionPt": "Colunas",
+  "slug": "ColumnChooser",
+  "titleEn": "Column Chooser",
+  "titlePt": "Seletor de colunas",
+  "ai": false,
+  "url": "https://js.devexpress.com/Angular/Demos/WidgetsGallery/Demo/TreeList/ColumnChooser/FluentBlueLight/",
+  "imageFile": "images/103-TreeList-ColumnChooser.png",
+  "rawFile": "raw/103-TreeList-ColumnChooser.json",
+  "scrapedAt": "2026-11-16T12:57:57.661Z",
+  "pageTitle": "Column Chooser - Angular Tree List | Angular Example",
+  "h1": "Angular Tree List - Column Chooser",
+  "descriptionEn": "If you want users to change column visibility at runtime, enable the Column Chooser. Set the columnChooser.enabled property to true. Note that you can make sure that certain columns always stay visible. To do so, set the columns[].allowHiding property to false.",
+  "docLinks": [],
+  "apiLinks": [
+    {
+      "text": "enabled",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxTreeList/Configuration/columnChooser/#enabled"
+    },
+    {
+      "text": "allowHiding",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxTreeList/Configuration/columns/#allowHiding"
+    },
+    {
+      "text": "mode",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxTreeList/Configuration/columnChooser/#mode"
+    },
+    {
+      "text": "recursive",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxTreeList/Configuration/columnChooser/selection/#recursive"
+    },
+    {
+      "text": "enabled",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxTreeList/Configuration/columnChooser/search/#enabled"
+    },
+    {
+      "text": "visible",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxTreeList/Configuration/columns/#visible"
+    }
+  ],
+  "relatedLinks": [],
+  "screenshotOk": true,
+  "error": null
+}

@@ -1,0 +1,55 @@
+{
+  "seq": 11,
+  "widgetId": "data-grid",
+  "widgetEn": "Data Grid",
+  "widgetPt": "Grade de dados",
+  "widget": "DataGrid",
+  "sectionId": "filtering",
+  "sectionEn": "Filtering",
+  "sectionPt": "Filtragem",
+  "slug": "ColumnHeaderFilter",
+  "titleEn": "Column Header Filter",
+  "titlePt": "Filtro de cabeçalho de coluna",
+  "ai": false,
+  "url": "https://js.devexpress.com/Angular/Demos/WidgetsGallery/Demo/DataGrid/ColumnHeaderFilter/FluentBlueLight/",
+  "imageFile": "images/011-DataGrid-ColumnHeaderFilter.png",
+  "rawFile": "raw/011-DataGrid-ColumnHeaderFilter.json",
+  "scrapedAt": "2026-11-16T12:49:54.490Z",
+  "pageTitle": "Column Header Filter - Angular Data Grid | Angular Example",
+  "h1": "Angular Data Grid - Column Header Filter",
+  "descriptionEn": "The DevExtreme Data Grid includes a column header filter option – with it, users can quickly filter rows against values selected in a pop-up menu. To display the built-in filter menu, users can click the Grid’s header filter icon (displayed within the column header).",
+  "docLinks": [],
+  "apiLinks": [
+    {
+      "text": "visible",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxDataGrid/Configuration/headerFilter/#visible"
+    },
+    {
+      "text": "allowHeaderFiltering",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxDataGrid/Configuration/columns/#allowHeaderFiltering"
+    },
+    {
+      "text": "search",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxDataGrid/Configuration/headerFilter/search/"
+    },
+    {
+      "text": "headerFilter",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxDataGrid/Configuration/headerFilter/"
+    },
+    {
+      "text": "headerFilter",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxDataGrid/Configuration/columns/headerFilter/"
+    },
+    {
+      "text": "searchExpr",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxDataGrid/Configuration/columns/headerFilter/search/#searchExpr"
+    },
+    {
+      "text": "mode",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxDataGrid/Configuration/columns/headerFilter/search/#mode"
+    }
+  ],
+  "relatedLinks": [],
+  "screenshotOk": true,
+  "error": null
+}

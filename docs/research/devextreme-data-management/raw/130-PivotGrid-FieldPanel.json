@@ -1,0 +1,72 @@
+{
+  "seq": 130,
+  "widgetId": "pivot-grid",
+  "widgetEn": "Pivot Grid",
+  "widgetPt": "Grade Pivô",
+  "widget": "PivotGrid",
+  "sectionId": "field-management",
+  "sectionEn": "Field Management",
+  "sectionPt": "Gestão de Campo",
+  "slug": "FieldPanel",
+  "titleEn": "Field Panel",
+  "titlePt": "Painel de Campo",
+  "ai": false,
+  "url": "https://js.devexpress.com/Angular/Demos/WidgetsGallery/Demo/PivotGrid/FieldPanel/FluentBlueLight/",
+  "imageFile": "images/130-PivotGrid-FieldPanel.png",
+  "rawFile": "raw/130-PivotGrid-FieldPanel.json",
+  "scrapedAt": "2026-11-16T12:59:36.494Z",
+  "pageTitle": "Field Panel - Angular Pivot Grid | Angular Example",
+  "h1": "Angular Pivot Grid - Field Panel",
+  "descriptionEn": "A field panel is an element that displays pivot grid fields involved in summary calculation. This panel consists of four field areas: column, row, data, and filter. Users can drag and drop fields between these areas, similar to the field chooser. You can use the field panel and the field chooser simultaneously, as shown in this demo. Enable the fieldPanel.visible property to display the field panel. If you want to hide fields from specific areas, disable the corresponding properties in the fieldPanel object: showColumnFields showRowFields showDataFields showFilterFields",
+  "docLinks": [],
+  "apiLinks": [
+    {
+      "text": "fieldPanel",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxPivotGrid/Configuration/fieldPanel/"
+    },
+    {
+      "text": "visible",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxPivotGrid/Configuration/fieldPanel/#visible"
+    },
+    {
+      "text": "showColumnFields",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxPivotGrid/Configuration/fieldPanel/#showColumnFields"
+    },
+    {
+      "text": "showRowFields",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxPivotGrid/Configuration/fieldPanel/#showRowFields"
+    },
+    {
+      "text": "showDataFields",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxPivotGrid/Configuration/fieldPanel/#showDataFields"
+    },
+    {
+      "text": "showFilterFields",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxPivotGrid/Configuration/fieldPanel/#showFilterFields"
+    },
+    {
+      "text": "allowFieldDragging",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxPivotGrid/Configuration/fieldPanel/#allowFieldDragging"
+    },
+    {
+      "text": "allowSorting",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxPivotGrid/Configuration/#allowSorting"
+    },
+    {
+      "text": "allowFiltering",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxPivotGrid/Configuration/#allowFiltering"
+    },
+    {
+      "text": "onContextMenuPreparing",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxPivotGrid/Configuration/#onContextMenuPreparing"
+    }
+  ],
+  "relatedLinks": [
+    {
+      "text": "field chooser",
+      "href": "https://js.devexpress.com/Demos/WidgetsGallery/Demo/PivotGrid/IntegratedFieldChooser"
+    }
+  ],
+  "screenshotOk": true,
+  "error": null
+}

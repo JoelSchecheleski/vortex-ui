@@ -1,0 +1,31 @@
+{
+  "seq": 96,
+  "widgetId": "tree-list",
+  "widgetEn": "Tree List",
+  "widgetPt": "Lista de árvores",
+  "widget": "TreeList",
+  "sectionId": "selection",
+  "sectionEn": "Selection",
+  "sectionPt": "Seleção",
+  "slug": "SingleRowSelection",
+  "titleEn": "Single Row Selection",
+  "titlePt": "Seleção de linha única",
+  "ai": false,
+  "url": "https://js.devexpress.com/Angular/Demos/WidgetsGallery/Demo/TreeList/SingleRowSelection/FluentBlueLight/",
+  "imageFile": "images/096-TreeList-SingleRowSelection.png",
+  "rawFile": "raw/096-TreeList-SingleRowSelection.json",
+  "scrapedAt": "2026-11-16T12:56:25.079Z",
+  "pageTitle": "Single Row Selection - Angular Tree List | Angular Example",
+  "h1": "Angular Tree List - Single Row Selection",
+  "descriptionEn": "In this demo, the TreeList allows you to select only one row at a time. To enable this mode, set the selection.mode property to \"single\".",
+  "docLinks": [],
+  "apiLinks": [
+    {
+      "text": "mode",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxTreeList/Configuration/selection/#mode"
+    }
+  ],
+  "relatedLinks": [],
+  "screenshotOk": true,
+  "error": null
+}

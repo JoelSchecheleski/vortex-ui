@@ -1,0 +1,59 @@
+{
+  "seq": 117,
+  "widgetId": "card-view",
+  "widgetEn": "Card View",
+  "widgetPt": "Visualização do cartão",
+  "widget": "CardView",
+  "sectionId": "editing",
+  "sectionEn": "Editing",
+  "sectionPt": "Edição",
+  "slug": "PopupEditing",
+  "titleEn": "Popup Editing",
+  "titlePt": "Edição Popup",
+  "ai": false,
+  "url": "https://js.devexpress.com/Angular/Demos/WidgetsGallery/Demo/CardView/PopupEditing/FluentBlueLight/",
+  "imageFile": "images/117-CardView-PopupEditing.png",
+  "rawFile": "raw/117-CardView-PopupEditing.json",
+  "scrapedAt": "2026-11-16T12:58:48.529Z",
+  "pageTitle": "Popup Editing - Angular Card View | Angular Example",
+  "h1": "Angular Card View - Popup Editing",
+  "descriptionEn": "DevExtreme CardView allows users to edit data within a pop-up edit form. To start editing a card, click the Edit button within the card header (only one card can be edited at any point in time). The pop-up edit form can include any field from the component data source (the corresponding column does not need to be visible within the CardView - see the Notes field in this demo).",
+  "docLinks": [],
+  "apiLinks": [
+    {
+      "text": "editing",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxCardView/Configuration/editing/"
+    },
+    {
+      "text": "allowUpdating",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxCardView/Configuration/editing/#allowUpdating"
+    },
+    {
+      "text": "allowAdding",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxCardView/Configuration/editing/#allowAdding"
+    },
+    {
+      "text": "allowDeleting",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxCardView/Configuration/editing/#allowDeleting"
+    },
+    {
+      "text": "Form",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxForm/"
+    },
+    {
+      "text": "Popup",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxPopup/"
+    },
+    {
+      "text": "form",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxCardView/Configuration/editing/#form"
+    },
+    {
+      "text": "popup",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxCardView/Configuration/editing/#popup"
+    }
+  ],
+  "relatedLinks": [],
+  "screenshotOk": true,
+  "error": null
+}

@@ -1,0 +1,51 @@
+{
+  "seq": 19,
+  "widgetId": "data-grid",
+  "widgetEn": "Data Grid",
+  "widgetPt": "Grade de dados",
+  "widget": "DataGrid",
+  "sectionId": "editing",
+  "sectionEn": "Editing",
+  "sectionPt": "Edição",
+  "slug": "CustomEditors",
+  "titleEn": "Custom Editors",
+  "titlePt": "Editores personalizados",
+  "ai": false,
+  "url": "https://js.devexpress.com/Angular/Demos/WidgetsGallery/Demo/DataGrid/CustomEditors/FluentBlueLight/",
+  "imageFile": "images/019-DataGrid-CustomEditors.png",
+  "rawFile": "raw/019-DataGrid-CustomEditors.json",
+  "scrapedAt": "2026-11-16T12:50:24.201Z",
+  "pageTitle": "Custom Editors - Angular Data Grid | Angular Example",
+  "h1": "Angular Data Grid - Custom Editors",
+  "descriptionEn": "Different editors can be used to edit cell values in grid columns. The default editor depends on the column configuration. The dependency is illustrated in the editorOptions object's description (this object is used to customize the default editor). In this demo, the SelectBox component is the Status column's default editor, and the editorOptions object is used to specify the component's itemTemplate.",
+  "docLinks": [],
+  "apiLinks": [
+    {
+      "text": "editorOptions",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxDataGrid/Configuration/columns/#editorOptions"
+    },
+    {
+      "text": "SelectBox",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxSelectBox/"
+    },
+    {
+      "text": "itemTemplate",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxSelectBox/Configuration/#itemTemplate"
+    },
+    {
+      "text": "editCellTemplate",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxDataGrid/Configuration/columns/#editCellTemplate"
+    },
+    {
+      "text": "DropDownBox",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxDropDownBox/"
+    },
+    {
+      "text": "TagBox",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxTagBox/"
+    }
+  ],
+  "relatedLinks": [],
+  "screenshotOk": true,
+  "error": null
+}

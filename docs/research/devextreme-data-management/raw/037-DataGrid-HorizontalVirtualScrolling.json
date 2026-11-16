@@ -1,0 +1,31 @@
+{
+  "seq": 37,
+  "widgetId": "data-grid",
+  "widgetEn": "Data Grid",
+  "widgetPt": "Grade de dados",
+  "widget": "DataGrid",
+  "sectionId": "scrolling",
+  "sectionEn": "Scrolling",
+  "sectionPt": "Rolagem",
+  "slug": "HorizontalVirtualScrolling",
+  "titleEn": "Horizontal Virtual Scrolling",
+  "titlePt": "Rolagem virtual horizontal",
+  "ai": false,
+  "url": "https://js.devexpress.com/Angular/Demos/WidgetsGallery/Demo/DataGrid/HorizontalVirtualScrolling/FluentBlueLight/",
+  "imageFile": "images/037-DataGrid-HorizontalVirtualScrolling.png",
+  "rawFile": "raw/037-DataGrid-HorizontalVirtualScrolling.json",
+  "scrapedAt": "2026-11-16T12:51:33.123Z",
+  "pageTitle": "Horizontal Virtual Scrolling - Angular Data Grid | Angular Example",
+  "h1": "Angular Data Grid - Horizontal Virtual Scrolling",
+  "descriptionEn": "Horizontal virtual scrolling improves performance by rendering only displayed columns. To enable this feature, set scrolling.columnRenderingMode to \"virtual\".",
+  "docLinks": [],
+  "apiLinks": [
+    {
+      "text": "columnRenderingMode",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxDataGrid/Configuration/scrolling/#columnRenderingMode"
+    }
+  ],
+  "relatedLinks": [],
+  "screenshotOk": true,
+  "error": null
+}

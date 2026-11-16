@@ -1,0 +1,63 @@
+{
+  "seq": 46,
+  "widgetId": "data-grid",
+  "widgetEn": "Data Grid",
+  "widgetPt": "Grade de dados",
+  "widget": "DataGrid",
+  "sectionId": "columns",
+  "sectionEn": "Columns",
+  "sectionPt": "Colunas",
+  "slug": "AIColumns",
+  "titleEn": "AI Columns",
+  "titlePt": "Colunas de IA",
+  "ai": true,
+  "url": "https://js.devexpress.com/Angular/Demos/WidgetsGallery/Demo/DataGrid/AIColumns/FluentBlueLight/",
+  "imageFile": "images/046-DataGrid-AIColumns.png",
+  "rawFile": "raw/046-DataGrid-AIColumns.json",
+  "scrapedAt": "2026-11-16T12:52:07.412Z",
+  "pageTitle": "AI Columns - Angular Data Grid | Angular Example",
+  "h1": "Angular Data Grid - AI Columns",
+  "descriptionEn": "DevExtreme DataGrid allows you to add multiple AI columns to the grid. These columns auto generate meaningful cell values based on component data and a custom prompt, transforming DevExtreme DataGrid into an AI-powered data analysis tool. In this demo, an AI column is fixed to the right side of the component.",
+  "docLinks": [],
+  "apiLinks": [
+    {
+      "text": "aiIntegration",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxDataGrid/Configuration/#aiIntegration"
+    },
+    {
+      "text": "aiIntegration",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxDataGrid/Configuration/columns/ai/#aiIntegration"
+    },
+    {
+      "text": "type",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxDataGrid/Configuration/columns/#type"
+    },
+    {
+      "text": "name",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxDataGrid/Configuration/columns/#name"
+    },
+    {
+      "text": "mode",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxDataGrid/Configuration/columns/ai/#mode"
+    },
+    {
+      "text": "prompt",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxDataGrid/Configuration/columns/ai/#prompt"
+    },
+    {
+      "text": "no data text",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxDataGrid/Configuration/columns/ai/#noDataText"
+    },
+    {
+      "text": "data",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxDataGrid/Types/AIColumnRequestCreatingEvent/#data"
+    },
+    {
+      "text": "onAIColumnRequestCreating",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxDataGrid/Configuration/#onAIColumnRequestCreating"
+    }
+  ],
+  "relatedLinks": [],
+  "screenshotOk": true,
+  "error": null
+}

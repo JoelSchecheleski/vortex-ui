@@ -1,0 +1,60 @@
+{
+  "seq": 74,
+  "widgetId": "data-grid",
+  "widgetEn": "Data Grid",
+  "widgetPt": "Grade de dados",
+  "widget": "DataGrid",
+  "sectionId": "state",
+  "sectionEn": "State Persistence",
+  "sectionPt": "Persistência do Estado",
+  "slug": "StatePersistence",
+  "titleEn": "State Persistence",
+  "titlePt": "Persistência do Estado",
+  "ai": false,
+  "url": "https://js.devexpress.com/Angular/Demos/WidgetsGallery/Demo/DataGrid/StatePersistence/FluentBlueLight/",
+  "imageFile": "images/074-DataGrid-StatePersistence.png",
+  "rawFile": "raw/074-DataGrid-StatePersistence.json",
+  "scrapedAt": "2026-11-16T12:55:02.083Z",
+  "pageTitle": "State Persistence - Angular Data Grid | Angular Example",
+  "h1": "Angular Data Grid - State Persistence",
+  "descriptionEn": "The DataGrid can persist its state. If a user sorts and filters data, groups, reorders and resizes columns, or makes other changes, the component saves these modifications and restores them when a user reloads the page. Refer to the stateStoring article for a full list of modifications that can be saved.",
+  "docLinks": [],
+  "apiLinks": [
+    {
+      "text": "stateStoring",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxDataGrid/Configuration/stateStoring/"
+    },
+    {
+      "text": "enabled",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxDataGrid/Configuration/stateStoring/#enabled"
+    },
+    {
+      "text": "storageKey",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxDataGrid/Configuration/stateStoring/#storageKey"
+    },
+    {
+      "text": "type",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxDataGrid/Configuration/stateStoring/#type"
+    },
+    {
+      "text": "customSave",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxDataGrid/Configuration/stateStoring/#customSave"
+    },
+    {
+      "text": "customLoad",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxDataGrid/Configuration/stateStoring/#customLoad"
+    }
+  ],
+  "relatedLinks": [
+    {
+      "text": "localStorage",
+      "href": "https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage"
+    },
+    {
+      "text": "sessionStorage",
+      "href": "https://developer.mozilla.org/en-US/docs/Web/API/Window/sessionStorage"
+    }
+  ],
+  "screenshotOk": true,
+  "error": null
+}

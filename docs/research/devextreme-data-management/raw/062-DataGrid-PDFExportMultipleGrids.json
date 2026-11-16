@@ -1,0 +1,48 @@
+{
+  "seq": 62,
+  "widgetId": "data-grid",
+  "widgetEn": "Data Grid",
+  "widgetPt": "Grade de dados",
+  "widget": "DataGrid",
+  "sectionId": "export-pdf",
+  "sectionEn": "Export to PDF",
+  "sectionPt": "Exportar para PDF",
+  "slug": "PDFExportMultipleGrids",
+  "titleEn": "Multiple Grids Export",
+  "titlePt": "Exportação de múltiplas grades",
+  "ai": false,
+  "url": "https://js.devexpress.com/Angular/Demos/WidgetsGallery/Demo/DataGrid/PDFExportMultipleGrids/FluentBlueLight/",
+  "imageFile": "images/062-DataGrid-PDFExportMultipleGrids.png",
+  "rawFile": "raw/062-DataGrid-PDFExportMultipleGrids.json",
+  "scrapedAt": "2026-11-16T12:54:13.659Z",
+  "pageTitle": "Multiple Grids Export - Angular Data Grid | Angular Example",
+  "h1": "Angular Data Grid - Multiple Grids Export",
+  "descriptionEn": "This demo shows two DataGrids in different tabs. Click the Export multiple grids button to export two grids and arrange them on different pages of the PDF document. To implement this functionality, call the exportDataGrid(options) methods in a chain of Promises, one after another. Use the jsPDF.addPage() method to add a page in the PDF document. You can use the customizeCell function to customize cell appearance in the PDF document. In this demo, the customizeCell function highlights alternate (even) rows.",
+  "docLinks": [],
+  "apiLinks": [
+    {
+      "text": "exportDataGrid(options)",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/Common/Utils/pdfExporter/#exportDataGridoptions"
+    },
+    {
+      "text": "customizeCell",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/Common/Object_Structures/PdfExportDataGridProps/#customizeCell"
+    },
+    {
+      "text": "customizeCell",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/Common/Object_Structures/PdfExportDataGridProps/#customizeCell"
+    }
+  ],
+  "relatedLinks": [
+    {
+      "text": "chain of Promises",
+      "href": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise/then"
+    },
+    {
+      "text": "addPage()",
+      "href": "https://raw.githack.com/parallax/jsPDF/master/docs/jsPDF.html#addPage"
+    }
+  ],
+  "screenshotOk": true,
+  "error": null
+}

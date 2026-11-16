@@ -1,0 +1,51 @@
+{
+  "seq": 113,
+  "widgetId": "card-view",
+  "widgetEn": "Card View",
+  "widgetPt": "Visualização do cartão",
+  "widget": "CardView",
+  "sectionId": "filtering",
+  "sectionEn": "Filtering",
+  "sectionPt": "Filtragem",
+  "slug": "ColumnHeaderFilter",
+  "titleEn": "Column Header Filter",
+  "titlePt": "Filtro de cabeçalho de coluna",
+  "ai": false,
+  "url": "https://js.devexpress.com/Angular/Demos/WidgetsGallery/Demo/CardView/ColumnHeaderFilter/FluentBlueLight/",
+  "imageFile": "images/113-CardView-ColumnHeaderFilter.png",
+  "rawFile": "raw/113-CardView-ColumnHeaderFilter.json",
+  "scrapedAt": "2026-11-16T12:58:34.076Z",
+  "pageTitle": "Column Header Filter - Angular Card View | Angular Example",
+  "h1": "Angular Card View - Column Header Filter",
+  "descriptionEn": "DevExtreme CardView includes a header used to filter cards by field values. Click the filter icon in the field's header panel to open the pop-up CardView filter.",
+  "docLinks": [],
+  "apiLinks": [
+    {
+      "text": "visible",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxCardView/Configuration/headerFilter/#visible"
+    },
+    {
+      "text": "allowHeaderFiltering",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxCardView/Configuration/columns/#allowHeaderFiltering"
+    },
+    {
+      "text": "search",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxCardView/Configuration/headerFilter/search/"
+    },
+    {
+      "text": "headerFilter",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxCardView/Configuration/columns/headerFilter/"
+    },
+    {
+      "text": "searchExpr",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxCardView/Configuration/columns/headerFilter/search/#searchExpr"
+    },
+    {
+      "text": "mode",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxCardView/Configuration/columns/headerFilter/search/#mode"
+    }
+  ],
+  "relatedLinks": [],
+  "screenshotOk": true,
+  "error": null
+}

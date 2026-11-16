@@ -1,0 +1,31 @@
+{
+  "seq": 23,
+  "widgetId": "data-grid",
+  "widgetEn": "Data Grid",
+  "widgetPt": "Grade de dados",
+  "widget": "DataGrid",
+  "sectionId": "editing",
+  "sectionEn": "Editing",
+  "sectionPt": "Edição",
+  "slug": "RemoteCRUDOperations",
+  "titleEn": "Remote CRUD Operations",
+  "titlePt": "Operações CRUD remotas",
+  "ai": false,
+  "url": "https://js.devexpress.com/Angular/Demos/WidgetsGallery/Demo/DataGrid/RemoteCRUDOperations/FluentBlueLight/",
+  "imageFile": "images/023-DataGrid-RemoteCRUDOperations.png",
+  "rawFile": "raw/023-DataGrid-RemoteCRUDOperations.json",
+  "scrapedAt": "2026-11-16T12:50:38.980Z",
+  "pageTitle": "Remote CRUD Operations - Angular Data Grid | Angular Example",
+  "h1": "Angular Data Grid - Remote CRUD Operations",
+  "descriptionEn": "This demo shows how to implement remote CRUD operations in the CustomStore. You can view the server implementation under the DataGridWebApiController tab in the ASP.NET MVC version of this demo. The requests sent to the server are displayed under the DataGrid. After a cell is edited, the DataGrid can behave differently depending on the selected refresh mode: reload data from the server (the refreshMode is full), reapply data processing operations (reshape), or merely rerender the changed cells (repaint).",
+  "docLinks": [],
+  "apiLinks": [
+    {
+      "text": "refreshMode",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxDataGrid/Configuration/editing/#refreshMode"
+    }
+  ],
+  "relatedLinks": [],
+  "screenshotOk": true,
+  "error": null
+}

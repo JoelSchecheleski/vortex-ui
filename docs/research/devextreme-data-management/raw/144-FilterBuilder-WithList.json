@@ -1,0 +1,31 @@
+{
+  "seq": 144,
+  "widgetId": "filter-builder",
+  "widgetEn": "Filter Builder",
+  "widgetPt": "Construtor de filtros",
+  "widget": "FilterBuilder",
+  "sectionId": "demos",
+  "sectionEn": "Demos",
+  "sectionPt": "Demos",
+  "slug": "WithList",
+  "titleEn": "With List",
+  "titlePt": "Com lista",
+  "ai": false,
+  "url": "https://js.devexpress.com/Angular/Demos/WidgetsGallery/Demo/FilterBuilder/WithList/FluentBlueLight/",
+  "imageFile": "images/144-FilterBuilder-WithList.png",
+  "rawFile": "raw/144-FilterBuilder-WithList.json",
+  "scrapedAt": "2026-11-16T13:00:28.323Z",
+  "pageTitle": "With List - Angular Filter Builder | Angular Example",
+  "h1": "Angular Filter Builder - With List",
+  "descriptionEn": "This demo shows how to filter data in the List using the FilterBuilder component. Note that the DataSource does not support the \"between\" operation. Call the getFilterExpression() method to convert it into DataSource-compatible operations.",
+  "docLinks": [],
+  "apiLinks": [
+    {
+      "text": "getFilterExpression()",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxFilterBuilder/Methods/#getFilterExpression"
+    }
+  ],
+  "relatedLinks": [],
+  "screenshotOk": true,
+  "error": null
+}

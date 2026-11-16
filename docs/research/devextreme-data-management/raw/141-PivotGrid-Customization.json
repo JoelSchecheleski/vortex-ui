@@ -1,0 +1,47 @@
+{
+  "seq": 141,
+  "widgetId": "pivot-grid",
+  "widgetEn": "Pivot Grid",
+  "widgetPt": "Grade Pivô",
+  "widget": "PivotGrid",
+  "sectionId": "customization",
+  "sectionEn": "Customization",
+  "sectionPt": "Personalização",
+  "slug": "Customization",
+  "titleEn": "Customization",
+  "titlePt": "Personalização",
+  "ai": false,
+  "url": "https://js.devexpress.com/Angular/Demos/WidgetsGallery/Demo/PivotGrid/Customization/FluentBlueLight/",
+  "imageFile": "images/141-PivotGrid-Customization.png",
+  "rawFile": "raw/141-PivotGrid-Customization.json",
+  "scrapedAt": "2026-11-16T13:00:17.443Z",
+  "pageTitle": "Customization - Angular Pivot Grid | Angular Example",
+  "h1": "Angular Pivot Grid - Customization",
+  "descriptionEn": "PivotGrid allows you to customize its layout.",
+  "docLinks": [],
+  "apiLinks": [
+    {
+      "text": "rowHeaderLayout",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxPivotGrid/Configuration/#rowHeaderLayout"
+    },
+    {
+      "text": "showTotalsPrior",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxPivotGrid/Configuration/#showTotalsPrior"
+    },
+    {
+      "text": "row totals",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxPivotGrid/Configuration/#showRowTotals"
+    },
+    {
+      "text": "dataFieldArea",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxPivotGrid/Configuration/#dataFieldArea"
+    },
+    {
+      "text": "area",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/Data_Layer/PivotGridDataSource/Configuration/fields/#area"
+    }
+  ],
+  "relatedLinks": [],
+  "screenshotOk": true,
+  "error": null
+}

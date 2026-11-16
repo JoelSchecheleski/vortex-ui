@@ -1,0 +1,63 @@
+{
+  "seq": 31,
+  "widgetId": "data-grid",
+  "widgetEn": "Data Grid",
+  "widgetPt": "Grade de dados",
+  "widget": "DataGrid",
+  "sectionId": "selection",
+  "sectionEn": "Selection",
+  "sectionPt": "Seleção",
+  "slug": "MultipleRecordSelectionAPI",
+  "titleEn": "Multiple Record Selection API",
+  "titlePt": "API de seleção de múltiplos registros",
+  "ai": false,
+  "url": "https://js.devexpress.com/Angular/Demos/WidgetsGallery/Demo/DataGrid/MultipleRecordSelectionAPI/FluentBlueLight/",
+  "imageFile": "images/031-DataGrid-MultipleRecordSelectionAPI.png",
+  "rawFile": "raw/031-DataGrid-MultipleRecordSelectionAPI.json",
+  "scrapedAt": "2026-11-16T12:51:10.300Z",
+  "pageTitle": "Multiple Record Selection API - Angular Data Grid | Angular Example",
+  "h1": "Angular Data Grid - Multiple Record Selection API",
+  "descriptionEn": "DataGrid has the following API for multiple record selection: selectAll() / deselectAll() Selects / deselects all rows or current page rows, depending on the value of selectAllMode. selectRows(keys, preserve) / deselectRows(keys) Selects / deselects rows with the specified keys. selectRowsByIndexes(indexes) Selects rows with specific indexes. clearSelection() Clears the selection of all rows on all pages. getSelectedRowKeys() / getSelectedRowsData() Gets the selected rows' keys or data objects.",
+  "docLinks": [],
+  "apiLinks": [
+    {
+      "text": "selectAll()",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxDataGrid/Methods/#selectAll"
+    },
+    {
+      "text": "deselectAll()",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxDataGrid/Methods/#deselectAll"
+    },
+    {
+      "text": "selectAllMode",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxDataGrid/Configuration/selection/#selectAllMode"
+    },
+    {
+      "text": "selectRows(keys, preserve)",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxDataGrid/Methods/#selectRowskeys_preserve"
+    },
+    {
+      "text": "deselectRows(keys)",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxDataGrid/Methods/#deselectRowskeys"
+    },
+    {
+      "text": "selectRowsByIndexes(indexes)",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxDataGrid/Methods/#selectRowsByIndexesindexes"
+    },
+    {
+      "text": "clearSelection()",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxDataGrid/Methods/#clearSelection"
+    },
+    {
+      "text": "getSelectedRowKeys()",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxDataGrid/Methods/#getSelectedRowKeys"
+    },
+    {
+      "text": "getSelectedRowsData()",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxDataGrid/Methods/#getSelectedRowsData"
+    }
+  ],
+  "relatedLinks": [],
+  "screenshotOk": true,
+  "error": null
+}

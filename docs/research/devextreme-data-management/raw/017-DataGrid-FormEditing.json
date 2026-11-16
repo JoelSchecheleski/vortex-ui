@@ -1,0 +1,84 @@
+{
+  "seq": 17,
+  "widgetId": "data-grid",
+  "widgetEn": "Data Grid",
+  "widgetPt": "Grade de dados",
+  "widget": "DataGrid",
+  "sectionId": "editing",
+  "sectionEn": "Editing",
+  "sectionPt": "Edição",
+  "slug": "FormEditing",
+  "titleEn": "Form Editing",
+  "titlePt": "Edição de formulários",
+  "ai": false,
+  "url": "https://js.devexpress.com/Angular/Demos/WidgetsGallery/Demo/DataGrid/FormEditing/FluentBlueLight/",
+  "imageFile": "images/017-DataGrid-FormEditing.png",
+  "rawFile": "raw/017-DataGrid-FormEditing.json",
+  "scrapedAt": "2026-11-16T12:50:16.938Z",
+  "pageTitle": "Form Editing - Angular Data Grid | Angular Example",
+  "h1": "Angular Data Grid - Form Editing",
+  "descriptionEn": "The DataGrid can use the Form component to arrange cell editors when users modify a row. The Form allows users to edit values from visible and hidden columns (see the Notes column). To enable form edit mode, configure the following properties: Set editing.mode to \"form\" Assign true to the editing object's allowAdding, allowUpdating, and allowDeleting properties.",
+  "docLinks": [
+    {
+      "text": "Customize Edit Form",
+      "href": "https://js.devexpress.com/Angular/Documentation/Guide/UI_Components/DataGrid/Editing/#Customize_Edit_Form"
+    }
+  ],
+  "apiLinks": [
+    {
+      "text": "Form",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxForm/"
+    },
+    {
+      "text": "visible and hidden",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxDataGrid/Configuration/columns/#visible"
+    },
+    {
+      "text": "mode",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxDataGrid/Configuration/editing/#mode"
+    },
+    {
+      "text": "editing",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxDataGrid/Configuration/editing/"
+    },
+    {
+      "text": "allowAdding",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxDataGrid/Configuration/editing/#allowAdding"
+    },
+    {
+      "text": "allowUpdating",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxDataGrid/Configuration/editing/#allowUpdating"
+    },
+    {
+      "text": "allowDeleting",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxDataGrid/Configuration/editing/#allowDeleting"
+    },
+    {
+      "text": "dataType",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxDataGrid/Configuration/columns/#dataType"
+    },
+    {
+      "text": "formItem",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxDataGrid/Configuration/columns/#formItem"
+    },
+    {
+      "text": "TextArea",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxTextArea/"
+    },
+    {
+      "text": "SimpleItem",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxForm/Item_Types/SimpleItem/"
+    },
+    {
+      "text": "configuration section",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxForm/"
+    },
+    {
+      "text": "form",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxDataGrid/Configuration/editing/#form"
+    }
+  ],
+  "relatedLinks": [],
+  "screenshotOk": true,
+  "error": null
+}

@@ -1,0 +1,43 @@
+{
+  "seq": 116,
+  "widgetId": "card-view",
+  "widgetEn": "Card View",
+  "widgetPt": "Visualização do cartão",
+  "widget": "CardView",
+  "sectionId": "sorting",
+  "sectionEn": "Sorting",
+  "sectionPt": "Classificação",
+  "slug": "Sorting",
+  "titleEn": "Sorting",
+  "titlePt": "Classificação",
+  "ai": false,
+  "url": "https://js.devexpress.com/Angular/Demos/WidgetsGallery/Demo/CardView/Sorting/FluentBlueLight/",
+  "imageFile": "images/116-CardView-Sorting.png",
+  "rawFile": "raw/116-CardView-Sorting.json",
+  "scrapedAt": "2026-11-16T12:58:44.884Z",
+  "pageTitle": "Sorting - Angular Card View | Angular Example",
+  "h1": "Angular Card View - Sorting",
+  "descriptionEn": "The DevExtreme CardView component can sort values against one or more fields. Use the sorting.mode property to specify sort mode.",
+  "docLinks": [],
+  "apiLinks": [
+    {
+      "text": "mode",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxCardView/Configuration/sorting/#mode"
+    },
+    {
+      "text": "allowSorting",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxCardView/Configuration/columns/#allowSorting"
+    },
+    {
+      "text": "sortOrder",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxCardView/Configuration/columns/#sortOrder"
+    },
+    {
+      "text": "sortIndex",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxCardView/Configuration/columns/#sortIndex"
+    }
+  ],
+  "relatedLinks": [],
+  "screenshotOk": true,
+  "error": null
+}

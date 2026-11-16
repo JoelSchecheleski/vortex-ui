@@ -1,0 +1,68 @@
+{
+  "seq": 91,
+  "widgetId": "tree-list",
+  "widgetEn": "Tree List",
+  "widgetPt": "Lista de árvores",
+  "widget": "TreeList",
+  "sectionId": "editing",
+  "sectionEn": "Editing",
+  "sectionPt": "Edição",
+  "slug": "RowEditing",
+  "titleEn": "Row Editing",
+  "titlePt": "Edição de linhas",
+  "ai": false,
+  "url": "https://js.devexpress.com/Angular/Demos/WidgetsGallery/Demo/TreeList/RowEditing/FluentBlueLight/",
+  "imageFile": "images/091-TreeList-RowEditing.png",
+  "rawFile": "raw/091-TreeList-RowEditing.json",
+  "scrapedAt": "2026-11-16T12:56:06.243Z",
+  "pageTitle": "Row Editing - Angular Tree List | Angular Example",
+  "h1": "Angular Tree List - Row Editing",
+  "descriptionEn": "The TreeList allows users to edit data in multiple modes. This demo shows the \"row\" edit mode. To edit a row, click its \"Edit\" button. Only one row can be in the edit state at a time. To enable row edit mode, set the mode property to \"row\" and enable the editing object's allowUpdating, allowAdding, and allowDeleting properties to allow edit operations.",
+  "docLinks": [
+    {
+      "text": "Customize the Edit Column",
+      "href": "https://js.devexpress.com/Angular/Documentation/Guide/UI_Components/TreeList/Columns/Column_Types/Command_Columns/#Customize_the_Edit_Column"
+    },
+    {
+      "text": "Editing Events",
+      "href": "https://js.devexpress.com/Angular/Documentation/Guide/UI_Components/TreeList/Editing/#Events"
+    }
+  ],
+  "apiLinks": [
+    {
+      "text": "mode",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxTreeList/Configuration/editing/#mode"
+    },
+    {
+      "text": "editing",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxTreeList/Configuration/editing/#mode"
+    },
+    {
+      "text": "allowUpdating",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxTreeList/Configuration/editing/#allowUpdating"
+    },
+    {
+      "text": "allowAdding",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxTreeList/Configuration/editing/#allowAdding"
+    },
+    {
+      "text": "allowDeleting",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxTreeList/Configuration/editing/#allowDeleting"
+    },
+    {
+      "text": "type",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxTreeList/Configuration/columns/#type"
+    },
+    {
+      "text": "onInitNewRow",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxTreeList/Configuration/#onInitNewRow"
+    },
+    {
+      "text": "onEditorPreparing",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxTreeList/Configuration/#onEditorPreparing"
+    }
+  ],
+  "relatedLinks": [],
+  "screenshotOk": true,
+  "error": null
+}

@@ -1,0 +1,59 @@
+{
+  "seq": 26,
+  "widgetId": "data-grid",
+  "widgetEn": "Data Grid",
+  "widgetPt": "Grade de dados",
+  "widget": "DataGrid",
+  "sectionId": "editing",
+  "sectionEn": "Editing",
+  "sectionPt": "Edição",
+  "slug": "NewRecordPosition",
+  "titleEn": "New Record Position",
+  "titlePt": "Nova posição recorde",
+  "ai": false,
+  "url": "https://js.devexpress.com/Angular/Demos/WidgetsGallery/Demo/DataGrid/NewRecordPosition/FluentBlueLight/",
+  "imageFile": "images/026-DataGrid-NewRecordPosition.png",
+  "rawFile": "raw/026-DataGrid-NewRecordPosition.json",
+  "scrapedAt": "2026-11-16T12:50:51.287Z",
+  "pageTitle": "New Record Position - Angular Data Grid | Angular Example",
+  "h1": "Angular Data Grid - New Record Position",
+  "descriptionEn": "The DevExtreme DataGrid API includes a newRowPosition property. With this property, you can specify the desired \"new record\" position as follows.",
+  "docLinks": [],
+  "apiLinks": [
+    {
+      "text": "newRowPosition",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxDataGrid/Configuration/editing/#newRowPosition"
+    },
+    {
+      "text": "scrolling modes",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxDataGrid/Configuration/scrolling/#mode"
+    },
+    {
+      "text": "insertBeforeKey",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxDataGrid/Configuration/editing/changes/#insertBeforeKey"
+    },
+    {
+      "text": "insertAfterKey",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxDataGrid/Configuration/editing/changes/#insertAfterKey"
+    },
+    {
+      "text": "changes",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxDataGrid/Configuration/editing/changes/"
+    },
+    {
+      "text": "navigateToRow(key)",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxDataGrid/Methods/#navigateToRowkey"
+    },
+    {
+      "text": "onRowInserted",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxDataGrid/Configuration/#onRowInserted"
+    },
+    {
+      "text": "refreshMode",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxDataGrid/Configuration/editing/#refreshMode"
+    }
+  ],
+  "relatedLinks": [],
+  "screenshotOk": true,
+  "error": null
+}

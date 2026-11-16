@@ -1,0 +1,35 @@
+{
+  "seq": 123,
+  "widgetId": "card-view",
+  "widgetEn": "Card View",
+  "widgetPt": "Visualização do cartão",
+  "widget": "CardView",
+  "sectionId": "customization",
+  "sectionEn": "Customization",
+  "sectionPt": "Personalização",
+  "slug": "FieldTemplate",
+  "titleEn": "Field Template",
+  "titlePt": "Modelo de campo",
+  "ai": false,
+  "url": "https://js.devexpress.com/Angular/Demos/WidgetsGallery/Demo/CardView/FieldTemplate/FluentBlueLight/",
+  "imageFile": "images/123-CardView-FieldTemplate.png",
+  "rawFile": "raw/123-CardView-FieldTemplate.json",
+  "scrapedAt": "2026-11-16T12:59:10.868Z",
+  "pageTitle": "Field Template - Angular Card View | Angular Example",
+  "h1": "Angular Card View - Field Template",
+  "descriptionEn": "Field templates allow you to display custom content for field elements. Use the fieldTemplate property to configure these templates. This demo uses field templates to customize the appearance of 'Priority', 'Assigned to', and 'Completed' fields. It also adds custom card headers with cardHeader.template.",
+  "docLinks": [],
+  "apiLinks": [
+    {
+      "text": "fieldTemplate",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxCardView/Configuration/columns/#fieldTemplate"
+    },
+    {
+      "text": "template",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxCardView/Configuration/cardHeader/#template"
+    }
+  ],
+  "relatedLinks": [],
+  "screenshotOk": true,
+  "error": null
+}

@@ -14,6 +14,10 @@
 - [AI Columns — DataGrid](https://js.devexpress.com/Angular/Documentation/Guide/UI_Components/DataGrid/Columns/Column_Types/AI_Columns/)  
 - [Choose a Data Management Component](https://js.devexpress.com/Angular/Documentation/Guide/UI_Components/DataGrid/Choose_a_Data_Management_Component/)  
 
+**Pesquisa / paridade Data Management (scraping Widgets Gallery):**  
+- [`docs/research/devextreme-data-management/`](docs/research/devextreme-data-management/) — 145 demos (DataGrid, TreeList, CardView, PivotGrid, FilterBuilder); PRD AI-ready + imagens sequenciais + `raw/`  
+- Entrada: [`PRD-DATA-MANAGEMENT.md`](docs/research/devextreme-data-management/PRD-DATA-MANAGEMENT.md) · [`README.md`](docs/research/devextreme-data-management/README.md)  
+
 **Design system interno (tema #2):**  
 - `design/Guidelines-LDS.md` — LDS Figma Make Themes (LDS GF Theme); fonte de verdade do tema **LDS**  
 - `design/brand/` — marca VortexUI (mark + lockup SVG)  
@@ -283,7 +287,8 @@ Meta de lançamento **v2 Super**: famílias críticas em **M2+**; Grid/File/AI e
 | `vx-pivot-field-chooser` | Pivot Grid Field Chooser | **10** | Opcional | |
 | `vx-filter-builder` | Filter Builder | 4 ✅ | Sim | Integra com Grid/List |
 
-> **Escolha de Data Management (paridade DX):** DataGrid = tabular flat/master-detail; TreeList = hierarquia; CardView = cards responsivos; PivotGrid = OLAP/agregação. Documentar no docs como [Choose a Data Management Component](https://js.devexpress.com/Angular/Documentation/Guide/UI_Components/DataGrid/Choose_a_Data_Management_Component/).
+> **Escolha de Data Management (paridade DX):** DataGrid = tabular flat/master-detail; TreeList = hierarquia; CardView = cards responsivos; PivotGrid = OLAP/agregação. Documentar no docs como [Choose a Data Management Component](https://js.devexpress.com/Angular/Documentation/Guide/UI_Components/DataGrid/Choose_a_Data_Management_Component/).  
+> **Checklist de paridade (145 demos + screenshots):** [`docs/research/devextreme-data-management/PRD-DATA-MANAGEMENT.md`](docs/research/devextreme-data-management/PRD-DATA-MANAGEMENT.md).
 
 ### 5.2 Data Visualization
 

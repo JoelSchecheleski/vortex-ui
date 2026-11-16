@@ -1,0 +1,51 @@
+{
+  "seq": 92,
+  "widgetId": "tree-list",
+  "widgetEn": "Tree List",
+  "widgetPt": "Lista de árvores",
+  "widget": "TreeList",
+  "sectionId": "editing",
+  "sectionEn": "Editing",
+  "sectionPt": "Edição",
+  "slug": "CellEditing",
+  "titleEn": "Cell Editing",
+  "titlePt": "Edição de células",
+  "ai": false,
+  "url": "https://js.devexpress.com/Angular/Demos/WidgetsGallery/Demo/TreeList/CellEditing/FluentBlueLight/",
+  "imageFile": "images/092-TreeList-CellEditing.png",
+  "rawFile": "raw/092-TreeList-CellEditing.json",
+  "scrapedAt": "2026-11-16T12:56:09.936Z",
+  "pageTitle": "Cell Editing - Angular Tree List | Angular Example",
+  "h1": "Angular Tree List - Cell Editing",
+  "descriptionEn": "Users can modify TreeList data cell by cell. In this mode, only one cell can be in the edit state at a time. The TreeList saves changes immediately after the focus leaves cell.",
+  "docLinks": [],
+  "apiLinks": [
+    {
+      "text": "mode",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxTreeList/Configuration/editing/#mode"
+    },
+    {
+      "text": "editing",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxTreeList/Configuration/editing/"
+    },
+    {
+      "text": "allowUpdating",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxTreeList/Configuration/editing/#allowUpdating"
+    },
+    {
+      "text": "allowAdding",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxTreeList/Configuration/editing/#allowAdding"
+    },
+    {
+      "text": "allowDeleting",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxTreeList/Configuration/editing/#allowDeleting"
+    },
+    {
+      "text": "onInitNewRow",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxTreeList/Configuration/#onInitNewRow"
+    }
+  ],
+  "relatedLinks": [],
+  "screenshotOk": true,
+  "error": null
+}

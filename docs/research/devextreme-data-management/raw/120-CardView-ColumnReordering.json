@@ -1,0 +1,47 @@
+{
+  "seq": 120,
+  "widgetId": "card-view",
+  "widgetEn": "Card View",
+  "widgetPt": "Visualização do cartão",
+  "widget": "CardView",
+  "sectionId": "columns",
+  "sectionEn": "Columns",
+  "sectionPt": "Colunas",
+  "slug": "ColumnReordering",
+  "titleEn": "Column Reordering",
+  "titlePt": "Reordenação de colunas",
+  "ai": false,
+  "url": "https://js.devexpress.com/Angular/Demos/WidgetsGallery/Demo/CardView/ColumnReordering/FluentBlueLight/",
+  "imageFile": "images/120-CardView-ColumnReordering.png",
+  "rawFile": "raw/120-CardView-ColumnReordering.json",
+  "scrapedAt": "2026-11-16T12:58:59.616Z",
+  "pageTitle": "Column Reordering - Angular Card View | Angular Example",
+  "h1": "Angular Card View - Column Reordering",
+  "descriptionEn": "DevExtreme CardView fields use the same display order as data fields in the component's dataSource. You can specify a different display order with the columns[] array. To reorder a field at runtime, change the columns[].visibleIndex property.",
+  "docLinks": [],
+  "apiLinks": [
+    {
+      "text": "dataSource",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxCardView/Configuration/#dataSource"
+    },
+    {
+      "text": "columns[]",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxCardView/Configuration/columns/"
+    },
+    {
+      "text": "visibleIndex",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxCardView/Configuration/columns/#visibleIndex"
+    },
+    {
+      "text": "allowColumnReordering",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxCardView/Configuration/#allowColumnReordering"
+    },
+    {
+      "text": "allowReordering",
+      "href": "https://js.devexpress.com/Angular/Documentation/ApiReference/UI_Components/dxCardView/Configuration/columns/#allowReordering"
+    }
+  ],
+  "relatedLinks": [],
+  "screenshotOk": true,
+  "error": null
+}
