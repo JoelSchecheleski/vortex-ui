@@ -39,6 +39,8 @@ export type {
   VxCellEditEvent,
 } from './data-grid.types';
 export type {
+  VxArrayDataSourceOptions,
+  VxArrayGroup,
   VxDataSource,
   VxDataSourceLoadOptions,
   VxDataSourceLoadResult,

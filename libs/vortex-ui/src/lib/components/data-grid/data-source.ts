@@ -12,11 +12,25 @@ export interface VxDataSourceLoadOptions {
   take: number;
   sort?: VxSortState | null;
   filter?: VxFilterState | null;
+  /** Campo de agrupamento (single-level). Array → usa o primeiro campo. */
+  group?: string | readonly string[] | null;
 }
 
 export interface VxDataSourceLoadResult<T> {
   data: T[];
   totalCount: number;
+}
+
+/** Grupo client-side produzido por `load({ group })`. */
+export interface VxArrayGroup<T> {
+  key: unknown;
+  items: T[];
+  count: number;
+}
+
+export interface VxArrayDataSourceOptions {
+  /** Nome do campo-chave na linha. Default: `'id'`. */
+  keyExpr?: string;
 }
 
 /**
@@ -62,17 +76,79 @@ function applySort<T extends Record<string, unknown>>(
   });
 }
 
-/** Helper: array em memória com filter + sort + slice. */
-export class VxArrayDataSource<T> implements VxDataSource<T> {
-  constructor(private readonly items: T[]) {}
+function resolveGroupField(
+  group?: string | readonly string[] | null
+): string | null {
+  if (group == null) return null;
+  if (typeof group === 'string') {
+    return group.length > 0 ? group : null;
+  }
+  const first = group[0];
+  return typeof first === 'string' && first.length > 0 ? first : null;
+}
 
-  load(options: VxDataSourceLoadOptions): VxDataSourceLoadResult<T> {
+function buildGroups<T>(rows: T[], field: string): VxArrayGroup<T>[] {
+  const order: unknown[] = [];
+  const map = new Map<unknown, T[]>();
+  for (const row of rows) {
+    const key = (row as Record<string, unknown>)[field];
+    let bucket = map.get(key);
+    if (!bucket) {
+      bucket = [];
+      map.set(key, bucket);
+      order.push(key);
+    }
+    bucket.push(row);
+  }
+  return order.map((key) => {
+    const items = map.get(key) ?? [];
+    return { key, items, count: items.length };
+  });
+}
+
+/** Helper: array em memória com filter + sort + group + slice. */
+export class VxArrayDataSource<T> implements VxDataSource<T> {
+  private readonly keyExpr: string;
+
+  constructor(
+    private readonly items: T[],
+    options?: VxArrayDataSourceOptions
+  ) {
+    this.keyExpr = options?.keyExpr || 'id';
+  }
+
+  /**
+   * Chave estável do item via `keyExpr`.
+   * Retorna `undefined` se o campo estiver ausente no item.
+   */
+  keyOf(item: T): unknown {
+    if (item == null || typeof item !== 'object') return undefined;
+    return (item as Record<string, unknown>)[this.keyExpr];
+  }
+
+  load(
+    options: VxDataSourceLoadOptions & { group: string | readonly string[] }
+  ): VxDataSourceLoadResult<VxArrayGroup<T>>;
+  load(options: VxDataSourceLoadOptions): VxDataSourceLoadResult<T>;
+  load(
+    options: VxDataSourceLoadOptions
+  ): VxDataSourceLoadResult<T> | VxDataSourceLoadResult<VxArrayGroup<T>> {
     const asRecord = (row: T) => row as Record<string, unknown>;
     let rows = applyFilter(this.items.map(asRecord), options.filter);
     rows = applySort(rows, options.sort);
-    const totalCount = rows.length;
-    const data = rows.slice(options.skip, options.skip + options.take) as T[];
-    return { data, totalCount };
+    const leafCount = rows.length;
+    const skip = Math.max(0, options.skip | 0);
+    const take = Math.max(0, options.take | 0);
+
+    const groupField = resolveGroupField(options.group);
+    if (groupField) {
+      const groups = buildGroups(rows as T[], groupField);
+      const data = groups.slice(skip, skip + take);
+      return { data, totalCount: leafCount };
+    }
+
+    const data = rows.slice(skip, skip + take) as T[];
+    return { data, totalCount: leafCount };
   }
 }
 
