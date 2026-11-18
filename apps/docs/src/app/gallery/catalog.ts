@@ -88,6 +88,33 @@ import { VortexMockAIIntegration } from 'vortex-ui/ai';`,
     title: 'Data Grids / Data Management',
     components: [
       {
+        id: 'foundation',
+        title: 'Foundation',
+        badge: 'New',
+        demos: [
+          {
+            id: 'datasource-array',
+            title: 'Array DataSource',
+            badge: 'New',
+            description:
+              'VxArrayDataSource local: keyExpr, sort/filter/group, skip/take e totalCount (kernel da sprint 1.2).',
+            code: {
+              html: `<vx-data-grid
+  [columns]="columns"
+  [dataSource]="arraySource"
+  [rowHeight]="36"
+/>`,
+              ts: `import { VxArrayDataSource } from 'vortex-ui';
+
+readonly arraySource = new VxArrayDataSource(rows, { keyExpr: 'id' });
+
+// load({ skip, take, sort, filter, group })
+// → { data, totalCount } com chaves estáveis via keyOf`,
+            },
+          },
+        ],
+      },
+      {
         id: 'data-grid',
         title: 'Data Grid',
         badge: 'Upd',
@@ -219,17 +246,57 @@ readonly remoteSource = new VxRemoteMockDataSource(
       {
         id: 'filter-builder',
         title: 'Filter Builder',
+        badge: 'Upd',
         demos: [
           {
             id: 'filter-builder',
             title: 'Overview',
-            description: 'Construtor de condições integrado ao DataGrid.',
+            badge: 'Upd',
+            description:
+              'Expressão com AND/OR, grupos aninhados (depth 1) e Apply → DataGrid (demo 143).',
             code: {
               html: `<vx-filter-builder
   [fields]="fields"
+  [(value)]="filterValue"
+  (applyFilter)="grid.setFilter($event)"
+/>
+<vx-data-grid #grid [columns]="columns" [data]="rows" />`,
+              ts: `import {
+  VxFilterBuilderComponent,
+  emptyFilterBuilderValue,
+  type VxDataFilter,
+} from 'vortex-ui';
+
+// Apply emite VxDataFilter (folha ou compound AND/OR)
+onApply(filter: VxDataFilter | null) {
+  this.grid()?.setFilter(filter);
+}`,
+            },
+          },
+          {
+            id: 'filter-builder-nested',
+            title: 'Nested groups',
+            badge: 'New',
+            description:
+              'Modelo pré-carregado com grupo aninhado (depth 1) — adicione/remova condições e aplique no grid.',
+            code: {
+              html: `<vx-filter-builder
+  [fields]="fields"
+  [(value)]="nestedFilterValue"
   (applyFilter)="grid.setFilter($event)"
 />`,
-              ts: `import { VxFilterBuilderComponent } from 'vortex-ui';`,
+              ts: `// root OR + nested AND group (max depth 1)
+readonly nestedFilterValue = {
+  logic: 'or',
+  conditions: [{ field: 'region', operator: 'equals', value: 'Europa' }],
+  groups: [{
+    logic: 'and',
+    conditions: [
+      { field: 'product', operator: 'contains', value: 'Solar' },
+      { field: 'saleAmount', operator: 'gt', value: '5000' },
+    ],
+  }],
+};`,
             },
           },
         ],

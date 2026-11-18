@@ -18,7 +18,8 @@ import {
   VortexTheme,
   VORTEX_THEMES,
   VORTEX_THEME_LABELS,
-  VxFilterState,
+  isCompoundFilter,
+  type VxDataFilter,
   VxTabsComponent,
   VxTabPanelComponent,
   VxDrawerComponent,
@@ -94,9 +95,12 @@ import {
   diagramEdges,
   diagramNodes,
   dropDownItems,
+  arraySource,
+  emptyArraySource,
   fileItems,
   filterFields,
   funnelVizData,
+  nestedFilterBuilderValue,
   galleryItems,
   ganttTasks,
   GRID_COLUMNS,
@@ -304,6 +308,33 @@ import {
             </div>
             <div class="gallery__preview" [attr.data-demo]="selectedId()">
               @switch (selectedId()) {
+                @case ('datasource-array') {
+                  <div class="gallery__stack">
+                    <div class="gallery__row">
+                      <vx-button size="sm" (click)="setArrayDemoMode('ready')">Ready</vx-button>
+                      <vx-button size="sm" variant="secondary" (click)="setArrayDemoMode('empty')">
+                        Empty
+                      </vx-button>
+                      <vx-button size="sm" variant="outline" (click)="setArrayDemoMode('loading')">
+                        Loading
+                      </vx-button>
+                      <vx-button size="sm" variant="ghost" (click)="runArrayLoadSample()">
+                        load() sample
+                      </vx-button>
+                    </div>
+                    <p class="gallery__hint">{{ arrayDemoHint() }}</p>
+                    @if (arrayDemoMode() === 'loading') {
+                      <p class="gallery__hint">Carregando janela local…</p>
+                    } @else {
+                      <vx-data-grid
+                        [columns]="columns"
+                        [dataSource]="activeArraySource()"
+                        [rowHeight]="36"
+                        [virtualScroll]="false"
+                      />
+                    }
+                  </div>
+                }
                 @case ('grid-overview') {
                   <vx-data-grid [columns]="columns" [data]="rows" [rowHeight]="36" />
                 }
@@ -350,8 +381,22 @@ import {
                 }
                 @case ('filter-builder') {
                   <div class="gallery__stack">
-                    <vx-filter-builder [fields]="filterFields" (applyFilter)="onFilterApply($event)" />
-                    <vx-data-grid #grid [columns]="columns" [data]="rows" [rowHeight]="36" />
+                    <vx-filter-builder
+                      [fields]="filterFields"
+                      (applyFilter)="onFilterApply($event)"
+                    />
+                    <vx-data-grid #grid [columns]="columns" [data]="rows" [rowHeight]="36" [virtualScroll]="false" />
+                  </div>
+                }
+                @case ('filter-builder-nested') {
+                  <div class="gallery__stack">
+                    <vx-filter-builder
+                      [fields]="filterFields"
+                      [value]="nestedFilterValue()"
+                      (valueChange)="nestedFilterValue.set($event)"
+                      (applyFilter)="onFilterApply($event)"
+                    />
+                    <vx-data-grid #grid [columns]="columns" [data]="rows" [rowHeight]="36" [virtualScroll]="false" />
                   </div>
                 }
                 @case ('button') {
@@ -990,6 +1035,13 @@ import {
         gap: 1rem;
       }
 
+      .gallery__hint {
+        margin: 0;
+        font-size: 0.85rem;
+        color: var(--vx-color-text-secondary, #c8c6c4);
+        line-height: 1.45;
+      }
+
       .gallery__row {
         display: flex;
         flex-wrap: wrap;
@@ -1108,13 +1160,30 @@ export class AppComponent {
   readonly codeTab = signal<'html' | 'ts'>('html');
   readonly navOpen = signal(false);
   readonly openCategories = signal<Set<string>>(new Set(['ai', 'grids']));
-  readonly openComponents = signal<Set<string>>(new Set(['data-grid']));
+  readonly openComponents = signal<Set<string>>(
+    new Set(['foundation', 'data-grid', 'filter-builder'])
+  );
 
   readonly columns = GRID_COLUMNS;
   readonly rows = demoRows;
   readonly remoteSource = remoteSource;
+  readonly arraySource = arraySource;
+  readonly emptyArraySource = emptyArraySource;
+  readonly arrayDemoMode = signal<'ready' | 'empty' | 'loading'>('ready');
+  readonly arrayLoadSample = signal<string>('');
+  readonly activeArraySource = computed(() =>
+    this.arrayDemoMode() === 'empty' ? this.emptyArraySource : this.arraySource
+  );
+  readonly arrayDemoHint = computed(() => {
+    const mode = this.arrayDemoMode();
+    if (mode === 'empty') return 'DataSource vazio — totalCount 0.';
+    if (mode === 'loading') return 'Simulando loading (sem bind no grid).';
+    const sample = this.arrayLoadSample();
+    return sample || 'VxArrayDataSource com keyExpr: id — use load() sample para ver sort/filter.';
+  });
   readonly listItems = listItems;
   readonly filterFields = filterFields;
+  readonly nestedFilterValue = signal(structuredClone(nestedFilterBuilderValue));
   readonly treeListItems = treeListItems;
   readonly treeListColumns = treeListColumns;
   readonly cardItems = cardItems;
@@ -1274,9 +1343,39 @@ export class AppComponent {
     this.toast.info(`Editado ${e.field} → ${e.value}`);
   }
 
-  onFilterApply(filter: VxFilterState | null): void {
+  setArrayDemoMode(mode: 'ready' | 'empty' | 'loading'): void {
+    this.arrayDemoMode.set(mode);
+    if (mode !== 'ready') this.arrayLoadSample.set('');
+  }
+
+  runArrayLoadSample(): void {
+    this.arrayDemoMode.set('ready');
+    const result = this.arraySource.load({
+      skip: 0,
+      take: 5,
+      sort: { field: 'saleAmount', direction: 'desc' },
+      filter: { field: 'region', value: 'Europa', operator: 'equals' },
+    });
+    const rows = result.data
+      .map((r) => `#${r.id} ${r.product} ${r.region}`)
+      .join(' · ');
+    this.arrayLoadSample.set(
+      `load(filter=Europa, sort=saleAmount desc, take=5) → totalCount=${result.totalCount}; ${rows}`
+    );
+    this.toast.success(`Array load: ${result.totalCount} linhas filtradas`);
+  }
+
+  onFilterApply(filter: VxDataFilter | null): void {
     this.grid()?.setFilter(filter);
-    this.toast.info(filter ? `Filtro: ${filter.field} = ${filter.value}` : 'Filtro limpo');
+    if (!filter) {
+      this.toast.info('Filtro limpo');
+      return;
+    }
+    if (isCompoundFilter(filter)) {
+      this.toast.info(`Filtro: ${filter.logic.toUpperCase()} (${filter.filters.length})`);
+      return;
+    }
+    this.toast.info(`Filtro: ${filter.field} ${filter.operator ?? 'contains'} ${filter.value}`);
   }
 
   onChatSend(text: string): void {

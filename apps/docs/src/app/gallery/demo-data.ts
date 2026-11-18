@@ -21,7 +21,8 @@ import type { VxTreeListNode } from 'vortex-ui';
 import type { VxTreeMapNode } from 'vortex-ui';
 import type { VxTreeNode } from 'vortex-ui';
 import type { VxVectorRegion } from 'vortex-ui';
-import { VxRemoteMockDataSource } from 'vortex-ui';
+import { VxArrayDataSource, VxRemoteMockDataSource } from 'vortex-ui';
+import type { VxFilterBuilderValue } from 'vortex-ui';
 
 export interface ThemeLabRow {
   id: number;
@@ -94,6 +95,14 @@ export const remoteSource = new VxRemoteMockDataSource(1_000_000, createRow, 0);
 
 export const demoRows = Array.from({ length: 24 }, (_, i) => createRow(i));
 
+/** Local Array DataSource kernel (sprint 1.2) for Foundation gallery demo. */
+export const arraySource = new VxArrayDataSource(demoRows, { keyExpr: 'id' });
+
+/** Empty Array DataSource for empty-state demo. */
+export const emptyArraySource = new VxArrayDataSource<ThemeLabRow>([], {
+  keyExpr: 'id',
+});
+
 export const listItems: VxListItem[] = [
   { id: '1', text: 'SolarMax', secondaryText: 'Produto · África' },
   { id: '2', text: 'EcoCharge', secondaryText: 'Produto · Europa' },
@@ -105,7 +114,41 @@ export const filterFields: VxFilterField[] = [
   { field: 'product', label: 'Produto' },
   { field: 'region', label: 'Região' },
   { field: 'sector', label: 'Setor' },
+  { field: 'saleAmount', label: 'Valor' },
 ];
+
+/** Seeded nested expression for the Nested groups gallery demo (depth ≤ 1). */
+export const nestedFilterBuilderValue: VxFilterBuilderValue = {
+  logic: 'or',
+  conditions: [
+    {
+      id: 'gallery-fc-region',
+      field: 'region',
+      operator: 'equals',
+      value: 'Europa',
+    },
+  ],
+  groups: [
+    {
+      id: 'gallery-fg-1',
+      logic: 'and',
+      conditions: [
+        {
+          id: 'gallery-fc-product',
+          field: 'product',
+          operator: 'contains',
+          value: 'Solar',
+        },
+        {
+          id: 'gallery-fc-amount',
+          field: 'saleAmount',
+          operator: 'gt',
+          value: '5000',
+        },
+      ],
+    },
+  ],
+};
 
 export const treeListItems: VxTreeListNode[] = [
   {
