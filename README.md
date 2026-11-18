@@ -3,21 +3,21 @@
 Suite de componentes **Angular 22+** (Signals, Standalone, zoneless) — DataGrid, File Manager, Charts, Scheduler, AI opt-in e temas Fluent / Fluent Green.
 
 - **GitHub:** https://github.com/JoelSchecheleski/vortex-ui  
-- **npm (público):** [`@joel_jsp/vortex-ui`](https://www.npmjs.com/package/@joel_jsp/vortex-ui)  
+- **npm (público):** [`@neurolytics/vortex-ui`](https://www.npmjs.com/package/@neurolytics/vortex-ui)  
 - **PRD:** [VortexUI-PRD.md](./VortexUI-PRD.md)
 
 ## Quick start (consumidor)
 
 ```bash
-npm install @joel_jsp/vortex-ui
+npm install @neurolytics/vortex-ui
 ```
 
 ```ts
-import { VxDataGridComponent } from '@joel_jsp/vortex-ui';
+import { VxDataGridComponent } from '@neurolytics/vortex-ui';
 ```
 
 ```css
-@import '@joel_jsp/vortex-ui/styles/vortex-ui.css';
+@import '@neurolytics/vortex-ui/styles/vortex-ui.css';
 ```
 
 ## Monorepo (dev)

@@ -3,11 +3,11 @@
 **Angular 22+ component suite** — Standalone, Signals-first, zoneless-ready.  
 DataGrid de alta performance, File Manager, Charts, Scheduler, AI opt-in e temas Fluent (Blue / SaaS / Green).
 
-[![npm](https://img.shields.io/npm/v/@joel_jsp/vortex-ui.svg)](https://www.npmjs.com/package/@joel_jsp/vortex-ui)
-[![license](https://img.shields.io/npm/l/@joel_jsp/vortex-ui.svg)](./LICENSE)
+[![npm](https://img.shields.io/npm/v/@neurolytics/vortex-ui.svg)](https://www.npmjs.com/package/@neurolytics/vortex-ui)
+[![license](https://img.shields.io/npm/l/@neurolytics/vortex-ui.svg)](./LICENSE)
 [![Angular](https://img.shields.io/badge/Angular-22%2B-dd0031)](https://angular.dev/)
 
-📦 **npm:** [`@joel_jsp/vortex-ui`](https://www.npmjs.com/package/@joel_jsp/vortex-ui)  
+📦 **npm:** [`@neurolytics/vortex-ui`](https://www.npmjs.com/package/@neurolytics/vortex-ui)  
 📂 **GitHub:** [JoelSchecheleski/vortex-ui](https://github.com/JoelSchecheleski/vortex-ui)
 
 ---
@@ -19,7 +19,7 @@ DataGrid de alta performance, File Manager, Charts, Scheduler, AI opt-in e temas
 | **Angular nativo** | 100% Standalone + `input()` / `model()` / `output()` / `signal` / `computed` |
 | **Zoneless** | `OnPush` e compatível com apps sem Zone.js |
 | **DataGrid** | Virtualização, remote DataSource (1M+ rows), sort/filter/group/edit/export |
-| **AI opt-in** | Assistant + AI Columns via entry separado `@joel_jsp/vortex-ui/ai` |
+| **AI opt-in** | Assistant + AI Columns via entry separado `@neurolytics/vortex-ui/ai` |
 | **Temas** | Design tokens `--vx-*` · Fluent Blue/SaaS/Green (Light/Dark) |
 | **Tree-shakeable** | Importe só o que usa; CSS, AI e catálogo Fluent full não entram se não forem referenciados |
 | **Ícones Fluent** | Pack curado no core + catálogo completo opt-in (`icons/fluent-full`, ~2.9k) |
@@ -31,7 +31,7 @@ Implementação própria, **MIT**.
 ## Install
 
 ```bash
-npm install @joel_jsp/vortex-ui
+npm install @neurolytics/vortex-ui
 ```
 
 **Peers:** `@angular/core`, `@angular/common`, `@angular/forms` ^22.
@@ -45,14 +45,14 @@ npm install @joel_jsp/vortex-ui
 No `styles` do `angular.json` / `project.json`, ou no CSS global:
 
 ```css
-@import '@joel_jsp/vortex-ui/styles/vortex-ui.css';
+@import '@neurolytics/vortex-ui/styles/vortex-ui.css';
 ```
 
 ### 2. Tema
 
 ```ts
 import { inject, ApplicationConfig, provideAppInitializer } from '@angular/core';
-import { VortexThemeService } from '@joel_jsp/vortex-ui';
+import { VortexThemeService } from '@neurolytics/vortex-ui';
 
 export const appConfig: ApplicationConfig = {
   providers: [
@@ -73,7 +73,7 @@ inject(VortexThemeService).setTheme('fluent-saas-dark');
 
 ```ts
 import { Component } from '@angular/core';
-import { VxButtonComponent, VxDataGridComponent, VxColumnDef } from '@joel_jsp/vortex-ui';
+import { VxButtonComponent, VxDataGridComponent, VxColumnDef } from '@neurolytics/vortex-ui';
 
 @Component({
   standalone: true,
@@ -134,7 +134,7 @@ import { ApplicationConfig } from '@angular/core';
 import {
   provideFluentFullIcons,
   FLUENT_FULL_ICON_NAMES,
-} from '@joel_jsp/vortex-ui/icons/fluent-full';
+} from '@neurolytics/vortex-ui/icons/fluent-full';
 
 export const appConfig: ApplicationConfig = {
   providers: [provideFluentFullIcons()],
@@ -155,7 +155,7 @@ Material Design Icons são **Apache 2.0** — registre no app sem embutir no cor
 
 ```ts
 import { ApplicationConfig } from '@angular/core';
-import { provideVxIcons } from '@joel_jsp/vortex-ui';
+import { provideVxIcons } from '@neurolytics/vortex-ui';
 
 export const appConfig: ApplicationConfig = {
   providers: [
@@ -193,7 +193,7 @@ Aplique via `data-vx-theme` (feito automaticamente pelo `VortexThemeService`):
 | `fluent-green-dark` | Fluent Green Dark |
 
 ```ts
-import { VortexThemeService, VORTEX_THEMES, VORTEX_THEME_LABELS } from '@joel_jsp/vortex-ui';
+import { VortexThemeService, VORTEX_THEMES, VORTEX_THEME_LABELS } from '@neurolytics/vortex-ui';
 
 const themes = inject(VortexThemeService);
 themes.setTheme('fluent-green');
@@ -212,7 +212,7 @@ A IA **não** entra no bundle principal. Use o secondary entry:
 import {
   VortexAIConfig,
   VortexMockAIIntegration,
-} from '@joel_jsp/vortex-ui/ai';
+} from '@neurolytics/vortex-ui/ai';
 ```
 
 ```ts
@@ -300,9 +300,9 @@ readonly ai = new VortexMockAIIntegration();
 
 | Import | Conteúdo |
 |--------|----------|
-| `@joel_jsp/vortex-ui` | Componentes + theme + validators |
-| `@joel_jsp/vortex-ui/ai` | AI Bridge, dialogs, mock integration |
-| `@joel_jsp/vortex-ui/styles/vortex-ui.css` | Tokens + temas oficiais |
+| `@neurolytics/vortex-ui` | Componentes + theme + validators |
+| `@neurolytics/vortex-ui/ai` | AI Bridge, dialogs, mock integration |
+| `@neurolytics/vortex-ui/styles/vortex-ui.css` | Tokens + temas oficiais |
 
 ---
 

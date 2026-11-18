@@ -11,8 +11,8 @@ if (!existsSync(pkgPath)) {
 
 const pkg = JSON.parse(readFileSync(pkgPath, 'utf8'));
 
-// Nome unscoped `vortex-ui` já existe no npm público → publicamos scoped.
-pkg.name = '@joel_jsp/vortex-ui';
+// Nome unscoped `vortex-ui` já existe no npm → publicamos no scope da org Neurolytics.
+pkg.name = '@neurolytics/vortex-ui';
 pkg.version = pkg.version || '0.1.0';
 pkg.license = 'MIT';
 pkg.description =

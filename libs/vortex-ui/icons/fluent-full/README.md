@@ -21,7 +21,7 @@ import {
   provideFluentFullIcons,
   FLUENT_FULL_ICON_NAMES,
 } from 'vortex-ui/icons/fluent-full';
-// npm: '@joel_jsp/vortex-ui/icons/fluent-full'
+// npm: '@neurolytics/vortex-ui/icons/fluent-full'
 
 export const appConfig: ApplicationConfig = {
   providers: [provideFluentFullIcons()],
