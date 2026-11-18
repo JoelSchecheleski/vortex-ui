@@ -6,7 +6,7 @@ import { Meta } from '@storybook/addon-docs/blocks';
 
 # Storybook & PRD tracking convention
 
-Every DevExtreme gallery parity demo (`001`–`145`) gets one predictable Storybook home and a visible status in the research PRD.
+Every gallery parity demo (`001`–`145`) gets one predictable Storybook home and a visible status in the research PRD.
 
 ## Storybook path
 
@@ -19,9 +19,9 @@ Data Management/{Widget}/{NNN}-{Slug}
 | Segment | Rule | Examples |
 |---------|------|----------|
 | `Data Management` | Fixed root for the parity catalog | — |
-| `{Widget}` | PascalCase **widget id** from the research PRD / DX gallery (`DataGrid`, `FilterBuilder`, …) — **not** the kebab-case folder under `src/lib/components/` | `DataGrid`, `FilterBuilder`, `TreeList` |
+| `{Widget}` | PascalCase **widget id** from the research PRD (`DataGrid`, `FilterBuilder`, …) — **not** the kebab-case folder under `src/lib/components/` | `DataGrid`, `FilterBuilder`, `TreeList` |
 | `{NNN}` | Zero-padded demo sequence from the research PRD | `001`, `143` |
-| `{Slug}` | DX demo slug (PascalCase, no spaces) — copy from `PRD-DATA-MANAGEMENT.md` / `raw/NNN-*.json` | `Overview`, `WithList`, `Customization` |
+| `{Slug}` | Demo slug (PascalCase, no spaces) — copy from `PRD-DATA-MANAGEMENT.md` / `raw/NNN-*.json` | `Overview`, `WithList`, `Customization` |
 
 Examples:
 
@@ -51,7 +51,7 @@ Existing stories under `Data/*`, `Components/*`, etc. stay as-is. The `Data Mana
 
 Parity CSF stories must include `tags: ['autodocs']` and set `component` on `Meta` to the widget under test so Autodocs can list public Signals (`input` / `model` / `output`). Composition-only stories still set `tags: ['autodocs']` and document the composed Signals surface in the docs description.
 
-Present parity demos on **Fluent Blue Light** by default (Storybook theme toolbar); LDS is available for theme checks.
+Present parity demos on **Fluent Blue Light** by default (Storybook theme toolbar); Fluent Green (light/dark) is available for theme checks.
 
 ## Docs description — cite the parity image
 
@@ -67,7 +67,7 @@ const meta: Meta<VxFilterBuilderComponent> = {
     docs: {
       description: {
         component:
-          'Parity demo 143. Visual AC (internal only): docs/research/devextreme-data-management/images/143-FilterBuilder-WithDataGrid.png',
+          'Parity demo 143. Visual AC (internal only): research PRD image 143-FilterBuilder-WithDataGrid.png',
       },
     },
   },
@@ -77,8 +77,8 @@ export default meta;
 
 ## PRD status update rule
 
-When a parity story lands, update the matching demo in  
-`docs/research/devextreme-data-management/PRD-DATA-MANAGEMENT.md`:
+When a parity story lands, update the matching demo in the research  
+`PRD-DATA-MANAGEMENT.md`:
 
 1. Tick the Storybook acceptance checkbox when an equivalent Storybook case exists.
 2. Raise **Status Vortex** if the implementation maturity increased. Typical first landing with Signals docs + Fluent story → at least `M1`. Leave at `TODO` only if the story is a stub with no usable API demo.
@@ -95,7 +95,7 @@ Do **not** treat `catalog.json` or `IMAGE-MANIFEST.json` as status stores.
 
 ## Internal images — never ship in npm
 
-Files under `docs/research/devextreme-data-management/images/` are **internal visual acceptance criteria** only.
+Research PRD screenshot images are **internal visual acceptance criteria** only.
 
 - Cite the path in docs descriptions; do **not** import PNGs into Storybook static assets, the Gallery app, or the published package.
 - Publish path is `dist/libs/vortex-ui` via `prepare:npm` / ng-packagr — research screenshots must never be copied there. Spot-check: no `images/NNN-*.png` under `dist/libs/vortex-ui` after prepare.

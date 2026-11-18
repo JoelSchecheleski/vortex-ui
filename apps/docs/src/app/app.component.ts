@@ -385,7 +385,7 @@ import {
                 @case ('tabs') {
                   <vx-tabs [(selected)]="tabsSelected">
                     <vx-tab-panel tabId="a" label="Geral">Conteúdo da aba Geral no tema {{ themeLabel(theme()) }}.</vx-tab-panel>
-                    <vx-tab-panel tabId="b" label="Tokens">Design tokens Fluent Light e LDS.</vx-tab-panel>
+                    <vx-tab-panel tabId="b" label="Tokens">Design tokens Fluent Light e Fluent Green.</vx-tab-panel>
                     <vx-tab-panel tabId="c" label="AI" [disabled]="true">Off</vx-tab-panel>
                   </vx-tabs>
                 }
@@ -532,7 +532,7 @@ import {
                   <vx-scroll-view [maxHeight]="220">
                     <p>Conteúdo rolável da galeria VortexUI.</p>
                     @for (i of scrollLines; track i) {
-                      <p>Linha {{ i }} — tokens Fluent e LDS aplicados automaticamente.</p>
+                      <p>Linha {{ i }} — tokens Fluent e Fluent Green aplicados automaticamente.</p>
                     }
                   </vx-scroll-view>
                 }
@@ -552,7 +552,7 @@ import {
                 }
                 @case ('popover') {
                   <vx-popover title="Design tokens" [(open)]="popoverOpen">
-                    <span vxPopoverTrigger>Fluent Light e LDS</span>
+                    <span vxPopoverTrigger>Fluent Light e Fluent Green</span>
                     Os tokens CSS definem cores, tipografia e espaçamento da galeria.
                   </vx-popover>
                 }
@@ -1156,7 +1156,7 @@ export class AppComponent {
   readonly rangeEnd = signal(80);
   readonly textAreaValue = signal('Notas do Theme Lab.');
   readonly colorValue = signal('#0f6cbd');
-  readonly tagValues = signal<string[]>(['fluent', 'lds']);
+  readonly tagValues = signal<string[]>(['fluent', 'fluent-green']);
   readonly autocompleteValue = signal('SolarMax');
   readonly lookupValue = signal('2');
   readonly dateRangeStart = signal('2026-01-01');

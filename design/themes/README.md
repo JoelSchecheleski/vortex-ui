@@ -2,7 +2,7 @@
 
 ## Fontes ThemeBuilder (referência)
 
-Arquivos gerados pelo [DevExpress ThemeBuilder](https://js.devexpress.com/ThemeBuilder/) 26.1.6:
+Arquivos de referência em `dx-themebuilder/` (tokens mapeados para runtime):
 
 | Arquivo | Tema Vortex |
 |---------|-------------|
@@ -12,10 +12,10 @@ Arquivos gerados pelo [DevExpress ThemeBuilder](https://js.devexpress.com/ThemeB
 | `dx-themebuilder/vx.fluent.SaaSDark.css` | `fluent-saas-dark` |
 
 Os CSS completos (~25k linhas `.dx-*`) **não** são importados no runtime VortexUI.  
-Os tokens `--dx-*` do `:root` foram mapeados para `--vx-*` em:
+Os tokens do `:root` foram mapeados para `--vx-*` em:
 
 `libs/vortex-ui/src/lib/styles/themes/fluent-*.css`
 
-## Tema interno
+## Fluent Green
 
-- **LDS** — `design/Guidelines-LDS.md` → `lds.css`
+- **Fluent Green** — `design/Guidelines-Fluent-Green.md` → `fluent-green.css` / `fluent-green-dark.css`

@@ -8,7 +8,8 @@
 @import './themes/fluent-blue-dark.css';
 @import './themes/fluent-saas-light.css';
 @import './themes/fluent-saas-dark.css';
-@import './themes/lds.css';
+@import './themes/fluent-green.css';
+@import './themes/fluent-green-dark.css';
 
 html,
 body {

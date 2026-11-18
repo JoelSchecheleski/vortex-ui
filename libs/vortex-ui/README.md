@@ -1,7 +1,7 @@
 # VortexUI
 
 **Angular 22+ component suite** — Standalone, Signals-first, zoneless-ready.  
-DataGrid de alta performance, File Manager, Charts, Scheduler, AI opt-in e temas Fluent / LDS.
+DataGrid de alta performance, File Manager, Charts, Scheduler, AI opt-in e temas Fluent (Blue / SaaS / Green).
 
 [![npm](https://img.shields.io/npm/v/@joel_jsp/vortex-ui.svg)](https://www.npmjs.com/package/@joel_jsp/vortex-ui)
 [![license](https://img.shields.io/npm/l/@joel_jsp/vortex-ui.svg)](./LICENSE)
@@ -20,11 +20,11 @@ DataGrid de alta performance, File Manager, Charts, Scheduler, AI opt-in e temas
 | **Zoneless** | `OnPush` e compatível com apps sem Zone.js |
 | **DataGrid** | Virtualização, remote DataSource (1M+ rows), sort/filter/group/edit/export |
 | **AI opt-in** | Assistant + AI Columns via entry separado `@joel_jsp/vortex-ui/ai` |
-| **Temas** | Design tokens `--vx-*` · Fluent Blue/SaaS (Light/Dark) · LDS |
+| **Temas** | Design tokens `--vx-*` · Fluent Blue/SaaS/Green (Light/Dark) |
 | **Tree-shakeable** | Importe só o que usa; CSS, AI e catálogo Fluent full não entram se não forem referenciados |
 | **Ícones Fluent** | Pack curado no core + catálogo completo opt-in (`icons/fluent-full`, ~2.9k) |
 
-Inspirado na superfície de produto DevExtreme — **implementação própria**, MIT.
+Implementação própria, **MIT**.
 
 ---
 
@@ -106,8 +106,7 @@ export class DemoPage {
 
 ## Ícones
 
-VortexUI usa [Fluent UI System Icons](https://github.com/microsoft/fluentui-system-icons) (**MIT**, Microsoft).  
-**Não** redistribuímos fontes/SVGs proprietários DevExtreme (NFR10).
+VortexUI usa [Fluent UI System Icons](https://github.com/microsoft/fluentui-system-icons) (**MIT**, Microsoft).
 
 Há **dois níveis** — o core é leve; o catálogo completo é opt-in:
 
@@ -190,13 +189,14 @@ Aplique via `data-vx-theme` (feito automaticamente pelo `VortexThemeService`):
 | `fluent-blue-dark` | Fluent Blue Dark |
 | `fluent-saas-light` | Fluent SaaS Light |
 | `fluent-saas-dark` | Fluent SaaS Dark |
-| `lds` | LDS (Poppins + guideline interno) |
+| `fluent-green` | Fluent Green Light (Poppins) |
+| `fluent-green-dark` | Fluent Green Dark |
 
 ```ts
 import { VortexThemeService, VORTEX_THEMES, VORTEX_THEME_LABELS } from '@joel_jsp/vortex-ui';
 
 const themes = inject(VortexThemeService);
-themes.setTheme('lds');
+themes.setTheme('fluent-green');
 themes.toggleTheme(); // cicla pelos oficiais
 ```
 

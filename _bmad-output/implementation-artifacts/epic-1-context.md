@@ -21,8 +21,8 @@ Establish the shared local-data kernel (`VxArrayDataSource`) and a reusable filt
 - Ship `VxArrayDataSource` for in-memory arrays: `keyExpr`, client `load` with sort/filter/group/`skip`/`take`, stable keys, correct `totalCount`.
 - Cover FilterBuilder parity demos ~143–145 (standalone/with DataGrid, customization of fields/operators/UI); update research PRD demo status to `TODO|M0|M1|M2|M3` as each lands.
 - Every parity case gets a Storybook home; document “Choose a Data Management Component” (DataGrid = flat/master-detail; TreeList = hierarchy; CardView = responsive cards; PivotGrid = OLAP) and the intended `vortex-ui/grid` (or equivalent) import path for tree-shaking.
-- Angular 22+ only: Standalone, Signals, OnPush, zoneless-compatible. No DevExtreme runtime or source in the tree — capability parity with Fluent/LDS visual language, not a pixel clone.
-- Style only via `--vx-*` tokens (Fluent Blue Light default; LDS where chrome differs). No hardcoded theme hex.
+- Angular 22+ only: Standalone, Signals, OnPush, zoneless-compatible. No DevExtreme runtime or source in the tree — capability parity with Fluent/Fluent Green visual language, not a pixel clone.
+- Style only via `--vx-*` tokens (Fluent Blue Light default; Fluent Green where chrome differs). No hardcoded theme hex.
 - DX gallery screenshots under `docs/research/.../images/` are internal visual AC only — must never ship in published packages.
 - Widget DoD for public surfaces: unit tests on public APIs, Storybook story, empty/loading/error states for binding demos.
 

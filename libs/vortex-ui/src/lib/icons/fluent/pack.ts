@@ -2,8 +2,6 @@
  * Curated Fluent UI System Icons for VortexUI.
  * Copyright (c) Microsoft Corporation — MIT License
  * https://github.com/microsoft/fluentui-system-icons
- *
- * Do NOT redistribute DevExtreme icon fonts/SVGs here (NFR10).
  */
 import type { VxIconDefinition } from '../icon.types';
 

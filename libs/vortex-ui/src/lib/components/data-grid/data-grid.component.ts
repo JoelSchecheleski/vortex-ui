@@ -660,7 +660,7 @@ export class VxDataGridComponent<T = unknown> {
   readonly multiSelect = input(true);
   /**
    * Linhas verticais entre colunas (header + cells).
-   * Default `false` — visual Fluent / DevExtreme sem grade vertical.
+   * Default `false` — visual Fluent sem grade vertical.
    */
   readonly showColumnLines = input(false);
   /** Linhas horizontais entre rows. Default `true`. */
