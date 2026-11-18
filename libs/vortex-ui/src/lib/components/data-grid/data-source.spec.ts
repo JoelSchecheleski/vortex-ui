@@ -132,6 +132,62 @@ describe('VxArrayDataSource', () => {
     expect(emptyArr.data).toEqual(flat.data);
     expect(emptyArr.totalCount).toBe(flat.totalCount);
   });
+
+  it('compound AND/OR + startsWith/gt/lt keep single VxFilterState path working', () => {
+    const ds = new VxArrayDataSource(sample, { keyExpr: 'id' });
+
+    const and = ds.load({
+      skip: 0,
+      take: 10,
+      filter: {
+        logic: 'and',
+        filters: [
+          { field: 'region', value: 'África', operator: 'contains' },
+          { field: 'amount', value: '120', operator: 'gt' },
+        ],
+      },
+    });
+    expect(and.data.map((r) => r.id)).toEqual([3]);
+
+    const or = ds.load({
+      skip: 0,
+      take: 10,
+      filter: {
+        logic: 'or',
+        filters: [
+          { field: 'product', value: 'Eco', operator: 'startsWith' },
+          { field: 'amount', value: '100', operator: 'lt' },
+        ],
+      },
+    });
+    expect(or.data.map((r) => r.id).sort()).toEqual([2, 5]);
+
+    // Backward-compatible single condition still works
+    const single = ds.load({
+      skip: 0,
+      take: 10,
+      filter: { field: 'product', value: 'SolarMax', operator: 'equals' },
+    });
+    expect(single.totalCount).toBe(2);
+  });
+
+  it('OR compound with incomplete child ignores incomplete (does not match all rows)', () => {
+    const ds = new VxArrayDataSource(sample, { keyExpr: 'id' });
+    const result = ds.load({
+      skip: 0,
+      take: 10,
+      filter: {
+        logic: 'or',
+        filters: [
+          { field: 'product', value: 'VoltEdge', operator: 'equals' },
+          { field: 'region', value: '', operator: 'contains' },
+        ],
+      },
+    });
+    // Incomplete OR arm must not make every row match — only VoltEdge
+    expect(result.data.map((r) => r.id)).toEqual([3]);
+    expect(result.totalCount).toBe(1);
+  });
 });
 
 describe('DataSource-Array Storybook demo states', () => {

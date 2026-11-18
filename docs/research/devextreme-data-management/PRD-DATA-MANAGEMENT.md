@@ -4102,7 +4102,7 @@
 
 #### 143. Com grade de dados / With Data Grid
 
-- **Status Vortex:** TODO
+- **Status Vortex:** M1
 - **Slug DX:** `WithDataGrid`
 - **URL:** https://js.devexpress.com/Angular/Demos/WidgetsGallery/Demo/FilterBuilder/WithDataGrid/FluentBlueLight/
 - **Imagem:** `images/143-FilterBuilder-WithDataGrid.png`
@@ -4120,7 +4120,7 @@
 - [ ] Paridade de interação principal da demo
 - [ ] API Signals documentada (`input`/`model`/`output`)
 - [ ] Tema Fluent Light + Fluent Green sem regressão visual
-- [ ] Storybook / Widgets Gallery Vortex com caso equivalente
+- [x] Storybook / Widgets Gallery Vortex com caso equivalente
 
 #### 144. Com lista / With List
 

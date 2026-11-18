@@ -7,34 +7,39 @@ import {
   output,
 } from '@angular/core';
 import { FormsModule } from '@angular/forms';
-import { VxFilterState } from '../data-grid/data-source';
+import {
+  type VxDataFilter,
+  isCompoundFilter,
+} from '../data-grid/data-source';
+import {
+  createCondition,
+  createNestedGroup,
+  emptyFilterBuilderValue,
+  normalizeFilterBuilderValue,
+  toDataFilter,
+  type VxFilterBuilderValue,
+  type VxFilterCondition,
+  type VxFilterField,
+  type VxFilterGroupLogic,
+  type VxFilterNestedGroup,
+  type VxFilterOperator,
+} from './filter-builder.model';
 
-export interface VxFilterField {
-  field: string;
-  label: string;
-}
+export type {
+  VxFilterBuilderValue,
+  VxFilterCondition,
+  VxFilterField,
+  VxFilterGroupLogic,
+  VxFilterNestedGroup,
+  VxFilterOperator,
+} from './filter-builder.model';
 
-export type VxFilterOperator = 'contains' | 'equals' | 'startsWith' | 'gt' | 'lt';
-
-export interface VxFilterCondition {
-  id: string;
-  field: string;
-  operator: VxFilterOperator;
-  value: string;
-}
-
-export type VxFilterGroupLogic = 'and' | 'or';
-
-export interface VxFilterBuilderValue {
-  logic: VxFilterGroupLogic;
-  conditions: VxFilterCondition[];
-}
-
-let filterSeq = 0;
-function nextId(): string {
-  filterSeq += 1;
-  return `fc-${filterSeq}`;
-}
+export {
+  createCondition,
+  createNestedGroup,
+  emptyFilterBuilderValue,
+  toDataFilter,
+} from './filter-builder.model';
 
 const OPERATOR_LABELS: Record<VxFilterOperator, string> = {
   contains: 'contém',
@@ -56,7 +61,7 @@ const OPERATOR_LABELS: Record<VxFilterOperator, string> = {
           <button
             type="button"
             class="vx-fb__chip"
-            [class.vx-fb__chip--active]="value().logic === 'and'"
+            [class.vx-fb__chip--active]="view().logic === 'and'"
             (click)="setLogic('and')"
           >
             E
@@ -64,19 +69,26 @@ const OPERATOR_LABELS: Record<VxFilterOperator, string> = {
           <button
             type="button"
             class="vx-fb__chip"
-            [class.vx-fb__chip--active]="value().logic === 'or'"
+            [class.vx-fb__chip--active]="view().logic === 'or'"
             (click)="setLogic('or')"
           >
             OU
           </button>
         </div>
-        <button type="button" class="vx-fb__add" (click)="addCondition()">+ Condição</button>
+        <div class="vx-fb__header-actions">
+          <button type="button" class="vx-fb__add" (click)="addCondition()">
+            + Condição
+          </button>
+          <button type="button" class="vx-fb__add" (click)="addGroup()">
+            + Grupo
+          </button>
+        </div>
       </header>
 
       <div class="vx-fb__list">
-        @for (c of value().conditions; track c.id; let i = $index) {
+        @for (c of view().conditions; track c.id; let i = $index) {
           @if (i > 0) {
-            <div class="vx-fb__join">{{ value().logic === 'and' ? 'E' : 'OU' }}</div>
+            <div class="vx-fb__join">{{ view().logic === 'and' ? 'E' : 'OU' }}</div>
           }
           <div class="vx-fb__row">
             <select
@@ -116,7 +128,100 @@ const OPERATOR_LABELS: Record<VxFilterOperator, string> = {
               ✕
             </button>
           </div>
-        } @empty {
+        }
+
+        @for (g of view().groups; track g.id; let gi = $index) {
+          @if (view().conditions.length > 0 || gi > 0) {
+            <div class="vx-fb__join">{{ view().logic === 'and' ? 'E' : 'OU' }}</div>
+          }
+          <div class="vx-fb__group" [attr.aria-label]="'Grupo ' + (gi + 1)">
+            <div class="vx-fb__group-header">
+              <div class="vx-fb__logic" role="group" aria-label="Lógica do grupo">
+                <button
+                  type="button"
+                  class="vx-fb__chip"
+                  [class.vx-fb__chip--active]="g.logic === 'and'"
+                  (click)="setGroupLogic(g.id, 'and')"
+                >
+                  E
+                </button>
+                <button
+                  type="button"
+                  class="vx-fb__chip"
+                  [class.vx-fb__chip--active]="g.logic === 'or'"
+                  (click)="setGroupLogic(g.id, 'or')"
+                >
+                  OU
+                </button>
+              </div>
+              <div class="vx-fb__header-actions">
+                <button
+                  type="button"
+                  class="vx-fb__add"
+                  (click)="addCondition(g.id)"
+                >
+                  + Condição
+                </button>
+                <button
+                  type="button"
+                  class="vx-fb__remove"
+                  aria-label="Remover grupo"
+                  (click)="removeGroup(g.id)"
+                >
+                  ✕
+                </button>
+              </div>
+            </div>
+
+            @for (c of g.conditions; track c.id; let ci = $index) {
+              @if (ci > 0) {
+                <div class="vx-fb__join">{{ g.logic === 'and' ? 'E' : 'OU' }}</div>
+              }
+              <div class="vx-fb__row">
+                <select
+                  class="vx-fb__select"
+                  [ngModel]="c.field"
+                  (ngModelChange)="patch(c.id, { field: $event }, g.id)"
+                  aria-label="Campo"
+                >
+                  @for (f of fields(); track f.field) {
+                    <option [value]="f.field">{{ f.label }}</option>
+                  }
+                </select>
+                <select
+                  class="vx-fb__select"
+                  [ngModel]="c.operator"
+                  (ngModelChange)="patch(c.id, { operator: $event }, g.id)"
+                  aria-label="Operador"
+                >
+                  @for (op of operators; track op) {
+                    <option [value]="op">{{ operatorLabel(op) }}</option>
+                  }
+                </select>
+                <input
+                  class="vx-fb__input"
+                  type="text"
+                  [ngModel]="c.value"
+                  (ngModelChange)="patch(c.id, { value: $event }, g.id)"
+                  placeholder="Valor"
+                  aria-label="Valor"
+                />
+                <button
+                  type="button"
+                  class="vx-fb__remove"
+                  aria-label="Remover condição"
+                  (click)="remove(c.id, g.id)"
+                >
+                  ✕
+                </button>
+              </div>
+            } @empty {
+              <p class="vx-fb__empty">Grupo vazio. Adicione uma condição.</p>
+            }
+          </div>
+        }
+
+        @if (view().conditions.length === 0 && view().groups.length === 0) {
           <p class="vx-fb__empty">Nenhuma condição. Adicione para filtrar.</p>
         }
       </div>
@@ -145,7 +250,8 @@ const OPERATOR_LABELS: Record<VxFilterOperator, string> = {
       gap: var(--vx-space-3);
     }
 
-    .vx-fb__header {
+    .vx-fb__header,
+    .vx-fb__group-header {
       display: flex;
       justify-content: space-between;
       align-items: center;
@@ -153,9 +259,11 @@ const OPERATOR_LABELS: Record<VxFilterOperator, string> = {
       flex-wrap: wrap;
     }
 
+    .vx-fb__header-actions,
     .vx-fb__logic {
       display: flex;
       gap: var(--vx-space-1);
+      flex-wrap: wrap;
     }
 
     .vx-fb__chip,
@@ -177,6 +285,15 @@ const OPERATOR_LABELS: Record<VxFilterOperator, string> = {
       background: var(--vx-color-primary);
       border-color: var(--vx-color-primary);
       color: var(--vx-color-primary-text);
+    }
+
+    .vx-fb__group {
+      margin-left: var(--vx-space-3);
+      padding: var(--vx-space-2);
+      border-left: 2px solid var(--vx-color-border-strong);
+      display: flex;
+      flex-direction: column;
+      gap: var(--vx-space-2);
     }
 
     .vx-fb__row {
@@ -229,15 +346,19 @@ const OPERATOR_LABELS: Record<VxFilterOperator, string> = {
       .vx-fb__row {
         grid-template-columns: 1fr;
       }
+
+      .vx-fb__group {
+        margin-left: var(--vx-space-2);
+      }
     }
   `,
 })
 export class VxFilterBuilderComponent {
   readonly fields = input<VxFilterField[]>([]);
   readonly ariaLabel = input('Filter Builder');
-  readonly value = model<VxFilterBuilderValue>({ logic: 'and', conditions: [] });
-  /** Primeira condição compatível com VxFilterState (Grid atual). */
-  readonly applyFilter = output<VxFilterState | null>();
+  readonly value = model<VxFilterBuilderValue>(emptyFilterBuilderValue());
+  /** DataSource-compatible filter (full expression — not first-condition-only). */
+  readonly applyFilter = output<VxDataFilter | null>();
   readonly applied = output<VxFilterBuilderValue>();
 
   readonly operators: VxFilterOperator[] = [
@@ -248,9 +369,13 @@ export class VxFilterBuilderComponent {
     'lt',
   ];
 
+  /** Normalized view model so legacy `{ logic, conditions }` bindings stay safe. */
+  readonly view = computed(() => normalizeFilterBuilderValue(this.value()));
+
   readonly summary = computed(() => {
-    const v = this.value();
-    return `${v.conditions.length} condição(ões) · ${v.logic.toUpperCase()}`;
+    const v = this.view();
+    const nested = v.groups.reduce((n, g) => n + g.conditions.length, 0);
+    return `${v.conditions.length + nested} condição(ões) · ${v.logic.toUpperCase()}`;
   });
 
   operatorLabel(op: VxFilterOperator): string {
@@ -258,66 +383,130 @@ export class VxFilterBuilderComponent {
   }
 
   setLogic(logic: VxFilterGroupLogic): void {
-    this.commit({ ...this.value(), logic });
+    this.commit({ ...normalizeFilterBuilderValue(this.value()), logic });
   }
 
-  addCondition(): void {
-    const fields = this.fields();
-    const field = fields[0]?.field ?? '';
-    const next: VxFilterCondition = {
-      id: nextId(),
-      field,
-      operator: 'contains',
-      value: '',
-    };
+  setGroupLogic(groupId: string, logic: VxFilterGroupLogic): void {
+    const v = normalizeFilterBuilderValue(this.value());
     this.commit({
-      ...this.value(),
-      conditions: [...this.value().conditions, next],
+      ...v,
+      groups: v.groups.map((g) => (g.id === groupId ? { ...g, logic } : g)),
     });
   }
 
-  patch(id: string, patch: Partial<VxFilterCondition>): void {
+  /** Add a condition at the root, or inside a nested group when `groupId` is set. */
+  addCondition(groupId?: string | null): void {
+    const fields = this.fields();
+    const next = createCondition(fields);
+    const v = normalizeFilterBuilderValue(this.value());
+    if (!groupId) {
+      this.commit({ ...v, conditions: [...v.conditions, next] });
+      return;
+    }
     this.commit({
-      ...this.value(),
-      conditions: this.value().conditions.map((c) =>
-        c.id === id ? { ...c, ...patch } : c
+      ...v,
+      groups: v.groups.map((g) =>
+        g.id === groupId ? { ...g, conditions: [...g.conditions, next] } : g
       ),
     });
   }
 
-  remove(id: string): void {
+  /**
+   * Add a nested group under the root (depth 1).
+   * Deeper nesting is intentionally a no-op (NESTED_ONE_LEVEL).
+   */
+  addGroup(): void {
+    const v = normalizeFilterBuilderValue(this.value());
     this.commit({
-      ...this.value(),
-      conditions: this.value().conditions.filter((c) => c.id !== id),
+      ...v,
+      groups: [...v.groups, createNestedGroup(this.fields())],
+    });
+  }
+
+  /** No-op guard: nested groups cannot contain further groups. */
+  addNestedGroupInside(_groupId: string): void {
+    return;
+  }
+
+  patch(
+    id: string,
+    patch: Partial<VxFilterCondition>,
+    groupId?: string | null
+  ): void {
+    const v = normalizeFilterBuilderValue(this.value());
+    if (!groupId) {
+      this.commit({
+        ...v,
+        conditions: v.conditions.map((c) =>
+          c.id === id ? { ...c, ...patch } : c
+        ),
+      });
+      return;
+    }
+    this.commit({
+      ...v,
+      groups: v.groups.map((g) =>
+        g.id === groupId
+          ? {
+              ...g,
+              conditions: g.conditions.map((c) =>
+                c.id === id ? { ...c, ...patch } : c
+              ),
+            }
+          : g
+      ),
+    });
+  }
+
+  remove(id: string, groupId?: string | null): void {
+    const v = normalizeFilterBuilderValue(this.value());
+    if (!groupId) {
+      this.commit({
+        ...v,
+        conditions: v.conditions.filter((c) => c.id !== id),
+      });
+      return;
+    }
+    this.commit({
+      ...v,
+      groups: v.groups.map((g) =>
+        g.id === groupId
+          ? { ...g, conditions: g.conditions.filter((c) => c.id !== id) }
+          : g
+      ),
+    });
+  }
+
+  removeGroup(groupId: string): void {
+    const v = normalizeFilterBuilderValue(this.value());
+    this.commit({
+      ...v,
+      groups: v.groups.filter((g) => g.id !== groupId),
     });
   }
 
   clear(): void {
-    this.commit({ logic: 'and', conditions: [] });
+    this.commit(emptyFilterBuilderValue());
     this.applyFilter.emit(null);
     this.applied.emit(this.value());
   }
 
   apply(): void {
-    const v = this.value();
+    const v = normalizeFilterBuilderValue(this.value());
     this.applied.emit(v);
-    const first = v.conditions.find((c) => c.field && c.value !== '');
-    if (!first) {
-      this.applyFilter.emit(null);
-      return;
+    this.applyFilter.emit(toDataFilter(v));
+  }
+
+  /** Stable summary label for toolbar / demos. */
+  static describeFilter(filter: VxDataFilter | null): string {
+    if (!filter) return '';
+    if (isCompoundFilter(filter)) {
+      return `${filter.logic.toUpperCase()} (${filter.filters.length})`;
     }
-    const op =
-      first.operator === 'equals' || first.operator === 'contains'
-        ? first.operator
-        : 'contains';
-    this.applyFilter.emit({
-      field: first.field,
-      value: first.value,
-      operator: op,
-    });
+    return `${filter.field} ≈ ${filter.value}`;
   }
 
   private commit(next: VxFilterBuilderValue): void {
-    this.value.set(next);
+    this.value.set(normalizeFilterBuilderValue(next));
   }
 }

@@ -16,7 +16,14 @@ import {
 } from '@angular/core';
 import { DecimalPipe, NgStyle } from '@angular/common';
 import { VxCellEditEvent, VxColumnDef, VxSortState } from './data-grid.types';
-import { VxDataSource, VxFilterState } from './data-source';
+import {
+  VxDataSource,
+  evaluateFilter,
+  hasActiveFilter,
+  isCompoundFilter,
+  type VxDataFilter,
+  type VxFilterState,
+} from './data-source';
 import { exportRowsToCsv } from './export-csv';
 import {
   VortexAICommand,
@@ -41,15 +48,59 @@ export type {
 export type {
   VxArrayDataSourceOptions,
   VxArrayGroup,
+  VxCompoundFilter,
+  VxDataFilter,
   VxDataSource,
   VxDataSourceLoadOptions,
   VxDataSourceLoadResult,
+  VxFilterOperator,
   VxFilterState,
 } from './data-source';
-export { VxArrayDataSource, VxRemoteMockDataSource } from './data-source';
+export {
+  VxArrayDataSource,
+  VxRemoteMockDataSource,
+  evaluateFilter,
+  hasActiveFilter,
+  isCompoundFilter,
+} from './data-source';
 export { exportRowsToCsv } from './export-csv';
 
 const MAX_SPACER_PX = 5_000_000;
+
+function filterCacheKey(filter: VxDataFilter | null | undefined): string {
+  if (!filter) return '';
+  try {
+    return JSON.stringify(filter);
+  } catch {
+    return String(filter);
+  }
+}
+
+/** Project DataGrid filter into the narrower AI context shape (first leaf). */
+function toAIFilterState(
+  filter: VxDataFilter | null | undefined
+): { field: string; value: string; operator?: 'contains' | 'equals' } | null {
+  if (!filter) return null;
+  const leaf: VxFilterState | null = isCompoundFilter(filter)
+    ? firstFilterLeaf(filter)
+    : filter;
+  if (!leaf?.field || leaf.value == null || leaf.value === '') return null;
+  const operator: 'contains' | 'equals' =
+    leaf.operator === 'equals' ? 'equals' : 'contains';
+  return { field: leaf.field, value: leaf.value, operator };
+}
+
+function firstFilterLeaf(filter: VxDataFilter): VxFilterState | null {
+  if (!isCompoundFilter(filter)) {
+    if (!filter.field || filter.value == null || filter.value === '') return null;
+    return filter;
+  }
+  for (const child of filter.filters) {
+    const leaf = firstFilterLeaf(child);
+    if (leaf) return leaf;
+  }
+  return null;
+}
 
 const DEFAULT_AI: Required<
   Pick<VortexAIConfig, 'enabled' | 'maxRowsInContext'>
@@ -84,9 +135,9 @@ export interface VxGroupRow {
     >
       <div class="vx-grid__toolbar">
         <div class="vx-grid__toolbar-left">
-          @if (filter(); as f) {
+          @if (activeFilter(); as f) {
             <span class="vx-grid__filter-pill">
-              Filtro: {{ f.field }} ≈ {{ f.value }}
+              Filtro: {{ filterLabel(f) }}
               <button type="button" class="vx-grid__filter-clear" (click)="clearFilter()">
                 limpar
               </button>
@@ -676,7 +727,7 @@ export class VxDataGridComponent<T = unknown> {
   readonly aiIntegration = input<VortexAIIntegration | null>(null);
 
   readonly sortChange = output<VxSortState | null>();
-  readonly filterChange = output<VxFilterState | null>();
+  readonly filterChange = output<VxDataFilter | null>();
   readonly selectionChange = output<T[]>();
   readonly rowClick = output<T>();
   readonly cellEdit = output<VxCellEditEvent<T>>();
@@ -685,7 +736,7 @@ export class VxDataGridComponent<T = unknown> {
     skip: number;
     take: number;
     sort: VxSortState | null;
-    filter: VxFilterState | null;
+    filter: VxDataFilter | null;
   }>();
   readonly aiRequestCreating = output<VortexAIRequestCreatingEvent>();
   readonly aiCommandExecuted = output<VortexAICommand>();
@@ -696,7 +747,12 @@ export class VxDataGridComponent<T = unknown> {
   private readonly headerRef = viewChild<ElementRef<HTMLElement>>('headerRef');
 
   readonly sort = signal<VxSortState | null>(null);
-  readonly filter = signal<VxFilterState | null>(null);
+  readonly filter = signal<VxDataFilter | null>(null);
+  /** Toolbar pill only when the filter has at least one complete leaf. */
+  readonly activeFilter = computed(() => {
+    const f = this.filter();
+    return hasActiveFilter(f) ? f : null;
+  });
   readonly selected = signal<Set<unknown>>(new Set());
   readonly scrollTop = signal(0);
   readonly viewportHeight = signal(400);
@@ -795,13 +851,8 @@ export class VxDataGridComponent<T = unknown> {
     const filter = this.filter();
     const sort = this.sort();
     let next = rows;
-    if (filter?.field && filter.value) {
-      const needle = String(filter.value).toLowerCase();
-      const op = filter.operator ?? 'contains';
-      next = next.filter((row) => {
-        const hay = String(row[filter.field] ?? '').toLowerCase();
-        return op === 'equals' ? hay === needle : hay.includes(needle);
-      });
+    if (hasActiveFilter(filter)) {
+      next = next.filter((row) => evaluateFilter(row, filter));
     }
     if (sort) {
       const dir = sort.direction === 'asc' ? 1 : -1;
@@ -941,7 +992,7 @@ export class VxDataGridComponent<T = unknown> {
     const rows = this.displayRows();
     const total = rows.length;
     const { start, take } = this.computeRange(total);
-    const key = `${start}:${take}:${this.sort()?.field ?? ''}:${this.filter()?.field ?? ''}:${this.filter()?.value ?? ''}`;
+    const key = `${start}:${take}:${this.sort()?.field ?? ''}:${filterCacheKey(this.filter())}`;
     if (!force && key === this.lastClientKey) return;
     this.lastClientKey = key;
     this.startIndex.set(start);
@@ -956,7 +1007,7 @@ export class VxDataGridComponent<T = unknown> {
   ): Promise<void> {
     const sort = this.sort();
     const filter = this.filter();
-    const key = `${skip}:${take}:${sort?.field ?? ''}:${sort?.direction ?? ''}:${filter?.field ?? ''}:${filter?.value ?? ''}`;
+    const key = `${skip}:${take}:${sort?.field ?? ''}:${sort?.direction ?? ''}:${filterCacheKey(filter)}`;
     if (!force && key === this.lastRemoteKey) return;
 
     const seq = ++this.loadSeq;
@@ -1037,10 +1088,17 @@ export class VxDataGridComponent<T = unknown> {
     this.filterChange.emit(null);
   }
 
-  /** Aplica filtro externo (ex.: vx-filter-builder). */
-  setFilter(next: VxFilterState | null): void {
+  /** Aplica filtro externo (ex.: vx-filter-builder) — single or compound. */
+  setFilter(next: VxDataFilter | null): void {
     this.filter.set(next);
     this.filterChange.emit(next);
+  }
+
+  filterLabel(filter: VxDataFilter): string {
+    if (isCompoundFilter(filter)) {
+      return `${filter.logic.toUpperCase()} (${filter.filters.length})`;
+    }
+    return `${filter.field} ≈ ${filter.value}`;
   }
 
   async onSuggestion(s: VortexAISuggestion): Promise<void> {
@@ -1163,7 +1221,7 @@ export class VxDataGridComponent<T = unknown> {
             .filter((c) => c.type !== 'ai')
             .map((c) => ({ field: c.field, header: c.header })),
           sort: this.sort(),
-          filter: this.filter(),
+          filter: toAIFilterState(this.filter()),
           rows,
           totalRows: this.totalRows(),
           meta: { aiColumn: field, prompt },
@@ -1218,7 +1276,7 @@ export class VxDataGridComponent<T = unknown> {
         componentType: 'data-grid',
         columns: this.columns().map((c) => ({ field: c.field, header: c.header })),
         sort: this.sort(),
-        filter: this.filter(),
+        filter: toAIFilterState(this.filter()),
         rows,
         totalRows: this.totalRows(),
       },

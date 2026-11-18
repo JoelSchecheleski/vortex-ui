@@ -20,7 +20,20 @@ export * from './drawer/drawer.component';
 export * from './menu/menu.component';
 export * from './tree-view/tree-view.component';
 export * from './splitter/splitter.component';
-export * from './filter-builder/filter-builder.component';
+export { VxFilterBuilderComponent } from './filter-builder/filter-builder.component';
+export {
+  emptyFilterBuilderValue,
+  toDataFilter,
+  createCondition,
+  createNestedGroup,
+} from './filter-builder/filter-builder.model';
+export type {
+  VxFilterField,
+  VxFilterCondition,
+  VxFilterGroupLogic,
+  VxFilterNestedGroup,
+  VxFilterBuilderValue,
+} from './filter-builder/filter-builder.model';
 export * from './stepper/stepper.component';
 export * from './box/box.component';
 export * from './fab/fab.component';

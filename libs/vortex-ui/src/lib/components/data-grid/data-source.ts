@@ -1,17 +1,38 @@
 import { VxSortState } from './data-grid.types';
 
+/** Operators accepted by single-condition and compound DataSource filters. */
+export type VxFilterOperator =
+  | 'contains'
+  | 'equals'
+  | 'startsWith'
+  | 'gt'
+  | 'lt';
+
+/** Single-field filter — backward compatible with existing grid toolbar. */
 export interface VxFilterState {
   field: string;
   value: string;
-  operator?: 'contains' | 'equals';
+  operator?: VxFilterOperator;
 }
+
+/**
+ * Multi-condition / nested group expression consumable by Array DataSource.
+ * Nesting mirrors FilterBuilder depth-1 groups under a root logic.
+ */
+export interface VxCompoundFilter {
+  logic: 'and' | 'or';
+  filters: Array<VxFilterState | VxCompoundFilter>;
+}
+
+/** Union accepted by `load({ filter })` and DataGrid `setFilter`. */
+export type VxDataFilter = VxFilterState | VxCompoundFilter;
 
 /** Opções de carga (client window ou servidor). */
 export interface VxDataSourceLoadOptions {
   skip: number;
   take: number;
   sort?: VxSortState | null;
-  filter?: VxFilterState | null;
+  filter?: VxDataFilter | null;
   /** Campo de agrupamento (single-level). Array → usa o primeiro campo. */
   group?: string | readonly string[] | null;
 }
@@ -43,18 +64,110 @@ export interface VxDataSource<T = unknown> {
   ): Promise<VxDataSourceLoadResult<T>> | VxDataSourceLoadResult<T>;
 }
 
+export function isCompoundFilter(
+  filter: VxDataFilter
+): filter is VxCompoundFilter {
+  return (
+    typeof filter === 'object' &&
+    filter !== null &&
+    'logic' in filter &&
+    'filters' in filter &&
+    Array.isArray((filter as VxCompoundFilter).filters)
+  );
+}
+
+/** True when the filter has at least one complete leaf condition. */
+export function hasActiveFilter(filter?: VxDataFilter | null): boolean {
+  if (!filter) return false;
+  if (isCompoundFilter(filter)) {
+    return filter.filters.some((child) => hasActiveFilter(child));
+  }
+  return Boolean(filter.field && filter.value !== '' && filter.value != null);
+}
+
+/**
+ * Evaluate a DataSource-compatible filter against one row.
+ * Incomplete leaves are ignored: compounds only consider `hasActiveFilter` children
+ * (none active → no restriction / true). `gt`/`lt` exclude non-comparable values.
+ */
+export function evaluateFilter(
+  row: Record<string, unknown>,
+  filter?: VxDataFilter | null
+): boolean {
+  if (!filter) return true;
+  if (isCompoundFilter(filter)) {
+    const parts = filter.filters.filter((part) => hasActiveFilter(part));
+    if (parts.length === 0) return true;
+    return filter.logic === 'and'
+      ? parts.every((part) => evaluateFilter(row, part))
+      : parts.some((part) => evaluateFilter(row, part));
+  }
+  return rowMatchesCondition(row, filter);
+}
+
+function rowMatchesCondition(
+  row: Record<string, unknown>,
+  filter: VxFilterState
+): boolean {
+  if (!filter.field || filter.value == null || filter.value === '') return true;
+  const op = filter.operator ?? 'contains';
+  const raw = row[filter.field];
+  const needle = String(filter.value);
+  const hay = raw == null ? '' : String(raw);
+
+  switch (op) {
+    case 'equals':
+      return hay.toLowerCase() === needle.toLowerCase();
+    case 'startsWith':
+      return hay.toLowerCase().startsWith(needle.toLowerCase());
+    case 'gt':
+      return compareOrdered(raw, needle, 'gt');
+    case 'lt':
+      return compareOrdered(raw, needle, 'lt');
+    case 'contains':
+    default:
+      return hay.toLowerCase().includes(needle.toLowerCase());
+  }
+}
+
+/** Numeric when both sides parse; otherwise case-insensitive string compare. Null raw → excluded. */
+function compareOrdered(
+  raw: unknown,
+  needle: string,
+  op: 'gt' | 'lt'
+): boolean {
+  if (raw == null) return false;
+
+  const aNum = typeof raw === 'number' ? raw : Number(raw);
+  const bNum = Number(needle);
+  const rawStr = String(raw).trim();
+  const bothNumeric =
+    Number.isFinite(aNum) &&
+    Number.isFinite(bNum) &&
+    rawStr !== '' &&
+    needle.trim() !== '' &&
+    !(typeof raw === 'string' && Number.isNaN(Number(raw.trim())));
+
+  if (bothNumeric && (typeof raw === 'number' || /^-?\d+(\.\d+)?$/.test(rawStr))) {
+    return op === 'gt' ? aNum > bNum : aNum < bNum;
+  }
+
+  if (typeof raw === 'object') return false;
+
+  const cmp = hayLocaleCompare(String(raw), needle);
+  return op === 'gt' ? cmp > 0 : cmp < 0;
+}
+
+function hayLocaleCompare(a: string, b: string): number {
+  return a.localeCompare(b, undefined, { numeric: true, sensitivity: 'base' });
+}
+
 function applyFilter<T extends Record<string, unknown>>(
   rows: T[],
-  filter?: VxFilterState | null
+  filter?: VxDataFilter | null
 ): T[] {
-  if (!filter?.field || filter.value == null || filter.value === '') return rows;
-  const op = filter.operator ?? 'contains';
-  const needle = String(filter.value).toLowerCase();
-  return rows.filter((row) => {
-    const raw = row[filter.field];
-    const hay = raw == null ? '' : String(raw).toLowerCase();
-    return op === 'equals' ? hay === needle : hay.includes(needle);
-  });
+  if (!hasActiveFilter(filter)) return rows;
+  return rows.filter((row) => evaluateFilter(row, filter));
 }
 
 function applySort<T extends Record<string, unknown>>(
@@ -173,7 +286,7 @@ export class VxRemoteMockDataSource<T> implements VxDataSource<T> {
     const asRecord = (row: T) => row as Record<string, unknown>;
 
     // Sem filtro: slice direto O(take)
-    if (!filter?.field || !filter.value) {
+    if (!hasActiveFilter(filter)) {
       const start = Math.max(0, options.skip);
       const end = Math.min(this.totalCount, start + take);
       const data: T[] = [];
@@ -192,7 +305,7 @@ export class VxRemoteMockDataSource<T> implements VxDataSource<T> {
     let seen = 0;
     for (let i = 0; i < maxScan; i++) {
       const row = this.factory(i);
-      if (!rowMatches(asRecord(row), filter)) continue;
+      if (!evaluateFilter(asRecord(row), filter)) continue;
       if (seen >= options.skip && matched.length < take) {
         matched.push(row);
       }
@@ -205,7 +318,7 @@ export class VxRemoteMockDataSource<T> implements VxDataSource<T> {
     const sample = Math.min(2000, maxScan);
     let hits = 0;
     for (let i = 0; i < sample; i++) {
-      if (rowMatches(asRecord(this.factory(i)), filter)) hits++;
+      if (evaluateFilter(asRecord(this.factory(i)), filter)) hits++;
     }
     const density = sample > 0 ? hits / sample : 0;
     const estimatedTotal = Math.max(matched.length, Math.floor(this.totalCount * density));
@@ -215,14 +328,6 @@ export class VxRemoteMockDataSource<T> implements VxDataSource<T> {
       totalCount: estimatedTotal,
     };
   }
-}
-
-function rowMatches(row: Record<string, unknown>, filter: VxFilterState): boolean {
-  const op = filter.operator ?? 'contains';
-  const needle = String(filter.value).toLowerCase();
-  const raw = row[filter.field];
-  const hay = raw == null ? '' : String(raw).toLowerCase();
-  return op === 'equals' ? hay === needle : hay.includes(needle);
 }
 
 function delay(ms: number): Promise<void> {
