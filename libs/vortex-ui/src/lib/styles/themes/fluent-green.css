@@ -1,9 +1,9 @@
 /**
- * VortexUI — LDS Theme (tema #2)
- * Fonte: design/Guidelines-LDS.md (LDS GF Theme / Figma Make)
+ * VortexUI — Fluent Green (Light)
+ * Fonte: design/Guidelines-Fluent-Green.md
  */
 
-[data-vx-theme="lds"] {
+[data-vx-theme="fluent-green"] {
   --vx-font-sans: Poppins, system-ui, sans-serif;
 
   --vx-color-bg: #f2f2f2;

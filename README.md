@@ -1,6 +1,6 @@
 # VortexUI
 
-Suite de componentes **Angular 22+** (Signals, Standalone, zoneless) — DataGrid, File Manager, Charts, Scheduler, AI opt-in e temas Fluent / LDS.
+Suite de componentes **Angular 22+** (Signals, Standalone, zoneless) — DataGrid, File Manager, Charts, Scheduler, AI opt-in e temas Fluent / Fluent Green.
 
 - **GitHub:** https://github.com/JoelSchecheleski/vortex-ui  
 - **npm (público):** [`@joel_jsp/vortex-ui`](https://www.npmjs.com/package/@joel_jsp/vortex-ui)  

@@ -6,7 +6,8 @@
 @import '../src/lib/styles/themes/fluent-blue-dark.css';
 @import '../src/lib/styles/themes/fluent-saas-light.css';
 @import '../src/lib/styles/themes/fluent-saas-dark.css';
-@import '../src/lib/styles/themes/lds.css';
+@import '../src/lib/styles/themes/fluent-green.css';
+@import '../src/lib/styles/themes/fluent-green-dark.css';
 
 html,
 body {

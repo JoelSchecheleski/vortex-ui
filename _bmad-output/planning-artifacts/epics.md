@@ -11,7 +11,7 @@ inputDocuments:
   - docs/research/devextreme-data-management/README.md
 notes:
   architecture: deferred — no formal Architecture.md; technical constraints taken from VortexUI-PRD decisions + existing libs/vortex-ui data components
-  ux: deferred — no DESIGN.md/EXPERIENCE.md; visual AC via Fluent Light + LDS tokens and PRD images/NNN-*.png (internal parity only)
+  ux: deferred — no DESIGN.md/EXPERIENCE.md; visual AC via Fluent Light + Fluent Green tokens and PRD images/NNN-*.png (internal parity only)
   scope: Data Management family only (vx-data-grid, vx-tree-list, vx-card-view, vx-pivot-grid, vx-filter-builder)
   epicApproval: "2026-11-16 — user confirmed features are composable capabilities of DataGrid/DataSource family; approved 7-epic structure"
   storyMode: "YOLO 2026-11-16 — all epics/stories authored in one pass per user request"
@@ -69,23 +69,23 @@ FR37: Collaborative editing for DataGrid (multi-user edit awareness) as M3 capab
 FR38: For every parity demo `001–145`, ship an equivalent Storybook case documenting Signals API and visual/interaction parity.
 FR39: Update `PRD-DATA-MANAGEMENT.md` status per demo (`TODO`|`M0`|`M1`|`M2`|`M3`) when implemented.
 FR40: Expose tree-shakeable packaging path for grid family (`vortex-ui/grid` or equivalent) without requiring AI entry unless used.
-FR41: Theme Lab / Widgets Gallery demos must run Fluent Light (default) and LDS without visual regression for Data Management surfaces.
+FR41: Theme Lab / Widgets Gallery demos must run Fluent Light (default) and Fluent Green without visual regression for Data Management surfaces.
 FR42: Document “Choose a Data Management Component” guidance (DataGrid vs TreeList vs CardView vs PivotGrid) in Vortex docs/Storybook.
 
 ### NonFunctional Requirements
 
 NFR1: Angular 22+ only; Standalone + Signals + OnPush + zoneless-compatible implementation.
 NFR2: No DevExtreme / `devextreme*` runtime or source code in the Vortex tree; surface parity only.
-NFR3: Styling via CSS Design Tokens (`--vx-*`); Fluent Blue Light default + LDS; no hardcoded theme hex in components.
+NFR3: Styling via CSS Design Tokens (`--vx-*`); Fluent Blue Light default + Fluent Green; no hardcoded theme hex in components.
 NFR4: DataGrid virtualization: target ~60fps scroll with 1,000,000 rows (server-side); stable memory; sticky header.
 NFR5: Time to first paint of visible rows < 100ms after data arrives (virtualized server path).
 NFR6: AI is opt-in (`ai.enabled = false` by default); no vendor lock; typed context + allowlisted commands only; no DOM scraping by the model.
 NFR7: Screenshots from DX gallery are internal research assets only — must not ship in published npm packages.
 NFR8: Each widget DoD includes unit tests for public APIs, Storybook story, Gallery entry when applicable, a11y keyboard+ARIA minimum.
-NFR9: Visual regression CI (Playwright) should cover Grid + canonical Data Management demos × Fluent + LDS (target as suite matures).
+NFR9: Visual regression CI (Playwright) should cover Grid + canonical Data Management demos × Fluent + Fluent Green (target as suite matures).
 NFR10: Intended license MIT; no redistribution of proprietary DX assets/CSS.
 NFR11: Secondary entries / tree-shaking: consumers import only needed families; AI in `vortex-ui/ai`.
-NFR12: Pixel-perfect DX clone is NOT required — capability parity with Vortex/Fluent/LDS visual language.
+NFR12: Pixel-perfect DX clone is NOT required — capability parity with Vortex/Fluent/Fluent Green visual language.
 
 ### Additional Requirements
 
@@ -100,7 +100,7 @@ NFR12: Pixel-perfect DX clone is NOT required — capability parity with Vortex/
 
 ### UX Design Requirements
 
-UX-DR1: Default theme presentation for all Data Management stories: Fluent Blue Light; second story or theme toggle for LDS where chrome differs.
+UX-DR1: Default theme presentation for all Data Management stories: Fluent Blue Light; second story or theme toggle for Fluent Green where chrome differs.
 UX-DR2: DataGrid toolbar chrome includes optional AI sparkle affordance only when `ai.enabled` (Mode A Assistant).
 UX-DR3: AI Assistant Dialog UX: chat, empty state, suggestion chips, send — human-in-the-loop for destructive actions.
 UX-DR4: AI Prompt Editor UX for AI Columns: regenerate/apply anchored to column (Mode B).
@@ -153,7 +153,7 @@ FR37: Epic 7 — Collaborative editing
 FR38: Epic 1 (+ all) — Storybook parity cases
 FR39: Epic 1 (+ all) — PRD status updates
 FR40: Epic 1 — Tree-shakeable grid packaging
-FR41: Epic 2 — Fluent + LDS Theme Lab
+FR41: Epic 2 — Fluent + Fluent Green Theme Lab
 FR42: Epic 1 — Choose Data Management Component docs
 
 ## Epic List
@@ -289,7 +289,7 @@ So that I can render a professional local grid baseline (demos 001–002, 039).
 **Acceptance Criteria:**
 
 **Given** local rows and column defs
-**When** the grid renders in Storybook on Fluent Light and LDS
+**When** the grid renders in Storybook on Fluent Light and Fluent Green
 **Then** chrome, headers, and rows match parity intent for 001/002/039 (FR1, FR41)
 **And** autodocs list `input`/`model`/`output` (FR38)
 **And** PRD statuses updated
@@ -421,7 +421,7 @@ So that the grid chrome matches product UI (demos 069–073).
 
 **Given** appearance flags and template slots
 **When** the grid renders customized cells/rows/toolbar
-**Then** tokens Fluent/LDS still apply with no hardcoded theme hex (FR24, NFR3)
+**Then** tokens Fluent/Fluent Green still apply with no hardcoded theme hex (FR24, NFR3)
 **And** Storybook documents each customization demo
 
 ### Story 2.12: State persistence & adaptability
@@ -671,7 +671,7 @@ So that card chrome matches product design (demos 122–123).
 
 **Given** custom card templates
 **When** cards render
-**Then** templates apply without breaking tokens Fluent/LDS (FR30, NFR3)
+**Then** templates apply without breaking tokens Fluent/Fluent Green (FR30, NFR3)
 **And** Storybook documents 122–123
 
 ---

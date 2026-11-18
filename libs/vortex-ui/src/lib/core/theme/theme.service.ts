@@ -3,7 +3,7 @@ import { isPlatformBrowser, DOCUMENT } from '@angular/common';
 
 /**
  * Temas oficiais VortexUI.
- * `fluent` permanece como alias estável de `fluent-blue-light` (default ThemeBuilder Blue Light).
+ * `fluent` → alias de `fluent-blue-light` (default).
  */
 export type VortexTheme =
   | 'fluent'
@@ -11,7 +11,8 @@ export type VortexTheme =
   | 'fluent-blue-dark'
   | 'fluent-saas-light'
   | 'fluent-saas-dark'
-  | 'lds';
+  | 'fluent-green'
+  | 'fluent-green-dark';
 
 /** Temas listados no switcher (sem duplicar o alias `fluent`). */
 export const VORTEX_THEMES = [
@@ -19,7 +20,8 @@ export const VORTEX_THEMES = [
   'fluent-blue-dark',
   'fluent-saas-light',
   'fluent-saas-dark',
-  'lds',
+  'fluent-green',
+  'fluent-green-dark',
 ] as const satisfies readonly VortexTheme[];
 
 export const VORTEX_DEFAULT_THEME: VortexTheme = 'fluent-blue-light';
@@ -30,7 +32,8 @@ export const VORTEX_THEME_LABELS: Record<VortexTheme, string> = {
   'fluent-blue-dark': 'Fluent Blue Dark',
   'fluent-saas-light': 'Fluent SaaS Light',
   'fluent-saas-dark': 'Fluent SaaS Dark',
-  lds: 'LDS',
+  'fluent-green': 'Fluent Green',
+  'fluent-green-dark': 'Fluent Green Dark',
 };
 
 export interface VortexThemeConfig {

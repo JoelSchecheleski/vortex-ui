@@ -32,7 +32,7 @@ Pacote de web scraping da [Widgets Gallery Angular](https://js.devexpress.com/An
 
 - **Não** copiar código DevExtreme / pacotes `devextreme*`.
 - Screenshots = referência interna de aceite visual (não publicar no npm).
-- Implementação = Signals / Standalone / OnPush / zoneless, temas Fluent + LDS.
+- Implementação = Signals / Standalone / OnPush / zoneless, temas Fluent + Fluent Green.
 
 ## Re-scrape
 

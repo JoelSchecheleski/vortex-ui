@@ -12,7 +12,7 @@ export interface VxColumnDef<T = unknown> {
   header: string;
   /**
    * Largura fixa (px ou CSS). Se omitida, a coluna é **fluida** e reparte
-   * o espaço restante do grid (comportamento padrão tipo DevExtreme).
+   * o espaço restante do grid.
    */
   width?: number | string;
   /** Largura mínima quando a coluna é fluida (default 80). */

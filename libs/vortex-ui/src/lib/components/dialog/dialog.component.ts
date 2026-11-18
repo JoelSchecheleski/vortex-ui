@@ -1,11 +1,11 @@
 import { Component, ChangeDetectionStrategy, input, model, output } from '@angular/core';
 
-export type VxDialogSize = 'md' | 'lg' | 'fullscreen-lds';
+export type VxDialogSize = 'md' | 'lg' | 'fullscreen';
 
 /**
  * Dialog / modal genérico.
  * - `md` / `lg`: popover centrado compacto
- * - `fullscreen-lds`: 80% × 80% (guideline LDS)
+ * - `fullscreen`: 80% × 80% da área útil
  */
 @Component({
   selector: 'vx-dialog',
@@ -17,7 +17,7 @@ export type VxDialogSize = 'md' | 'lg' | 'fullscreen-lds';
         <div
           class="vx-dialog"
           [class.vx-dialog--lg]="size() === 'lg'"
-          [class.vx-dialog--lds]="size() === 'fullscreen-lds'"
+          [class.vx-dialog--fullscreen]="size() === 'fullscreen'"
           role="dialog"
           aria-modal="true"
           [attr.aria-label]="title() || 'Dialog'"
@@ -71,7 +71,7 @@ export type VxDialogSize = 'md' | 'lg' | 'fullscreen-lds';
       width: min(720px, 100%);
     }
 
-    .vx-dialog--lds {
+    .vx-dialog--fullscreen {
       width: 80%;
       height: 80%;
       max-width: 80%;

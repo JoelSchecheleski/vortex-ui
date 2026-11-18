@@ -1,6 +1,6 @@
-# LDS Figma Make Themes
+# Fluent Green Themes
 
-Custom theme for Figma Make based on the LDS GF Theme.
+Custom theme for Figma Make — **Fluent Green** (Poppins + green primary palette).
 
 *Generated on 17/09/2025 using Figma Make UI Component Studio*
 
@@ -233,7 +233,7 @@ Regras tipográficas e de escrita para labels, títulos, botões, placeholders, 
 ### Capitalização (sentence case)
 
 * Use **sentence case** em toda a interface: somente a **primeira letra da frase** deve ser maiúscula; as demais letras devem ser minúsculas.
-* Exceção: **nomes próprios**, marcas, siglas e códigos oficiais mantêm a capitalização correta (ex.: Localiza, LDS, CPF, GPS, Brasil).
+* Exceção: **nomes próprios**, marcas, siglas e códigos oficiais mantêm a capitalização correta (ex.: VortexUI, CPF, GPS, Brasil).
 * Não use Title Case em botões, menus, abas, títulos de seção, badges ou headers de tabela (ex.: evite "Salvar Alterações"; use "Salvar alterações").
 * Placeholders e mensagens de ajuda também seguem sentence case (ex.: "Digite o número da placa").
 * Siglas permanecem em maiúsculas (ex.: OS, NF, API).
@@ -241,7 +241,7 @@ Regras tipográficas e de escrita para labels, títulos, botões, placeholders, 
 **Exemplos:**
 * ✅ "Criar ordem de serviço"
 * ❌ "Criar Ordem De Serviço"
-* ✅ "Dados do cliente Localiza"
+* ✅ "Dados do cliente"
 * ❌ "DADOS DO CLIENTE"
 * ✅ "Erro ao salvar. Tente novamente."
 * ❌ "Erro Ao Salvar. Tente Novamente."

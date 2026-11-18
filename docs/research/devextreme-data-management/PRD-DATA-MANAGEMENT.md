@@ -58,7 +58,7 @@
 
 - [ ] Paridade de interação principal da demo
 - [ ] API Signals documentada (`input`/`model`/`output`)
-- [ ] Tema Fluent Light + LDS sem regressão visual
+- [ ] Tema Fluent Light + Fluent Green sem regressão visual
 - [ ] Storybook / Widgets Gallery Vortex com caso equivalente
 
 ### Vinculação de dados (Data Binding)
@@ -88,7 +88,7 @@
 
 - [ ] Paridade de interação principal da demo
 - [ ] API Signals documentada (`input`/`model`/`output`)
-- [ ] Tema Fluent Light + LDS sem regressão visual
+- [ ] Tema Fluent Light + Fluent Green sem regressão visual
 - [ ] Storybook / Widgets Gallery Vortex com caso equivalente
 
 #### 003. Dados JSON / JSON Data
@@ -110,7 +110,7 @@
 
 - [ ] Paridade de interação principal da demo
 - [ ] API Signals documentada (`input`/`model`/`output`)
-- [ ] Tema Fluent Light + LDS sem regressão visual
+- [ ] Tema Fluent Light + Fluent Green sem regressão visual
 - [ ] Storybook / Widgets Gallery Vortex com caso equivalente
 
 #### 004. Fonte de dados personalizada / Custom Data Source
@@ -139,7 +139,7 @@
 
 - [ ] Paridade de interação principal da demo
 - [ ] API Signals documentada (`input`/`model`/`output`)
-- [ ] Tema Fluent Light + LDS sem regressão visual
+- [ ] Tema Fluent Light + Fluent Green sem regressão visual
 - [ ] Storybook / Widgets Gallery Vortex com caso equivalente
 
 #### 005. Serviço de API Web / Web API Service
@@ -163,7 +163,7 @@
 
 - [ ] Paridade de interação principal da demo
 - [ ] API Signals documentada (`input`/`model`/`output`)
-- [ ] Tema Fluent Light + LDS sem regressão visual
+- [ ] Tema Fluent Light + Fluent Green sem regressão visual
 - [ ] Storybook / Widgets Gallery Vortex com caso equivalente
 
 #### 006. Serviço SignalR / SignalR Service
@@ -190,7 +190,7 @@
 
 - [ ] Paridade de interação principal da demo
 - [ ] API Signals documentada (`input`/`model`/`output`)
-- [ ] Tema Fluent Light + LDS sem regressão visual
+- [ ] Tema Fluent Light + Fluent Green sem regressão visual
 - [ ] Storybook / Widgets Gallery Vortex com caso equivalente
 
 #### 007. Atualizações em tempo real / Real-Time Updates
@@ -217,7 +217,7 @@
 
 - [ ] Paridade de interação principal da demo
 - [ ] API Signals documentada (`input`/`model`/`output`)
-- [ ] Tema Fluent Light + LDS sem regressão visual
+- [ ] Tema Fluent Light + Fluent Green sem regressão visual
 - [ ] Storybook / Widgets Gallery Vortex com caso equivalente
 
 ### Filtragem (Filtering)
@@ -241,7 +241,7 @@
 
 - [ ] Paridade de interação principal da demo
 - [ ] API Signals documentada (`input`/`model`/`output`)
-- [ ] Tema Fluent Light + LDS sem regressão visual
+- [ ] Tema Fluent Light + Fluent Green sem regressão visual
 - [ ] Storybook / Widgets Gallery Vortex com caso equivalente
 
 #### 009. API de filtragem / Filtering API
@@ -274,7 +274,7 @@
 
 - [ ] Paridade de interação principal da demo
 - [ ] API Signals documentada (`input`/`model`/`output`)
-- [ ] Tema Fluent Light + LDS sem regressão visual
+- [ ] Tema Fluent Light + Fluent Green sem regressão visual
 - [ ] Storybook / Widgets Gallery Vortex com caso equivalente
 
 #### 010. Painel de filtro / Filter Panel
@@ -305,7 +305,7 @@
 
 - [ ] Paridade de interação principal da demo
 - [ ] API Signals documentada (`input`/`model`/`output`)
-- [ ] Tema Fluent Light + LDS sem regressão visual
+- [ ] Tema Fluent Light + Fluent Green sem regressão visual
 - [ ] Storybook / Widgets Gallery Vortex com caso equivalente
 
 #### 011. Filtro de cabeçalho de coluna / Column Header Filter
@@ -335,7 +335,7 @@
 
 - [ ] Paridade de interação principal da demo
 - [ ] API Signals documentada (`input`/`model`/`output`)
-- [ ] Tema Fluent Light + LDS sem regressão visual
+- [ ] Tema Fluent Light + Fluent Green sem regressão visual
 - [ ] Storybook / Widgets Gallery Vortex com caso equivalente
 
 #### 012. Busca Semântica / Semantic Search · **AI**
@@ -362,7 +362,7 @@
 
 - [ ] Paridade de interação principal da demo
 - [ ] API Signals documentada (`input`/`model`/`output`)
-- [ ] Tema Fluent Light + LDS sem regressão visual
+- [ ] Tema Fluent Light + Fluent Green sem regressão visual
 - [ ] Storybook / Widgets Gallery Vortex com caso equivalente
 
 ### Classificação (Sorting)
@@ -391,7 +391,7 @@
 
 - [ ] Paridade de interação principal da demo
 - [ ] API Signals documentada (`input`/`model`/`output`)
-- [ ] Tema Fluent Light + LDS sem regressão visual
+- [ ] Tema Fluent Light + Fluent Green sem regressão visual
 - [ ] Storybook / Widgets Gallery Vortex com caso equivalente
 
 ### Edição (Editing)
@@ -424,7 +424,7 @@
 
 - [ ] Paridade de interação principal da demo
 - [ ] API Signals documentada (`input`/`model`/`output`)
-- [ ] Tema Fluent Light + LDS sem regressão visual
+- [ ] Tema Fluent Light + Fluent Green sem regressão visual
 - [ ] Storybook / Widgets Gallery Vortex com caso equivalente
 
 #### 015. Edição de células / Cell Editing
@@ -453,7 +453,7 @@
 
 - [ ] Paridade de interação principal da demo
 - [ ] API Signals documentada (`input`/`model`/`output`)
-- [ ] Tema Fluent Light + LDS sem regressão visual
+- [ ] Tema Fluent Light + Fluent Green sem regressão visual
 - [ ] Storybook / Widgets Gallery Vortex com caso equivalente
 
 #### 016. Edição em lote / Batch Editing
@@ -483,7 +483,7 @@
 
 - [ ] Paridade de interação principal da demo
 - [ ] API Signals documentada (`input`/`model`/`output`)
-- [ ] Tema Fluent Light + LDS sem regressão visual
+- [ ] Tema Fluent Light + Fluent Green sem regressão visual
 - [ ] Storybook / Widgets Gallery Vortex com caso equivalente
 
 #### 017. Edição de formulários / Form Editing
@@ -516,7 +516,7 @@
 
 - [ ] Paridade de interação principal da demo
 - [ ] API Signals documentada (`input`/`model`/`output`)
-- [ ] Tema Fluent Light + LDS sem regressão visual
+- [ ] Tema Fluent Light + Fluent Green sem regressão visual
 - [ ] Storybook / Widgets Gallery Vortex com caso equivalente
 
 #### 018. Edição Popup / Popup Editing
@@ -547,7 +547,7 @@
 
 - [ ] Paridade de interação principal da demo
 - [ ] API Signals documentada (`input`/`model`/`output`)
-- [ ] Tema Fluent Light + LDS sem regressão visual
+- [ ] Tema Fluent Light + Fluent Green sem regressão visual
 - [ ] Storybook / Widgets Gallery Vortex com caso equivalente
 
 #### 019. Editores personalizados / Custom Editors
@@ -576,7 +576,7 @@
 
 - [ ] Paridade de interação principal da demo
 - [ ] API Signals documentada (`input`/`model`/`output`)
-- [ ] Tema Fluent Light + LDS sem regressão visual
+- [ ] Tema Fluent Light + Fluent Green sem regressão visual
 - [ ] Storybook / Widgets Gallery Vortex com caso equivalente
 
 #### 020. Validação de dados / Data Validation
@@ -605,7 +605,7 @@
 
 - [ ] Paridade de interação principal da demo
 - [ ] API Signals documentada (`input`/`model`/`output`)
-- [ ] Tema Fluent Light + LDS sem regressão visual
+- [ ] Tema Fluent Light + Fluent Green sem regressão visual
 - [ ] Storybook / Widgets Gallery Vortex com caso equivalente
 
 #### 021. Pesquisas em cascata / Cascading Lookups
@@ -636,7 +636,7 @@
 
 - [ ] Paridade de interação principal da demo
 - [ ] API Signals documentada (`input`/`model`/`output`)
-- [ ] Tema Fluent Light + LDS sem regressão visual
+- [ ] Tema Fluent Light + Fluent Green sem regressão visual
 - [ ] Storybook / Widgets Gallery Vortex com caso equivalente
 
 #### 022. Edição Colaborativa / Collaborative Editing
@@ -658,7 +658,7 @@
 
 - [ ] Paridade de interação principal da demo
 - [ ] API Signals documentada (`input`/`model`/`output`)
-- [ ] Tema Fluent Light + LDS sem regressão visual
+- [ ] Tema Fluent Light + Fluent Green sem regressão visual
 - [ ] Storybook / Widgets Gallery Vortex com caso equivalente
 
 #### 023. Operações CRUD remotas / Remote CRUD Operations
@@ -682,7 +682,7 @@
 
 - [ ] Paridade de interação principal da demo
 - [ ] API Signals documentada (`input`/`model`/`output`)
-- [ ] Tema Fluent Light + LDS sem regressão visual
+- [ ] Tema Fluent Light + Fluent Green sem regressão visual
 - [ ] Storybook / Widgets Gallery Vortex com caso equivalente
 
 #### 024. Solicitação de atualização em lote / Batch Update Request
@@ -709,7 +709,7 @@
 
 - [ ] Paridade de interação principal da demo
 - [ ] API Signals documentada (`input`/`model`/`output`)
-- [ ] Tema Fluent Light + LDS sem regressão visual
+- [ ] Tema Fluent Light + Fluent Green sem regressão visual
 - [ ] Storybook / Widgets Gallery Vortex com caso equivalente
 
 #### 025. Editar gerenciamento de estado / Edit State Management
@@ -740,7 +740,7 @@
 
 - [ ] Paridade de interação principal da demo
 - [ ] API Signals documentada (`input`/`model`/`output`)
-- [ ] Tema Fluent Light + LDS sem regressão visual
+- [ ] Tema Fluent Light + Fluent Green sem regressão visual
 - [ ] Storybook / Widgets Gallery Vortex com caso equivalente
 
 #### 026. Nova posição recorde / New Record Position
@@ -771,7 +771,7 @@
 
 - [ ] Paridade de interação principal da demo
 - [ ] API Signals documentada (`input`/`model`/`output`)
-- [ ] Tema Fluent Light + LDS sem regressão visual
+- [ ] Tema Fluent Light + Fluent Green sem regressão visual
 - [ ] Storybook / Widgets Gallery Vortex com caso equivalente
 
 ### Agrupamento (Grouping)
@@ -803,7 +803,7 @@
 
 - [ ] Paridade de interação principal da demo
 - [ ] API Signals documentada (`input`/`model`/`output`)
-- [ ] Tema Fluent Light + LDS sem regressão visual
+- [ ] Tema Fluent Light + Fluent Green sem regressão visual
 - [ ] Storybook / Widgets Gallery Vortex com caso equivalente
 
 #### 028. Agrupamento remoto / Remote Grouping
@@ -831,7 +831,7 @@
 
 - [ ] Paridade de interação principal da demo
 - [ ] API Signals documentada (`input`/`model`/`output`)
-- [ ] Tema Fluent Light + LDS sem regressão visual
+- [ ] Tema Fluent Light + Fluent Green sem regressão visual
 - [ ] Storybook / Widgets Gallery Vortex com caso equivalente
 
 ### Seleção (Selection)
@@ -858,7 +858,7 @@
 
 - [ ] Paridade de interação principal da demo
 - [ ] API Signals documentada (`input`/`model`/`output`)
-- [ ] Tema Fluent Light + LDS sem regressão visual
+- [ ] Tema Fluent Light + Fluent Green sem regressão visual
 - [ ] Storybook / Widgets Gallery Vortex com caso equivalente
 
 #### 030. Seleção de múltiplos registros / Multiple Record Selection
@@ -887,7 +887,7 @@
 
 - [ ] Paridade de interação principal da demo
 - [ ] API Signals documentada (`input`/`model`/`output`)
-- [ ] Tema Fluent Light + LDS sem regressão visual
+- [ ] Tema Fluent Light + Fluent Green sem regressão visual
 - [ ] Storybook / Widgets Gallery Vortex com caso equivalente
 
 #### 031. API de seleção de múltiplos registros / Multiple Record Selection API
@@ -918,7 +918,7 @@
 
 - [ ] Paridade de interação principal da demo
 - [ ] API Signals documentada (`input`/`model`/`output`)
-- [ ] Tema Fluent Light + LDS sem regressão visual
+- [ ] Tema Fluent Light + Fluent Green sem regressão visual
 - [ ] Storybook / Widgets Gallery Vortex com caso equivalente
 
 #### 032. Seleção Diferida / Deferred Selection
@@ -944,7 +944,7 @@
 
 - [ ] Paridade de interação principal da demo
 - [ ] API Signals documentada (`input`/`model`/`output`)
-- [ ] Tema Fluent Light + LDS sem regressão visual
+- [ ] Tema Fluent Light + Fluent Green sem regressão visual
 - [ ] Storybook / Widgets Gallery Vortex com caso equivalente
 
 #### 033. Linha focada / Focused Row
@@ -973,7 +973,7 @@
 
 - [ ] Paridade de interação principal da demo
 - [ ] API Signals documentada (`input`/`model`/`output`)
-- [ ] Tema Fluent Light + LDS sem regressão visual
+- [ ] Tema Fluent Light + Fluent Green sem regressão visual
 - [ ] Storybook / Widgets Gallery Vortex com caso equivalente
 
 ### Chamada (Paging)
@@ -1007,7 +1007,7 @@
 
 - [ ] Paridade de interação principal da demo
 - [ ] API Signals documentada (`input`/`model`/`output`)
-- [ ] Tema Fluent Light + LDS sem regressão visual
+- [ ] Tema Fluent Light + Fluent Green sem regressão visual
 - [ ] Storybook / Widgets Gallery Vortex com caso equivalente
 
 ### Rolagem (Scrolling)
@@ -1033,7 +1033,7 @@
 
 - [ ] Paridade de interação principal da demo
 - [ ] API Signals documentada (`input`/`model`/`output`)
-- [ ] Tema Fluent Light + LDS sem regressão visual
+- [ ] Tema Fluent Light + Fluent Green sem regressão visual
 - [ ] Storybook / Widgets Gallery Vortex com caso equivalente
 
 #### 036. Rolagem virtual remota / Remote Virtual Scrolling
@@ -1060,7 +1060,7 @@
 
 - [ ] Paridade de interação principal da demo
 - [ ] API Signals documentada (`input`/`model`/`output`)
-- [ ] Tema Fluent Light + LDS sem regressão visual
+- [ ] Tema Fluent Light + Fluent Green sem regressão visual
 - [ ] Storybook / Widgets Gallery Vortex com caso equivalente
 
 #### 037. Rolagem virtual horizontal / Horizontal Virtual Scrolling
@@ -1084,7 +1084,7 @@
 
 - [ ] Paridade de interação principal da demo
 - [ ] API Signals documentada (`input`/`model`/`output`)
-- [ ] Tema Fluent Light + LDS sem regressão visual
+- [ ] Tema Fluent Light + Fluent Green sem regressão visual
 - [ ] Storybook / Widgets Gallery Vortex com caso equivalente
 
 #### 038. Rolagem infinita / Infinite Scrolling
@@ -1108,7 +1108,7 @@
 
 - [ ] Paridade de interação principal da demo
 - [ ] API Signals documentada (`input`/`model`/`output`)
-- [ ] Tema Fluent Light + LDS sem regressão visual
+- [ ] Tema Fluent Light + Fluent Green sem regressão visual
 - [ ] Storybook / Widgets Gallery Vortex com caso equivalente
 
 ### Colunas (Columns)
@@ -1135,7 +1135,7 @@
 
 - [ ] Paridade de interação principal da demo
 - [ ] API Signals documentada (`input`/`model`/`output`)
-- [ ] Tema Fluent Light + LDS sem regressão visual
+- [ ] Tema Fluent Light + Fluent Green sem regressão visual
 - [ ] Storybook / Widgets Gallery Vortex com caso equivalente
 
 #### 040. Cabeçalhos (bandas) de vários níveis / Multi-Level Headers (Bands)
@@ -1162,7 +1162,7 @@
 
 - [ ] Paridade de interação principal da demo
 - [ ] API Signals documentada (`input`/`model`/`output`)
-- [ ] Tema Fluent Light + LDS sem regressão visual
+- [ ] Tema Fluent Light + Fluent Green sem regressão visual
 - [ ] Storybook / Widgets Gallery Vortex com caso equivalente
 
 #### 041. Reordenação de colunas / Column Reordering
@@ -1192,7 +1192,7 @@
 
 - [ ] Paridade de interação principal da demo
 - [ ] API Signals documentada (`input`/`model`/`output`)
-- [ ] Tema Fluent Light + LDS sem regressão visual
+- [ ] Tema Fluent Light + Fluent Green sem regressão visual
 - [ ] Storybook / Widgets Gallery Vortex com caso equivalente
 
 #### 042. Redimensionamento de colunas / Column Resizing
@@ -1223,7 +1223,7 @@
 
 - [ ] Paridade de interação principal da demo
 - [ ] API Signals documentada (`input`/`model`/`output`)
-- [ ] Tema Fluent Light + LDS sem regressão visual
+- [ ] Tema Fluent Light + Fluent Green sem regressão visual
 - [ ] Storybook / Widgets Gallery Vortex com caso equivalente
 
 #### 043. Colunas fixas e adesivas / Fixed and Sticky Columns
@@ -1250,7 +1250,7 @@
 
 - [ ] Paridade de interação principal da demo
 - [ ] API Signals documentada (`input`/`model`/`output`)
-- [ ] Tema Fluent Light + LDS sem regressão visual
+- [ ] Tema Fluent Light + Fluent Green sem regressão visual
 - [ ] Storybook / Widgets Gallery Vortex com caso equivalente
 
 #### 044. Configuração da coluna de comando / Command Column Configuration
@@ -1283,7 +1283,7 @@
 
 - [ ] Paridade de interação principal da demo
 - [ ] API Signals documentada (`input`/`model`/`output`)
-- [ ] Tema Fluent Light + LDS sem regressão visual
+- [ ] Tema Fluent Light + Fluent Green sem regressão visual
 - [ ] Storybook / Widgets Gallery Vortex com caso equivalente
 
 #### 045. Seletor de colunas / Column Chooser
@@ -1313,7 +1313,7 @@
 
 - [ ] Paridade de interação principal da demo
 - [ ] API Signals documentada (`input`/`model`/`output`)
-- [ ] Tema Fluent Light + LDS sem regressão visual
+- [ ] Tema Fluent Light + Fluent Green sem regressão visual
 - [ ] Storybook / Widgets Gallery Vortex com caso equivalente
 
 #### 046. Colunas de IA / AI Columns · **AI**
@@ -1344,7 +1344,7 @@
 
 - [ ] Paridade de interação principal da demo
 - [ ] API Signals documentada (`input`/`model`/`output`)
-- [ ] Tema Fluent Light + LDS sem regressão visual
+- [ ] Tema Fluent Light + Fluent Green sem regressão visual
 - [ ] Storybook / Widgets Gallery Vortex com caso equivalente
 
 ### Assistente de IA (AI Assistant)
@@ -1384,7 +1384,7 @@
 
 - [ ] Paridade de interação principal da demo
 - [ ] API Signals documentada (`input`/`model`/`output`)
-- [ ] Tema Fluent Light + LDS sem regressão visual
+- [ ] Tema Fluent Light + Fluent Green sem regressão visual
 - [ ] Storybook / Widgets Gallery Vortex com caso equivalente
 
 ### Detalhe mestre (Master Detail)
@@ -1412,7 +1412,7 @@
 
 - [ ] Paridade de interação principal da demo
 - [ ] API Signals documentada (`input`/`model`/`output`)
-- [ ] Tema Fluent Light + LDS sem regressão visual
+- [ ] Tema Fluent Light + Fluent Green sem regressão visual
 - [ ] Storybook / Widgets Gallery Vortex com caso equivalente
 
 #### 049. API Mestre-Detalhe / Master-Detail API
@@ -1438,7 +1438,7 @@
 
 - [ ] Paridade de interação principal da demo
 - [ ] API Signals documentada (`input`/`model`/`output`)
-- [ ] Tema Fluent Light + LDS sem regressão visual
+- [ ] Tema Fluent Light + Fluent Green sem regressão visual
 - [ ] Storybook / Widgets Gallery Vortex com caso equivalente
 
 #### 050. Visão detalhada com inteligência artificial / AI-powered Detail View · **AI**
@@ -1462,7 +1462,7 @@
 
 - [ ] Paridade de interação principal da demo
 - [ ] API Signals documentada (`input`/`model`/`output`)
-- [ ] Tema Fluent Light + LDS sem regressão visual
+- [ ] Tema Fluent Light + Fluent Green sem regressão visual
 - [ ] Storybook / Widgets Gallery Vortex com caso equivalente
 
 #### 051. Vista mestre-detalhe avançada / Advanced Master-Detail View
@@ -1484,7 +1484,7 @@
 
 - [ ] Paridade de interação principal da demo
 - [ ] API Signals documentada (`input`/`model`/`output`)
-- [ ] Tema Fluent Light + LDS sem regressão visual
+- [ ] Tema Fluent Light + Fluent Green sem regressão visual
 - [ ] Storybook / Widgets Gallery Vortex com caso equivalente
 
 ### Resumos de dados (Data Summaries)
@@ -1515,7 +1515,7 @@
 
 - [ ] Paridade de interação principal da demo
 - [ ] API Signals documentada (`input`/`model`/`output`)
-- [ ] Tema Fluent Light + LDS sem regressão visual
+- [ ] Tema Fluent Light + Fluent Green sem regressão visual
 - [ ] Storybook / Widgets Gallery Vortex com caso equivalente
 
 #### 053. Resumos de grupo / Group Summaries
@@ -1546,7 +1546,7 @@
 
 - [ ] Paridade de interação principal da demo
 - [ ] API Signals documentada (`input`/`model`/`output`)
-- [ ] Tema Fluent Light + LDS sem regressão visual
+- [ ] Tema Fluent Light + Fluent Green sem regressão visual
 - [ ] Storybook / Widgets Gallery Vortex com caso equivalente
 
 #### 054. Resumos personalizados / Custom Summaries
@@ -1579,7 +1579,7 @@
 
 - [ ] Paridade de interação principal da demo
 - [ ] API Signals documentada (`input`/`model`/`output`)
-- [ ] Tema Fluent Light + LDS sem regressão visual
+- [ ] Tema Fluent Light + Fluent Green sem regressão visual
 - [ ] Storybook / Widgets Gallery Vortex com caso equivalente
 
 #### 055. Recalcular durante a edição / Recalculate While Editing
@@ -1603,7 +1603,7 @@
 
 - [ ] Paridade de interação principal da demo
 - [ ] API Signals documentada (`input`/`model`/`output`)
-- [ ] Tema Fluent Light + LDS sem regressão visual
+- [ ] Tema Fluent Light + Fluent Green sem regressão visual
 - [ ] Storybook / Widgets Gallery Vortex com caso equivalente
 
 ### Arrastar e soltar (Drag & Drop)
@@ -1631,7 +1631,7 @@
 
 - [ ] Paridade de interação principal da demo
 - [ ] API Signals documentada (`input`/`model`/`output`)
-- [ ] Tema Fluent Light + LDS sem regressão visual
+- [ ] Tema Fluent Light + Fluent Green sem regressão visual
 - [ ] Storybook / Widgets Gallery Vortex com caso equivalente
 
 #### 057. Reordenação remota / Remote Reordering
@@ -1659,7 +1659,7 @@
 
 - [ ] Paridade de interação principal da demo
 - [ ] API Signals documentada (`input`/`model`/`output`)
-- [ ] Tema Fluent Light + LDS sem regressão visual
+- [ ] Tema Fluent Light + Fluent Green sem regressão visual
 - [ ] Storybook / Widgets Gallery Vortex com caso equivalente
 
 #### 058. Arrastar e soltar entre duas grades / Drag & Drop Between Two Grids
@@ -1690,7 +1690,7 @@
 
 - [ ] Paridade de interação principal da demo
 - [ ] API Signals documentada (`input`/`model`/`output`)
-- [ ] Tema Fluent Light + LDS sem regressão visual
+- [ ] Tema Fluent Light + Fluent Green sem regressão visual
 - [ ] Storybook / Widgets Gallery Vortex com caso equivalente
 
 ### Exportar para PDF (Export to PDF)
@@ -1723,7 +1723,7 @@
 
 - [ ] Paridade de interação principal da demo
 - [ ] API Signals documentada (`input`/`model`/`output`)
-- [ ] Tema Fluent Light + LDS sem regressão visual
+- [ ] Tema Fluent Light + Fluent Green sem regressão visual
 - [ ] Storybook / Widgets Gallery Vortex com caso equivalente
 
 #### 060. Personalização de células / Cell Customization
@@ -1751,7 +1751,7 @@
 
 - [ ] Paridade de interação principal da demo
 - [ ] API Signals documentada (`input`/`model`/`output`)
-- [ ] Tema Fluent Light + LDS sem regressão visual
+- [ ] Tema Fluent Light + Fluent Green sem regressão visual
 - [ ] Storybook / Widgets Gallery Vortex com caso equivalente
 
 #### 061. Cabeçalho e rodapé / Header and Footer
@@ -1778,7 +1778,7 @@
 
 - [ ] Paridade de interação principal da demo
 - [ ] API Signals documentada (`input`/`model`/`output`)
-- [ ] Tema Fluent Light + LDS sem regressão visual
+- [ ] Tema Fluent Light + Fluent Green sem regressão visual
 - [ ] Storybook / Widgets Gallery Vortex com caso equivalente
 
 #### 062. Exportação de múltiplas grades / Multiple Grids Export
@@ -1804,7 +1804,7 @@
 
 - [ ] Paridade de interação principal da demo
 - [ ] API Signals documentada (`input`/`model`/`output`)
-- [ ] Tema Fluent Light + LDS sem regressão visual
+- [ ] Tema Fluent Light + Fluent Green sem regressão visual
 - [ ] Storybook / Widgets Gallery Vortex com caso equivalente
 
 #### 063. Exportar imagem / Image Export
@@ -1829,7 +1829,7 @@
 
 - [ ] Paridade de interação principal da demo
 - [ ] API Signals documentada (`input`/`model`/`output`)
-- [ ] Tema Fluent Light + LDS sem regressão visual
+- [ ] Tema Fluent Light + Fluent Green sem regressão visual
 - [ ] Storybook / Widgets Gallery Vortex com caso equivalente
 
 ### Exportar para o Excel (Export to Excel)
@@ -1858,7 +1858,7 @@
 
 - [ ] Paridade de interação principal da demo
 - [ ] API Signals documentada (`input`/`model`/`output`)
-- [ ] Tema Fluent Light + LDS sem regressão visual
+- [ ] Tema Fluent Light + Fluent Green sem regressão visual
 - [ ] Storybook / Widgets Gallery Vortex com caso equivalente
 
 #### 065. Personalização de células / Cell Customization
@@ -1884,7 +1884,7 @@
 
 - [ ] Paridade de interação principal da demo
 - [ ] API Signals documentada (`input`/`model`/`output`)
-- [ ] Tema Fluent Light + LDS sem regressão visual
+- [ ] Tema Fluent Light + Fluent Green sem regressão visual
 - [ ] Storybook / Widgets Gallery Vortex com caso equivalente
 
 #### 066. Cabeçalho e rodapé / Header and Footer
@@ -1908,7 +1908,7 @@
 
 - [ ] Paridade de interação principal da demo
 - [ ] API Signals documentada (`input`/`model`/`output`)
-- [ ] Tema Fluent Light + LDS sem regressão visual
+- [ ] Tema Fluent Light + Fluent Green sem regressão visual
 - [ ] Storybook / Widgets Gallery Vortex com caso equivalente
 
 #### 067. Exportação de múltiplas grades / Multiple Grids Export
@@ -1934,7 +1934,7 @@
 
 - [ ] Paridade de interação principal da demo
 - [ ] API Signals documentada (`input`/`model`/`output`)
-- [ ] Tema Fluent Light + LDS sem regressão visual
+- [ ] Tema Fluent Light + Fluent Green sem regressão visual
 - [ ] Storybook / Widgets Gallery Vortex com caso equivalente
 
 #### 068. Exportar imagem / Image Export
@@ -1958,7 +1958,7 @@
 
 - [ ] Paridade de interação principal da demo
 - [ ] API Signals documentada (`input`/`model`/`output`)
-- [ ] Tema Fluent Light + LDS sem regressão visual
+- [ ] Tema Fluent Light + Fluent Green sem regressão visual
 - [ ] Storybook / Widgets Gallery Vortex com caso equivalente
 
 ### Aparência (Appearance)
@@ -1987,7 +1987,7 @@
 
 - [ ] Paridade de interação principal da demo
 - [ ] API Signals documentada (`input`/`model`/`output`)
-- [ ] Tema Fluent Light + LDS sem regressão visual
+- [ ] Tema Fluent Light + Fluent Green sem regressão visual
 - [ ] Storybook / Widgets Gallery Vortex com caso equivalente
 
 ### Personalização (Customization)
@@ -2014,7 +2014,7 @@
 
 - [ ] Paridade de interação principal da demo
 - [ ] API Signals documentada (`input`/`model`/`output`)
-- [ ] Tema Fluent Light + LDS sem regressão visual
+- [ ] Tema Fluent Light + Fluent Green sem regressão visual
 - [ ] Storybook / Widgets Gallery Vortex com caso equivalente
 
 #### 071. Linha / Row
@@ -2039,7 +2039,7 @@
 
 - [ ] Paridade de interação principal da demo
 - [ ] API Signals documentada (`input`/`model`/`output`)
-- [ ] Tema Fluent Light + LDS sem regressão visual
+- [ ] Tema Fluent Light + Fluent Green sem regressão visual
 - [ ] Storybook / Widgets Gallery Vortex com caso equivalente
 
 #### 072. Célula / Cell
@@ -2061,7 +2061,7 @@
 
 - [ ] Paridade de interação principal da demo
 - [ ] API Signals documentada (`input`/`model`/`output`)
-- [ ] Tema Fluent Light + LDS sem regressão visual
+- [ ] Tema Fluent Light + Fluent Green sem regressão visual
 - [ ] Storybook / Widgets Gallery Vortex com caso equivalente
 
 #### 073. Barra de ferramentas / Toolbar
@@ -2090,7 +2090,7 @@
 
 - [ ] Paridade de interação principal da demo
 - [ ] API Signals documentada (`input`/`model`/`output`)
-- [ ] Tema Fluent Light + LDS sem regressão visual
+- [ ] Tema Fluent Light + Fluent Green sem regressão visual
 - [ ] Storybook / Widgets Gallery Vortex com caso equivalente
 
 ### Persistência do Estado (State Persistence)
@@ -2121,7 +2121,7 @@
 
 - [ ] Paridade de interação principal da demo
 - [ ] API Signals documentada (`input`/`model`/`output`)
-- [ ] Tema Fluent Light + LDS sem regressão visual
+- [ ] Tema Fluent Light + Fluent Green sem regressão visual
 - [ ] Storybook / Widgets Gallery Vortex com caso equivalente
 
 ### Adaptabilidade (Adaptability)
@@ -2147,7 +2147,7 @@
 
 - [ ] Paridade de interação principal da demo
 - [ ] API Signals documentada (`input`/`model`/`output`)
-- [ ] Tema Fluent Light + LDS sem regressão visual
+- [ ] Tema Fluent Light + Fluent Green sem regressão visual
 - [ ] Storybook / Widgets Gallery Vortex com caso equivalente
 
 #### 076. Colunas Ocultando Prioridade / Columns Hiding Priority
@@ -2171,7 +2171,7 @@
 
 - [ ] Paridade de interação principal da demo
 - [ ] API Signals documentada (`input`/`model`/`output`)
-- [ ] Tema Fluent Light + LDS sem regressão visual
+- [ ] Tema Fluent Light + Fluent Green sem regressão visual
 - [ ] Storybook / Widgets Gallery Vortex com caso equivalente
 
 ### Navegação por teclado (Keyboard Navigation)
@@ -2197,7 +2197,7 @@
 
 - [ ] Paridade de interação principal da demo
 - [ ] API Signals documentada (`input`/`model`/`output`)
-- [ ] Tema Fluent Light + LDS sem regressão visual
+- [ ] Tema Fluent Light + Fluent Green sem regressão visual
 - [ ] Storybook / Widgets Gallery Vortex com caso equivalente
 
 #### 078. Personalizar a navegação do teclado / Customize Keyboard Navigation
@@ -2223,7 +2223,7 @@
 
 - [ ] Paridade de interação principal da demo
 - [ ] API Signals documentada (`input`/`model`/`output`)
-- [ ] Tema Fluent Light + LDS sem regressão visual
+- [ ] Tema Fluent Light + Fluent Green sem regressão visual
 - [ ] Storybook / Widgets Gallery Vortex com caso equivalente
 
 ### Suporte da direita para a esquerda (Right-To-Left Support)
@@ -2252,7 +2252,7 @@
 
 - [ ] Paridade de interação principal da demo
 - [ ] API Signals documentada (`input`/`model`/`output`)
-- [ ] Tema Fluent Light + LDS sem regressão visual
+- [ ] Tema Fluent Light + Fluent Green sem regressão visual
 - [ ] Storybook / Widgets Gallery Vortex com caso equivalente
 
 ## Lista de árvores (`TreeList` / Tree List)
@@ -2280,7 +2280,7 @@
 
 - [ ] Paridade de interação principal da demo
 - [ ] API Signals documentada (`input`/`model`/`output`)
-- [ ] Tema Fluent Light + LDS sem regressão visual
+- [ ] Tema Fluent Light + Fluent Green sem regressão visual
 - [ ] Storybook / Widgets Gallery Vortex com caso equivalente
 
 ### Vinculação de dados (Data Binding)
@@ -2310,7 +2310,7 @@
 
 - [ ] Paridade de interação principal da demo
 - [ ] API Signals documentada (`input`/`model`/`output`)
-- [ ] Tema Fluent Light + LDS sem regressão visual
+- [ ] Tema Fluent Light + Fluent Green sem regressão visual
 - [ ] Storybook / Widgets Gallery Vortex com caso equivalente
 
 #### 082. Matriz simples: Estrutura hierárquica / Simple Array: Hierarchical Structure
@@ -2337,7 +2337,7 @@
 
 - [ ] Paridade de interação principal da demo
 - [ ] API Signals documentada (`input`/`model`/`output`)
-- [ ] Tema Fluent Light + LDS sem regressão visual
+- [ ] Tema Fluent Light + Fluent Green sem regressão visual
 - [ ] Storybook / Widgets Gallery Vortex com caso equivalente
 
 #### 083. Carregar dados sob demanda / Load Data on Demand
@@ -2365,7 +2365,7 @@
 
 - [ ] Paridade de interação principal da demo
 - [ ] API Signals documentada (`input`/`model`/`output`)
-- [ ] Tema Fluent Light + LDS sem regressão visual
+- [ ] Tema Fluent Light + Fluent Green sem regressão visual
 - [ ] Storybook / Widgets Gallery Vortex com caso equivalente
 
 #### 084. Serviço de API Web / Web API Service
@@ -2389,7 +2389,7 @@
 
 - [ ] Paridade de interação principal da demo
 - [ ] API Signals documentada (`input`/`model`/`output`)
-- [ ] Tema Fluent Light + LDS sem regressão visual
+- [ ] Tema Fluent Light + Fluent Green sem regressão visual
 - [ ] Storybook / Widgets Gallery Vortex com caso equivalente
 
 ### Filtragem (Filtering)
@@ -2421,7 +2421,7 @@
 
 - [ ] Paridade de interação principal da demo
 - [ ] API Signals documentada (`input`/`model`/`output`)
-- [ ] Tema Fluent Light + LDS sem regressão visual
+- [ ] Tema Fluent Light + Fluent Green sem regressão visual
 - [ ] Storybook / Widgets Gallery Vortex com caso equivalente
 
 #### 086. Linha de filtro / Filter Row
@@ -2450,7 +2450,7 @@
 
 - [ ] Paridade de interação principal da demo
 - [ ] API Signals documentada (`input`/`model`/`output`)
-- [ ] Tema Fluent Light + LDS sem regressão visual
+- [ ] Tema Fluent Light + Fluent Green sem regressão visual
 - [ ] Storybook / Widgets Gallery Vortex com caso equivalente
 
 #### 087. Filtro de cabeçalho de coluna / Column Header Filter
@@ -2481,7 +2481,7 @@
 
 - [ ] Paridade de interação principal da demo
 - [ ] API Signals documentada (`input`/`model`/`output`)
-- [ ] Tema Fluent Light + LDS sem regressão visual
+- [ ] Tema Fluent Light + Fluent Green sem regressão visual
 - [ ] Storybook / Widgets Gallery Vortex com caso equivalente
 
 #### 088. Painel de filtro / Filter Panel
@@ -2512,7 +2512,7 @@
 
 - [ ] Paridade de interação principal da demo
 - [ ] API Signals documentada (`input`/`model`/`output`)
-- [ ] Tema Fluent Light + LDS sem regressão visual
+- [ ] Tema Fluent Light + Fluent Green sem regressão visual
 - [ ] Storybook / Widgets Gallery Vortex com caso equivalente
 
 #### 089. Modos de filtro / Filter Modes
@@ -2536,7 +2536,7 @@
 
 - [ ] Paridade de interação principal da demo
 - [ ] API Signals documentada (`input`/`model`/`output`)
-- [ ] Tema Fluent Light + LDS sem regressão visual
+- [ ] Tema Fluent Light + Fluent Green sem regressão visual
 - [ ] Storybook / Widgets Gallery Vortex com caso equivalente
 
 ### Classificação (Sorting)
@@ -2565,7 +2565,7 @@
 
 - [ ] Paridade de interação principal da demo
 - [ ] API Signals documentada (`input`/`model`/`output`)
-- [ ] Tema Fluent Light + LDS sem regressão visual
+- [ ] Tema Fluent Light + Fluent Green sem regressão visual
 - [ ] Storybook / Widgets Gallery Vortex com caso equivalente
 
 ### Edição (Editing)
@@ -2601,7 +2601,7 @@
 
 - [ ] Paridade de interação principal da demo
 - [ ] API Signals documentada (`input`/`model`/`output`)
-- [ ] Tema Fluent Light + LDS sem regressão visual
+- [ ] Tema Fluent Light + Fluent Green sem regressão visual
 - [ ] Storybook / Widgets Gallery Vortex com caso equivalente
 
 #### 092. Edição de células / Cell Editing
@@ -2630,7 +2630,7 @@
 
 - [ ] Paridade de interação principal da demo
 - [ ] API Signals documentada (`input`/`model`/`output`)
-- [ ] Tema Fluent Light + LDS sem regressão visual
+- [ ] Tema Fluent Light + Fluent Green sem regressão visual
 - [ ] Storybook / Widgets Gallery Vortex com caso equivalente
 
 #### 093. Edição em lote / Batch Editing
@@ -2659,7 +2659,7 @@
 
 - [ ] Paridade de interação principal da demo
 - [ ] API Signals documentada (`input`/`model`/`output`)
-- [ ] Tema Fluent Light + LDS sem regressão visual
+- [ ] Tema Fluent Light + Fluent Green sem regressão visual
 - [ ] Storybook / Widgets Gallery Vortex com caso equivalente
 
 #### 094. Edição de formulários / Form Editing
@@ -2692,7 +2692,7 @@
 
 - [ ] Paridade de interação principal da demo
 - [ ] API Signals documentada (`input`/`model`/`output`)
-- [ ] Tema Fluent Light + LDS sem regressão visual
+- [ ] Tema Fluent Light + Fluent Green sem regressão visual
 - [ ] Storybook / Widgets Gallery Vortex com caso equivalente
 
 #### 095. Edição Popup / Popup Editing
@@ -2723,7 +2723,7 @@
 
 - [ ] Paridade de interação principal da demo
 - [ ] API Signals documentada (`input`/`model`/`output`)
-- [ ] Tema Fluent Light + LDS sem regressão visual
+- [ ] Tema Fluent Light + Fluent Green sem regressão visual
 - [ ] Storybook / Widgets Gallery Vortex com caso equivalente
 
 ### Seleção (Selection)
@@ -2749,7 +2749,7 @@
 
 - [ ] Paridade de interação principal da demo
 - [ ] API Signals documentada (`input`/`model`/`output`)
-- [ ] Tema Fluent Light + LDS sem regressão visual
+- [ ] Tema Fluent Light + Fluent Green sem regressão visual
 - [ ] Storybook / Widgets Gallery Vortex com caso equivalente
 
 #### 097. Seleção de múltiplas linhas / Multiple Row Selection
@@ -2777,7 +2777,7 @@
 
 - [ ] Paridade de interação principal da demo
 - [ ] API Signals documentada (`input`/`model`/`output`)
-- [ ] Tema Fluent Light + LDS sem regressão visual
+- [ ] Tema Fluent Light + Fluent Green sem regressão visual
 - [ ] Storybook / Widgets Gallery Vortex com caso equivalente
 
 #### 098. Linha focada / Focused Row
@@ -2806,7 +2806,7 @@
 
 - [ ] Paridade de interação principal da demo
 - [ ] API Signals documentada (`input`/`model`/`output`)
-- [ ] Tema Fluent Light + LDS sem regressão visual
+- [ ] Tema Fluent Light + Fluent Green sem regressão visual
 - [ ] Storybook / Widgets Gallery Vortex com caso equivalente
 
 ### Chamada (Paging)
@@ -2834,7 +2834,7 @@
 
 - [ ] Paridade de interação principal da demo
 - [ ] API Signals documentada (`input`/`model`/`output`)
-- [ ] Tema Fluent Light + LDS sem regressão visual
+- [ ] Tema Fluent Light + Fluent Green sem regressão visual
 - [ ] Storybook / Widgets Gallery Vortex com caso equivalente
 
 ### Colunas (Columns)
@@ -2866,7 +2866,7 @@
 
 - [ ] Paridade de interação principal da demo
 - [ ] API Signals documentada (`input`/`model`/`output`)
-- [ ] Tema Fluent Light + LDS sem regressão visual
+- [ ] Tema Fluent Light + Fluent Green sem regressão visual
 - [ ] Storybook / Widgets Gallery Vortex com caso equivalente
 
 #### 101. Redimensionamento de colunas / Column Resizing
@@ -2897,7 +2897,7 @@
 
 - [ ] Paridade de interação principal da demo
 - [ ] API Signals documentada (`input`/`model`/`output`)
-- [ ] Tema Fluent Light + LDS sem regressão visual
+- [ ] Tema Fluent Light + Fluent Green sem regressão visual
 - [ ] Storybook / Widgets Gallery Vortex com caso equivalente
 
 #### 102. Colunas fixas e adesivas / Fixed and Sticky Columns
@@ -2925,7 +2925,7 @@
 
 - [ ] Paridade de interação principal da demo
 - [ ] API Signals documentada (`input`/`model`/`output`)
-- [ ] Tema Fluent Light + LDS sem regressão visual
+- [ ] Tema Fluent Light + Fluent Green sem regressão visual
 - [ ] Storybook / Widgets Gallery Vortex com caso equivalente
 
 #### 103. Seletor de colunas / Column Chooser
@@ -2954,7 +2954,7 @@
 
 - [ ] Paridade de interação principal da demo
 - [ ] API Signals documentada (`input`/`model`/`output`)
-- [ ] Tema Fluent Light + LDS sem regressão visual
+- [ ] Tema Fluent Light + Fluent Green sem regressão visual
 - [ ] Storybook / Widgets Gallery Vortex com caso equivalente
 
 #### 104. Colunas de IA / AI Columns · **AI**
@@ -2985,7 +2985,7 @@
 
 - [ ] Paridade de interação principal da demo
 - [ ] API Signals documentada (`input`/`model`/`output`)
-- [ ] Tema Fluent Light + LDS sem regressão visual
+- [ ] Tema Fluent Light + Fluent Green sem regressão visual
 - [ ] Storybook / Widgets Gallery Vortex com caso equivalente
 
 ### Arrastar e soltar (Drag & Drop)
@@ -3016,7 +3016,7 @@
 
 - [ ] Paridade de interação principal da demo
 - [ ] API Signals documentada (`input`/`model`/`output`)
-- [ ] Tema Fluent Light + LDS sem regressão visual
+- [ ] Tema Fluent Light + Fluent Green sem regressão visual
 - [ ] Storybook / Widgets Gallery Vortex com caso equivalente
 
 ### Persistência do Estado (State Persistence)
@@ -3047,7 +3047,7 @@
 
 - [ ] Paridade de interação principal da demo
 - [ ] API Signals documentada (`input`/`model`/`output`)
-- [ ] Tema Fluent Light + LDS sem regressão visual
+- [ ] Tema Fluent Light + Fluent Green sem regressão visual
 - [ ] Storybook / Widgets Gallery Vortex com caso equivalente
 
 ### Adaptabilidade (Adaptability)
@@ -3074,7 +3074,7 @@
 
 - [ ] Paridade de interação principal da demo
 - [ ] API Signals documentada (`input`/`model`/`output`)
-- [ ] Tema Fluent Light + LDS sem regressão visual
+- [ ] Tema Fluent Light + Fluent Green sem regressão visual
 - [ ] Storybook / Widgets Gallery Vortex com caso equivalente
 
 ### Navegação por teclado (Keyboard Navigation)
@@ -3100,7 +3100,7 @@
 
 - [ ] Paridade de interação principal da demo
 - [ ] API Signals documentada (`input`/`model`/`output`)
-- [ ] Tema Fluent Light + LDS sem regressão visual
+- [ ] Tema Fluent Light + Fluent Green sem regressão visual
 - [ ] Storybook / Widgets Gallery Vortex com caso equivalente
 
 #### 109. Personalizar a navegação do teclado / Customize Keyboard Navigation
@@ -3126,7 +3126,7 @@
 
 - [ ] Paridade de interação principal da demo
 - [ ] API Signals documentada (`input`/`model`/`output`)
-- [ ] Tema Fluent Light + LDS sem regressão visual
+- [ ] Tema Fluent Light + Fluent Green sem regressão visual
 - [ ] Storybook / Widgets Gallery Vortex com caso equivalente
 
 ## Visualização do cartão (`CardView` / Card View)
@@ -3156,7 +3156,7 @@
 
 - [ ] Paridade de interação principal da demo
 - [ ] API Signals documentada (`input`/`model`/`output`)
-- [ ] Tema Fluent Light + LDS sem regressão visual
+- [ ] Tema Fluent Light + Fluent Green sem regressão visual
 - [ ] Storybook / Widgets Gallery Vortex com caso equivalente
 
 ### Vinculação de dados (Data Binding)
@@ -3184,7 +3184,7 @@
 
 - [ ] Paridade de interação principal da demo
 - [ ] API Signals documentada (`input`/`model`/`output`)
-- [ ] Tema Fluent Light + LDS sem regressão visual
+- [ ] Tema Fluent Light + Fluent Green sem regressão visual
 - [ ] Storybook / Widgets Gallery Vortex com caso equivalente
 
 #### 112. Serviço de API Web / Web API Service
@@ -3208,7 +3208,7 @@
 
 - [ ] Paridade de interação principal da demo
 - [ ] API Signals documentada (`input`/`model`/`output`)
-- [ ] Tema Fluent Light + LDS sem regressão visual
+- [ ] Tema Fluent Light + Fluent Green sem regressão visual
 - [ ] Storybook / Widgets Gallery Vortex com caso equivalente
 
 ### Filtragem (Filtering)
@@ -3239,7 +3239,7 @@
 
 - [ ] Paridade de interação principal da demo
 - [ ] API Signals documentada (`input`/`model`/`output`)
-- [ ] Tema Fluent Light + LDS sem regressão visual
+- [ ] Tema Fluent Light + Fluent Green sem regressão visual
 - [ ] Storybook / Widgets Gallery Vortex com caso equivalente
 
 #### 114. Painel de filtro / Filter Panel
@@ -3270,7 +3270,7 @@
 
 - [ ] Paridade de interação principal da demo
 - [ ] API Signals documentada (`input`/`model`/`output`)
-- [ ] Tema Fluent Light + LDS sem regressão visual
+- [ ] Tema Fluent Light + Fluent Green sem regressão visual
 - [ ] Storybook / Widgets Gallery Vortex com caso equivalente
 
 #### 115. Painel de pesquisa / Search Panel
@@ -3300,7 +3300,7 @@
 
 - [ ] Paridade de interação principal da demo
 - [ ] API Signals documentada (`input`/`model`/`output`)
-- [ ] Tema Fluent Light + LDS sem regressão visual
+- [ ] Tema Fluent Light + Fluent Green sem regressão visual
 - [ ] Storybook / Widgets Gallery Vortex com caso equivalente
 
 ### Classificação (Sorting)
@@ -3329,7 +3329,7 @@
 
 - [ ] Paridade de interação principal da demo
 - [ ] API Signals documentada (`input`/`model`/`output`)
-- [ ] Tema Fluent Light + LDS sem regressão visual
+- [ ] Tema Fluent Light + Fluent Green sem regressão visual
 - [ ] Storybook / Widgets Gallery Vortex com caso equivalente
 
 ### Edição (Editing)
@@ -3362,7 +3362,7 @@
 
 - [ ] Paridade de interação principal da demo
 - [ ] API Signals documentada (`input`/`model`/`output`)
-- [ ] Tema Fluent Light + LDS sem regressão visual
+- [ ] Tema Fluent Light + Fluent Green sem regressão visual
 - [ ] Storybook / Widgets Gallery Vortex com caso equivalente
 
 #### 118. Validação de dados / Data Validation
@@ -3391,7 +3391,7 @@
 
 - [ ] Paridade de interação principal da demo
 - [ ] API Signals documentada (`input`/`model`/`output`)
-- [ ] Tema Fluent Light + LDS sem regressão visual
+- [ ] Tema Fluent Light + Fluent Green sem regressão visual
 - [ ] Storybook / Widgets Gallery Vortex com caso equivalente
 
 ### Seleção (Selection)
@@ -3421,7 +3421,7 @@
 
 - [ ] Paridade de interação principal da demo
 - [ ] API Signals documentada (`input`/`model`/`output`)
-- [ ] Tema Fluent Light + LDS sem regressão visual
+- [ ] Tema Fluent Light + Fluent Green sem regressão visual
 - [ ] Storybook / Widgets Gallery Vortex com caso equivalente
 
 ### Colunas (Columns)
@@ -3451,7 +3451,7 @@
 
 - [ ] Paridade de interação principal da demo
 - [ ] API Signals documentada (`input`/`model`/`output`)
-- [ ] Tema Fluent Light + LDS sem regressão visual
+- [ ] Tema Fluent Light + Fluent Green sem regressão visual
 - [ ] Storybook / Widgets Gallery Vortex com caso equivalente
 
 #### 121. Seletor de colunas / Column Chooser
@@ -3480,7 +3480,7 @@
 
 - [ ] Paridade de interação principal da demo
 - [ ] API Signals documentada (`input`/`model`/`output`)
-- [ ] Tema Fluent Light + LDS sem regressão visual
+- [ ] Tema Fluent Light + Fluent Green sem regressão visual
 - [ ] Storybook / Widgets Gallery Vortex com caso equivalente
 
 ### Personalização (Customization)
@@ -3506,7 +3506,7 @@
 
 - [ ] Paridade de interação principal da demo
 - [ ] API Signals documentada (`input`/`model`/`output`)
-- [ ] Tema Fluent Light + LDS sem regressão visual
+- [ ] Tema Fluent Light + Fluent Green sem regressão visual
 - [ ] Storybook / Widgets Gallery Vortex com caso equivalente
 
 #### 123. Modelo de campo / Field Template
@@ -3531,7 +3531,7 @@
 
 - [ ] Paridade de interação principal da demo
 - [ ] API Signals documentada (`input`/`model`/`output`)
-- [ ] Tema Fluent Light + LDS sem regressão visual
+- [ ] Tema Fluent Light + Fluent Green sem regressão visual
 - [ ] Storybook / Widgets Gallery Vortex com caso equivalente
 
 ## Grade Pivô (`PivotGrid` / Pivot Grid)
@@ -3559,7 +3559,7 @@
 
 - [ ] Paridade de interação principal da demo
 - [ ] API Signals documentada (`input`/`model`/`output`)
-- [ ] Tema Fluent Light + LDS sem regressão visual
+- [ ] Tema Fluent Light + Fluent Green sem regressão visual
 - [ ] Storybook / Widgets Gallery Vortex com caso equivalente
 
 ### Vinculação de dados (Data Binding)
@@ -3592,7 +3592,7 @@
 
 - [ ] Paridade de interação principal da demo
 - [ ] API Signals documentada (`input`/`model`/`output`)
-- [ ] Tema Fluent Light + LDS sem regressão visual
+- [ ] Tema Fluent Light + Fluent Green sem regressão visual
 - [ ] Storybook / Widgets Gallery Vortex com caso equivalente
 
 #### 126. Fonte de dados OLAP / OLAP Data Source
@@ -3623,7 +3623,7 @@
 
 - [ ] Paridade de interação principal da demo
 - [ ] API Signals documentada (`input`/`model`/`output`)
-- [ ] Tema Fluent Light + LDS sem regressão visual
+- [ ] Tema Fluent Light + Fluent Green sem regressão visual
 - [ ] Storybook / Widgets Gallery Vortex com caso equivalente
 
 #### 127. Serviço de API Web / Web API Service
@@ -3647,7 +3647,7 @@
 
 - [ ] Paridade de interação principal da demo
 - [ ] API Signals documentada (`input`/`model`/`output`)
-- [ ] Tema Fluent Light + LDS sem regressão visual
+- [ ] Tema Fluent Light + Fluent Green sem regressão visual
 - [ ] Storybook / Widgets Gallery Vortex com caso equivalente
 
 ### Gestão de Campo (Field Management)
@@ -3680,7 +3680,7 @@
 
 - [ ] Paridade de interação principal da demo
 - [ ] API Signals documentada (`input`/`model`/`output`)
-- [ ] Tema Fluent Light + LDS sem regressão visual
+- [ ] Tema Fluent Light + Fluent Green sem regressão visual
 - [ ] Storybook / Widgets Gallery Vortex com caso equivalente
 
 #### 129. Seletor de Campo Independente / Standalone Field Chooser
@@ -3711,7 +3711,7 @@
 
 - [ ] Paridade de interação principal da demo
 - [ ] API Signals documentada (`input`/`model`/`output`)
-- [ ] Tema Fluent Light + LDS sem regressão visual
+- [ ] Tema Fluent Light + Fluent Green sem regressão visual
 - [ ] Storybook / Widgets Gallery Vortex com caso equivalente
 
 #### 130. Painel de Campo / Field Panel
@@ -3742,7 +3742,7 @@
 
 - [ ] Paridade de interação principal da demo
 - [ ] API Signals documentada (`input`/`model`/`output`)
-- [ ] Tema Fluent Light + LDS sem regressão visual
+- [ ] Tema Fluent Light + Fluent Green sem regressão visual
 - [ ] Storybook / Widgets Gallery Vortex com caso equivalente
 
 ### Resumos de dados (Data Summaries)
@@ -3770,7 +3770,7 @@
 
 - [ ] Paridade de interação principal da demo
 - [ ] API Signals documentada (`input`/`model`/`output`)
-- [ ] Tema Fluent Light + LDS sem regressão visual
+- [ ] Tema Fluent Light + Fluent Green sem regressão visual
 - [ ] Storybook / Widgets Gallery Vortex com caso equivalente
 
 #### 132. Modos de exibição resumidos / Summary Display Modes
@@ -3798,7 +3798,7 @@
 
 - [ ] Paridade de interação principal da demo
 - [ ] API Signals documentada (`input`/`model`/`output`)
-- [ ] Tema Fluent Light + LDS sem regressão visual
+- [ ] Tema Fluent Light + Fluent Green sem regressão visual
 - [ ] Storybook / Widgets Gallery Vortex com caso equivalente
 
 ### Detalhes (Drill Down)
@@ -3828,7 +3828,7 @@
 
 - [ ] Paridade de interação principal da demo
 - [ ] API Signals documentada (`input`/`model`/`output`)
-- [ ] Tema Fluent Light + LDS sem regressão visual
+- [ ] Tema Fluent Light + Fluent Green sem regressão visual
 - [ ] Storybook / Widgets Gallery Vortex com caso equivalente
 
 ### Filtragem (Filtering)
@@ -3860,7 +3860,7 @@
 
 - [ ] Paridade de interação principal da demo
 - [ ] API Signals documentada (`input`/`model`/`output`)
-- [ ] Tema Fluent Light + LDS sem regressão visual
+- [ ] Tema Fluent Light + Fluent Green sem regressão visual
 - [ ] Storybook / Widgets Gallery Vortex com caso equivalente
 
 ### Rolagem (Scrolling)
@@ -3886,7 +3886,7 @@
 
 - [ ] Paridade de interação principal da demo
 - [ ] API Signals documentada (`input`/`model`/`output`)
-- [ ] Tema Fluent Light + LDS sem regressão visual
+- [ ] Tema Fluent Light + Fluent Green sem regressão visual
 - [ ] Storybook / Widgets Gallery Vortex com caso equivalente
 
 #### 136. Rolagem virtual remota / Remote Virtual Scrolling
@@ -3911,7 +3911,7 @@
 
 - [ ] Paridade de interação principal da demo
 - [ ] API Signals documentada (`input`/`model`/`output`)
-- [ ] Tema Fluent Light + LDS sem regressão visual
+- [ ] Tema Fluent Light + Fluent Green sem regressão visual
 - [ ] Storybook / Widgets Gallery Vortex com caso equivalente
 
 ### Exportar para o Excel (Export to Excel)
@@ -3939,7 +3939,7 @@
 
 - [ ] Paridade de interação principal da demo
 - [ ] API Signals documentada (`input`/`model`/`output`)
-- [ ] Tema Fluent Light + LDS sem regressão visual
+- [ ] Tema Fluent Light + Fluent Green sem regressão visual
 - [ ] Storybook / Widgets Gallery Vortex com caso equivalente
 
 #### 138. Personalização de células / Cell Customization
@@ -3963,7 +3963,7 @@
 
 - [ ] Paridade de interação principal da demo
 - [ ] API Signals documentada (`input`/`model`/`output`)
-- [ ] Tema Fluent Light + LDS sem regressão visual
+- [ ] Tema Fluent Light + Fluent Green sem regressão visual
 - [ ] Storybook / Widgets Gallery Vortex com caso equivalente
 
 #### 139. Cabeçalho e rodapé / Header and Footer
@@ -3996,7 +3996,7 @@
 
 - [ ] Paridade de interação principal da demo
 - [ ] API Signals documentada (`input`/`model`/`output`)
-- [ ] Tema Fluent Light + LDS sem regressão visual
+- [ ] Tema Fluent Light + Fluent Green sem regressão visual
 - [ ] Storybook / Widgets Gallery Vortex com caso equivalente
 
 ### Integração de gráficos (Chart Integration)
@@ -4032,7 +4032,7 @@
 
 - [ ] Paridade de interação principal da demo
 - [ ] API Signals documentada (`input`/`model`/`output`)
-- [ ] Tema Fluent Light + LDS sem regressão visual
+- [ ] Tema Fluent Light + Fluent Green sem regressão visual
 - [ ] Storybook / Widgets Gallery Vortex com caso equivalente
 
 ### Personalização (Customization)
@@ -4062,7 +4062,7 @@
 
 - [ ] Paridade de interação principal da demo
 - [ ] API Signals documentada (`input`/`model`/`output`)
-- [ ] Tema Fluent Light + LDS sem regressão visual
+- [ ] Tema Fluent Light + Fluent Green sem regressão visual
 - [ ] Storybook / Widgets Gallery Vortex com caso equivalente
 
 ### Persistência do Estado (State Persistence)
@@ -4093,7 +4093,7 @@
 
 - [ ] Paridade de interação principal da demo
 - [ ] API Signals documentada (`input`/`model`/`output`)
-- [ ] Tema Fluent Light + LDS sem regressão visual
+- [ ] Tema Fluent Light + Fluent Green sem regressão visual
 - [ ] Storybook / Widgets Gallery Vortex com caso equivalente
 
 ## Construtor de filtros (`FilterBuilder` / Filter Builder)
@@ -4119,7 +4119,7 @@
 
 - [ ] Paridade de interação principal da demo
 - [ ] API Signals documentada (`input`/`model`/`output`)
-- [ ] Tema Fluent Light + LDS sem regressão visual
+- [ ] Tema Fluent Light + Fluent Green sem regressão visual
 - [ ] Storybook / Widgets Gallery Vortex com caso equivalente
 
 #### 144. Com lista / With List
@@ -4143,7 +4143,7 @@
 
 - [ ] Paridade de interação principal da demo
 - [ ] API Signals documentada (`input`/`model`/`output`)
-- [ ] Tema Fluent Light + LDS sem regressão visual
+- [ ] Tema Fluent Light + Fluent Green sem regressão visual
 - [ ] Storybook / Widgets Gallery Vortex com caso equivalente
 
 #### 145. Personalização / Customization
@@ -4169,7 +4169,7 @@
 
 - [ ] Paridade de interação principal da demo
 - [ ] API Signals documentada (`input`/`model`/`output`)
-- [ ] Tema Fluent Light + LDS sem regressão visual
+- [ ] Tema Fluent Light + Fluent Green sem regressão visual
 - [ ] Storybook / Widgets Gallery Vortex com caso equivalente
 
 ## 3. Próximos passos recomendados para a IA

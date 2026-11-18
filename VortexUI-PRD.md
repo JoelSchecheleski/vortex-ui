@@ -19,7 +19,7 @@
 - Entrada: [`PRD-DATA-MANAGEMENT.md`](docs/research/devextreme-data-management/PRD-DATA-MANAGEMENT.md) · [`README.md`](docs/research/devextreme-data-management/README.md)  
 
 **Design system interno (tema #2):**  
-- `design/Guidelines-LDS.md` — LDS Figma Make Themes (LDS GF Theme); fonte de verdade do tema **LDS**  
+- `design/Guidelines-Fluent-Green.md` — Fluent Green Themes (Fluent Green (ex-LDS GF) Theme); fonte de verdade do tema **Fluent Green**  
 - `design/brand/` — marca VortexUI (mark + lockup SVG)  
 
 ---
@@ -48,7 +48,7 @@ VortexUI **não** embute nem redistribui o runtime proprietário DevExtreme. Em 
 
 - 100% Standalone + Signals (`input` / `model` / `output` / `resource`)
 - Zoneless-first + `OnPush`
-- Design Tokens (`data-vx-theme`) — Fluent Light + LDS agora; ThemeBuilder Vortex depois
+- Design Tokens (`data-vx-theme`) — Fluent Light + Fluent Green agora; ThemeBuilder Vortex depois
 - **AI-native** em toda a suite (opt-in, Command Bus, sem vendor lock de LLM)
 - Bundle tree-shakeable por secondary entries (`vortex-ui/grid`, `vortex-ui/charts`, `vortex-ui/ai`, …)
 - Licença pretendida **MIT** (a confirmar) — adoção open / enterprise sem trial comercial DX
@@ -64,7 +64,7 @@ VortexUI **não** embute nem redistribui o runtime proprietário DevExtreme. Em 
 - DataGrid de altíssima performance + Theme Lab / Widgets Gallery  
 - File Manager + AI Bridge  
 - Catálogo vivo alinhado a [DevExtreme Angular](https://js.devexpress.com/Angular/)  
-- Temas: **Fluent Light (default)** · **LDS** · expansão ThemeBuilder nas fases Super  
+- Temas: **Fluent Light (default)** · **Fluent Green** · expansão ThemeBuilder nas fases Super  
 
 ---
 
@@ -83,7 +83,7 @@ VortexUI **não** embute nem redistribui o runtime proprietário DevExtreme. Em 
 | Styling | CSS + Design Tokens (sem Tailwind no core) |
 | Tema default | **Fluent Blue Light** (`fluent-blue-light`, alias `fluent`) — ThemeBuilder 26.1.6 |
 | Temas Fluent | `fluent-blue-light` · `fluent-blue-dark` · `fluent-saas-light` · `fluent-saas-dark` |
-| Tema LDS | **LDS** (`lds`) — `design/Guidelines-LDS.md` |
+| Tema Fluent Green | **Fluent Green** (`fluent-green`) — `design/Guidelines-Fluent-Green.md` |
 | Fontes ThemeBuilder | `design/themes/dx-themebuilder/*.css` (referência; runtime usa `--vx-*`) |
 | Temas futuros | Material, `system` preference + ThemeBuilder Vortex |
 | Validação de tema | Theme Lab + **Widgets Gallery** (`apps/docs`) |
@@ -99,8 +99,8 @@ VortexUI **não** embute nem redistribui o runtime proprietário DevExtreme. Em 
 
 ### 3.1 Core
 - Design Tokens completos (spacing, radius, typography, shadows, z-index, transitions) ✅
-- `VortexThemeService` — `fluent` | `lds` (default `fluent`) ✅
-- Temas CSS: `fluent.css` + `lds.css` + barrel `styles/vortex-ui.css` ✅
+- `VortexThemeService` — `fluent` | `fluent-green` (default `fluent`) ✅
+- Temas CSS: `fluent-*.css` + `fluent-green.css` / `fluent-green-dark.css` + barrel `styles/vortex-ui.css` ✅
 - Theme Lab + **Widgets Gallery** em `apps/docs` (nav accordion, preview, code pane) ✅
 - Entry `vortex-ui/ai` + Mock AI Integration ✅
 - Storybook (vortex-ui) ✅ — **~76 stories** cobrindo Super Suite M0 (build-storybook OK)
@@ -145,13 +145,13 @@ vortex-ui/
 
 ---
 
-## 4. Temas — requisitos reforçados (Fluent Light + LDS)
+## 4. Temas — requisitos reforçados (Fluent Light + Fluent Green)
 
 ### 4.1 Objetivos (escopo inicial = 2 temas)
 
 1. **Default = Fluent Blue Light** (`fluent-blue-light`, alias `fluent`) — tokens do ThemeBuilder `vx.fluent.BlueLight.css`.
 2. **Fluent Blue Dark** / **Fluent SaaS Light** / **Fluent SaaS Dark** — mesmos fontes ThemeBuilder mapeados para `--vx-*`.
-3. **LDS** (`lds`) — guideline `design/Guidelines-LDS.md`.
+3. **Fluent Green** (`fluent-green`) — guideline `design/Guidelines-Fluent-Green.md`.
 4. Troca de tema em runtime via `data-vx-theme` sem remount forçado (exceto casos documentados).
 5. Theme Lab / Gallery / CI: validar os **5** temas oficiais do switcher.
 
@@ -169,15 +169,15 @@ vortex-ui/
 | `--vx-font-*` + type scale | Sim | Tipografia |
 | `--vx-spacing-*` | Sim | Layout |
 
-Componentes **nunca** usam hex direto; só tokens `--vx-*`. O arquivo de tema (`fluent.css` / `lds.css`) é quem resolve os valores.
+Componentes **nunca** usam hex direto; só tokens `--vx-*`. O arquivo de tema (`fluent-*.css` / `fluent-green*.css`) é quem resolve os valores.
 
-### 4.3 Tema LDS — fonte de verdade e mapeamento
+### 4.3 Tema Fluent Green — fonte de verdade e mapeamento
 
-Fonte: guideline anexado (LDS GF Theme, gerado 17/09/2025 via Figma Make UI Component Studio).
+Fonte: guideline anexado (Fluent Green (ex-LDS GF) Theme, gerado 17/09/2025 via Figma Make UI Component Studio).
 
-#### Cores canônicas (LDS → `--vx-*`)
+#### Cores canônicas (Fluent Green → `--vx-*`)
 
-| Token LDS (guideline) | Valor | Token Vortex sugerido |
+| Token Fluent Green (guideline) | Valor | Token Vortex sugerido |
 |-----------------------|-------|------------------------|
 | `--primary` | `#005C3A` | `--vx-color-primary` |
 | `--primary-foreground` | `#FFFFFF` | `--vx-color-primary-fg` |
@@ -195,32 +195,32 @@ Fonte: guideline anexado (LDS GF Theme, gerado 17/09/2025 via Figma Make UI Comp
 | Alert info | `#0B4260` / `#D8EFFD` / `#C0E6FC` | `--vx-color-info*` |
 | Destructive soft | `#720D0D` / `#FFE4E4` | `--vx-color-danger-soft*` |
 
-#### Tipografia LDS
-- Family: **Poppins** (`Poppins, system-ui, sans-serif`) — obrigatória no tema `lds`
+#### Tipografia Fluent Green
+- Family: **Poppins** (`Poppins, system-ui, sans-serif`) — obrigatória no tema `fluent-green`
 - Escala completa Display → Body (Baseline + Emphasized) conforme guideline
 - Weights: Regular 400 · Medium 500 · Bold 700
 - No tema Fluent, a family pode permanecer a do Fluent; a troca de tema deve trocar `--vx-font-family`
 
-#### Shape / spacing / shadow (LDS)
+#### Shape / spacing / shadow (Fluent Green)
 - Radius base: `0.5rem` (8px em controles; badges 16px)
 - Spacing: `xs`…`2xl` conforme guideline
 - Shadows: `sm` → `xl` (AI dialog / modal usam `xl`)
 
-#### Regras de UX LDS que o tema #2 **deve** respeitar
+#### Regras de UX Fluent Green que o tema #2 **deve** respeitar
 
 | Área | Regra |
 |------|--------|
 | **Copy** | Sentence case em toda UI (exceção: nomes próprios, marcas, siglas). Sem Title Case em botões/abas/headers. |
 | **Tom** | Frases curtas; erros com problema + ação esperada. |
-| **Modal / Popup padrão LDS** | 80% × 80% da área útil, centralizado; header/footer fixos; body com scroll; overlay `rgb(0 0 0 / 0.4)`. |
-| **AI Assistant / Prompt Editor** | Podem usar shell mais compacto (popover), mas quando abertos como **modal full** no tema LDS, herdam a regra 80%. |
+| **Modal / Popup padrão Fluent Green** | 80% × 80% da área útil, centralizado; header/footer fixos; body com scroll; overlay `rgb(0 0 0 / 0.4)`. |
+| **AI Assistant / Prompt Editor** | Podem usar shell mais compacto (popover), mas quando abertos como **modal full** no tema Fluent Green, herdam a regra 80%. |
 | **Button** | Variants: primary, secondary, outline, ghost, destructive, destructive-ghost. Footer modal: Cancelar = destructive-ghost · CTA = primary. |
 | **Input / Textarea / Select** | Border `#919191`, radius 8px, bg branco (via tokens). |
 | **Badge** | default / secondary / outline / destructive (cores do guideline). |
 | **Alert** | default (info), destructive, description. |
 | **Tabs** | Estilo wizard-stepper: grid equal columns, border-bottom 3px, states default / active / done. |
 
-> **Nota:** o AI Assistant Dialog (sparkle) continua o padrão de produto; no tema LDS ele deve consumir primary `#005C3A`, Poppins e sentence case nos chips/labels.
+> **Nota:** o AI Assistant Dialog (sparkle) continua o padrão de produto; no tema Fluent Green ele deve consumir primary `#005C3A`, Poppins e sentence case nos chips/labels.
 
 ### 4.4 DataGrid como laboratório oficial de tema (Theme Lab)
 
@@ -228,18 +228,18 @@ O **DataGrid** é o componente canônico para **provar** que um tema está compl
 
 #### Requisitos do Theme Lab (`apps/docs`)
 - Mesmo dataset de demo (ex.: Product / Sale Amount / Region / Sector / Sale Date / Customer).
-- Switcher de tema no header: **Fluent Light (default)** | **LDS** (somente estes no início).
+- Switcher de tema no header: **Fluent Light (default)** | **Fluent Green** (somente estes no início).
 - Checklist visual obrigatório nos **dois temas**:
 
-| Área | Fluent Light | LDS |
+| Área | Fluent Light | Fluent Green |
 |------|--------------|-----|
 | Toolbar + group panel | ✓ | ✓ |
 | Column headers + sort icons | ✓ | ✓ (sentence case nos headers de demo) |
 | Filter row | ✓ | ✓ |
-| Zebra / hover / selection | ✓ | ✓ (primary/selection verdes LDS) |
-| Badges / pills (Category) | ✓ | ✓ (tokens badge LDS) |
+| Zebra / hover / selection | ✓ | ✓ (primary/selection verdes Fluent Green) |
+| Badges / pills (Category) | ✓ | ✓ (tokens badge Fluent Green) |
 | Empty / “No data” cells | ✓ | ✓ |
-| AI sparkle button + AI Assistant dialog | ✓ | ✓ (Poppins + primary LDS) |
+| AI sparkle button + AI Assistant dialog | ✓ | ✓ (Poppins + primary Fluent Green) |
 | AI Prompt Editor (coluna AI) | ✓ | ✓ |
 | Scrollbars / sticky header | ✓ | ✓ |
 | Contraste texto/ícone (WCAG AA) | ✓ | ✓ |
@@ -247,10 +247,10 @@ O **DataGrid** é o componente canônico para **provar** que um tema está compl
 
 #### Critérios de aceite — temas
 - [ ] App docs inicia em **Fluent Light** por default
-- [ ] Alternar para **LDS** aplica tokens + Poppins sem quebrar DataGrid nem AI dialog
-- [ ] `lds.css` espelha o guideline (cores, radius, type scale, shadows)
+- [ ] Alternar para **Fluent Green** aplica tokens + Poppins sem quebrar DataGrid nem AI dialog
+- [ ] `fluent-green.css` / `fluent-green-dark.css` espelham o guideline (cores, radius, type scale, shadows)
 - [ ] Nenhum componente core usa cor hex hardcoded fora de tokens
-- [ ] Screenshot / visual regression mínimo (**Fluent Light + LDS**) no CI (fase docs)
+- [ ] Screenshot / visual regression mínimo (**Fluent Light + Fluent Green**) no CI (fase docs)
 - [ ] Nenhum outro tema aparece no switcher do docs até nova fase
 ---
 
@@ -435,7 +435,7 @@ Para sustentar Grid / Pivot / Scheduler / Charts em escala enterprise, VortexUI 
 Todo `vx-*` deve expor (quando aplicável):
 
 1. API Signals (`input` / `model` / `output`)
-2. Design tokens only (Fluent Light + LDS ok nos dois oficiais)
+2. Design tokens only (Fluent Light + Fluent Green ok nos dois oficiais)
 3. A11y (teclado + ARIA)
 4. Tree-shakeable entry (secondary entry points ao longo do tempo)
 5. **AI opt-in** — ver §6 (`ai`, `aiIntegration`, toolbar sparkle, dialog)
@@ -620,7 +620,7 @@ Referência visual: anexo “AI Prompt Editor” (textarea + Regenerate Data + A
 ### 6.10 Critérios de aceite — AI Foundation
 
 - [ ] `ai.enabled` false → zero chrome AI, zero network
-- [ ] DataGrid: sparkle abre AI Assistant (Fluent Light **e** LDS)
+- [ ] DataGrid: sparkle abre AI Assistant (Fluent Light **e** Fluent Green)
 - [ ] Chips executam filter/sort/group via Command Bus
 - [ ] AI Column + Prompt Editor (Regenerate / Apply)
 - [ ] Hooks `aiRequestCreating` cancelam/redigem payload
@@ -675,7 +675,7 @@ Suportar **milhões de linhas** com performance excelente (scroll fluido, baixo 
 - Evitar `*ngFor` em milhões de itens (nunca renderizar tudo)
 - Compatível com zoneless
 - API limpa e tipada
-- Tokens Fluent Light + LDS validados no Theme Lab
+- Tokens Fluent Light + Fluent Green validados no Theme Lab
 
 #### Critérios de aceite
 
@@ -684,7 +684,7 @@ Suportar **milhões de linhas** com performance excelente (scroll fluido, baixo 
 - [ ] Não há memory leak ao fazer scroll longo
 - [ ] Header permanece sticky
 - [ ] Documentação de como implementar um DataSource customizado
-- [ ] Theme Lab: Fluent Light (default) + LDS sem regressão visual
+- [ ] Theme Lab: Fluent Light (default) + Fluent Green sem regressão visual
 
 ---
 
@@ -752,7 +752,7 @@ Suportar **milhões de linhas** com performance excelente (scroll fluido, baixo 
 2. `vx-ai-assistant-dialog` + `vx-ai-prompt-editor` (primitivos reutilizáveis)
 3. Primeiro consumer: `vx-data-grid`
 4. Capability registry + command bus
-5. Demo no Theme Lab (Fluent Light + LDS)
+5. Demo no Theme Lab (Fluent Light + Fluent Green)
 
 ---
 
@@ -790,7 +790,7 @@ Suportar **milhões de linhas** com performance excelente (scroll fluido, baixo 
 
 - Embutir / redistribuir **runtime DevExtreme** ou `devextreme-angular` (licença comercial DX ≠ MIT Vortex)
 - Ports React / Vue / jQuery do VortexUI (foco Angular-only)
-- Temas além de Fluent Light + LDS **até** Fase 13
+- Temas além de Fluent Light + Fluent Green **até** Fase 13
 - Integração obrigatória com Angular Material / CDK (independência; CDK utilitário só se justificado)
 - Suporte a Angular < 21
 - Treinamento/hospedagem de LLM pela VortexUI (apenas adapters)
@@ -804,7 +804,7 @@ Suportar **milhões de linhas** com performance excelente (scroll fluido, baixo 
 ### 10.1 v1 (fundação — em curso / validar)
 
 - DataGrid 1M+ linhas com boa performance
-- Theme Lab: Fluent Light + LDS sem regressão
+- Theme Lab: Fluent Light + Fluent Green sem regressão
 - File Manager cobre 90% dos casos comuns
 - AI Assistant no DataGrid: ≥ 8 comandos estáveis
 - Bundle tree-shakable; AI em entry separada
@@ -828,7 +828,7 @@ Suportar **milhões de linhas** com performance excelente (scroll fluido, baixo 
 
 1. ~~Publicar npm~~ — **adiada** até ordem explícita  
 2. Elevar componentes Super Suite de **M0 → M2** (Chat, Pivot, Charts, Scheduler rich)  
-3. Visual regression Playwright (Fluent + LDS) no CI — **sem** publish  
+3. Visual regression Playwright (Fluent + Fluent Green) no CI — **sem** publish  
 4. Secondary entries estáveis (`vortex-ui/grid`, `charts`, `ai`, …) preparadas para quando houver publish  
 5. Audit formal checklist §5.11 vs Gallery  
 6. Manter catálogo §5 vivo vs [Widgets Gallery DX](https://js.devexpress.com/Angular/Demos/WidgetsGallery/)
@@ -842,16 +842,16 @@ Suportar **milhões de linhas** com performance excelente (scroll fluido, baixo 
 | Provider LLM de demo | Qual usar no `docs`? | Adapter mock + OpenAI opcional via env |
 | Idioma do Assistant | PT / EN / i18n? | i18n desde o início (PT default no docs BR) |
 | AI em *todos* os widgets | Obrigatório na Super Suite? | Capability-ready em todos; sparkle nos data-centric primeiro |
-| Visual regression | Playwright screenshots? | Sim, Fluent + LDS; expandir na Fase 7 |
+| Visual regression | Playwright screenshots? | Sim, Fluent + Fluent Green; expandir na Fase 7 |
 | Nome do tema default | `fluent` vs `fluent-light` | `fluent` + alias `fluent-light` |
-| Nome do tema #2 | `lds` vs `lds-gf`? | **`lds`** (fechado) |
-| Escopo inicial de temas | Só Fluent + LDS? | **Sim até Fase 13** |
+| Nome do tema #2 | `fluent-green` vs `lds-gf`? | **`fluent-green`** (fechado) |
+| Escopo inicial de temas | Só Fluent + Fluent Green? | **Sim até Fase 13** |
 | Poppins no bundle | Self-host vs Google Fonts? | Self-host / `@fontsource/poppins` |
-| Modal AI no LDS | 80% ou popover? | Popover default; 80% se `mode: 'modal'` |
+| Modal AI no Fluent Green | 80% ou popover? | Popover default; 80% se `mode: 'modal'` |
 | Licença MIT vs dual | Confirmada? | MIT core; exemplos MIT |
 | Export XLSX | Dependência opcional? | Peer/optional entry `vortex-ui/export` |
 | Map providers | Google/Bing/OSM? | Adapter pluggable; OSM default nos demos |
-| Paridade pixel-perfect DX | Obrigatória? | **Não** — paridade de *capacidade*; visual Vortex/Fluent/LDS |
+| Paridade pixel-perfect DX | Obrigatória? | **Não** — paridade de *capacidade*; visual Vortex/Fluent/Fluent Green |
 
 ---
 
@@ -877,7 +877,7 @@ DevExtreme cobre 4 stacks ([Angular / React / Vue / jQuery](https://js.devexpres
 ### 13.3 Qualidade “enterprise-ready” por widget (Definition of Done)
 
 - [ ] Standalone + Signals + OnPush + zoneless smoke  
-- [ ] Tokens Fluent + LDS (sem hex hardcoded)  
+- [ ] Tokens Fluent + Fluent Green (sem hex hardcoded)  
 - [ ] Teclado + ARIA mínimos  
 - [ ] Demo na Gallery (categoria + ▶ componente + demos)  
 - [ ] Snippets `template.html` + `component.ts`  

@@ -17,7 +17,7 @@ pkg.version = pkg.version || '0.1.0';
 pkg.license = 'MIT';
 pkg.description =
   pkg.description ||
-  'VortexUI — Angular 22+ component suite (Signals, zoneless, AI opt-in, Fluent + LDS themes)';
+  'VortexUI — Angular 22+ component suite (Signals, zoneless, AI opt-in, Fluent Blue/SaaS/Green themes)';
 pkg.repository = {
   type: 'git',
   url: 'git+https://github.com/JoelSchecheleski/vortex-ui.git',
